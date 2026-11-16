@@ -1,0 +1,433 @@
+[
+  {
+    "key": "nino-bakhtadze",
+    "order": 0,
+    "data": {
+      "id": "nino-bakhtadze",
+      "portrait": "assets/photos/woman-teal.png",
+      "name": "Prof. Nino Bakhtadze",
+      "nameka": "პროფ. ნინო ბახტაძე",
+      "role": "Strategic management",
+      "roleka": "სტრატეგიული მენეჯმენტი",
+      "field": "Management",
+      "fieldka": "მენეჯმენტი",
+      "school": "School of Business",
+      "schoolka": "ბიზნესის სკოლა",
+      "schoolHref": "School-Business.html",
+      "lead": "Strategic-management scholar and head of the management track at the School of Business — researching how firms in a transition economy build durable competitive advantage.",
+      "leadka": "სტრატეგიული მენეჯმენტის მკვლევარი და ბიზნესის სკოლის მენეჯმენტის მიმართულების ხელმძღვანელი — სწავლობს, როგორ აშენებენ კომპანიები გარდამავალ ეკონომიკაში მდგრად კონკურენტულ უპირატესობას.",
+      "bio": [
+        {
+          "en": "Nino Bakhtadze has taught strategic management at IBSU for over fifteen years, growing the management concentration into one of the school’s most subscribed tracks. Her work bridges classical strategy theory and the realities of doing business in a small, open and fast-changing economy.",
+          "ka": "ნინო ბახტაძე IBSU-ში სტრატეგიულ მენეჯმენტს თხუთმეტ წელზე მეტია ასწავლის და მენეჯმენტის კონცენტრაცია სკოლის ერთ-ერთ ყველაზე მოთხოვნად მიმართულებად აქცია. მისი ნაშრომი აერთიანებს კლასიკურ სტრატეგიის თეორიასა და მცირე, ღია და სწრაფად ცვალებად ეკონომიკაში ბიზნესის კეთების რეალობას."
+        },
+        {
+          "en": "She supervises doctoral research on organisational change and firm-level competitiveness, consults for Georgian and regional companies, and led the curriculum reform that brought case-based teaching into every core management course.",
+          "ka": "ის ხელმძღვანელობს სადოქტორო კვლევებს ორგანიზაციულ ცვლილებასა და კომპანიის დონის კონკურენტუნარიანობაზე, კონსულტაციას უწევს ქართულ და რეგიონულ კომპანიებს და უხელმძღვანელა სასწავლო რეფორმას, რომელმაც ქეის-მეთოდი ყველა ძირითად კურსში შემოიტანა."
+        }
+      ],
+      "stats": [
+        {
+          "n": "15+",
+          "l": "Years at IBSU",
+          "lka": "წელი IBSU-ში"
+        },
+        {
+          "n": "30+",
+          "l": "Peer-reviewed papers",
+          "lka": "რეცენზირებული ნაშრომი"
+        },
+        {
+          "n": "6",
+          "l": "Courses taught",
+          "lka": "სასწავლო კურსი"
+        },
+        {
+          "n": "9",
+          "l": "Doctoral students",
+          "lka": "დოქტორანტი"
+        }
+      ],
+      "research": [
+        {
+          "t": "Competitive strategy in transition economies",
+          "tka": "კონკურენტული სტრატეგია გარდამავალ ეკონომიკაში",
+          "d": "How firms build advantage where institutions and markets are still maturing.",
+          "dka": "როგორ აშენებენ კომპანიები უპირატესობას იქ, სადაც ინსტიტუტები და ბაზრები ჯერ კიდევ ყალიბდება."
+        },
+        {
+          "t": "Organisational change & transformation",
+          "tka": "ორგანიზაციული ცვლილება და ტრანსფორმაცია",
+          "d": "Leading and sustaining change inside companies under pressure.",
+          "dka": "ცვლილების მართვა და შენარჩუნება ზეწოლის ქვეშ მყოფ კომპანიებში."
+        },
+        {
+          "t": "SME growth & internationalisation",
+          "tka": "მცირე ბიზნესის ზრდა და ინტერნაციონალიზაცია",
+          "d": "The paths small and medium firms take to scale and cross borders.",
+          "dka": "გზები, რომლითაც მცირე და საშუალო კომპანიები იზრდებიან და საზღვრებს კვეთენ."
+        },
+        {
+          "t": "Corporate governance",
+          "tka": "კორპორაციული მმართველობა",
+          "d": "Boards, ownership and accountability in family and listed firms.",
+          "dka": "საბჭოები, საკუთრება და ანგარიშვალდებულება საოჯახო და საჯარო კომპანიებში."
+        },
+        {
+          "t": "Strategy-as-practice",
+          "tka": "სტრატეგია, როგორც პრაქტიკა",
+          "d": "How strategy is actually made and enacted day to day.",
+          "dka": "როგორ იქმნება და ხორციელდება სტრატეგია ყოველდღიურად."
+        }
+      ],
+      "teaching": [
+        {
+          "c": "Strategic Management",
+          "cka": "სტრატეგიული მენეჯმენტი",
+          "lvl": "Bachelor’s · core",
+          "lvlka": "ბაკალავრიატი · ძირითადი"
+        },
+        {
+          "c": "Corporate Strategy",
+          "cka": "კორპორაციული სტრატეგია",
+          "lvl": "Master’s",
+          "lvlka": "მაგისტრატურა"
+        },
+        {
+          "c": "Organisational Theory",
+          "cka": "ორგანიზაციული თეორია",
+          "lvl": "Bachelor’s",
+          "lvlka": "ბაკალავრიატი"
+        },
+        {
+          "c": "Doctoral Seminar in Management Research",
+          "cka": "სადოქტორო სემინარი მენეჯმენტის კვლევაში",
+          "lvl": "Doctoral",
+          "lvlka": "დოქტორანტურა"
+        }
+      ],
+      "pubs": [
+        {
+          "y": "2024",
+          "t": "Dynamic capabilities in Georgian SMEs: a longitudinal study",
+          "tka": "დინამიკური შესაძლებლობები ქართულ მცირე ბიზნესში: გრძელვადიანი კვლევა",
+          "v": "Journal of Education, Business & Society",
+          "vka": "განათლების, ბიზნესისა და საზოგადოების ჟურნალი"
+        },
+        {
+          "y": "2022",
+          "t": "Governance and growth in family firms",
+          "tka": "მმართველობა და ზრდა საოჯახო კომპანიებში",
+          "v": "IBSU Business Journal",
+          "vka": "IBSU ბიზნეს ჟურნალი"
+        },
+        {
+          "y": "2021",
+          "t": "Strategy under uncertainty: lessons from a small open economy",
+          "tka": "სტრატეგია გაურკვევლობის პირობებში: მცირე ღია ეკონომიკის გაკვეთილები",
+          "v": "Regional conference proceedings",
+          "vka": "რეგიონული კონფერენციის მასალები"
+        },
+        {
+          "y": "2019",
+          "t": "Competitive advantage in emerging markets (book chapter)",
+          "tka": "კონკურენტული უპირატესობა განვითარებად ბაზრებზე (წიგნის თავი)",
+          "v": "Edited volume, EU partner press",
+          "vka": "რედაქტირებული გამოცემა, ევროპელი პარტნიორის გამომცემლობა"
+        }
+      ],
+      "contact": {
+        "email": "n.bakhtadze@ibsu.edu.ge",
+        "phone": "+995 322 595 005",
+        "ext": "214",
+        "office": "Main building · Room 312",
+        "officeka": "მთავარი კორპუსი · ოთახი 312",
+        "hours": "Tue & Thu · 14:00–16:00",
+        "hourska": "სამშ. და ხუთშ. · 14:00–16:00"
+      }
+    }
+  },
+  {
+    "key": "levan-sabauri",
+    "order": 1,
+    "data": {
+      "id": "levan-sabauri",
+      "portrait": "assets/photos/man-navy.png",
+      "name": "Assoc. Prof. Levan Sabauri",
+      "nameka": "ასოც. პროფ. ლევან საბაური",
+      "role": "Accounting & financial reporting",
+      "roleka": "ბუღალტერია და ფინანსური ანგარიშგება",
+      "field": "Finance",
+      "fieldka": "ფინანსები",
+      "school": "School of Business",
+      "schoolka": "ბიზნესის სკოლა",
+      "schoolHref": "School-Business.html",
+      "lead": "Associate professor of accounting at the School of Business, working on financial reporting, audit quality and the adoption of international standards in Georgian companies.",
+      "leadka": "ბიზნესის სკოლის ბუღალტერიის ასოცირებული პროფესორი, მუშაობს ფინანსურ ანგარიშგებაზე, აუდიტის ხარისხსა და ქართულ კომპანიებში საერთაშორისო სტანდარტების დანერგვაზე.",
+      "bio": [
+        {
+          "en": "Levan Sabauri leads the accounting and financial-reporting strand of the business curriculum and is a long-standing voice in Georgia’s adoption of international financial-reporting standards. His teaching pairs technical rigour with the judgement that real reporting demands.",
+          "ka": "ლევან საბაური უძღვება ბიზნესის სასწავლო გეგმის ბუღალტერიისა და ფინანსური ანგარიშგების მიმართულებას და დიდი ხანია აქტიური ხმაა საქართველოში საერთაშორისო ფინანსური ანგარიშგების სტანდარტების დანერგვაში. მისი სწავლება აერთიანებს ტექნიკურ სიზუსტესა და განსჯას, რომელსაც რეალური ანგარიშგება მოითხოვს."
+        },
+        {
+          "en": "He researches audit quality and disclosure, advises on financial-reporting reform, and mentors students preparing for professional accounting qualifications.",
+          "ka": "ის იკვლევს აუდიტის ხარისხსა და გამჭვირვალობას, კონსულტაციას უწევს ფინანსური ანგარიშგების რეფორმას და ეხმარება სტუდენტებს პროფესიული საბუღალტრო კვალიფიკაციისთვის მომზადებაში."
+        }
+      ],
+      "stats": [
+        {
+          "n": "12+",
+          "l": "Years at IBSU",
+          "lka": "წელი IBSU-ში"
+        },
+        {
+          "n": "20+",
+          "l": "Peer-reviewed papers",
+          "lka": "რეცენზირებული ნაშრომი"
+        },
+        {
+          "n": "5",
+          "l": "Courses taught",
+          "lka": "სასწავლო კურსი"
+        },
+        {
+          "n": "IFRS",
+          "l": "Reform advisory",
+          "lka": "რეფორმის კონსულტანტი"
+        }
+      ],
+      "research": [
+        {
+          "t": "Financial reporting & IFRS adoption",
+          "tka": "ფინანსური ანგარიშგება და IFRS-ის დანერგვა",
+          "d": "How Georgian companies move to international reporting standards.",
+          "dka": "როგორ გადადიან ქართული კომპანიები საერთაშორისო სტანდარტებზე."
+        },
+        {
+          "t": "Audit quality",
+          "tka": "აუდიტის ხარისხი",
+          "d": "What makes an audit reliable, and how to measure it.",
+          "dka": "რა ხდის აუდიტს სანდოს და როგორ შევაფასოთ ის."
+        },
+        {
+          "t": "Corporate disclosure",
+          "tka": "კორპორაციული გამჭვირვალობა",
+          "d": "Transparency, materiality and the information firms reveal.",
+          "dka": "გამჭვირვალობა, არსებითობა და ინფორმაცია, რომელსაც კომპანიები ამჟღავნებენ."
+        },
+        {
+          "t": "Management accounting",
+          "tka": "მმართველობითი აღრიცხვა",
+          "d": "Costing and control systems inside the firm.",
+          "dka": "დანახარჯებისა და კონტროლის სისტემები კომპანიის შიგნით."
+        }
+      ],
+      "teaching": [
+        {
+          "c": "Financial Accounting",
+          "cka": "ფინანსური აღრიცხვა",
+          "lvl": "Bachelor’s · core",
+          "lvlka": "ბაკალავრიატი · ძირითადი"
+        },
+        {
+          "c": "Financial Reporting & IFRS",
+          "cka": "ფინანსური ანგარიშგება და IFRS",
+          "lvl": "Master’s",
+          "lvlka": "მაგისტრატურა"
+        },
+        {
+          "c": "Auditing",
+          "cka": "აუდიტი",
+          "lvl": "Bachelor’s",
+          "lvlka": "ბაკალავრიატი"
+        },
+        {
+          "c": "Management Accounting",
+          "cka": "მმართველობითი აღრიცხვა",
+          "lvl": "Bachelor’s",
+          "lvlka": "ბაკალავრიატი"
+        }
+      ],
+      "pubs": [
+        {
+          "y": "2023",
+          "t": "IFRS adoption and the quality of financial reporting in Georgia",
+          "tka": "IFRS-ის დანერგვა და ფინანსური ანგარიშგების ხარისხი საქართველოში",
+          "v": "IBSU Business Journal",
+          "vka": "IBSU ბიზნეს ჟურნალი"
+        },
+        {
+          "y": "2021",
+          "t": "Determinants of audit quality in emerging markets",
+          "tka": "აუდიტის ხარისხის განმსაზღვრელი ფაქტორები განვითარებად ბაზრებზე",
+          "v": "Regional accounting review",
+          "vka": "რეგიონული საბუღალტრო მიმოხილვა"
+        },
+        {
+          "y": "2020",
+          "t": "Disclosure practices of Georgian listed companies",
+          "tka": "ქართული საჯარო კომპანიების გამჭვირვალობის პრაქტიკა",
+          "v": "Conference proceedings",
+          "vka": "კონფერენციის მასალები"
+        }
+      ],
+      "contact": {
+        "email": "l.sabauri@ibsu.edu.ge",
+        "phone": "+995 322 595 005",
+        "ext": "210",
+        "office": "Main building · Room 305",
+        "officeka": "მთავარი კორპუსი · ოთახი 305",
+        "hours": "Mon & Wed · 12:00–14:00",
+        "hourska": "ორშ. და ოთხშ. · 12:00–14:00"
+      }
+    }
+  },
+  {
+    "key": "mariam-nadiradze",
+    "order": 2,
+    "data": {
+      "id": "mariam-nadiradze",
+      "portrait": "assets/photos/woman-green.png",
+      "name": "Dr. Mariam Nadiradze",
+      "nameka": "დოქ. მარიამ ნადირაძე",
+      "role": "Machine learning & AI",
+      "roleka": "მანქანური სწავლება და AI",
+      "field": "Computer Science",
+      "fieldka": "კომპიუტერული მეცნიერება",
+      "school": "School of Computer Science & Architecture",
+      "schoolka": "კომპიუტერული მეცნიერებისა და არქიტექტურის სკოლა",
+      "schoolHref": "School-Computing.html",
+      "lead": "Researcher and lecturer in machine learning at the School of Computer Science & Architecture — building and teaching the school’s applied-AI track.",
+      "leadka": "მანქანური სწავლების მკვლევარი და ლექტორი კომპიუტერული მეცნიერებისა და არქიტექტურის სკოლაში — ქმნის და ასწავლის სკოლის გამოყენებითი AI-ის მიმართულებას.",
+      "bio": [
+        {
+          "en": "Mariam Nadiradze works at the intersection of machine learning and real applications — natural-language processing, computer vision and the deployment of models that have to work outside the lab. She built the school’s applied-AI elective sequence and supervises student projects with industry partners.",
+          "ka": "მარიამ ნადირაძე მუშაობს მანქანური სწავლებისა და რეალური გამოყენების გადაკვეთაზე — ბუნებრივი ენის დამუშავება, კომპიუტერული მხედველობა და მოდელების დანერგვა, რომლებიც ლაბორატორიის გარეთ უნდა მუშაობდნენ. მან შექმნა სკოლის გამოყენებითი AI-ის კურსების სერია და ხელმძღვანელობს სტუდენტურ პროექტებს ინდუსტრიის პარტნიორებთან."
+        },
+        {
+          "en": "Her research focuses on low-resource language models for Georgian and on making machine learning practical for small teams. She mentors student teams in national and regional hackathons and the TEC programme.",
+          "ka": "მისი კვლევა ფოკუსირებულია ქართულისთვის დაბალ-რესურსიან ენობრივ მოდელებზე და მანქანური სწავლების მცირე გუნდებისთვის პრაქტიკულად გამოყენებაზე. ის ხელმძღვანელობს სტუდენტურ გუნდებს ეროვნულ და რეგიონულ ჰაკათონებსა და TEC-ის პროგრამაში."
+        }
+      ],
+      "stats": [
+        {
+          "n": "7",
+          "l": "Years at IBSU",
+          "lka": "წელი IBSU-ში"
+        },
+        {
+          "n": "18",
+          "l": "Peer-reviewed papers",
+          "lka": "რეცენზირებული ნაშრომი"
+        },
+        {
+          "n": "5",
+          "l": "Courses taught",
+          "lka": "სასწავლო კურსი"
+        },
+        {
+          "n": "TEC",
+          "l": "Project mentor",
+          "lka": "პროექტის მენტორი"
+        }
+      ],
+      "research": [
+        {
+          "t": "Natural-language processing",
+          "tka": "ბუნებრივი ენის დამუშავება",
+          "d": "Models that read, understand and generate text.",
+          "dka": "მოდელები, რომლებიც კითხულობენ, აღიქვამენ და ქმნიან ტექსტს."
+        },
+        {
+          "t": "Low-resource Georgian language models",
+          "tka": "დაბალ-რესურსიანი ქართული ენის მოდელები",
+          "d": "Bringing modern NLP to languages with little training data.",
+          "dka": "თანამედროვე NLP-ის მიტანა ენებამდე, რომელთაც მცირე მონაცემები აქვთ."
+        },
+        {
+          "t": "Computer vision",
+          "tka": "კომპიუტერული მხედველობა",
+          "d": "Teaching machines to interpret images and video.",
+          "dka": "მანქანების სწავლება გამოსახულებებისა და ვიდეოს ინტერპრეტაციისთვის."
+        },
+        {
+          "t": "Applied & deployable ML",
+          "tka": "გამოყენებითი და დასანერგი ML",
+          "d": "Making models that work for small teams, in production.",
+          "dka": "მოდელების შექმნა, რომლებიც მცირე გუნდებისთვის რეალურად მუშაობს."
+        },
+        {
+          "t": "ML for entrepreneurship",
+          "tka": "ML მეწარმეობისთვის",
+          "d": "AI tools and projects inside the TEC programme.",
+          "dka": "AI ხელსაწყოები და პროექტები TEC-ის პროგრამაში."
+        }
+      ],
+      "teaching": [
+        {
+          "c": "Introduction to Machine Learning",
+          "cka": "მანქანური სწავლების შესავალი",
+          "lvl": "Bachelor’s · core",
+          "lvlka": "ბაკალავრიატი · ძირითადი"
+        },
+        {
+          "c": "Deep Learning",
+          "cka": "ღრმა სწავლება",
+          "lvl": "Master’s",
+          "lvlka": "მაგისტრატურა"
+        },
+        {
+          "c": "Natural Language Processing",
+          "cka": "ბუნებრივი ენის დამუშავება",
+          "lvl": "Master’s",
+          "lvlka": "მაგისტრატურა"
+        },
+        {
+          "c": "Applied AI Project Studio",
+          "cka": "გამოყენებითი AI პროექტ-სტუდია",
+          "lvl": "Bachelor’s",
+          "lvlka": "ბაკალავრიატი"
+        }
+      ],
+      "pubs": [
+        {
+          "y": "2025",
+          "t": "A compact language model for Georgian: methods and benchmarks",
+          "tka": "კომპაქტური ენობრივი მოდელი ქართულისთვის: მეთოდები და შეფასება",
+          "v": "Journal of Technical Science & Technologies",
+          "vka": "ტექნიკური მეცნიერებისა და ტექნოლოგიების ჟურნალი"
+        },
+        {
+          "y": "2023",
+          "t": "Transfer learning for low-resource NLP",
+          "tka": "ტრანსფერ-სწავლება დაბალ-რესურსიანი NLP-ისთვის",
+          "v": "International conference proceedings",
+          "vka": "საერთაშორისო კონფერენციის მასალები"
+        },
+        {
+          "y": "2022",
+          "t": "Vision models on the edge: a practical evaluation",
+          "tka": "მხედველობის მოდელები მოწყობილობებზე: პრაქტიკული შეფასება",
+          "v": "Regional CS workshop",
+          "vka": "რეგიონული CS ვორქშოპი"
+        },
+        {
+          "y": "2021",
+          "t": "Teaching applied ML to undergraduates",
+          "tka": "გამოყენებითი ML-ის სწავლება ბაკალავრებისთვის",
+          "v": "IBSU proceedings",
+          "vka": "IBSU მასალები"
+        }
+      ],
+      "contact": {
+        "email": "m.nadiradze@ibsu.edu.ge",
+        "phone": "+995 322 595 005",
+        "ext": "340",
+        "office": "CS building · Room 118",
+        "officeka": "CS კორპუსი · ოთახი 118",
+        "hours": "Wed & Fri · 15:00–17:00",
+        "hourska": "ოთხშ. და პარ. · 15:00–17:00"
+      }
+    }
+  }
+]

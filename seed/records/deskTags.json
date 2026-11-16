@@ -1,0 +1,190 @@
+[
+  {
+    "key": "default",
+    "order": 0,
+    "data": {
+      "accreditation": {
+        "en": "Accreditation",
+        "ka": "აკრედიტაცია"
+      },
+      "admission": {
+        "en": "Admission",
+        "ka": "მიღება"
+      },
+      "blackSea": {
+        "en": "Black Sea",
+        "ka": "შავი ზღვა"
+      },
+      "campus": {
+        "en": "Campus",
+        "ka": "კამპუსი"
+      },
+      "ceremony": {
+        "en": "Ceremony",
+        "ka": "ცერემონია"
+      },
+      "community": {
+        "en": "Community",
+        "ka": "საზოგადოება"
+      },
+      "competition": {
+        "en": "Competition",
+        "ka": "კონკურსი"
+      },
+      "conference": {
+        "en": "Conference",
+        "ka": "კონფერენცია"
+      },
+      "consortium": {
+        "en": "Consortium",
+        "ka": "კონსორციუმი"
+      },
+      "debateClub": {
+        "en": "Debate club",
+        "ka": "სადებატო კლუბი"
+      },
+      "delegation": {
+        "en": "Delegation",
+        "ka": "დელეგაცია"
+      },
+      "doctoralDefence": {
+        "en": "Doctoral defence",
+        "ka": "სადოქტორო დაცვა"
+      },
+      "doubleDegree": {
+        "en": "Double degree",
+        "ka": "ორმაგი ხარისხი"
+      },
+      "entrepreneurship": {
+        "en": "Entrepreneurship",
+        "ka": "მეწარმეობა"
+      },
+      "erasmus": {
+        "en": "Erasmus+",
+        "ka": "Erasmus+"
+      },
+      "europe": {
+        "en": "Europe",
+        "ka": "ევროპა"
+      },
+      "exchange": {
+        "en": "Exchange",
+        "ka": "გაცვლა"
+      },
+      "facilities": {
+        "en": "Facilities",
+        "ka": "ინფრასტრუქტურა"
+      },
+      "france": {
+        "en": "France",
+        "ka": "საფრანგეთი"
+      },
+      "graduation": {
+        "en": "Graduation",
+        "ka": "კურსდამთავრება"
+      },
+      "grant": {
+        "en": "Grant",
+        "ka": "გრანტი"
+      },
+      "humanities": {
+        "en": "Humanities",
+        "ka": "ჰუმანიტარული მეცნიერებები"
+      },
+      "incoming": {
+        "en": "Incoming",
+        "ka": "შემომავალი"
+      },
+      "international": {
+        "en": "International",
+        "ka": "საერთაშორისო"
+      },
+      "interview": {
+        "en": "Interview",
+        "ka": "გასაუბრება"
+      },
+      "jebs": {
+        "en": "JEBS",
+        "ka": "JEBS"
+      },
+      "journal": {
+        "en": "Journal",
+        "ka": "ჟურნალი"
+      },
+      "jtst": {
+        "en": "JTST",
+        "ka": "JTST"
+      },
+      "memorandum": {
+        "en": "Memorandum",
+        "ka": "მემორანდუმი"
+      },
+      "mit": {
+        "en": "MIT",
+        "ka": "MIT"
+      },
+      "mobility": {
+        "en": "Mobility",
+        "ka": "მობილობა"
+      },
+      "outreach": {
+        "en": "Outreach",
+        "ka": "გასვლითი"
+      },
+      "partnership": {
+        "en": "Partnership",
+        "ka": "პარტნიორობა"
+      },
+      "research": {
+        "en": "Research",
+        "ka": "კვლევა"
+      },
+      "students": {
+        "en": "Students",
+        "ka": "სტუდენტები"
+      },
+      "university": {
+        "en": "University",
+        "ka": "უნივერსიტეტი"
+      },
+      "usa": {
+        "en": "USA",
+        "ka": "აშშ"
+      },
+      "volunteering": {
+        "en": "Volunteering",
+        "ka": "მოხალისეობა"
+      },
+      "business": {
+        "en": "Business",
+        "ka": "ბიზნესი",
+        "school": "business"
+      },
+      "law": {
+        "en": "Law",
+        "ka": "სამართალი",
+        "school": "law"
+      },
+      "education": {
+        "en": "Education",
+        "ka": "განათლება",
+        "school": "eduhum"
+      },
+      "computing": {
+        "en": "Computing",
+        "ka": "კომპიუტერული",
+        "school": "computing"
+      },
+      "architecture": {
+        "en": "Architecture",
+        "ka": "არქიტექტურა",
+        "school": "computing"
+      },
+      "medicine": {
+        "en": "Medicine",
+        "ka": "მედიცინა",
+        "school": "medicine"
+      }
+    }
+  }
+]

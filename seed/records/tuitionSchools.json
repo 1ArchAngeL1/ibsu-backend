@@ -1,0 +1,222 @@
+[
+  {
+    "key": "business",
+    "order": 0,
+    "data": {
+      "key": "business",
+      "rows": [
+        {
+          "en": "Management",
+          "ka": "მენეჯმენტი",
+          "taught": [
+            "ka",
+            "en"
+          ],
+          "gel": 4490,
+          "usd": 4900
+        },
+        {
+          "en": "Marketing",
+          "ka": "მარკეტინგი",
+          "taught": [
+            "ka",
+            "en"
+          ],
+          "gel": 4490,
+          "usd": 4900
+        },
+        {
+          "en": "Finance",
+          "ka": "ფინანსები",
+          "taught": [
+            "ka",
+            "en"
+          ],
+          "gel": 4490,
+          "usd": 4900
+        },
+        {
+          "en": "Accounting & Audit",
+          "ka": "საბუღალტრო აღრიცხვა და აუდიტი",
+          "taught": [
+            "ka",
+            "en"
+          ],
+          "gel": 4490,
+          "usd": 4900
+        },
+        {
+          "en": "Tourism",
+          "ka": "ტურიზმი",
+          "taught": [
+            "ka",
+            "en"
+          ],
+          "gel": 4490,
+          "usd": 4900
+        },
+        {
+          "en": "Economics",
+          "ka": "ეკონომიკა",
+          "taught": [
+            "ka",
+            "en"
+          ],
+          "gel": 4490,
+          "usd": 4900
+        }
+      ]
+    }
+  },
+  {
+    "key": "eduhum",
+    "order": 1,
+    "data": {
+      "key": "eduhum",
+      "rows": [
+        {
+          "en": "International Relations",
+          "ka": "საერთაშორისო ურთიერთობები",
+          "taught": [
+            "ka",
+            "en"
+          ],
+          "gel": 5190,
+          "usd": 4900
+        },
+        {
+          "en": "Public Relations (PR)",
+          "ka": "საზოგადოებასთან ურთიერთობა",
+          "taught": [
+            "ka"
+          ],
+          "gel": 5190,
+          "usd": null
+        },
+        {
+          "en": "English Philology",
+          "ka": "ინგლისური ფილოლოგია",
+          "taught": [
+            "en"
+          ],
+          "gel": 4190,
+          "usd": 4900
+        },
+        {
+          "en": "Journalism",
+          "ka": "ჟურნალისტიკა",
+          "taught": [
+            "ka"
+          ],
+          "gel": 3990,
+          "usd": null
+        },
+        {
+          "en": "Psychology",
+          "ka": "ფსიქოლოგია",
+          "taught": [
+            "ka",
+            "en"
+          ],
+          "gel": 3990,
+          "usd": 4900
+        },
+        {
+          "en": "American Studies",
+          "ka": "ამერიკისმცოდნეობა",
+          "taught": [
+            "en"
+          ],
+          "gel": 3190,
+          "usd": 4900
+        }
+      ]
+    }
+  },
+  {
+    "key": "computing",
+    "order": 2,
+    "data": {
+      "key": "computing",
+      "rows": [
+        {
+          "en": "Architecture",
+          "ka": "არქიტექტურა",
+          "taught": [
+            "ka",
+            "en"
+          ],
+          "gel": 5990,
+          "usd": 4900,
+          "years": 4
+        },
+        {
+          "en": "Computer Science",
+          "ka": "კომპიუტერული მეცნიერება",
+          "taught": [
+            "ka",
+            "en"
+          ],
+          "gel": 4990,
+          "usd": 4900
+        },
+        {
+          "en": "Graphic Design",
+          "ka": "გრაფიკული დიზაინი",
+          "taught": [
+            "en"
+          ],
+          "gel": 4590,
+          "usd": 4900
+        }
+      ]
+    }
+  },
+  {
+    "key": "law",
+    "order": 3,
+    "data": {
+      "key": "law",
+      "rows": [
+        {
+          "en": "Law",
+          "ka": "სამართალმცოდნეობა",
+          "taught": [
+            "ka"
+          ],
+          "gel": 4590,
+          "usd": null
+        },
+        {
+          "en": "Public Administration & Governance",
+          "ka": "საჯარო ადმინისტრირება და სახელმწიფო მმართველობა",
+          "taught": [
+            "ka"
+          ],
+          "gel": 4590,
+          "usd": null
+        }
+      ]
+    }
+  },
+  {
+    "key": "medicine",
+    "order": 4,
+    "data": {
+      "key": "medicine",
+      "rows": [
+        {
+          "en": "Medical Doctor (MD)",
+          "ka": "დიპლომირებული მედიკოსი",
+          "taught": [
+            "en"
+          ],
+          "gel": 6190,
+          "usd": 5900,
+          "years": 6,
+          "unconfirmed": true
+        }
+      ]
+    }
+  }
+]

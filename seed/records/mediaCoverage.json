@@ -1,0 +1,232 @@
+[
+  {
+    "key": "m1",
+    "order": 0,
+    "data": {
+      "id": "m1",
+      "outlet": "entrepreneur",
+      "outletName": {
+        "en": "Entrepreneur Georgia",
+        "ka": "Entrepreneur Georgia"
+      },
+      "topic": "mit",
+      "topicTone": "pink",
+      "date": "2026-02-27",
+      "title": {
+        "en": "An IBSU student's international experience on MIT's StartMIT program",
+        "ka": "IBSU-ს სტუდენტის საერთაშორისო გამოცდილება MIT-ის StartMIT პროგრამაში"
+      },
+      "excerpt": {
+        "en": "Computer-science student Ani Merabishvili travelled to the US on a full scholarship under the IBSU–MIT partnership.",
+        "ka": "კომპიუტერული მეცნიერების სტუდენტი ანი მერაბიშვილი აშშ-ში სრული სტიპენდიით გაემგზავრა IBSU–MIT პარტნიორობის ფარგლებში."
+      }
+    }
+  },
+  {
+    "key": "m2",
+    "order": 1,
+    "data": {
+      "id": "m2",
+      "outlet": "aris",
+      "outletName": {
+        "en": "edu.aris.ge",
+        "ka": "edu.aris.ge"
+      },
+      "topic": "interview",
+      "topicTone": "pink",
+      "date": "2025-10-27",
+      "title": {
+        "en": "Rector Gia Kavtelishvili on IBSU's future plans and vision for development",
+        "ka": "რექტორი გია კავთელიშვილი IBSU-ს სამომავლო გეგმებსა და განვითარების ხედვაზე"
+      },
+      "excerpt": {
+        "en": "An extended interview on the university's strategy, internationalisation and plans for the coming years.",
+        "ka": "ვრცელი ინტერვიუ უნივერსიტეტის სტრატეგიაზე, ინტერნაციონალიზაციასა და უახლოესი წლების გეგმებზე."
+      }
+    }
+  },
+  {
+    "key": "m3",
+    "order": 2,
+    "data": {
+      "id": "m3",
+      "outlet": "ipn",
+      "outletName": {
+        "en": "IPN",
+        "ka": "IPN"
+      },
+      "topic": "accreditation",
+      "topicTone": "amber",
+      "date": "2025-08-27",
+      "title": {
+        "en": "IBSU's education-direction programs receive full accreditation",
+        "ka": "IBSU-ს განათლების მიმართულების პროგრამებმა სრული აკრედიტაცია მიიღო"
+      },
+      "excerpt": {
+        "en": "InterPressNews reports on the full accreditation of IBSU's education programs.",
+        "ka": "InterPressNews აშუქებს IBSU-ს განათლების პროგრამების სრულ აკრედიტაციას."
+      }
+    }
+  },
+  {
+    "key": "m4",
+    "order": 3,
+    "data": {
+      "id": "m4",
+      "outlet": "bmg",
+      "outletName": {
+        "en": "BM.GE",
+        "ka": "BM.GE"
+      },
+      "topic": "partnership",
+      "topicTone": "pink",
+      "date": "2025-05-14",
+      "title": {
+        "en": "IBSU signs a cooperation memorandum with a leading European university",
+        "ka": "IBSU აფორმებს თანამშრომლობის მემორანდუმს წამყვან ევროპულ უნივერსიტეტთან"
+      },
+      "excerpt": {
+        "en": "Business Media Georgia covers the new partnership and what it means for students.",
+        "ka": "Business Media Georgia აშუქებს ახალ პარტნიორობას და მის მნიშვნელობას სტუდენტებისთვის."
+      }
+    }
+  },
+  {
+    "key": "m5",
+    "order": 4,
+    "data": {
+      "id": "m5",
+      "outlet": "ipn",
+      "outletName": {
+        "en": "IPN",
+        "ka": "IPN"
+      },
+      "topic": "conference",
+      "topicTone": "pink",
+      "date": "2025-06-16",
+      "title": {
+        "en": "IBSU hosts its 4th International Multidisciplinary Student Conference",
+        "ka": "IBSU-მ მე-4 საერთაშორისო მულტიდისციპლინურ სტუდენტურ კონფერენციას უმასპინძლა"
+      },
+      "excerpt": {
+        "en": "Coverage of the student conference and the breadth of research presented.",
+        "ka": "სტუდენტური კონფერენციისა და წარდგენილი კვლევების გაშუქება."
+      }
+    }
+  },
+  {
+    "key": "m6",
+    "order": 5,
+    "data": {
+      "id": "m6",
+      "outlet": "bmg",
+      "outletName": {
+        "en": "BMG",
+        "ka": "BMG"
+      },
+      "topic": "business",
+      "topicTone": "pink",
+      "date": "2026-03-03",
+      "title": {
+        "en": "IBSU business students take first place in a national case competition",
+        "ka": "IBSU-ს ბიზნესის სტუდენტებმა პირველი ადგილი დაიკავეს ეროვნულ ქეის-კონკურსში"
+      },
+      "excerpt": {
+        "en": "A report on the winning team and the national finals.",
+        "ka": "რეპორტაჟი გამარჯვებულ გუნდსა და ეროვნულ ფინალზე."
+      }
+    }
+  },
+  {
+    "key": "m7",
+    "order": 6,
+    "data": {
+      "id": "m7",
+      "outlet": "entrepreneur",
+      "outletName": {
+        "en": "Entrepreneur Georgia",
+        "ka": "Entrepreneur Georgia"
+      },
+      "topic": "research",
+      "topicTone": "pink",
+      "date": "2026-02-19",
+      "title": {
+        "en": "IBSU researchers win a national science-foundation grant",
+        "ka": "IBSU-ს მკვლევრებმა ეროვნული სამეცნიერო ფონდის გრანტი მოიგეს"
+      },
+      "excerpt": {
+        "en": "A feature on the funded project and the team behind it.",
+        "ka": "სტატია დაფინანსებულ პროექტსა და მის გუნდზე."
+      }
+    }
+  },
+  {
+    "key": "m8",
+    "order": 7,
+    "data": {
+      "id": "m8",
+      "outlet": "other",
+      "outletName": {
+        "en": "Business Contributor",
+        "ka": "Business Contributor"
+      },
+      "topic": "graduation",
+      "topicTone": "pink",
+      "date": "2025-07-10",
+      "title": {
+        "en": "IBSU celebrates the Class of 2025 at its annual commencement",
+        "ka": "IBSU აღნიშნავს 2025 წლის გამოშვებას ყოველწლიურ ცერემონიაზე"
+      },
+      "excerpt": {
+        "en": "Photo report from the graduation ceremony.",
+        "ka": "ფოტორეპორტაჟი კურსდამთავრების ცერემონიიდან."
+      }
+    }
+  },
+  {
+    "key": "m9",
+    "order": 8,
+    "data": {
+      "id": "m9",
+      "outlet": "aris",
+      "outletName": {
+        "en": "edu.aris.ge",
+        "ka": "edu.aris.ge"
+      },
+      "topic": "admission",
+      "topicTone": "pink",
+      "date": "2026-01-15",
+      "title": {
+        "en": "IBSU opens spring-intake registration for new and transferring students",
+        "ka": "IBSU ხსნის საგაზაფხულო მიღების რეგისტრაციას ახალი და გადმომავალი სტუდენტებისთვის"
+      },
+      "excerpt": {
+        "en": "A guide to the spring enrolment dates and required documents.",
+        "ka": "გზამკვლევი საგაზაფხულო ჩარიცხვის თარიღებსა და საჭირო დოკუმენტებზე."
+      }
+    }
+  },
+  {
+    "key": "m10",
+    "order": 9,
+    "data": {
+      "id": "m10",
+      "outlet": "other",
+      "outletName": {
+        "en": "National media",
+        "ka": "ეროვნული მედია"
+      },
+      "topic": "conference",
+      "topicTone": "pink",
+      "date": "2026-06-08",
+      "title": {
+        "en": "16th International American Studies Conference opens at IBSU",
+        "ka": "IBSU-ში იხსნება ამერიკისმცოდნეობის მე-16 საერთაშორისო კონფერენცია"
+      },
+      "excerpt": {
+        "en": "Press coverage of the conference marking 250 years of the US Declaration of Independence.",
+        "ka": "კონფერენციის გაშუქება, რომელიც აშშ-ის დამოუკიდებლობის დეკლარაციის 250 წლისთავს აღნიშნავს."
+      }
+    }
+  }
+]

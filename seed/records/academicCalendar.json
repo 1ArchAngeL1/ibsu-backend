@@ -1,0 +1,138 @@
+[
+  {
+    "key": "fall",
+    "order": 0,
+    "data": {
+      "id": "fall",
+      "title": {
+        "ka": "შემოდგომის სემესტრი",
+        "en": "Fall semester"
+      },
+      "rows": [
+        {
+          "label": {
+            "ka": "სწავლის დაწყების თარიღი",
+            "en": "Beginning of classes"
+          },
+          "date": {
+            "ka": "2026 წლის 5 ოქტომბერი",
+            "en": "October 5, 2026"
+          }
+        },
+        {
+          "label": {
+            "ka": "შუალედური გამოცდების კვირა",
+            "en": "Midterm examination week"
+          },
+          "date": {
+            "ka": "2026 წლის 24 ნოემბერიდან – 5 დეკემბრის ჩათვლით",
+            "en": "November 24 – December 5, 2026"
+          }
+        },
+        {
+          "label": {
+            "ka": "სწავლის დასრულება",
+            "en": "End of classes"
+          },
+          "date": {
+            "ka": "2027 წლის 30 იანვარი",
+            "en": "January 30, 2027"
+          }
+        },
+        {
+          "label": {
+            "ka": "საშობაო-საახალწლო არდადეგები",
+            "en": "Christmas and New Year holidays"
+          },
+          "date": {
+            "ka": "2026 წლის 27 დეკემბერიდან – 2027 წლის 9 იანვრის ჩათვლით",
+            "en": "December 27, 2026 – January 9, 2027"
+          }
+        },
+        {
+          "label": {
+            "ka": "დასკვნითი გამოცდების პერიოდი",
+            "en": "Final examination period"
+          },
+          "date": {
+            "ka": "2027 წლის 4 თებერვლიდან – 25 თებერვლის ჩათვლით",
+            "en": "February 4 – February 25, 2027"
+          }
+        },
+        {
+          "label": {
+            "ka": "განმეორებითი გამოცდების პერიოდი",
+            "en": "Make-up examination period"
+          },
+          "date": {
+            "ka": "2027 წლის 15 თებერვლიდან – 5 მარტის ჩათვლით",
+            "en": "February 15 – March 5, 2027"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "key": "spring",
+    "order": 1,
+    "data": {
+      "id": "spring",
+      "title": {
+        "ka": "გაზაფხულის სემესტრი",
+        "en": "Spring semester"
+      },
+      "rows": [
+        {
+          "label": {
+            "ka": "სწავლის დაწყების თარიღი",
+            "en": "Beginning of classes"
+          },
+          "date": {
+            "ka": "2027 წლის 15 მარტი",
+            "en": "March 15, 2027"
+          }
+        },
+        {
+          "label": {
+            "ka": "შუალედური გამოცდების კვირა",
+            "en": "Midterm examination week"
+          },
+          "date": {
+            "ka": "2027 წლის 4 მაისიდან – 16 მაისის ჩათვლით",
+            "en": "May 4 – May 16, 2027"
+          }
+        },
+        {
+          "label": {
+            "ka": "სწავლის დასრულება",
+            "en": "End of classes"
+          },
+          "date": {
+            "ka": "2027 წლის 26 ივნისი",
+            "en": "June 26, 2027"
+          }
+        },
+        {
+          "label": {
+            "ka": "დასკვნითი გამოცდების პერიოდი",
+            "en": "Final examination period"
+          },
+          "date": {
+            "ka": "2027 წლის 1 ივლისიდან – 17 ივლისის ჩათვლით",
+            "en": "July 1 – July 17, 2027"
+          }
+        },
+        {
+          "label": {
+            "ka": "განმეორებითი გამოცდების პერიოდი",
+            "en": "Make-up examination period"
+          },
+          "date": {
+            "ka": "2027 წლის 12 ივლისიდან – 24 ივლისის ჩათვლით",
+            "en": "July 12 – July 24, 2027"
+          }
+        }
+      ]
+    }
+  }
+]

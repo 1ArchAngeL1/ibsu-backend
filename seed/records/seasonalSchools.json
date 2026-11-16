@@ -1,0 +1,249 @@
+[
+  {
+    "key": "sias-discovery-2026",
+    "order": 0,
+    "data": {
+      "id": "sias-discovery-2026",
+      "title": {
+        "ka": "2026 Discovery Camp — გაიცანი ჩინეთი",
+        "en": "2026 Discovery Camp: Experience Amazing China"
+      },
+      "host": {
+        "ka": "SIAS University",
+        "en": "SIAS University"
+      },
+      "place": {
+        "ka": "პეკინი, შანხაი, ჩენჯჟოუ, ჩინეთი",
+        "en": "Beijing, Shanghai, Zhengzhou, China"
+      },
+      "when": {
+        "ka": "16–28 ივლისი, 2026",
+        "en": "16–28 July 2026"
+      },
+      "deadline": "2026-05-04",
+      "cost": {
+        "ka": "კულტურული ტური: 798 USD პარტნიორი უნივერსიტეტისთვის, 998 USD სხვებისთვის",
+        "en": "Cultural tour: 798 USD for partner universities, 998 USD otherwise"
+      },
+      "includes": {
+        "ka": [
+          "პროგრამის მასალები და ყველა ვორქშოპი",
+          "აეროპორტიდან ტრანსფერი — ორი უფასო ადგილი პარტნიორი უნივერსიტეტებისთვის",
+          "ადგილობრივი ტრანსპორტი, საცხოვრებელი და კვება პეკინსა და შანხაიში",
+          "ლექციები ჩინეთის ისტორიაზე, ენაზე, კულტურასა და ეკონომიკაზე"
+        ],
+        "en": [
+          "Programme materials and access to every workshop",
+          "Airport pickup — two free places for partner universities",
+          "Local transport, accommodation and meals in Beijing and Shanghai",
+          "Lectures on Chinese history, language, culture and economy"
+        ]
+      },
+      "href": "https://forms.gle/neSttDVGtBknFRNq9"
+    }
+  },
+  {
+    "key": "sias-summer-2026",
+    "order": 1,
+    "data": {
+      "id": "sias-summer-2026",
+      "title": {
+        "ka": "2026 SIAS საერთაშორისო საზაფხულო ბანაკი",
+        "en": "2026 SIAS International Summer Camp"
+      },
+      "host": {
+        "ka": "SIAS University",
+        "en": "SIAS University"
+      },
+      "place": {
+        "ka": "სინჯენი, ხენანის პროვინცია, ჩინეთი",
+        "en": "Xinzheng, Henan, China"
+      },
+      "when": {
+        "ka": "25–30 მაისი, 2026",
+        "en": "25–30 May 2026"
+      },
+      "deadline": "2026-02-02",
+      "cost": {
+        "ka": "სტიპენდია ფარავს პროგრამას; ნებაყოფლობითი კულტურული ტური 798 USD",
+        "en": "Scholarship covers the programme; optional cultural tour 798 USD"
+      },
+      "includes": {
+        "ka": [
+          "ორი ადგილი IBSU-სთვის",
+          "პროგრამის საფასური, აეროპორტის ტრანსფერი და ადგილობრივი ტრანსპორტი",
+          "საცხოვრებელი უნივერსიტეტის კამპუსზე",
+          "ნებაყოფლობითი ტური ლუოიანში, სიანსა და პეკინში, 31 მაისი – 6 ივნისი"
+        ],
+        "en": [
+          "Two places for IBSU",
+          "Programme fee, airport transfer and local transport",
+          "Accommodation on the university campus",
+          "Optional tour of Luoyang, Xi'an and Beijing, 31 May – 6 June"
+        ]
+      }
+    }
+  },
+  {
+    "key": "cappadocia-spring-2024",
+    "order": 2,
+    "data": {
+      "id": "cappadocia-spring-2024",
+      "title": {
+        "ka": "კაბადოკიის საგაზაფხულო სკოლა",
+        "en": "Cappadocia Spring School"
+      },
+      "host": {
+        "ka": "სტამბულის აიდინის უნივერსიტეტი",
+        "en": "Istanbul Aydın University"
+      },
+      "place": {
+        "ka": "კაბადოკია, თურქეთი",
+        "en": "Cappadocia, Türkiye"
+      },
+      "when": {
+        "ka": "2024 წლის გაზაფხული",
+        "en": "Spring 2024"
+      },
+      "deadline": "2024-04-06",
+      "cost": {
+        "ka": "890 USD — 840 USD ადრეული რეგისტრაციით 15 იანვრამდე",
+        "en": "890 USD — 840 USD with early registration before 15 January"
+      },
+      "includes": {
+        "ka": [
+          "ციფრული მარკეტინგი, 3 ECTS — 25 საათი საკლასო სწავლება და ონლაინ კომპონენტი",
+          "შვიდი ღამე სრული კვებით Ramada Hotel-ში",
+          "საკვირაო ტური კაბადოკიაში და აეროპორტის ტრანსფერი",
+          "მოთხოვნა: ინგლისურის B2 დონის სერტიფიკატი"
+        ],
+        "en": [
+          "Digital Marketing, 3 ECTS — 25 classroom hours plus an online component",
+          "Seven nights full board at the Ramada Hotel",
+          "Weekend tour of Cappadocia and airport transfer",
+          "Requirement: a B2 English certificate"
+        ]
+      }
+    }
+  },
+  {
+    "key": "antalya-winter-2024",
+    "order": 3,
+    "data": {
+      "id": "antalya-winter-2024",
+      "title": {
+        "ka": "ანტალიისა და სტამბულის ზამთრის სკოლა",
+        "en": "Antalya and Istanbul Winter School"
+      },
+      "host": {
+        "ka": "სტამბულის აიდინის უნივერსიტეტი",
+        "en": "Istanbul Aydın University"
+      },
+      "place": {
+        "ka": "ანტალია და სტამბული, თურქეთი",
+        "en": "Antalya and Istanbul, Türkiye"
+      },
+      "when": {
+        "ka": "20 იანვარი – 3 თებერვალი, 2024",
+        "en": "20 January – 3 February 2024"
+      },
+      "deadline": "2024-01-01",
+      "cost": {
+        "ka": "1190 USD",
+        "en": "1190 USD"
+      },
+      "includes": {
+        "ka": [
+          "ხუთი კურსი 5–6 ECTS-ით: ბრენდ მენეჯმენტი, ციფრული მარკეტინგი, საერთაშორისო ორგანიზაციები და მსოფლიო პოლიტიკა, გენეტიკა და სამედიცინო ბიოტექნოლოგია, თურქული ხელოვნება მუზეუმებში",
+          "50 საათი საკლასო სწავლება და კურსის მასალები",
+          "ექვსი ღამე ხუთვარსკვლავიან სასტუმროში ანტალიაში",
+          "რვა ღამე ოთხვარსკვლავიან სასტუმროში სტამბულის კამპუსთან, საუზმით",
+          "ორი შაბათ-კვირის ტური"
+        ],
+        "en": [
+          "Five courses at 5–6 ECTS: Brand Management, Digital Marketing, International Organisations and World Politics, Genetics and Medical Biotechnology, Turkish Art in Museums",
+          "50 classroom hours and course materials",
+          "Six nights in a five-star hotel in Antalya",
+          "Eight nights in a four-star hotel two minutes from the Istanbul campus, with breakfast",
+          "Two weekend tours"
+        ]
+      }
+    }
+  },
+  {
+    "key": "riga-summer-2023",
+    "order": 4,
+    "data": {
+      "id": "riga-summer-2023",
+      "title": {
+        "ka": "საზაფხულო სკოლა და სტიპენდია",
+        "en": "Summer School and Scholarship"
+      },
+      "host": {
+        "ka": "რიგის ტექნიკური უნივერსიტეტი",
+        "en": "Riga Technical University"
+      },
+      "place": {
+        "ka": "რიგა, ლატვია",
+        "en": "Riga, Latvia"
+      },
+      "when": {
+        "ka": "ივნისი – აგვისტო, 2023",
+        "en": "June – August 2023"
+      },
+      "deadline": "2023-03-20",
+      "cost": {
+        "ka": "600–800 € კურსის მიხედვით; ათი ადგილი სტიპენდიით",
+        "en": "600–800 € by course; ten scholarship places"
+      },
+      "includes": {
+        "ka": [
+          "შვიდი კურსი: დრონების IoT, Baxter Robot Revival, ჭკვიანური გადაწყვეტილებები არქიტექტორთათვის, მდგრადობის სამი საყრდენი, გლობალური ლიდერობა, კულტურა ქმნადობაში, ინგლისურის ინტენსიური სესიები",
+          "სტიპენდია ფარავს განთავსებას, კვებას სამუშაო დღეებში, კვლევებსა და საველე ვიზიტებს",
+          "მგზავრობის ხარჯი მონაწილეს რჩება"
+        ],
+        "en": [
+          "Seven courses: IoT of Drones, Baxter Robot Revival, Smart Solutions for Architects, Three Pillars of Sustainability, Global Leadership, Culture in the Making, Intensive English Sessions",
+          "The scholarship covers accommodation, weekday meals, studies and field visits",
+          "Travel costs stay with the participant"
+        ]
+      }
+    }
+  },
+  {
+    "key": "ephec-summer-2023",
+    "order": 5,
+    "data": {
+      "id": "ephec-summer-2023",
+      "title": {
+        "ka": "საზაფხულო სკოლა",
+        "en": "Summer School"
+      },
+      "host": {
+        "ka": "EPHEC University College",
+        "en": "EPHEC University College"
+      },
+      "place": {
+        "ka": "ბრიუსელი, ბელგია",
+        "en": "Brussels, Belgium"
+      },
+      "when": {
+        "ka": "2023 წლის ზაფხული",
+        "en": "Summer 2023"
+      },
+      "deadline": "2023-03-27",
+      "cost": {
+        "ka": "1200 € — 5 ECTS",
+        "en": "1200 € — 5 ECTS"
+      },
+      "includes": {
+        "ka": [
+          "რვა ღამის განთავსება, კვება, ტრანსპორტი და პროგრამის აქტივობები"
+        ],
+        "en": [
+          "Eight nights' accommodation, meals, transport and the programme's activities"
+        ]
+      }
+    }
+  }
+]

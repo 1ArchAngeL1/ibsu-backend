@@ -1,0 +1,42 @@
+[
+  {
+    "key": "none",
+    "order": 0,
+    "data": {
+      "key": "none",
+      "en": "None",
+      "ka": "არცერთი",
+      "discount": 0
+    }
+  },
+  {
+    "key": "top1000",
+    "order": 1,
+    "data": {
+      "key": "top1000",
+      "en": "TOP 1000 nationwide",
+      "ka": "TOP 1000 საქართველოს მასშტაბით",
+      "discount": 100
+    }
+  },
+  {
+    "key": "gold",
+    "order": 2,
+    "data": {
+      "key": "gold",
+      "en": "Gold medal",
+      "ka": "ოქროს მედალი",
+      "discount": 50
+    }
+  },
+  {
+    "key": "top50",
+    "order": 3,
+    "data": {
+      "key": "top50",
+      "en": "TOP 50",
+      "ka": "TOP 50",
+      "discount": 70
+    }
+  }
+]

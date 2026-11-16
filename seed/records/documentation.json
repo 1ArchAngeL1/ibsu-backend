@@ -1,0 +1,672 @@
+[
+  {
+    "key": "ka:0",
+    "order": 0,
+    "data": {
+      "locale": "ka",
+      "heading": "რეგულაციები",
+      "docs": [
+        {
+          "title": "აკადემიური კეთილსინდისიერების პოლიტიკა",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/აკადემიური-კეთილსინდისიერების-პოლიტიკა.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "შემოქმედებითი ტურის ჩატარების წესი",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2026/10/შემოქმედებითი-ტურის-ჩატარების-წესი.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "სწავლის შედეგების შეფასების ინსტრუქცია",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2026/10/სწავლის-შედეგების-შეფასების-ინსტრუქცია.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "სამართლის სკოლის სამეცნიერო-კვლევითი კომპონენტის დაგეგმვის, შესრულებისა და შეფასების წესი",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2025/07/%E1%83%A1%E1%83%90%E1%83%9B%E1%83%94%E1%83%AA%E1%83%9C%E1%83%98%E1%83%94%E1%83%A0%E1%83%9D-%E1%83%99%E1%83%95%E1%83%9A%E1%83%94%E1%83%95%E1%83%98%E1%83%97%E1%83%98-%E1%83%99%E1%83%9D%E1%83%9B%E1%83%9E%E1%83%9D%E1%83%9C%E1%83%94%E1%83%9C%E1%83%A2%E1%83%98%E1%83%A1-%E1%83%93%E1%83%90%E1%83%92%E1%83%94%E1%83%92%E1%83%9B%E1%83%95%E1%83%98%E1%83%A1-%E1%83%A8%E1%83%94%E1%83%A1%E1%83%A0%E1%83%A3%E1%83%9A%E1%83%94%E1%83%91%E1%83%98%E1%83%A1%E1%83%90-%E1%83%93%E1%83%90-%E1%83%A8%E1%83%94%E1%83%A4%E1%83%90%E1%83%A1%E1%83%94%E1%83%91%E1%83%98%E1%83%A1-%E1%83%AC%E1%83%94%E1%83%A1%E1%83%98.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "აკადემიური საქმიანობის წახალისების დებულება",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2026/10/აკად.-საქმიანობის-წახალისების-დებულება.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "ბიზნეს პროცესების უწყვეტობის გეგმა",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/ბიზნეს-პროცესების-უწყვეტობის-გეგმა.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "გამოცდების ჩატარების წესი",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/გამოცდების-ჩატარების-წესი.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "გაცვლითი პროგრამების, საკონკურსო პირობებისა და კონკურსის გამოცხადების წესი (თანამშრომლებისთვის)",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/გაცვლითი-პროგრამების-საკონკურსო-პირობებისა-და-კონკურსის-გამოცხადების-წესი-თანამშრომ.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "გაცვლითი პროგრამების, საკონკურსო პირობებისა და კონკურსის გამოცხადების წესი (სტუდენტებისთვის)",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/გაცვლითი-პროგრამების-საკონკურსო-პირობებისა-და-კონკურსის-გამოცხადების-წესი-სტუდენტებისთვი.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "ეთიკის კოდექსი",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/ეთიკის-კოდექსი.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "ინტერნაციონალიზაციის პოლიტიკა",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/ინტერნაციონალიზაციის-პოლიტიკა.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "კვლევის განვითარების პოლიტიკა",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/კვლევის-განვითარების-პოლიტიკა.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "კვლევის შიდასაუნივერსიტეტო დაფინანსების წესი",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2025/05/კვლევის-შიდასაუნივერსიტეტო-დაფინანსების-წესი.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "მართვის ეფექტიანობის მონიტორინგისა და შეფასების სისტემის დებულება",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/მართვის-ეფექტიანობის-მონიტორინგისა-და-შეფასების-სისტემის.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "მდგრადობისა და ხარისხის უზრუნველყოფის სამიზნე ნიშნულები",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/მდგრადობისა-და-ხარისხის-უზრუნველყოფის-სამიზნე-ნიშნულები.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "მისია, ხედვა, ღირებულებები",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/მისია-ხედვა-ღირებულებები.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "პერსონალის მართვის პოლიტიკა",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/პერსონალის-მართვის-პოლიტიკა-1.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "პერსონალურ მონაცემთა დაცვის პოლიტიკა",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/პერსონალურ-მონაცემთა-დაცვის-პოლიტიკა.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "სამაგისტრო ნაშრომის შესრულების, დაცვისა და შეფასების წესი",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2026/10/სამაგისტრო-ნაშრომის-შეს.-დაცვისა-და-შეფასების-წესი.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "საგანმანათლებლო პროგრამების დაგეგმვის შემუშავების და განვითარების წესი",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2026/10/საგანმანათლებლო-პროგრამების-დაგეგმვის-შემუშავებისა-და-განვითარების-წესი-.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "სადოქტორო სწავლებისა და სადისერტაციო საბჭოს დებულება",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2025/04/სადოქტორო-სწავლებისა-და-სადისერტაციო-საბჭოს-დებულება.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "საერთაშორისო სტუდენტების ჩარიცხვის წესი",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/საეთაშორისო-სტუდენტების-ჩარიცხვის-წესი.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "სამაგისტრო სწავლების დებულება",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2025/09/სამაგისტრო-სწავლების-დებულება-საბოლოო-რედაქცია.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "სამუშაო ადგილზე შრომის უსაფრთხოების და სანიტარული ნორმების დაცვის წესი",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/სამუშაო-ადგილზე-შრომის-უსაფრთხოების-და-სანიტარული-ნორმების-დაცვის-წესი.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "სტრატეგიული განვითარებისა და სამოქმედო გეგმების შესრულების მონიტორინგის მექანიზმები",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/სტრატ.-განვით.-და-სამოქ.-გეგმ.ს-შეს.-მონიტ.-მექანიზ.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "სასწავლო პროცესის რეგულირების წესი",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2026/10/სასწავლო-პროცესის-რეგულირების-წესი-1.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "საქმისწარმოების ერთიანი წესი",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/საქმისწარმოების-ერთიანი-წესი.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "სტუდენტების ხელშეწყობის ფინანსური დებულება",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/სტუდენტების-ხელშეწყობის-ფინანსური-დებულება.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "სტრატეგიული გეგმა",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/სტრატეგიული-გეგმა.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "სტრატეგიული დაგეგმვის მეთოდოლოგია",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/სტრატეგიული-დაგეგმვის-მეთოდოლოგია.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "სტუდენტთა კონტინგენტის დაგეგმვის მექანიზმი და მეთოდოლოგია",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/სტუდენტთა-კონტინგენტის-დაგეგმვის-მექანიზმი-და-მეთოდოლოგია.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "სტუდენტთა დისციპლინური პასუხისმგებლობის მარეგულირებელი წესი",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/სტუდენტთა-დისციპლინური-პასუხისმგებლობის-მარეგულირებელი-წესი.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "სტუდენტთა დისციპლინური პასუხისმგებლობის წესი",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/სტუდენტთა-დისციპლინური-პასუხისმგებლობის-წესი.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "სტუდენტური ინიციატივების დაფინანსების წესი",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/სტუდენტური-ინიციატივების-დაფინანსების-წესი.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "უნივერსიტეტის შინაგანაწესი",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2026/10/შინაგანაწესი-1.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "უნივერსიტეტის დებულება",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2026/10/IBSU-დებულება.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "სამაგისტრო ნაშრომისა და დისერტაციის მომზადების გზამკვლევი",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2025/04/სამაგისტრო-ნაშრომისა-და-დისერტაციის-მომზადების-გზამკვლევი.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "ხარისხის უზრუნველყოფის შიდა მექანიზმები (სახელმძღვანელო)",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2026/10/იბსუ-ხარისხის-უზრუნველყოფის-შიდა-მექანიზმები.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "პრაქტიკის განხორციელებისა და შეფასების წესი",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2025/04/პრაქ-განხორ-და-შეფ-წესი.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "გენდერული თანასწორობისა და სოციალური ინკლუზიის პოლიტიკა",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2025/04/თანასწორობის-წესი.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "მასწავლებლის მომზადების საგანმანათლებლო პროგრამაზე ჩარიცხვის წესი",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2025/09/Teacher_Training_Educational_Program.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "საბაკალავრო ნაშრომის მომზადების, დაცვის და შეფასების წესი",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/საბაკალავრო-ნაშრომის-მომზადების-დაცვის-და-შეფასების.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "მედიცინის სკოლი საკურსო ნაშრომის მომზადებისა და დაცვის წესი",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/09/BSM-%E1%83%A1%E1%83%90%E1%83%99%E1%83%A3%E1%83%A0%E1%83%A1%E1%83%9D-%E1%83%9C%E1%83%90%E1%83%A8%E1%83%A0%E1%83%9D%E1%83%9B%E1%83%98%E1%83%A1-%E1%83%9B%E1%83%9D%E1%83%9B%E1%83%96%E1%83%90%E1%83%93%E1%83%94%E1%83%91%E1%83%98%E1%83%A1%E1%83%90-%E1%83%93%E1%83%90-%E1%83%93%E1%83%90%E1%83%AA%E1%83%95%E1%83%98%E1%83%A1-%E1%83%AC%E1%83%94%E1%83%A1%E1%83%98.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "ნაპოვნი ნივთების აღრიცხვის, გაცემისა და განკარგვის ინსტრუქცია",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2025/04/ნაპოვნი-ნივთ-აღრიც-და-გაც-წესი.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "აკადემიური კონკურსის ჩატარებისა და აკადემიური თანამდებობის დაკავების წესი",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2026/10/აკადემიური-კონკურსის-ჩატარებისა-და-აკადემიური-თანამდებობის-დაკავების-წესი.pdf",
+          "format": "PDF"
+        }
+      ]
+    }
+  },
+  {
+    "key": "ka:1",
+    "order": 1,
+    "data": {
+      "locale": "ka",
+      "heading": "წლიური სამოქმედო გეგმა",
+      "docs": [
+        {
+          "title": "სამწლიანი სამოქმედო გეგმა",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/სამწლიანი-სამოქმედო-გეგმა.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "ფინანსური ანგარიშგება 2022",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/10/ფინანსური-ანგარიშგება-2022.pdf",
+          "format": "PDF"
+        }
+      ]
+    }
+  },
+  {
+    "key": "en:0",
+    "order": 2,
+    "data": {
+      "locale": "en",
+      "heading": "Regulations",
+      "docs": [
+        {
+          "title": "Academic Writing Center Provision",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Academic-Writing-Center-Provision.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Alumni Relations Office Regulation",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Alumni-Relations-Office-Regulation.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Business Process Continuity Plan",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Business-Process-Continuity-Plan.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Career Planning and Development Office Provision",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Career-Planning-and-Development-Office-Provision.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Doctoral Education and Dissertation Council Regulation",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2025/04/Regulation-for-Doctoral-Studies-and-Dissertation-Council.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Financial Department Regulation",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Financial-Department-Regulation.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Human Resources Management and Development Office Provision",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Human-Resources-Management-and-Development-Office-Provision.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Regulation Quality Mechanisms",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/IBSU_R36I01.G_Regulation_Quality_Mechanisms.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Information and Communication Technologies Management Provision",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Information-and-Communication-Technologies-Management-Provision-.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "International Black Sea University Provision",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/International-Black-Sea-University-Provision-.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "International Relations Department Regulation",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/International-Relations-Department-Regulation.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Internationalization policy",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Internationalization-policy.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Library Provision",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Library-Provision.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Marketing and Public Relations Department Provision",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Marketing-and-Public-Relations-Department-Provision.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Mission, Vision, Values",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Mission-Vision-Values.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Ombudsman Regulation",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Ombudsman-Regulation.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Personnel Management Policy",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Personnel-Management-Policy.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Process management Clerk Department Regulation",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Process-management-Clerk-Department-Regulation.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Procurement and Logistics Department Regulation",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Procurement-and-Logistics-Department-Regulation.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Provision of graduate studies",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2025/02/Provision-of-graduate-studies.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Publishing regulations",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Publishing-regulations.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Regulation for inner-university funding for research activities",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2025/05/Regulation-for-inner-university-funding-for-research-activities.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Regulation of IBSU Academy",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Regulation-of-IBSU-Academy.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Regulation of Informative Technology Service",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Regulation-of-Informative-Technology-Service-.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Regulation of Internal Quality Assurance Mechanisms",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2025/02/Internal-Quality-Assurance-Mechanisms-eng.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Regulation of legal service",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Regulation-of-legal-service.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Regulation of management efficiency monitoring and evaluation system",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Regulation-of-management-efficiency-monitoring-and-evaluation-system.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Regulation of medical post",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Regulation-of-medical-post.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Regulation of Quality Assurance Service",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Regulation-of-Quality-Assurance-Service-.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Regulation of The Research Facilitation and Project Management Office",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Regulation-of-Research-Promotion-and-Project-Management-Service.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Regulation of Student Services and Registry Service",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Regulation-of-Student-Services-and-Registry-Service.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Regulation of the Center for Foreign Languages",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Regulation-of-the-Center-for-Foreign-Languages.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Regulation of the Center for Innovation and Entrepreneurship",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Regulation-of-the-Center-for-Innovation-and-Entrepreneurship.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Regulation of the Department of Student and Alumni Development",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Regulation-of-the-Department-of-Student-and-Alumni-Development.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Regulation of the Study Process Monitoring Department",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Regulation-of-the-Study-Process-Monitoring-Department.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Regulations of the Student Extracurricular Activities Service",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Regulations-of-the-Student-Extracurricular-Activities-Service.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Regulations on the Affiliation of Academic Personnel of the International Black Sea University",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Regulations-on-the-Affiliation-of-Academic-Personnel-of-the-International-Black-Sea-University-.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Research Development Policy",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Research-Development-Policy.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "School of business Provision",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/School-of-business-Provision.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "School of Computer Science and Architecture Provision",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/School-of-Computer-Science-and-Architecture-Provision.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "School of Education, Humanities and Social Sciences Provision",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/School-of-Education-Humanities-and-Social-Sciences-Provision.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "School of Law and Public Administration Provision",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/School-of-Law-and-Public-Administration-Provision.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "School of Medicine Provision",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/School-of-Medicine-Provision.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Strategic Development Office Provision",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Strategic-Development-Office-Provision.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Strategic Development Plan",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Strategic-Development-Plan.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Strategic Planning Methodology",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/The-rule-of-Planning-and-development-of-educational-programs.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "The rule of Planning and development of educational programs",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2025/02/The-rule-of-Planning-and-development-of-educational-programs.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Preparation and Defense of the Term Paper of Mediacal School",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/09/BSM-Preparation-and-Defense-of-the-Term-Paper-1.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "Academic Integrity Policy",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/09/Academic-Integrity-Policy.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "Academic load and Determination of Labor Remuneration Provision",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/09/Academic-load-and-Determination-of-Labor-Remuneration-Provision.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "Code of Ethics",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/09/Code-of-Ethics.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "Personal data protection policy",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/09/Personal-data-protection-policy.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "Provision of encouragement of academic activity",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/09/Provision-of-encouragement-of-academic-activity.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "Rated students funding rules",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/09/Rated-students-funding-rules.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "Sustainability and quality assurance targets",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/09/Sustainability-and-quality-assurance-targets.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "The procedure for conducting exams",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/09/The-procedure-for-conducting-exams.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "Regulation of scientific journals",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/09/Regulation-of-scientific-journals.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "Requirements established for articles in scientific journals and the manner of their presentation",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/09/Requirements-established-for-articles-in-scientific-journals-and-the-manner-of-their-presentation.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "The rule of implementation and evaluation of educational practice",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2025/04/The-rule-of-implementation-and-evaluation-of-educational-practice.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "The rule of observance of labor safety and sanitary norms at the workplace",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/09/The-rule-of-observance-of-labor-safety-and-sanitary-norms-at-the-workplace.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "Exchange programs, contest conditions and rules for announcing the contest for employees",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/09/13.-exchange-programs-contest-conditions-and-rules-for-announcing-the-contest-for-employees.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "Exchange programs, contest conditions and rules for announcing the contest for students",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/09/Exchange-programs-contest-conditions-and.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "Procedure for preparation, defense and evaluation of bachelor’s thesis",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/09/Procedure-for-preparation-defense-and-evaluation-of-bachelors-thesis.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "Rules for enrollment of international students",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/09/Rules-for-enrollment-of-international-students.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "Mechanisms for monitoring the implementation of action plans",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/09/Mechanisms-for-monitoring-the-implementation-of-action-plans.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "Regulation of Student Financial Support",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/09/Regulation-of-Student-Financial-Support-1.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "Regulation of disciplinary responsibility of the students",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/09/The-regulation-of-disciplinary-responsibility-of-the-students.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "Regulation of the educational process",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/09/Regulation-of-the-educational-process-1.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "Rules of Funding student initiatives",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/09/Rules-of-Funding-student-initiatives.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "Mechanism and Methodology for Planning the Student Quota at the International Black Sea University",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/08/Mechanism-and-Methodology-for-Planning-the-Student-Quota-at-the-International-Black-Sea-University.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "The procedure for hiring administrative and support staff",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/09/The-procedure-for-hiring-administrative-and-support-staff-1.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "The procedure for the appointment of persons involved in the educational and scientific process",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/09/The-procedure-for-the-appointment-of-persons-involved-in-the-educational-and-scientific-process.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "Labour regulation",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/09/Labour-regulation.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "LABOUR REGULATION – ACADEMIC STAFF",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/09/LABOUR-REGULATION-ACADEMIC-STAFF.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "Guidelines for Master’s Thesis and Doctoral Dissertation",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2025/04/Guidelines-for-Masters-Thesis-and-Doctoral-Dissertation2025.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Gender equality and social inclusion policy",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2025/04/ENG-თანასწორობის-წესი.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "Research Ethics Committee Regulation",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2026/02/0701-03-დან-research-ethics-committee.-ENG.pdf",
+          "format": "PDF"
+        }
+      ]
+    }
+  },
+  {
+    "key": "en:1",
+    "order": 3,
+    "data": {
+      "locale": "en",
+      "heading": "Annual action plan",
+      "docs": [
+        {
+          "title": "Three-year action plan",
+          "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/Three-year-action-plan.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Financial Statements 2022",
+          "href": "https://ibsu.edu.ge/storage/2024/10/%E1%83%A4%E1%83%98%E1%83%9C%E1%83%90%E1%83%9C%E1%83%A1%E1%83%A3%E1%83%A0%E1%83%98-%E1%83%90%E1%83%9C%E1%83%92%E1%83%90%E1%83%A0%E1%83%98%E1%83%A8%E1%83%92%E1%83%94%E1%83%91%E1%83%90-2022.pdf",
+          "format": "PDF"
+        }
+      ]
+    }
+  }
+]

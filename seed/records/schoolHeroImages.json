@@ -1,0 +1,13 @@
+[
+  {
+    "key": "default",
+    "order": 0,
+    "data": {
+      "business": "/photos/ext-master.webp",
+      "law": "/photos/ext-doctoral-lib.webp",
+      "eduhum": "/photos/group.webp",
+      "computing": "/photos/ext-bachelor.webp",
+      "medicine": "/photos/ext-medical.webp"
+    }
+  }
+]

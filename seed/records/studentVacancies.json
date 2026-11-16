@@ -1,0 +1,472 @@
+[
+  {
+    "key": "orbit-junior-dev",
+    "order": 0,
+    "data": {
+      "id": "orbit-junior-dev",
+      "status": "open",
+      "field": "it",
+      "kind": "internship",
+      "deadline": "2026-09-12",
+      "company": "Orbit Software",
+      "short": "OS",
+      "text": {
+        "en": {
+          "title": "Junior developer internship",
+          "type": "Internship · 20 h / week · paid",
+          "location": "Tbilisi · hybrid",
+          "summary": "A six-month paid internship on a product team building web services. You join a squad of engineers with a mentor assigned from day one — the schedule is built around lectures.",
+          "requirements": [
+            "2nd-year or above in Computer Science or a related programme",
+            "Comfortable with JavaScript or Python fundamentals",
+            "English good enough to read documentation"
+          ],
+          "offer": [
+            "Paid internship with a real product team",
+            "A named mentor and a code-review routine",
+            "A reference letter and a route to a graduate contract"
+          ]
+        },
+        "ka": {
+          "title": "უმცროსი დეველოპერის სტაჟირება",
+          "type": "სტაჟირება · 20 სთ / კვირაში · ანაზღაურებადი",
+          "location": "თბილისი · ჰიბრიდული",
+          "summary": "ექვსთვიანი ანაზღაურებადი სტაჟირება პროდუქტის გუნდში, რომელიც ვებსერვისებს ქმნის. შეუერთდები ინჟინრების გუნდს და პირველივე დღიდან გეყოლება მენტორი — განრიგი ლექციებზეა მორგებული.",
+          "requirements": [
+            "კომპიუტერული მეცნიერების ან მომიჯნავე პროგრამის მე-2 ან უფროსი კურსის სტუდენტი",
+            "JavaScript-ის ან Python-ის საფუძვლების თავისუფალი ცოდნა",
+            "ინგლისური ენის ცოდნა დოკუმენტაციის წასაკითხად"
+          ],
+          "offer": [
+            "ანაზღაურებადი სტაჟირება რეალურ პროდუქტის გუნდში",
+            "პირადი მენტორი და კოდის რეგულარული რევიუ",
+            "სარეკომენდაციო წერილი და კურსდამთავრებულის კონტრაქტის შესაძლებლობა"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "key": "alliance-finance-intern",
+    "order": 1,
+    "data": {
+      "id": "alliance-finance-intern",
+      "status": "open",
+      "field": "business",
+      "kind": "internship",
+      "deadline": "2026-09-05",
+      "company": "Alliance Group",
+      "short": "AG",
+      "text": {
+        "en": {
+          "title": "Finance & reporting intern",
+          "type": "Internship · 24 h / week · paid",
+          "location": "Tbilisi · on site",
+          "summary": "Support the finance team with monthly reporting, reconciliations and the preparation of management dashboards during the autumn semester.",
+          "requirements": [
+            "Studying Finance, Accounting or Economics",
+            "Confident with spreadsheets",
+            "Accuracy and a habit of checking your own work"
+          ],
+          "offer": [
+            "Paid internship with rotation across three teams",
+            "Training on the reporting toolchain",
+            "Possible part-time contract after the semester"
+          ]
+        },
+        "ka": {
+          "title": "ფინანსებისა და ანგარიშგების სტაჟიორი",
+          "type": "სტაჟირება · 24 სთ / კვირაში · ანაზღაურებადი",
+          "location": "თბილისი · ადგილზე",
+          "summary": "შემოდგომის სემესტრის განმავლობაში დაეხმარე ფინანსურ გუნდს ყოველთვიურ ანგარიშგებაში, ანგარიშების შეჯერებასა და მენეჯმენტის დაფების მომზადებაში.",
+          "requirements": [
+            "სწავლობ ფინანსებს, ბუღალტრულ აღრიცხვას ან ეკონომიკას",
+            "ელექტრონულ ცხრილებთან თავისუფლად მუშაობ",
+            "სიზუსტე და საკუთარი სამუშაოს გადამოწმების ჩვევა"
+          ],
+          "offer": [
+            "ანაზღაურებადი სტაჟირება სამ გუნდში როტაციით",
+            "ანგარიშგების ინსტრუმენტების შესწავლა",
+            "სემესტრის შემდეგ ნახევარ განაკვეთზე კონტრაქტის შესაძლებლობა"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "key": "vertex-legal-assistant",
+    "order": 2,
+    "data": {
+      "id": "vertex-legal-assistant",
+      "status": "open",
+      "field": "law",
+      "kind": "parttime",
+      "deadline": "2026-09-20",
+      "company": "Vertex Legal",
+      "short": "VL",
+      "text": {
+        "en": {
+          "title": "Legal assistant (part-time)",
+          "type": "Part-time · 20 h / week",
+          "location": "Tbilisi · on site",
+          "summary": "Assist the corporate practice with case files, research memos and document management. Hours are agreed around your timetable each semester.",
+          "requirements": [
+            "3rd-year or above in Law",
+            "Georgian and English legal writing",
+            "Discretion with client material"
+          ],
+          "offer": [
+            "Structured supervision by a senior associate",
+            "Exposure to corporate and contract work",
+            "Flexible hours around exams"
+          ]
+        },
+        "ka": {
+          "title": "იურისტის ასისტენტი (ნახევარი განაკვეთი)",
+          "type": "ნახევარი განაკვეთი · 20 სთ / კვირაში",
+          "location": "თბილისი · ადგილზე",
+          "summary": "დაეხმარე კორპორაციულ პრაქტიკას საქმეების მასალებში, კვლევით მემორანდუმებსა და დოკუმენტების მართვაში. საათები ყოველ სემესტრში შენს ცხრილზე შეთანხმდება.",
+          "requirements": [
+            "სამართლის მე-3 ან უფროსი კურსის სტუდენტი",
+            "იურიდიული წერა ქართულ და ინგლისურ ენებზე",
+            "კლიენტის ინფორმაციის კონფიდენციალურობის დაცვა"
+          ],
+          "offer": [
+            "უფროსი იურისტის სისტემური ზედამხედველობა",
+            "კორპორაციულ და სახელშეკრულებო საქმეებზე მუშაობის გამოცდილება",
+            "მოქნილი საათები გამოცდების პერიოდში"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "key": "meridian-smm",
+    "order": 3,
+    "data": {
+      "id": "meridian-smm",
+      "status": "open",
+      "field": "media",
+      "kind": "parttime",
+      "deadline": "2026-08-28",
+      "company": "Meridian Media",
+      "short": "MM",
+      "text": {
+        "en": {
+          "title": "Social media coordinator",
+          "type": "Part-time · 16 h / week",
+          "location": "Tbilisi · hybrid",
+          "summary": "Plan and publish content across the agency’s client channels, from copy to short vertical video, with the creative team.",
+          "requirements": [
+            "Studying Marketing, Journalism or Communication",
+            "A portfolio of content you have made — any platform",
+            "Georgian and English copywriting"
+          ],
+          "offer": [
+            "Work on real client accounts",
+            "Access to the studio and editing suite",
+            "Portfolio you can show at graduation"
+          ]
+        },
+        "ka": {
+          "title": "სოციალური მედიის კოორდინატორი",
+          "type": "ნახევარი განაკვეთი · 16 სთ / კვირაში",
+          "location": "თბილისი · ჰიბრიდული",
+          "summary": "დაგეგმე და გამოაქვეყნე კონტენტი სააგენტოს კლიენტების არხებზე — ტექსტიდან მოკლე ვერტიკალურ ვიდეომდე — კრეატიულ გუნდთან ერთად.",
+          "requirements": [
+            "სწავლობ მარკეტინგს, ჟურნალისტიკას ან კომუნიკაციას",
+            "შენ მიერ შექმნილი კონტენტის პორტფოლიო — ნებისმიერ პლატფორმაზე",
+            "ტექსტების წერა ქართულ და ინგლისურ ენებზე"
+          ],
+          "offer": [
+            "მუშაობა რეალური კლიენტების ანგარიშებზე",
+            "სტუდიითა და სამონტაჟოთი სარგებლობა",
+            "პორტფოლიო, რომელსაც სწავლის დასრულებისას წარადგენ"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "key": "helix-clinic-assistant",
+    "order": 4,
+    "data": {
+      "id": "helix-clinic-assistant",
+      "status": "open",
+      "field": "health",
+      "kind": "parttime",
+      "deadline": "2026-09-15",
+      "company": "Helix Health",
+      "short": "HH",
+      "text": {
+        "en": {
+          "title": "Clinic front-desk assistant",
+          "type": "Part-time · shifts · paid",
+          "location": "Tbilisi · on site",
+          "summary": "Greet patients, manage appointments and support the nursing team with administration. Evening and weekend shifts suit a full study timetable.",
+          "requirements": [
+            "Studying Medicine or a health-related programme",
+            "Georgian and English; Russian an advantage",
+            "Calm, patient manner"
+          ],
+          "offer": [
+            "Paid shifts you choose two weeks ahead",
+            "First-hand experience of clinical workflow",
+            "Reference for residency applications"
+          ]
+        },
+        "ka": {
+          "title": "კლინიკის მიმღების ასისტენტი",
+          "type": "ნახევარი განაკვეთი · ცვლები · ანაზღაურებადი",
+          "location": "თბილისი · ადგილზე",
+          "summary": "დახვდი პაციენტებს, მართე ვიზიტების ჩაწერა და დაეხმარე საექთნო გუნდს ადმინისტრირებაში. საღამოს და შაბათ-კვირის ცვლები სრულ სასწავლო ცხრილს ერგება.",
+          "requirements": [
+            "სწავლობ მედიცინას ან ჯანდაცვასთან დაკავშირებულ პროგრამაზე",
+            "ქართული და ინგლისური; რუსული უპირატესობაა",
+            "მშვიდი და მომთმენი ხასიათი"
+          ],
+          "offer": [
+            "ანაზღაურებადი ცვლები, რომლებსაც ორი კვირით ადრე ირჩევ",
+            "კლინიკის სამუშაო პროცესის პირადი გამოცდილება",
+            "რეკომენდაცია რეზიდენტურაში განაცხადისთვის"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "key": "nova-retail-analyst",
+    "order": 5,
+    "data": {
+      "id": "nova-retail-analyst",
+      "status": "open",
+      "field": "business",
+      "kind": "graduate",
+      "deadline": "2026-09-30",
+      "company": "Nova Retail",
+      "short": "NR",
+      "text": {
+        "en": {
+          "title": "Graduate business analyst",
+          "type": "Full-time · graduate entry",
+          "location": "Tbilisi · on site",
+          "summary": "A graduate-entry role for final-year students and recent graduates: category analysis, pricing reviews and the reporting that supports buying decisions.",
+          "requirements": [
+            "Final-year student or graduate of the past two years",
+            "Strong analytical skills and spreadsheet fluency",
+            "English at B2 or above"
+          ],
+          "offer": [
+            "12-month structured graduate programme",
+            "Mentor from the leadership team",
+            "Permanent contract on completion"
+          ]
+        },
+        "ka": {
+          "title": "ბიზნესანალიტიკოსი — კურსდამთავრებულთა პოზიცია",
+          "type": "სრული განაკვეთი · კურსდამთავრებულთა პოზიცია",
+          "location": "თბილისი · ადგილზე",
+          "summary": "საწყისი პოზიცია ბოლო კურსის სტუდენტებისა და ახალი კურსდამთავრებულებისთვის: კატეგორიების ანალიზი, ფასების მიმოხილვა და ანგარიშგება, რომელსაც შესყიდვების გადაწყვეტილებები ეყრდნობა.",
+          "requirements": [
+            "ბოლო კურსის სტუდენტი ან ბოლო ორი წლის კურსდამთავრებული",
+            "ძლიერი ანალიტიკური უნარები და ელექტრონულ ცხრილებთან თავისუფალი მუშაობა",
+            "ინგლისური ენა B2 ან უფრო მაღალ დონეზე"
+          ],
+          "offer": [
+            "12-თვიანი სტრუქტურირებული პროგრამა კურსდამთავრებულებისთვის",
+            "მენტორი ხელმძღვანელი გუნდიდან",
+            "პროგრამის დასრულების შემდეგ მუდმივი კონტრაქტი"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "key": "kartu-logistics-ops",
+    "order": 6,
+    "data": {
+      "id": "kartu-logistics-ops",
+      "status": "open",
+      "field": "business",
+      "kind": "internship",
+      "deadline": "2026-09-10",
+      "company": "Kartu Logistics",
+      "short": "KL",
+      "text": {
+        "en": {
+          "title": "Operations intern",
+          "type": "Internship · 20 h / week",
+          "location": "Tbilisi · on site",
+          "summary": "Follow shipments end to end — documentation, customs paperwork and communication with partners across the Black Sea corridor.",
+          "requirements": [
+            "Studying Business Administration, Economics or International Relations",
+            "Organised, comfortable with deadlines",
+            "English; Turkish or Russian an advantage"
+          ],
+          "offer": [
+            "Experience of international trade operations",
+            "Rotation between customs, dispatch and client service",
+            "Certificate of completion"
+          ]
+        },
+        "ka": {
+          "title": "ოპერაციების სტაჟიორი",
+          "type": "სტაჟირება · 20 სთ / კვირაში",
+          "location": "თბილისი · ადგილზე",
+          "summary": "თვალი ადევნე ტვირთებს თავიდან ბოლომდე — დოკუმენტაცია, საბაჟო საბუთები და კომუნიკაცია შავი ზღვის დერეფნის პარტნიორებთან.",
+          "requirements": [
+            "სწავლობ ბიზნესის ადმინისტრირებას, ეკონომიკას ან საერთაშორისო ურთიერთობებს",
+            "ორგანიზებული ხარ და ვადებში მუშაობ",
+            "ინგლისური; თურქული ან რუსული უპირატესობაა"
+          ],
+          "offer": [
+            "საერთაშორისო ვაჭრობის ოპერაციების გამოცდილება",
+            "როტაცია საბაჟოს, დისპეჩერიზაციისა და კლიენტთა მომსახურების გუნდებს შორის",
+            "სტაჟირების დასრულების სერტიფიკატი"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "key": "optio-qa",
+    "order": 7,
+    "data": {
+      "id": "optio-qa",
+      "status": "open",
+      "field": "it",
+      "kind": "parttime",
+      "deadline": "2026-09-18",
+      "company": "Optio Digital",
+      "short": "OD",
+      "text": {
+        "en": {
+          "title": "QA tester (part-time)",
+          "type": "Part-time · 20 h / week",
+          "location": "Tbilisi · remote-friendly",
+          "summary": "Test web and mobile releases, write reproducible bug reports and help maintain the regression checklist.",
+          "requirements": [
+            "Any IT or engineering programme, 1st year upwards",
+            "Methodical attention to detail",
+            "Basic English"
+          ],
+          "offer": [
+            "Remote-friendly hours",
+            "Training in test automation",
+            "Path into the development team"
+          ]
+        },
+        "ka": {
+          "title": "QA ტესტერი (ნახევარი განაკვეთი)",
+          "type": "ნახევარი განაკვეთი · 20 სთ / კვირაში",
+          "location": "თბილისი · შესაძლებელია დისტანციურად",
+          "summary": "გატესტე ვებ და მობილური რელიზები, დაწერე განმეორებადი ხარვეზების აღწერები და დაეხმარე რეგრესიული ტესტირების ჩამონათვალის განახლებაში.",
+          "requirements": [
+            "ნებისმიერი IT ან საინჟინრო პროგრამა, პირველი კურსიდან",
+            "მეთოდურობა და დეტალებზე ყურადღება",
+            "ინგლისური საბაზისო დონეზე"
+          ],
+          "offer": [
+            "დისტანციური მუშაობის შესაძლებლობა",
+            "ტესტირების ავტომატიზაციის სწავლება",
+            "გზა დეველოპმენტის გუნდისკენ"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "key": "aurora-design-intern",
+    "order": 8,
+    "data": {
+      "id": "aurora-design-intern",
+      "status": "closed",
+      "field": "media",
+      "kind": "internship",
+      "deadline": "2026-06-20",
+      "company": "Aurora Studio",
+      "short": "AS",
+      "text": {
+        "en": {
+          "title": "Graphic design intern",
+          "type": "Internship · 16 h / week",
+          "location": "Tbilisi · on site",
+          "summary": "Summer internship with the brand team — layout, social assets and packaging mock-ups under the art director.",
+          "requirements": [
+            "Studying Design or Architecture",
+            "Working knowledge of Figma or the Adobe suite",
+            "A portfolio"
+          ],
+          "offer": [
+            "Art-director supervision",
+            "Published work in your portfolio",
+            "Certificate of completion"
+          ]
+        },
+        "ka": {
+          "title": "გრაფიკული დიზაინის სტაჟიორი",
+          "type": "სტაჟირება · 16 სთ / კვირაში",
+          "location": "თბილისი · ადგილზე",
+          "summary": "საზაფხულო სტაჟირება ბრენდის გუნდში — მაკეტები, სოციალური მედიის მასალები და შეფუთვის ესკიზები არტ-დირექტორის ხელმძღვანელობით.",
+          "requirements": [
+            "სწავლობ დიზაინს ან არქიტექტურას",
+            "Figma-ს ან Adobe-ის პროგრამების სამუშაო ცოდნა",
+            "პორტფოლიო"
+          ],
+          "offer": [
+            "არტ-დირექტორის ზედამხედველობა",
+            "გამოქვეყნებული ნამუშევრები შენს პორტფოლიოში",
+            "სტაჟირების დასრულების სერტიფიკატი"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "key": "civicus-legal-clinic",
+    "order": 9,
+    "data": {
+      "id": "civicus-legal-clinic",
+      "status": "closed",
+      "field": "law",
+      "kind": "internship",
+      "deadline": "2026-06-01",
+      "company": "Civicus Foundation",
+      "short": "CF",
+      "text": {
+        "en": {
+          "title": "Legal clinic volunteer",
+          "type": "Volunteer · 8 h / week",
+          "location": "Tbilisi · on site",
+          "summary": "Support the free legal-aid clinic with intake interviews and case documentation, supervised by practising lawyers.",
+          "requirements": [
+            "2nd-year or above in Law",
+            "Georgian at native level",
+            "Empathy and confidentiality"
+          ],
+          "offer": [
+            "Supervised client contact",
+            "Reference from practising lawyers",
+            "Recognised volunteering hours"
+          ]
+        },
+        "ka": {
+          "title": "იურიდიული კლინიკის მოხალისე",
+          "type": "მოხალისეობა · 8 სთ / კვირაში",
+          "location": "თბილისი · ადგილზე",
+          "summary": "დაეხმარე უფასო იურიდიული დახმარების კლინიკას პირველად გასაუბრებებსა და საქმეების დოკუმენტირებაში, პრაქტიკოსი იურისტების ზედამხედველობით.",
+          "requirements": [
+            "სამართლის მე-2 ან უფროსი კურსის სტუდენტი",
+            "ქართული მშობლიურ დონეზე",
+            "თანაგრძნობა და კონფიდენციალურობის დაცვა"
+          ],
+          "offer": [
+            "კლიენტებთან ურთიერთობა ზედამხედველობით",
+            "რეკომენდაცია პრაქტიკოსი იურისტებისგან",
+            "აღიარებული მოხალისეობრივი საათები"
+          ]
+        }
+      }
+    }
+  }
+]

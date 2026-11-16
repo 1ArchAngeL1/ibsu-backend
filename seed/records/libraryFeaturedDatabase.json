@@ -1,0 +1,16 @@
+[
+  {
+    "key": "default",
+    "order": 0,
+    "data": {
+      "id": "ebsco",
+      "name": "EBSCO",
+      "href": "https://search.ebscohost.com",
+      "logo": "/photos/library/db/ebsco.png",
+      "body": {
+        "ka": "ჩვენი ბიბლიოთეკა გთავაზობთ წვდომას ერთ-ერთ წამყვან საერთაშორისო პლატფორმაზე — **EBSCO**-ს საერთაშორისო მონაცემთა ბაზებზე, რომლებიც აერთიანებს: **13 საერთაშორისო მონაცემთა ბაზას**, **11,000-ზე მეტ დასახელებას** სამეცნიერო და ბიზნესის მიმართულებით, **აშშ-ის ყველაზე გავლენიანი გაზეთების სრულ სტატიებს** და **100,000-ზე მეტ ელექტრონულ წიგნს**, რომლებიც მოიცავს მრავალ სფეროს — ჰუმანიტარულიდან ტექნიკურ მეცნიერებამდე.",
+        "en": "Our library provides access to one of the leading international platforms — **EBSCO** International Databases, which include: **13 international databases**, **more than 11,000 titles** in the fields of science and business, **full articles from the most influential U.S. newspapers** and **over 100,000 e-books** covering a wide range of fields — from the humanities to technical sciences."
+      }
+    }
+  }
+]

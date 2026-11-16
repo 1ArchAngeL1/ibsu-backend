@@ -1,0 +1,178 @@
+[
+  {
+    "key": "soselia-zwickau",
+    "order": 0,
+    "data": {
+      "id": "soselia-zwickau",
+      "category": "exchange",
+      "title": {
+        "en": "#ExchangeStudent: Teimuraz Soselia · West Saxon University, Zwickau",
+        "ka": "#ExchangeStudent: თეიმურაზ სოსელია · ცვიკაუს დასავლეთ საქსონიის უნივერსიტეტი"
+      },
+      "author": {
+        "en": "Teimuraz Soselia",
+        "ka": "თეიმურაზ სოსელია"
+      },
+      "note": {
+        "en": "Germany",
+        "ka": "გერმანია"
+      },
+      "date": "2026-03-12",
+      "img": "/photos/erasmus.webp"
+    }
+  },
+  {
+    "key": "glurjidze-uskudar",
+    "order": 1,
+    "data": {
+      "id": "glurjidze-uskudar",
+      "category": "exchange",
+      "title": {
+        "en": "#ExchangeStudent: Natia Glurjidze · Üsküdar University",
+        "ka": "#ExchangeStudent: ნათია გლურჯიძე · უსკუდარის უნივერსიტეტი"
+      },
+      "author": {
+        "en": "Natia Glurjidze",
+        "ka": "ნათია გლურჯიძე"
+      },
+      "note": {
+        "en": "Türkiye",
+        "ka": "თურქეთი"
+      },
+      "date": "2026-03-04",
+      "img": "/photos/woman-teal.webp"
+    }
+  },
+  {
+    "key": "exam-season",
+    "order": 2,
+    "data": {
+      "id": "exam-season",
+      "category": "tips",
+      "title": {
+        "en": "How I survived exam season — a routine that actually worked",
+        "ka": "როგორ გადავიტანე საგამოცდო სეზონი — რუტინა, რომელმაც ნამდვილად იმუშავა"
+      },
+      "author": {
+        "en": "Ani Merabishvili",
+        "ka": "ანი მერაბიშვილი"
+      },
+      "note": {
+        "en": "Study tips",
+        "ka": "სწავლის რჩევები"
+      },
+      "date": "2026-01-22",
+      "img": "/photos/notebook-pink.webp"
+    }
+  },
+  {
+    "key": "startup-first-week",
+    "order": 3,
+    "data": {
+      "id": "startup-first-week",
+      "category": "career",
+      "title": {
+        "en": "My first week at a startup — from classroom to codebase",
+        "ka": "ჩემი პირველი კვირა სტარტაპში — აუდიტორიიდან კოდამდე"
+      },
+      "author": {
+        "en": "Giorgi Kapanadze",
+        "ka": "გიორგი კაპანაძე"
+      },
+      "note": {
+        "en": "Internship",
+        "ka": "სტაჟირება"
+      },
+      "date": "2026-02-18",
+      "img": "/photos/desk-blue.webp"
+    }
+  },
+  {
+    "key": "newcomers-tbilisi",
+    "order": 4,
+    "data": {
+      "id": "newcomers-tbilisi",
+      "category": "life",
+      "title": {
+        "en": "A newcomer’s guide to Tbilisi: cafes, transport and finding your feet",
+        "ka": "ახალბედის გზამკვლევი თბილისში: კაფეები, ტრანსპორტი და ფეხის მოკიდება"
+      },
+      "author": {
+        "en": "Sara Khan",
+        "ka": "სარა ხანი"
+      },
+      "note": {
+        "en": "Life",
+        "ka": "ცხოვრება"
+      },
+      "date": "2025-10-09",
+      "img": "/photos/hero-campus.webp"
+    }
+  },
+  {
+    "key": "gulbatashvili-isag",
+    "order": 5,
+    "data": {
+      "id": "gulbatashvili-isag",
+      "category": "exchange",
+      "title": {
+        "en": "#ExchangeStudent: Saba Gulbatashvili · ISAG University, Portugal",
+        "ka": "#ExchangeStudent: საბა გულბათაშვილი · ISAG-ის უნივერსიტეტი, პორტუგალია"
+      },
+      "author": {
+        "en": "Saba Gulbatashvili",
+        "ka": "საბა გულბათაშვილი"
+      },
+      "note": {
+        "en": "Portugal",
+        "ka": "პორტუგალია"
+      },
+      "date": "2026-02-28",
+      "img": "/photos/group.webp"
+    }
+  },
+  {
+    "key": "library-five-ways",
+    "order": 6,
+    "data": {
+      "id": "library-five-ways",
+      "category": "tips",
+      "title": {
+        "en": "Five ways to actually use the IBSU library (beyond a quiet seat)",
+        "ka": "ხუთი გზა IBSU-ს ბიბლიოთეკის ნამდვილად გამოსაყენებლად (მხოლოდ წყნარ ადგილს მიღმა)"
+      },
+      "author": {
+        "en": "Davit Tsiklauri",
+        "ka": "დავით წიკლაური"
+      },
+      "note": {
+        "en": "Study tips",
+        "ka": "სწავლის რჩევები"
+      },
+      "date": "2025-11-14",
+      "img": "/photos/model.webp"
+    }
+  },
+  {
+    "key": "first-cv",
+    "order": 7,
+    "data": {
+      "id": "first-cv",
+      "category": "career",
+      "title": {
+        "en": "What the Career Service taught me about my first CV",
+        "ka": "რა მასწავლა კარიერულმა სამსახურმა ჩემი პირველი CV-ის შესახებ"
+      },
+      "author": {
+        "en": "Mariam Beridze",
+        "ka": "მარიამ ბერიძე"
+      },
+      "note": {
+        "en": "Career",
+        "ka": "კარიერა"
+      },
+      "date": "2025-12-06",
+      "img": "/photos/audience.webp"
+    }
+  }
+]

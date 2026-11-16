@@ -1,0 +1,236 @@
+[
+  {
+    "key": "debate",
+    "order": 0,
+    "data": {
+      "id": "debate",
+      "category": {
+        "en": "Academic",
+        "ka": "აკადემიური"
+      },
+      "name": {
+        "en": "Debate Club",
+        "ka": "სადებატო კლუბი"
+      },
+      "body": {
+        "en": "British Parliamentary debate, public-speaking workshops and inter-university tournaments — in English and Georgian.",
+        "ka": "ბრიტანული საპარლამენტო დებატები, საჯარო გამოსვლის ვორქშოფები და საუნივერსიტეტთაშორისო ტურნირები — ინგლისურად და ქართულად."
+      },
+      "meets": {
+        "en": "Tue & Thu, 18:00",
+        "ka": "სამ და ხუთ, 18:00"
+      },
+      "members": 45,
+      "accent": "#e0357e",
+      "icon": "debate"
+    }
+  },
+  {
+    "key": "language",
+    "order": 1,
+    "data": {
+      "id": "language",
+      "category": {
+        "en": "Language",
+        "ka": "ენა"
+      },
+      "name": {
+        "en": "Language Club",
+        "ka": "ენების კლუბი"
+      },
+      "body": {
+        "en": "Conversation evenings across the Language Center’s ten languages, film nights and a Georgian-for-newcomers table.",
+        "ka": "სასაუბრო საღამოები ენების ცენტრის ათ ენაზე, ფილმების ღამეები და ქართულის მაგიდა ახალბედებისთვის."
+      },
+      "meets": {
+        "en": "Wed, 17:00",
+        "ka": "ოთხ, 17:00"
+      },
+      "members": 60,
+      "accent": "#1e62b3",
+      "icon": "language"
+    }
+  },
+  {
+    "key": "business",
+    "order": 2,
+    "data": {
+      "id": "business",
+      "category": {
+        "en": "Professional",
+        "ka": "პროფესიული"
+      },
+      "name": {
+        "en": "Business Club",
+        "ka": "ბიზნეს კლუბი"
+      },
+      "body": {
+        "en": "Case competitions, company visits and a student-led startup pitch night with mentors from the TEC.",
+        "ka": "ქეის-კონკურსები, კომპანიების ვიზიტები და სტუდენტური სტარტაპ-ფიჩინგის ღამე TEC-ის მენტორებით."
+      },
+      "meets": {
+        "en": "Mon, 18:30",
+        "ka": "ორშ, 18:30"
+      },
+      "members": 52,
+      "accent": "#caa000",
+      "icon": "business"
+    }
+  },
+  {
+    "key": "tech",
+    "order": 3,
+    "data": {
+      "id": "tech",
+      "category": {
+        "en": "Technology",
+        "ka": "ტექნოლოგია"
+      },
+      "name": {
+        "en": "IT & Robotics",
+        "ka": "IT და რობოტექნიკა"
+      },
+      "body": {
+        "en": "Hackathons, an Arduino & robotics lab, and weekend coding sprints building real projects.",
+        "ka": "ჰაკათონები, Arduino და რობოტექნიკის ლაბორატორია და შაბათ-კვირის კოდინგ-სპრინტები რეალური პროექტებით."
+      },
+      "meets": {
+        "en": "Fri, 16:00",
+        "ka": "პარ, 16:00"
+      },
+      "members": 38,
+      "accent": "#0f8a86",
+      "icon": "tech"
+    }
+  },
+  {
+    "key": "drama",
+    "order": 4,
+    "data": {
+      "id": "drama",
+      "category": {
+        "en": "Creative",
+        "ka": "შემოქმედებითი"
+      },
+      "name": {
+        "en": "Drama & Film",
+        "ka": "დრამა და ფილმი"
+      },
+      "body": {
+        "en": "Stage productions, a short-film unit and improv workshops — performed at the Aula each semester.",
+        "ka": "სცენური დადგმები, მოკლემეტრაჟიანი ფილმების ჯგუფი და იმპროვიზაციის ვორქშოფები — აულაში ყოველ სემესტრს."
+      },
+      "meets": {
+        "en": "Thu, 18:00",
+        "ka": "ხუთ, 18:00"
+      },
+      "members": 30,
+      "accent": "#f15f2e",
+      "icon": "drama"
+    }
+  },
+  {
+    "key": "volunteers",
+    "order": 5,
+    "data": {
+      "id": "volunteers",
+      "category": {
+        "en": "Community",
+        "ka": "საზოგადოება"
+      },
+      "name": {
+        "en": "Volunteers Club",
+        "ka": "მოხალისეთა კლუბი"
+      },
+      "body": {
+        "en": "Charity drives, the Street Art project and outreach in local schools — service that counts toward the IBSU award.",
+        "ka": "საქველმოქმედო აქციები, Street Art პროექტი და გასვლები ადგილობრივ სკოლებში — საქმიანობა, რომელიც IBSU-ს ჯილდოში ითვლება."
+      },
+      "meets": {
+        "en": "Rolling",
+        "ka": "მუდმივი"
+      },
+      "members": 80,
+      "accent": "#1e9e6a",
+      "icon": "volunteer"
+    }
+  },
+  {
+    "key": "media",
+    "order": 6,
+    "data": {
+      "id": "media",
+      "category": {
+        "en": "Media",
+        "ka": "მედია"
+      },
+      "name": {
+        "en": "Media & Journalism",
+        "ka": "მედია და ჟურნალისტიკა"
+      },
+      "body": {
+        "en": "The student newsroom — reporting, podcasting and the campus radio show, in partnership with the IBSU Media Center.",
+        "ka": "სტუდენტური ნიუსრუმი — რეპორტაჟი, პოდკასტი და კამპუსის რადიოშოუ IBSU-ს მედია ცენტრთან ერთად."
+      },
+      "meets": {
+        "en": "Wed, 16:00",
+        "ka": "ოთხ, 16:00"
+      },
+      "members": 34,
+      "accent": "#7c4dca",
+      "icon": "media"
+    }
+  },
+  {
+    "key": "mun",
+    "order": 7,
+    "data": {
+      "id": "mun",
+      "category": {
+        "en": "Civic",
+        "ka": "სამოქალაქო"
+      },
+      "name": {
+        "en": "Model UN & IR",
+        "ka": "Model UN და IR"
+      },
+      "body": {
+        "en": "Model United Nations delegations, diplomacy simulations and policy debates for international-relations students.",
+        "ka": "გაეროს მოდელის დელეგაციები, დიპლომატიის სიმულაციები და პოლიტიკის დებატები საერთაშორისო ურთიერთობების სტუდენტებისთვის."
+      },
+      "meets": {
+        "en": "Tue, 17:30",
+        "ka": "სამ, 17:30"
+      },
+      "members": 40,
+      "accent": "#c11f66",
+      "icon": "civic"
+    }
+  },
+  {
+    "key": "eco",
+    "order": 8,
+    "data": {
+      "id": "eco",
+      "category": {
+        "en": "Wellbeing",
+        "ka": "კეთილდღეობა"
+      },
+      "name": {
+        "en": "Eco & Wellbeing",
+        "ka": "ეკო და კეთილდღეობა"
+      },
+      "body": {
+        "en": "Campus greening, recycling drives, mindfulness sessions and a peer-support circle run with the counselling office.",
+        "ka": "კამპუსის გამწვანება, გადამუშავების აქციები, mindfulness სესიები და თანატოლთა მხარდაჭერის წრე საკონსულტაციო ოფისთან ერთად."
+      },
+      "meets": {
+        "en": "Mon, 17:00",
+        "ka": "ორშ, 17:00"
+      },
+      "members": 28,
+      "accent": "#0a6e2e",
+      "icon": "eco"
+    }
+  }
+]

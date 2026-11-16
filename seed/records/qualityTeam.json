@@ -1,0 +1,62 @@
+[
+  {
+    "key": "0",
+    "order": 0,
+    "data": {
+      "role": {
+        "en": "Head of service",
+        "ka": "სამსახურის ხელმძღვანელი"
+      },
+      "body": {
+        "en": "Leads the service and the University’s quality agenda.",
+        "ka": "უძღვება სამსახურს და უნივერსიტეტის ხარისხის დღის წესრიგს."
+      },
+      "image": "/photos/man-navy.webp"
+    }
+  },
+  {
+    "key": "1",
+    "order": 1,
+    "data": {
+      "role": {
+        "en": "Quality coordinator",
+        "ka": "ხარისხის კოორდინატორი"
+      },
+      "body": {
+        "en": "Coordinates authorisation and accreditation processes.",
+        "ka": "კოორდინაციას უწევს ავტორიზაციისა და აკრედიტაციის პროცესებს."
+      },
+      "image": "/photos/woman-teal.webp"
+    }
+  },
+  {
+    "key": "2",
+    "order": 2,
+    "data": {
+      "role": {
+        "en": "Quality specialist",
+        "ka": "ხარისხის სპეციალისტი"
+      },
+      "body": {
+        "en": "Runs self-evaluation, monitoring and surveys.",
+        "ka": "ახორციელებს თვითშეფასებას, მონიტორინგსა და გამოკითხვებს."
+      },
+      "image": "/photos/man-check.webp"
+    }
+  },
+  {
+    "key": "3",
+    "order": 3,
+    "data": {
+      "role": {
+        "en": "Administrator",
+        "ka": "ადმინისტრატორი"
+      },
+      "body": {
+        "en": "Supports documentation, reporting and events.",
+        "ka": "მხარს უჭერს დოკუმენტაციას, ანგარიშგებასა და ღონისძიებებს."
+      },
+      "image": "/photos/woman-green.webp"
+    }
+  }
+]

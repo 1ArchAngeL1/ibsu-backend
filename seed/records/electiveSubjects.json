@@ -1,0 +1,128 @@
+[
+  {
+    "key": "history",
+    "order": 0,
+    "data": {
+      "key": "history",
+      "programmes": [
+        "business-administration-management",
+        "business-administration-marketing",
+        "graphic-design",
+        "law",
+        "public-administration-state-governance",
+        "american-studies",
+        "english-philology",
+        "international-relations",
+        "journalism",
+        "public-relations",
+        "psychology"
+      ]
+    }
+  },
+  {
+    "key": "civics",
+    "order": 1,
+    "data": {
+      "key": "civics",
+      "programmes": [
+        "journalism",
+        "international-relations",
+        "law",
+        "public-administration-state-governance"
+      ]
+    }
+  },
+  {
+    "key": "geography",
+    "order": 2,
+    "data": {
+      "key": "geography",
+      "programmes": [
+        "business-administration-tourism",
+        "journalism",
+        "international-relations",
+        "public-administration-state-governance"
+      ]
+    }
+  },
+  {
+    "key": "literature",
+    "order": 3,
+    "data": {
+      "key": "literature",
+      "programmes": [
+        "american-studies",
+        "english-philology",
+        "journalism"
+      ]
+    }
+  },
+  {
+    "key": "maths",
+    "order": 4,
+    "data": {
+      "key": "maths",
+      "programmes": [
+        "business-administration-management",
+        "business-administration-marketing",
+        "business-administration-finances",
+        "business-administration-accounting-audit",
+        "business-administration-tourism",
+        "economics",
+        "computer-science-artificial-intelligence",
+        "architecture",
+        "graphic-design",
+        "public-administration-state-governance",
+        "law",
+        "american-studies",
+        "international-relations",
+        "journalism",
+        "public-relations",
+        "psychology"
+      ]
+    }
+  },
+  {
+    "key": "physics",
+    "order": 5,
+    "data": {
+      "key": "physics",
+      "programmes": [
+        "computer-science-artificial-intelligence",
+        "architecture",
+        "medical-doctor-one-cycle-md"
+      ]
+    }
+  },
+  {
+    "key": "biology",
+    "order": 6,
+    "data": {
+      "key": "biology",
+      "programmes": [
+        "psychology",
+        "medical-doctor-one-cycle-md"
+      ]
+    }
+  },
+  {
+    "key": "chemistry",
+    "order": 7,
+    "data": {
+      "key": "chemistry",
+      "programmes": [
+        "medical-doctor-one-cycle-md"
+      ]
+    }
+  },
+  {
+    "key": "art",
+    "order": 8,
+    "data": {
+      "key": "art",
+      "programmes": [
+        "graphic-design"
+      ]
+    }
+  }
+]

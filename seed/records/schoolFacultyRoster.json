@@ -1,0 +1,1943 @@
+[
+  {
+    "key": "business:0",
+    "order": 0,
+    "data": {
+      "school": "business",
+      "name": {
+        "ka": "ნინო ტალიკაძე",
+        "en": "Nino Talikadze"
+      },
+      "rank": "head",
+      "initials": "NT",
+      "note": {
+        "ka": "საბუღალტრო აღრიცხვისა და აუდიტის საბაკალავრო პროგრამის ხელმძღვანელი",
+        "en": "Head of the BA program in Accounting and Audit"
+      }
+    }
+  },
+  {
+    "key": "business:1",
+    "order": 1,
+    "data": {
+      "school": "business",
+      "name": {
+        "ka": "ნინო ფარცვანია",
+        "en": "Nino Partsvania"
+      },
+      "rank": "professor",
+      "initials": "NP"
+    }
+  },
+  {
+    "key": "business:2",
+    "order": 2,
+    "data": {
+      "school": "business",
+      "name": {
+        "ka": "ლალი მიქელაძე",
+        "en": "Lali Mikeladze"
+      },
+      "rank": "associate",
+      "initials": "LM"
+    }
+  },
+  {
+    "key": "business:3",
+    "order": 3,
+    "data": {
+      "school": "business",
+      "name": {
+        "ka": "თეონა მაისურაძე",
+        "en": "Teona Maisuradze"
+      },
+      "rank": "associate",
+      "initials": "TM"
+    }
+  },
+  {
+    "key": "business:4",
+    "order": 4,
+    "data": {
+      "school": "business",
+      "name": {
+        "ka": "სანდეეფ გულერია",
+        "en": "Sandeep Guleria"
+      },
+      "rank": "assistant",
+      "initials": "SG"
+    }
+  },
+  {
+    "key": "business:5",
+    "order": 5,
+    "data": {
+      "school": "business",
+      "name": {
+        "ka": "ეკა დევიძე",
+        "en": "Eka Devidze"
+      },
+      "rank": "affiliatedProfessor",
+      "initials": "ED"
+    }
+  },
+  {
+    "key": "business:6",
+    "order": 6,
+    "data": {
+      "school": "business",
+      "name": {
+        "ka": "რომან გოცირიძე",
+        "en": "Roman Gotsiridze"
+      },
+      "rank": "affiliatedProfessor",
+      "initials": "RG"
+    }
+  },
+  {
+    "key": "business:7",
+    "order": 7,
+    "data": {
+      "school": "business",
+      "name": {
+        "ka": "ქეთევან ლაფაჩი",
+        "en": "Ketevan Lapachi"
+      },
+      "rank": "affiliatedProfessor",
+      "initials": "KL"
+    }
+  },
+  {
+    "key": "business:8",
+    "order": 8,
+    "data": {
+      "school": "business",
+      "name": {
+        "ka": "მეთინ მერჯან",
+        "en": "Metin Mercan"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "MM"
+    }
+  },
+  {
+    "key": "business:9",
+    "order": 9,
+    "data": {
+      "school": "business",
+      "name": {
+        "ka": "მაკა ბუღულაშვილი",
+        "en": "Maka Bughulashvili"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "MB"
+    }
+  },
+  {
+    "key": "business:10",
+    "order": 10,
+    "data": {
+      "school": "business",
+      "name": {
+        "ka": "ნინო ჯოჯუა",
+        "en": "Nino Jojua"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "NJ"
+    }
+  },
+  {
+    "key": "business:11",
+    "order": 11,
+    "data": {
+      "school": "business",
+      "name": {
+        "ka": "რამაზ გერლიანი",
+        "en": "Ramaz Gerliani"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "RG"
+    }
+  },
+  {
+    "key": "business:12",
+    "order": 12,
+    "data": {
+      "school": "business",
+      "name": {
+        "ka": "თეა კბილცეცხლაშვილი",
+        "en": "Tea Kbiltsetskhlashvili"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "TK"
+    }
+  },
+  {
+    "key": "business:13",
+    "order": 13,
+    "data": {
+      "school": "business",
+      "name": {
+        "ka": "დავით ნიჟარაძე",
+        "en": "Davit Nizharadze"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "DN"
+    }
+  },
+  {
+    "key": "business:14",
+    "order": 14,
+    "data": {
+      "school": "business",
+      "name": {
+        "ka": "ირაკლი ხვთისიაშვილი",
+        "en": "Irakli Khvtisiashvili"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "IK"
+    }
+  },
+  {
+    "key": "business:15",
+    "order": 15,
+    "data": {
+      "school": "business",
+      "name": {
+        "ka": "ნია თოდუა",
+        "en": "Nia Todua"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "NT"
+    }
+  },
+  {
+    "key": "business:16",
+    "order": 16,
+    "data": {
+      "school": "business",
+      "name": {
+        "ka": "არიან მატინ",
+        "en": "Arian Matin"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "AM"
+    }
+  },
+  {
+    "key": "law:17",
+    "order": 17,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "იოსებ ვარძელაშვილი",
+        "en": "Ioseb Vardzelashvili"
+      },
+      "rank": "professor",
+      "initials": "IV"
+    }
+  },
+  {
+    "key": "law:18",
+    "order": 18,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "ქეთევან ქოქრაშვილი",
+        "en": "Ketevan Kokrashvili"
+      },
+      "rank": "professor",
+      "initials": "KK"
+    }
+  },
+  {
+    "key": "law:19",
+    "order": 19,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "თამარ კაკუტია",
+        "en": "Tamar Kakutia"
+      },
+      "rank": "professor",
+      "initials": "TK"
+    }
+  },
+  {
+    "key": "law:20",
+    "order": 20,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "შალვა ჯულაყიძე",
+        "en": "Shalva Julakidze"
+      },
+      "rank": "professor",
+      "initials": "SJ"
+    }
+  },
+  {
+    "key": "law:21",
+    "order": 21,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "ქეთევან ქოჩაშვილი",
+        "en": "Ketevan Kokrashvili"
+      },
+      "rank": "professor",
+      "initials": "KK"
+    }
+  },
+  {
+    "key": "law:22",
+    "order": 22,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "გოგა კიკილაშვილი",
+        "en": "Goga Kikilashvili"
+      },
+      "rank": "professor",
+      "initials": "GK"
+    }
+  },
+  {
+    "key": "law:23",
+    "order": 23,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "ლევან გოთუა",
+        "en": "Levan Gotua"
+      },
+      "rank": "professor",
+      "initials": "LG"
+    }
+  },
+  {
+    "key": "law:24",
+    "order": 24,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "გიორგი მომცელიძე",
+        "en": "Giorgi Momtselidze"
+      },
+      "rank": "professor",
+      "initials": "GM"
+    }
+  },
+  {
+    "key": "law:25",
+    "order": 25,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "დავით გეფერიძე",
+        "en": "Davit Geperidze"
+      },
+      "rank": "professor",
+      "initials": "DG"
+    }
+  },
+  {
+    "key": "law:26",
+    "order": 26,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "თინათინ ერქვანია",
+        "en": "Tinatin Erkvania"
+      },
+      "rank": "professor",
+      "initials": "TE"
+    }
+  },
+  {
+    "key": "law:27",
+    "order": 27,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "ზოია ხასია",
+        "en": "Zoia Khasia"
+      },
+      "rank": "professor",
+      "initials": "ZK"
+    }
+  },
+  {
+    "key": "law:28",
+    "order": 28,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "ირაკლი შამათავა",
+        "en": "Irakli Shamatava"
+      },
+      "rank": "professor",
+      "initials": "IS"
+    }
+  },
+  {
+    "key": "law:29",
+    "order": 29,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "ნინო ბოჭორიშვილი",
+        "en": "Nino Botchorishvili"
+      },
+      "rank": "professor",
+      "initials": "NB"
+    }
+  },
+  {
+    "key": "law:30",
+    "order": 30,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "ეკატერინე ბაღიშვილი",
+        "en": "Ekaterine Baghashvili"
+      },
+      "rank": "professor",
+      "initials": "EB"
+    }
+  },
+  {
+    "key": "law:31",
+    "order": 31,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "ირინა იმერლიშვილი",
+        "en": "Irina Imerlishvili"
+      },
+      "rank": "professor",
+      "initials": "II"
+    }
+  },
+  {
+    "key": "law:32",
+    "order": 32,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "ვეფხვია გრიგალაშვილი",
+        "en": "Vepkhvia Grigalashvili"
+      },
+      "rank": "associate",
+      "initials": "VG"
+    }
+  },
+  {
+    "key": "law:33",
+    "order": 33,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "ვლადიმერ წითლაური",
+        "en": "Vladimer Tsitlauri"
+      },
+      "rank": "associate",
+      "initials": "VT"
+    }
+  },
+  {
+    "key": "law:34",
+    "order": 34,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "თათია ქვრივიშვილი",
+        "en": "Taia Kvrivishvili"
+      },
+      "rank": "associate",
+      "initials": "TK"
+    }
+  },
+  {
+    "key": "law:35",
+    "order": 35,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "ნიკა ასვანუა",
+        "en": "Nika Asvanua"
+      },
+      "rank": "associate",
+      "initials": "NA"
+    }
+  },
+  {
+    "key": "law:36",
+    "order": 36,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "ეკატერინე ლაფაჩი",
+        "en": "Ekaterine Lapachi"
+      },
+      "rank": "associate",
+      "initials": "EL"
+    }
+  },
+  {
+    "key": "law:37",
+    "order": 37,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "ელგუჯა მაკალათია",
+        "en": "Elguja Makalatia"
+      },
+      "rank": "associate",
+      "initials": "EM"
+    }
+  },
+  {
+    "key": "law:38",
+    "order": 38,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "გიორგი ქოჩიშვილი",
+        "en": "Giorgi Kochishvili"
+      },
+      "rank": "associate",
+      "initials": "GK"
+    }
+  },
+  {
+    "key": "law:39",
+    "order": 39,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "ბესიკ მეურმიშვილი",
+        "en": "Besik Meurmishvili"
+      },
+      "rank": "associate",
+      "initials": "BM"
+    }
+  },
+  {
+    "key": "law:40",
+    "order": 40,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "ალექსანდრე გიორგიძე",
+        "en": "Aleksandre Giorgadze"
+      },
+      "rank": "associate",
+      "initials": "AG"
+    }
+  },
+  {
+    "key": "law:41",
+    "order": 41,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "გიორგი სვიანაძე",
+        "en": "Giorgi Svianadze"
+      },
+      "rank": "associate",
+      "initials": "GS"
+    }
+  },
+  {
+    "key": "law:42",
+    "order": 42,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "სიმონ ტაკაშვილი",
+        "en": "Simon Takashvili"
+      },
+      "rank": "associate",
+      "initials": "ST"
+    }
+  },
+  {
+    "key": "law:43",
+    "order": 43,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "ალექსანდრე გიორგიძე",
+        "en": "Aleksandre Giorgidze"
+      },
+      "rank": "associate",
+      "initials": "AG"
+    }
+  },
+  {
+    "key": "law:44",
+    "order": 44,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "ალექსი ჩიკვაიძე",
+        "en": "Aleksi Chikvaidze"
+      },
+      "rank": "assistant",
+      "initials": "AC"
+    }
+  },
+  {
+    "key": "law:45",
+    "order": 45,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "დეა ღადუა",
+        "en": "Dea Ghadua"
+      },
+      "rank": "assistant",
+      "initials": "DG"
+    }
+  },
+  {
+    "key": "law:46",
+    "order": 46,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "სალომე კუჭუხიძე",
+        "en": "Salome Kutchukhidze"
+      },
+      "rank": "assistant",
+      "initials": "SK"
+    }
+  },
+  {
+    "key": "law:47",
+    "order": 47,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "სალომე გულიაშვილი",
+        "en": "Salome Guliashvili"
+      },
+      "rank": "assistant",
+      "initials": "SG"
+    }
+  },
+  {
+    "key": "law:48",
+    "order": 48,
+    "data": {
+      "school": "law",
+      "name": {
+        "ka": "ნათია კეკენაძე",
+        "en": "Natia Kekenadze"
+      },
+      "rank": "assistant",
+      "initials": "NK"
+    }
+  },
+  {
+    "key": "eduhum:49",
+    "order": 49,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "თამუნა ხეთაგური",
+        "en": "Tamuna Khetaguri"
+      },
+      "rank": "associate",
+      "initials": "TK"
+    }
+  },
+  {
+    "key": "eduhum:50",
+    "order": 50,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "გოდერძი ბუჩაშვილი",
+        "en": "Goderdzi Buchashvili"
+      },
+      "rank": "associate",
+      "initials": "GB"
+    }
+  },
+  {
+    "key": "eduhum:51",
+    "order": 51,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ალექსანდრე ქეშელაშვილი",
+        "en": "Aleksandre Keshelashvili"
+      },
+      "rank": "associate",
+      "initials": "AK"
+    }
+  },
+  {
+    "key": "eduhum:52",
+    "order": 52,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ლიკა/ნელი მერაბიშვილი",
+        "en": "Lika/Neli Merabishvili"
+      },
+      "rank": "associate",
+      "initials": "LM"
+    }
+  },
+  {
+    "key": "eduhum:53",
+    "order": 53,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ანნა გვეტაძე",
+        "en": "Anna Gvetadze"
+      },
+      "rank": "associate",
+      "initials": "AG"
+    }
+  },
+  {
+    "key": "eduhum:54",
+    "order": 54,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ლანა სულხანიშვილი",
+        "en": "Lana Sulkhanishvili"
+      },
+      "rank": "associate",
+      "initials": "LS"
+    }
+  },
+  {
+    "key": "eduhum:55",
+    "order": 55,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ივანნა მაჩიტიძე",
+        "en": "Ivanna Machitidze"
+      },
+      "rank": "associate",
+      "initials": "IM"
+    }
+  },
+  {
+    "key": "eduhum:56",
+    "order": 56,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ნათია ობგაიძე",
+        "en": "Natia Obgaidze"
+      },
+      "rank": "assistant",
+      "initials": "NO"
+    }
+  },
+  {
+    "key": "eduhum:57",
+    "order": 57,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ბექა დადეშქელიანი",
+        "en": "Beka Dadeshkeliani"
+      },
+      "rank": "assistant",
+      "initials": "BD"
+    }
+  },
+  {
+    "key": "eduhum:58",
+    "order": 58,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ქეთევან კიკნაძე",
+        "en": "Ketevan Kiknadze"
+      },
+      "rank": "assistant",
+      "initials": "KK"
+    }
+  },
+  {
+    "key": "eduhum:59",
+    "order": 59,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "თორნიკე ჩიხლაძე",
+        "en": "Tornike Chikhladze"
+      },
+      "rank": "assistant",
+      "initials": "TC"
+    }
+  },
+  {
+    "key": "eduhum:60",
+    "order": 60,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "მარიამ მერკვილაძე",
+        "en": "Mariam Merkviladze"
+      },
+      "rank": "assistant",
+      "initials": "MM"
+    }
+  },
+  {
+    "key": "eduhum:61",
+    "order": 61,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ამირან კავაძე",
+        "en": "Amiran Kavadze"
+      },
+      "rank": "affiliatedProfessor",
+      "initials": "AK"
+    }
+  },
+  {
+    "key": "eduhum:62",
+    "order": 62,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "დალი ოსეფაშვილი",
+        "en": "Dali Osepashvili"
+      },
+      "rank": "affiliatedProfessor",
+      "initials": "DO"
+    }
+  },
+  {
+    "key": "eduhum:63",
+    "order": 63,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ნათელა დოღონაძე",
+        "en": "Natela Doghonadze"
+      },
+      "rank": "affiliatedProfessor",
+      "initials": "ND"
+    }
+  },
+  {
+    "key": "eduhum:64",
+    "order": 64,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "თამარ შიოშვილი",
+        "en": "Tamar Shioshvili"
+      },
+      "rank": "affiliatedProfessor",
+      "initials": "TS"
+    }
+  },
+  {
+    "key": "eduhum:65",
+    "order": 65,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ნიკა ჩიტაძე",
+        "en": "Nika Chitadze"
+      },
+      "rank": "affiliatedProfessor",
+      "initials": "NC"
+    }
+  },
+  {
+    "key": "eduhum:66",
+    "order": 66,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ნიკოლოზი ფარჯანიძე",
+        "en": "Nikolozi Parjanadze"
+      },
+      "rank": "affiliatedProfessor",
+      "initials": "NP"
+    }
+  },
+  {
+    "key": "eduhum:67",
+    "order": 67,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "მაია ჩქოტუა",
+        "en": "Maia Chkotua"
+      },
+      "rank": "affiliatedProfessor",
+      "initials": "MC"
+    }
+  },
+  {
+    "key": "eduhum:68",
+    "order": 68,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ირინე ბახტაძე",
+        "en": "Irine Bakhtadze"
+      },
+      "rank": "affiliatedProfessor",
+      "initials": "IB"
+    }
+  },
+  {
+    "key": "eduhum:69",
+    "order": 69,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ეკა ავალიანი",
+        "en": "Eka Avaliani"
+      },
+      "rank": "affiliatedProfessor",
+      "initials": "EA"
+    }
+  },
+  {
+    "key": "eduhum:70",
+    "order": 70,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ეკატერინე ფიფია",
+        "en": "Ekaterine Pipia"
+      },
+      "rank": "affiliatedProfessor",
+      "initials": "EP"
+    }
+  },
+  {
+    "key": "eduhum:71",
+    "order": 71,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "თამთა ცხოვრებაძე",
+        "en": "Tamta Tskhovrebadze"
+      },
+      "rank": "affiliatedProfessor",
+      "initials": "TT"
+    }
+  },
+  {
+    "key": "eduhum:72",
+    "order": 72,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "საფფეთ ბაირაქთუთან",
+        "en": "Saffet Bayraktutan"
+      },
+      "rank": "affiliatedProfessor",
+      "initials": "SB"
+    }
+  },
+  {
+    "key": "eduhum:73",
+    "order": 73,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ია ანთაძე",
+        "en": "Ia Antadze"
+      },
+      "rank": "affiliatedProfessor",
+      "initials": "IA"
+    }
+  },
+  {
+    "key": "eduhum:74",
+    "order": 74,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "მაგდა მემანიშვილი",
+        "en": "Magda Memanishvili"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "MM"
+    }
+  },
+  {
+    "key": "eduhum:75",
+    "order": 75,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ნინო გამსახურდია",
+        "en": "Nino Gamsakhurdia"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "NG"
+    }
+  },
+  {
+    "key": "eduhum:76",
+    "order": 76,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "თეა ჭუმბურიძე",
+        "en": "Tea Chumburidze"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "TC"
+    }
+  },
+  {
+    "key": "eduhum:77",
+    "order": 77,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ჯონათინ გერდეს სკოტ",
+        "en": "Jonathan Gerdes Scott"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "JG"
+    }
+  },
+  {
+    "key": "eduhum:78",
+    "order": 78,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ნიკო თათულაშვილი",
+        "en": "Niko Tatulashvili"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "NT"
+    }
+  },
+  {
+    "key": "eduhum:79",
+    "order": 79,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "გიგი წიკლაური",
+        "en": "Gigi Tsiklauri"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "GT"
+    }
+  },
+  {
+    "key": "eduhum:80",
+    "order": 80,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ეკატერინე არჩვაძე",
+        "en": "Ekaterine Archvadze"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "EA"
+    }
+  },
+  {
+    "key": "eduhum:81",
+    "order": 81,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "მარიამ ბაკურაძე",
+        "en": "Mariam Bakuridze"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "MB"
+    }
+  },
+  {
+    "key": "eduhum:82",
+    "order": 82,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ინგა ჟღენტი",
+        "en": "Inga Zgenti"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "IZ"
+    }
+  },
+  {
+    "key": "eduhum:83",
+    "order": 83,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "მალხაზ გაგუა",
+        "en": "Malkhaz Gagua"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "MG"
+    }
+  },
+  {
+    "key": "eduhum:84",
+    "order": 84,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ირმა მესირიძე",
+        "en": "Irma Mesiridze"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "IM"
+    }
+  },
+  {
+    "key": "eduhum:85",
+    "order": 85,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "გიორგი შადური",
+        "en": "Giorgi Shaduri"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "GS"
+    }
+  },
+  {
+    "key": "eduhum:86",
+    "order": 86,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "დიმიტრი ნადირაძე",
+        "en": "Dimitri Nadiradze"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "DN"
+    }
+  },
+  {
+    "key": "eduhum:87",
+    "order": 87,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "მარიამ ბანძელაძე",
+        "en": "Mariam Bandzeladze"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "MB"
+    }
+  },
+  {
+    "key": "eduhum:88",
+    "order": 88,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ნინო თვალჭრელიძე",
+        "en": "Nino Tvaltchrelidze"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "NT"
+    }
+  },
+  {
+    "key": "eduhum:89",
+    "order": 89,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ლელა აბდუშელიშვილი",
+        "en": "Lela Abdushelishvili"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "LA"
+    }
+  },
+  {
+    "key": "eduhum:90",
+    "order": 90,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ინგა ტყემალაძე",
+        "en": "Inga Tkemaladze"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "IT"
+    }
+  },
+  {
+    "key": "eduhum:91",
+    "order": 91,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "თამარ ქარაზანიშვილი",
+        "en": "Tamar Karazanishvili"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "TK"
+    }
+  },
+  {
+    "key": "eduhum:92",
+    "order": 92,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "გივი ამაღლობელი",
+        "en": "Givi Amaghlobeli"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "GA"
+    }
+  },
+  {
+    "key": "eduhum:93",
+    "order": 93,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ნინო ქიტოშვილი",
+        "en": "Nino Kitoshvili"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "NK"
+    }
+  },
+  {
+    "key": "eduhum:94",
+    "order": 94,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ნინა გოგოხია",
+        "en": "Nina Gogokhia"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "NG"
+    }
+  },
+  {
+    "key": "eduhum:95",
+    "order": 95,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ნათია პავლიაშვილი",
+        "en": "Natia Pavliashvili"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "NP"
+    }
+  },
+  {
+    "key": "eduhum:96",
+    "order": 96,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "მარინე ბოჭორიძე",
+        "en": "Marine Botchorishvili"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "MB"
+    }
+  },
+  {
+    "key": "eduhum:97",
+    "order": 97,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "დიმიტრი ცინცაძე",
+        "en": "Dimitri Tsintsadze"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "DT"
+    }
+  },
+  {
+    "key": "eduhum:98",
+    "order": 98,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "გურანდა ხაბეიშვილი",
+        "en": "Guranda Khabeishvili"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "GK"
+    }
+  },
+  {
+    "key": "eduhum:99",
+    "order": 99,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ნატო ფაჩუაშვილი",
+        "en": "Nato Pachuashvili"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "NP"
+    }
+  },
+  {
+    "key": "eduhum:100",
+    "order": 100,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ნინო ყულოშვილი",
+        "en": "Nino Kuloshvili"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "NK"
+    }
+  },
+  {
+    "key": "eduhum:101",
+    "order": 101,
+    "data": {
+      "school": "eduhum",
+      "name": {
+        "ka": "ეკატერინე ბაქარაძე",
+        "en": "Ekaterine Bakaradze"
+      },
+      "rank": "affiliatedAssociate",
+      "initials": "EB"
+    }
+  },
+  {
+    "key": "computing:102",
+    "order": 102,
+    "data": {
+      "school": "computing",
+      "name": {
+        "ka": "გიორგი მუხიაშვილი",
+        "en": "Giorgi Mukhiashvili"
+      },
+      "rank": "professor",
+      "initials": "GM"
+    }
+  },
+  {
+    "key": "computing:103",
+    "order": 103,
+    "data": {
+      "school": "computing",
+      "name": {
+        "ka": "ალი პარსაიან",
+        "en": "Ali Parsayan"
+      },
+      "rank": "professor",
+      "initials": "AP"
+    }
+  },
+  {
+    "key": "computing:104",
+    "order": 104,
+    "data": {
+      "school": "computing",
+      "name": {
+        "ka": "გიორგი ღლონტი",
+        "en": "Giorgi Ghlonti"
+      },
+      "rank": "professor",
+      "initials": "GG"
+    }
+  },
+  {
+    "key": "computing:105",
+    "order": 105,
+    "data": {
+      "school": "computing",
+      "name": {
+        "ka": "ირაკლი როდონაია",
+        "en": "Irakli Rodonaia"
+      },
+      "rank": "professor",
+      "initials": "IR"
+    }
+  },
+  {
+    "key": "computing:106",
+    "order": 106,
+    "data": {
+      "school": "computing",
+      "name": {
+        "ka": "ნანა იაშვილი",
+        "en": "Nana Iashvili"
+      },
+      "rank": "professor",
+      "initials": "NI"
+    }
+  },
+  {
+    "key": "computing:107",
+    "order": 107,
+    "data": {
+      "school": "computing",
+      "name": {
+        "ka": "მარინა რაზმაძე",
+        "en": "Marina Razmadze"
+      },
+      "rank": "associate",
+      "initials": "MR"
+    }
+  },
+  {
+    "key": "computing:108",
+    "order": 108,
+    "data": {
+      "school": "computing",
+      "name": {
+        "ka": "ანა მგალობლიშვილი",
+        "en": "Ana Mgaloblishvili"
+      },
+      "rank": "associate",
+      "initials": "AM"
+    }
+  },
+  {
+    "key": "computing:109",
+    "order": 109,
+    "data": {
+      "school": "computing",
+      "name": {
+        "ka": "დავით ნიკოლაიშვილი",
+        "en": "Davit Nikolaishvili"
+      },
+      "rank": "associate",
+      "initials": "DN"
+    }
+  },
+  {
+    "key": "computing:110",
+    "order": 110,
+    "data": {
+      "school": "computing",
+      "name": {
+        "ka": "ანრი მორჩილაძე",
+        "en": "Anri Morchiladze"
+      },
+      "rank": "associate",
+      "initials": "AM"
+    }
+  },
+  {
+    "key": "computing:111",
+    "order": 111,
+    "data": {
+      "school": "computing",
+      "name": {
+        "ka": "გიორგი ბაღათურია",
+        "en": "Giorgi Bagaturia"
+      },
+      "rank": "associate",
+      "initials": "GB"
+    }
+  },
+  {
+    "key": "computing:112",
+    "order": 112,
+    "data": {
+      "school": "computing",
+      "name": {
+        "ka": "გიორგი გაბუნია",
+        "en": "Giorgi Gabunia"
+      },
+      "rank": "associate",
+      "initials": "GG"
+    }
+  },
+  {
+    "key": "computing:113",
+    "order": 113,
+    "data": {
+      "school": "computing",
+      "name": {
+        "ka": "გიორგი შენგელია",
+        "en": "Giorgi Shengelia"
+      },
+      "rank": "associate",
+      "initials": "GS"
+    }
+  },
+  {
+    "key": "computing:114",
+    "order": 114,
+    "data": {
+      "school": "computing",
+      "name": {
+        "ka": "გიორგი ცუცქირიძე",
+        "en": "Giorgi Tsutskiridze"
+      },
+      "rank": "associate",
+      "initials": "GT"
+    }
+  },
+  {
+    "key": "computing:115",
+    "order": 115,
+    "data": {
+      "school": "computing",
+      "name": {
+        "ka": "დავით დათუაშვილი",
+        "en": "Davit Datuashvili"
+      },
+      "rank": "associate",
+      "initials": "DD"
+    }
+  },
+  {
+    "key": "computing:116",
+    "order": 116,
+    "data": {
+      "school": "computing",
+      "name": {
+        "ka": "დიანა მჭედლიშვილი",
+        "en": "Diana Mchedlishvili"
+      },
+      "rank": "associate",
+      "initials": "DM"
+    }
+  },
+  {
+    "key": "computing:117",
+    "order": 117,
+    "data": {
+      "school": "computing",
+      "name": {
+        "ka": "ვახტანგ როდონაია",
+        "en": "Vakhtang Rodonaia"
+      },
+      "rank": "associate",
+      "initials": "VR"
+    }
+  },
+  {
+    "key": "computing:118",
+    "order": 118,
+    "data": {
+      "school": "computing",
+      "name": {
+        "ka": "თეა შავაძე",
+        "en": "Tea Shavadze"
+      },
+      "rank": "associate",
+      "initials": "TS"
+    }
+  },
+  {
+    "key": "computing:119",
+    "order": 119,
+    "data": {
+      "school": "computing",
+      "name": {
+        "ka": "ციალა ქვათაძე",
+        "en": "Tsiala Kvatadze"
+      },
+      "rank": "assistant",
+      "initials": "TK"
+    }
+  },
+  {
+    "key": "medicine:120",
+    "order": 120,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "ზვიად კირტავა",
+        "en": "Zviad Kirtava"
+      },
+      "rank": "professor",
+      "initials": "ZK"
+    }
+  },
+  {
+    "key": "medicine:121",
+    "order": 121,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "თენგიზ ვერულავა",
+        "en": "Tengiz Verulava"
+      },
+      "rank": "professor",
+      "initials": "TV"
+    }
+  },
+  {
+    "key": "medicine:122",
+    "order": 122,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "მამუკა ნემსაძე",
+        "en": "Mamuka Nemsadze"
+      },
+      "rank": "professor",
+      "initials": "MN"
+    }
+  },
+  {
+    "key": "medicine:123",
+    "order": 123,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "მზია წიკლაური",
+        "en": "Mzia Tsiklauri"
+      },
+      "rank": "professor",
+      "initials": "MT"
+    }
+  },
+  {
+    "key": "medicine:124",
+    "order": 124,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "გიორგი დუღაშვილი",
+        "en": "Giorgi Dugashvili"
+      },
+      "rank": "professor",
+      "initials": "GD"
+    }
+  },
+  {
+    "key": "medicine:125",
+    "order": 125,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "გიორგი მეგრელიშვილი",
+        "en": "Giorgi Megrelishvil"
+      },
+      "rank": "professor",
+      "initials": "GM"
+    }
+  },
+  {
+    "key": "medicine:126",
+    "order": 126,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "გიორგი წივწივაძე",
+        "en": "Giorgi Tsivtsivadze"
+      },
+      "rank": "professor",
+      "initials": "GT"
+    }
+  },
+  {
+    "key": "medicine:127",
+    "order": 127,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "სოფიო თამაზაშვილი",
+        "en": "Sofiko Tamazashvili"
+      },
+      "rank": "professor",
+      "initials": "ST"
+    }
+  },
+  {
+    "key": "medicine:128",
+    "order": 128,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "ანა მაჩაბლიშვილი",
+        "en": "Ana Machablishvili"
+      },
+      "rank": "associate",
+      "initials": "AM"
+    }
+  },
+  {
+    "key": "medicine:129",
+    "order": 129,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "სოფიო ტატიშვილი",
+        "en": "Sofio Tatishvili"
+      },
+      "rank": "associate",
+      "initials": "ST"
+    }
+  },
+  {
+    "key": "medicine:130",
+    "order": 130,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "თეა აბჟანდაძე",
+        "en": "Tea Abzhandadze"
+      },
+      "rank": "associate",
+      "initials": "TA"
+    }
+  },
+  {
+    "key": "medicine:131",
+    "order": 131,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "მარინა შიხაშვილი",
+        "en": "Marina Shikhashvili"
+      },
+      "rank": "associate",
+      "initials": "MS"
+    }
+  },
+  {
+    "key": "medicine:132",
+    "order": 132,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "ნატალია ჯანყარაშვილი",
+        "en": "Natalia Jankarashvili"
+      },
+      "rank": "associate",
+      "initials": "NJ"
+    }
+  },
+  {
+    "key": "medicine:133",
+    "order": 133,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "ლელა აბდუშელიშვილი",
+        "en": "Lela Abdushelishvili"
+      },
+      "rank": "associate",
+      "initials": "LA"
+    }
+  },
+  {
+    "key": "medicine:134",
+    "order": 134,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "ანზორ გოგიბერიძე",
+        "en": "Anzor Gogiberidze"
+      },
+      "rank": "associate",
+      "initials": "AG"
+    }
+  },
+  {
+    "key": "medicine:135",
+    "order": 135,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "მამუკა მჭედლიძე",
+        "en": "Mamuka Mchedlidze"
+      },
+      "rank": "associate",
+      "initials": "MM"
+    }
+  },
+  {
+    "key": "medicine:136",
+    "order": 136,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "ანა ჭოხონელიძე",
+        "en": "Ana Chokhonelidze"
+      },
+      "rank": "associate",
+      "initials": "AC"
+    }
+  },
+  {
+    "key": "medicine:137",
+    "order": 137,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "მელანია ჩარგაზია",
+        "en": "Melania Chargazia"
+      },
+      "rank": "assistant",
+      "initials": "MC"
+    }
+  },
+  {
+    "key": "medicine:138",
+    "order": 138,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "კონსტანტინე ჩახუნაშვილი",
+        "en": "Konstantine Chakhunashvili"
+      },
+      "rank": "assistant",
+      "initials": "KC"
+    }
+  },
+  {
+    "key": "medicine:139",
+    "order": 139,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "თამარ ჭიხორია",
+        "en": "Tamar Chikhoria"
+      },
+      "rank": "assistant",
+      "initials": "TC"
+    }
+  },
+  {
+    "key": "medicine:140",
+    "order": 140,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "თამარ ხუციშვილი",
+        "en": "Tamar Khutsishvili"
+      },
+      "rank": "assistant",
+      "initials": "TK"
+    }
+  },
+  {
+    "key": "medicine:141",
+    "order": 141,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "თორნიკე გახოკიძე",
+        "en": "Tornike Gakhokidze"
+      },
+      "rank": "assistant",
+      "initials": "TG"
+    }
+  },
+  {
+    "key": "medicine:142",
+    "order": 142,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "დავით გაგნიძე",
+        "en": "Davit Gagnidze"
+      },
+      "rank": "assistant",
+      "initials": "DG"
+    }
+  },
+  {
+    "key": "medicine:143",
+    "order": 143,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "დავით ჩახუნაშვილი",
+        "en": "Davit Chakhunashvili"
+      },
+      "rank": "assistant",
+      "initials": "DC"
+    }
+  },
+  {
+    "key": "medicine:144",
+    "order": 144,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "ლალი ხურცია",
+        "en": "Lali Khurtsia"
+      },
+      "rank": "assistant",
+      "initials": "LK"
+    }
+  },
+  {
+    "key": "medicine:145",
+    "order": 145,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "ნესტან გვეტაძე",
+        "en": "Nestan Gvetadze"
+      },
+      "rank": "assistant",
+      "initials": "NG"
+    }
+  },
+  {
+    "key": "medicine:146",
+    "order": 146,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "ნიკოლოზ კვარაცხელია",
+        "en": "Nikoloz Kvaratskhelia"
+      },
+      "rank": "assistant",
+      "initials": "NK"
+    }
+  },
+  {
+    "key": "medicine:147",
+    "order": 147,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "სალომე კუკავა",
+        "en": "Salome Kukava"
+      },
+      "rank": "assistant",
+      "initials": "SK"
+    }
+  },
+  {
+    "key": "medicine:148",
+    "order": 148,
+    "data": {
+      "school": "medicine",
+      "name": {
+        "ka": "რატი ლომიძე",
+        "en": "Rati Lomidze"
+      },
+      "rank": "assistant",
+      "initials": "RL"
+    }
+  }
+]

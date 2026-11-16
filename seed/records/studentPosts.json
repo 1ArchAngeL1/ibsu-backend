@@ -1,0 +1,86 @@
+[
+  {
+    "key": "poetry-evening",
+    "order": 0,
+    "data": {
+      "id": "poetry-evening",
+      "date": "2025-07-08",
+      "img": "/photos/media/students/poetry-evening.jpg",
+      "title": {
+        "en": "Poetry Evening, spring semester 2025",
+        "ka": "პოეზიის საღამო 2025 წლის გაზაფხულის სემესტრში"
+      },
+      "body": [
+        {
+          "en": "Ketevan Godredzishvili has been organizing poetry evenings featuring student participation at the International Black Sea University for years. The several-year pause caused by the pandemic ended in the Spring Semester of 2025. This semester, at the initiative of Ketevan Godredzishvili and with the participation of IBSU students, poetry evenings were held twice, once directly at the university and the second time at the Karalashvili cellar.",
+          "ka": "ქეთევან გოდრეძიშვილი სტუდენტების მონაწილეობით პოეზიის საღამოებს წლებია, რაც შავი ზღვის საერთაშორისო უნივერსიტეტში მართავს. პანდემიით გამოწვეული რამდენიმეწლიანი პაუზა, 2025 წლის გაზაფხულის სემესტრში დასრულდა. ამ სემესტრში ქეთევან გოდერძიშვილის ინიციატივითა და IBSU-ს სტუდენტების მონაწილეობით პოეზიის საღამო ორჯერ ჩატარდა, ერთხელ უშუალოდ უნივერსიტეტში, მეორეჯერ კი – ყარალაშვილების მარანში."
+        }
+      ]
+    }
+  },
+  {
+    "key": "competition",
+    "order": 1,
+    "data": {
+      "id": "competition",
+      "date": "2025-02-19",
+      "img": "/photos/media/students/competition.jpg",
+      "title": {
+        "en": "IBSU journalism students win a competition",
+        "ka": "IBSU-ს ჟურნალისტიკის პროგრამის სტუდენტებმა კონკურსში გაიმარჯვეს"
+      },
+      "body": [
+        {
+          "en": "Five students of the Bachelor of Journalism program at the International Black Sea University won certificates and cash prizes in a closed competition to raise public awareness about vaccination. The competition was part of a larger project funded by the Austrian Development Agency (ADA), the Austrian Red Cross (AuRC) and the International Federation of Red Cross and Red Crescent Societies (IFRC), implemented by the local Red Cross organizations in Georgia and Armenia under the title “Epidemic Preparedness and Response to COVID-19 in Armenia and Georgia”.",
+          "ka": "სერტიფიკატები და ფულადი პრიზები გადაეცათ შავი ზღვის საერთაშორისო უნივერსიტეტის ჟურნალისტიკის საბაკალავრო პროგრამის ხუთ სტუდენტს, რომლებმაც ვაქცინაციის შესახებ საზოგადოებრივი ცნობიერების ამაღლების დახურულ კონკურსში გაიმარჯვეს. კონკურსი იყო ნაწილი დიდი პროექტისა, რომელიც ავსტრიის განვითარების სააგენტოს (ADA), ავსტრიის წითელი ჯვრის (AuRC) და წითელი ჯვრისა და წითელი ნახევარმთვარის საერთაშორისო ფედერაციის (IFRC) მიერ დაფინანსდა და რომელსაც საქართველოსა და სომხეთში წითელი ჯვრის ადგილობრივმა ორგანიზაციებმა განახორციელეს სახელწოდებით „ეპიდემიების მიმართ მზაობა და კოვიდ-19-ზე რეაგირება სომხეთსა და საქართველოში“."
+        }
+      ],
+      "author": {
+        "en": "By Mariam Chalauri and Elene Savaneli",
+        "ka": "ავტორი: მარიამ ჩალაური, ელენე სავანელი"
+      }
+    }
+  },
+  {
+    "key": "photo-exhibition",
+    "order": 2,
+    "data": {
+      "id": "photo-exhibition",
+      "date": "2025-02-19",
+      "img": "/photos/media/students/photo-exhibition.jpg",
+      "title": {
+        "en": "Photo exhibition at IBSU",
+        "ka": "ფოტოგამოფენა IBSU-ში"
+      },
+      "body": [
+        {
+          "en": "The International Black Sea University hosted an annual student photo exhibition. Students enrolled in the Journalism Bachelor program showcased their finest photographs captured as part of the “Photojournalism” course.",
+          "ka": "სტუდენტთა ტრადიციული ფოტოგამოფენა შედგა შავი ზღვის საერთაშორისო უნივერსიტეტის ეზოში. ჟურნალისტიკის საბაკალავრო პროგრამის სტუდენტებმა საგან „ფოტოჟურნალისტიკის“ ფარგლებში გადაღებული საუკეთესო ფოტოები გამოფინეს. საგნის ფარგლებში სტუდენტებმა მოაწყვეს ექსპედიცია ყაზბეგის მუნიციპალიტეტში, მოინახულეს დარიალის ხეობა, სოფელი სნო და გერგეტის სამება."
+        }
+      ],
+      "author": {
+        "en": "By Natia Nozadze",
+        "ka": "ავტორი: ნათია ნოზაძე"
+      }
+    }
+  },
+  {
+    "key": "ano-tvildiani",
+    "order": 3,
+    "data": {
+      "id": "ano-tvildiani",
+      "date": "2023-09-29",
+      "img": "/photos/media/students/ano-tvildiani.jpg",
+      "title": {
+        "en": "Ano Tvildiani",
+        "ka": "ანო ტვილდიანი"
+      },
+      "body": [
+        {
+          "en": "A student of the Bachelor of Journalism program at International Black Sea University.",
+          "ka": "„შავი ზღვის საერთაშორისო უნივერსიტეტის“ ჟურნალისტიკის საბაკალავრო პროგრამის სტუდენტი."
+        }
+      ]
+    }
+  }
+]

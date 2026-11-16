@@ -1,0 +1,128 @@
+[
+  {
+    "key": "default",
+    "order": 0,
+    "data": {
+      "management": {
+        "ka": "მენეჯმენტი",
+        "en": "Management"
+      },
+      "marketing": {
+        "ka": "მარკეტინგი",
+        "en": "Marketing"
+      },
+      "economics": {
+        "ka": "ეკონომიკა",
+        "en": "Economics"
+      },
+      "finance": {
+        "ka": "ფინანსები",
+        "en": "Finance"
+      },
+      "accounting": {
+        "ka": "ბუღალტერია",
+        "en": "Accounting"
+      },
+      "business": {
+        "ka": "ბიზნესი",
+        "en": "Business"
+      },
+      "businessAdmin": {
+        "ka": "ბიზნესის ადმინისტრირება",
+        "en": "Business Administration"
+      },
+      "tourism": {
+        "ka": "ტურიზმი",
+        "en": "Tourism"
+      },
+      "hospitality": {
+        "ka": "ტურიზმი (სასტუმრო და რესტორნების მენეჯმენტი)",
+        "en": "Tourism (Hotel and Restaurant Management)"
+      },
+      "computerScience": {
+        "ka": "კომპიუტერული მეცნიერება",
+        "en": "Computer Science"
+      },
+      "architecture": {
+        "ka": "არქიტექტურა",
+        "en": "Architecture"
+      },
+      "englishPhilology": {
+        "ka": "ინგლისური ფილოლოგია",
+        "en": "English Philology"
+      },
+      "teacherTraining": {
+        "ka": "ინგლისური ფილოლოგია (მასწავლებლის მომზადების პროგრამა)",
+        "en": "English Philology (Teacher Training Program)"
+      },
+      "americanStudies": {
+        "ka": "ამერიკისმცოდნეობა",
+        "en": "American Studies"
+      },
+      "psychology": {
+        "ka": "ფსიქოლოგია",
+        "en": "Psychology"
+      },
+      "internationalRelations": {
+        "ka": "საერთაშორისო ურთიერთობები",
+        "en": "International Relations"
+      },
+      "law": {
+        "ka": "სამართალი",
+        "en": "Law"
+      },
+      "journalism": {
+        "ka": "ჟურნალისტიკა",
+        "en": "Journalism"
+      },
+      "medicine": {
+        "ka": "მედიცინა",
+        "en": "Medicine"
+      },
+      "publicAdmin": {
+        "ka": "საჯარო ადმინისტრირება და სახელმწიფო მმართველობა",
+        "en": "Public Administration and State Governance"
+      },
+      "eduAdmin": {
+        "ka": "განათლების ადმინისტრირება",
+        "en": "Education Administration"
+      },
+      "eduLeadership": {
+        "ka": "საგანმანათლებლო ლიდერობა და პოლიტიკა",
+        "en": "Educational Leadership and Policy"
+      },
+      "cognitiveSystems": {
+        "ka": "შემეცნებითი სისტემები",
+        "en": "Cognitive Systems"
+      },
+      "riskManagement": {
+        "ka": "საწარმოთა რისკების მართვა",
+        "en": "Enterprise Risk Management"
+      },
+      "globalBusiness": {
+        "ka": "გლობალური ბიზნესი და ეკონომიკა",
+        "en": "Global Business and Economics"
+      },
+      "intlBusinessDev": {
+        "ka": "საერთაშორისო ბიზნესის განვითარება",
+        "en": "International Business Development"
+      },
+      "criminalLaw": {
+        "ka": "სისხლის სამართალი",
+        "en": "Criminal Law"
+      },
+      "privateLaw": {
+        "ka": "კერძო სამართალი",
+        "en": "Civil and Business Law"
+      },
+      "publicLaw": {
+        "ka": "საჯარო სამართალი",
+        "en": "State Law"
+      },
+      "comparativeLaw": {
+        "ka": "საერთაშორისო სამართალი და შედარებითი კანონმდებლობა",
+        "en": "International and Comparative Law"
+      }
+    }
+  }
+]

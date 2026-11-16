@@ -1,0 +1,44 @@
+[
+  {
+    "key": "default",
+    "order": 0,
+    "data": {
+      "clj": {
+        "sc": "#7a1f2b",
+        "soft": "#f6e8ea",
+        "ink": "#5e141d",
+        "bright": "#a23a48"
+      },
+      "jebs": {
+        "sc": "#1f5fa8",
+        "soft": "#e9f0f9",
+        "ink": "#184880",
+        "bright": "#4183ce"
+      },
+      "jh": {
+        "sc": "#7a1f2b",
+        "soft": "#f6e8ea",
+        "ink": "#5e141d",
+        "bright": "#a23a48"
+      },
+      "jb": {
+        "sc": "#1d7a5f",
+        "soft": "#e9f9f5",
+        "ink": "#165d48",
+        "bright": "#36a987"
+      },
+      "jtst": {
+        "sc": "#2f6db0",
+        "soft": "#e9f1f9",
+        "ink": "#245386",
+        "bright": "#6091c7"
+      },
+      "jss": {
+        "sc": "#6a3aa0",
+        "soft": "#f1eaf8",
+        "ink": "#512c7a",
+        "bright": "#8e68b9"
+      }
+    }
+  }
+]

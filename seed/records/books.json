@@ -1,0 +1,110 @@
+[
+  {
+    "key": "foundations-of-entrepreneurship",
+    "order": 0,
+    "data": {
+      "id": "foundations-of-entrepreneurship",
+      "title": {
+        "en": "Foundations of Entrepreneurship",
+        "ka": "მეწარმეობის საფუძვლები"
+      },
+      "byline": {
+        "en": "School of Business",
+        "ka": "ბიზნესის სკოლა"
+      },
+      "school": "business",
+      "format": "monograph",
+      "year": 2025
+    }
+  },
+  {
+    "key": "comparative-constitutional-law",
+    "order": 1,
+    "data": {
+      "id": "comparative-constitutional-law",
+      "title": {
+        "en": "Comparative Constitutional Law",
+        "ka": "შედარებითი საკონსტიტუციო სამართალი"
+      },
+      "byline": {
+        "en": "School of Law",
+        "ka": "სამართლის სკოლა"
+      },
+      "school": "law",
+      "format": "monograph",
+      "year": 2024
+    }
+  },
+  {
+    "key": "methods-in-educational-research",
+    "order": 2,
+    "data": {
+      "id": "methods-in-educational-research",
+      "title": {
+        "en": "Methods in Educational Research",
+        "ka": "მეთოდები საგანმანათლებლო კვლევაში"
+      },
+      "byline": {
+        "en": "Education, Humanities & Social Sciences",
+        "ka": "განათლება, ჰუმანიტარული და სოციალური მეცნიერებები"
+      },
+      "school": "eduhum",
+      "format": "textbook",
+      "year": 2024
+    }
+  },
+  {
+    "key": "applied-machine-learning",
+    "order": 3,
+    "data": {
+      "id": "applied-machine-learning",
+      "title": {
+        "en": "Applied Machine Learning",
+        "ka": "გამოყენებითი მანქანური სწავლება"
+      },
+      "byline": {
+        "en": "Computer Science & Architecture",
+        "ka": "კომპიუტერული მეცნიერება და არქიტექტურა"
+      },
+      "school": "computing",
+      "format": "textbook",
+      "year": 2025
+    }
+  },
+  {
+    "key": "essays-in-regional-economy",
+    "order": 4,
+    "data": {
+      "id": "essays-in-regional-economy",
+      "title": {
+        "en": "Essays in Regional Economy",
+        "ka": "ესეები რეგიონულ ეკონომიკაში"
+      },
+      "byline": {
+        "en": "Edited volume",
+        "ka": "რედაქტირებული კრებული"
+      },
+      "school": null,
+      "format": "collection",
+      "year": 2023
+    }
+  },
+  {
+    "key": "public-health-in-transition",
+    "order": 5,
+    "data": {
+      "id": "public-health-in-transition",
+      "title": {
+        "en": "Public Health in Transition",
+        "ka": "საზოგადოებრივი ჯანდაცვა გარდამავალ პერიოდში"
+      },
+      "byline": {
+        "en": "School of Medicine",
+        "ka": "მედიცინის სკოლა"
+      },
+      "school": "medicine",
+      "format": "monograph",
+      "year": 2024
+    }
+  }
+]

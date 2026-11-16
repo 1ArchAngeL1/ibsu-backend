@@ -1,0 +1,296 @@
+[
+  {
+    "key": "a1",
+    "order": 0,
+    "data": {
+      "id": "a1",
+      "category": "defences",
+      "date": "2026-06-24",
+      "kind": {
+        "en": "Doctoral defence",
+        "ka": "სადოქტორო დაცვა"
+      },
+      "unit": {
+        "en": "Computer Science",
+        "ka": "კომპიუტერული მეცნიერება"
+      },
+      "title": {
+        "en": "Public defence of a doctoral dissertation in Computer Science",
+        "ka": "სადოქტორო დისერტაციის საჯარო დაცვა კომპიუტერულ მეცნიერებაში"
+      },
+      "excerpt": {
+        "en": "The defence will be held in the IBSU senate hall; the dissertation and abstract are available on request.",
+        "ka": "დაცვა გაიმართება IBSU-ს სენატის დარბაზში; დისერტაცია და ანოტაცია ხელმისაწვდომია მოთხოვნისამებრ."
+      }
+    }
+  },
+  {
+    "key": "a2",
+    "order": 1,
+    "data": {
+      "id": "a2",
+      "category": "competitions",
+      "date": "2026-06-18",
+      "kind": {
+        "en": "Academic competition",
+        "ka": "აკადემიური კონკურსი"
+      },
+      "unit": {
+        "en": "Business",
+        "ka": "ბიზნესი"
+      },
+      "title": {
+        "en": "Results of the academic-staff competition — School of Business",
+        "ka": "აკადემიური პერსონალის კონკურსის შედეგები — ბიზნესის სკოლა"
+      },
+      "excerpt": {
+        "en": "The list of selected candidates for professor and associate-professor positions has been published.",
+        "ka": "გამოქვეყნდა პროფესორისა და ასოცირებული პროფესორის პოზიციებზე შერჩეულ კანდიდატთა სია."
+      }
+    }
+  },
+  {
+    "key": "a3",
+    "order": 2,
+    "data": {
+      "id": "a3",
+      "category": "exchange",
+      "date": "2026-06-10",
+      "kind": {
+        "en": "Exchange · open",
+        "ka": "გაცვლა · ღია"
+      },
+      "unit": {
+        "en": "Erasmus+",
+        "ka": "Erasmus+"
+      },
+      "title": {
+        "en": "Open call: Erasmus+ student mobility for the 2026–27 academic year",
+        "ka": "ღია კონკურსი: Erasmus+ სტუდენტური მობილობა 2026–27 სასწავლო წლისთვის"
+      },
+      "excerpt": {
+        "en": "Applications are open for outgoing mobility to partner universities across Europe. Deadline and documents inside.",
+        "ka": "გახსნილია განაცხადები გამავალ მობილობაზე ევროპის პარტნიორ უნივერსიტეტებში. ვადა და დოკუმენტები შიგნით."
+      }
+    }
+  },
+  {
+    "key": "a4",
+    "order": 3,
+    "data": {
+      "id": "a4",
+      "category": "general",
+      "date": "2026-06-02",
+      "kind": {
+        "en": "General",
+        "ka": "ზოგადი"
+      },
+      "unit": null,
+      "title": {
+        "en": "Spring-semester examination schedule is now published",
+        "ka": "გამოქვეყნდა საგაზაფხულო სემესტრის საგამოცდო განრიგი"
+      },
+      "excerpt": {
+        "en": "Final examination dates for all programs are available on EMIS; check your personal timetable.",
+        "ka": "ყველა პროგრამის დასკვნითი გამოცდების თარიღები ხელმისაწვდომია EMIS-ზე; შეამოწმე შენი პირადი განრიგი."
+      }
+    }
+  },
+  {
+    "key": "a5",
+    "order": 4,
+    "data": {
+      "id": "a5",
+      "category": "defences",
+      "date": "2026-02-11",
+      "kind": {
+        "en": "Doctoral defence",
+        "ka": "სადოქტორო დაცვა"
+      },
+      "unit": {
+        "en": "Business",
+        "ka": "ბიზნესი"
+      },
+      "title": {
+        "en": "Public defence of a doctoral dissertation in Business Administration",
+        "ka": "სადოქტორო დისერტაციის საჯარო დაცვა ბიზნესის ადმინისტრირებაში"
+      },
+      "excerpt": {
+        "en": "Open to the academic community; the abstract is available from the doctoral office.",
+        "ka": "ღიაა აკადემიური საზოგადოებისთვის; ანოტაცია ხელმისაწვდომია სადოქტორო ოფისიდან."
+      }
+    }
+  },
+  {
+    "key": "a6",
+    "order": 5,
+    "data": {
+      "id": "a6",
+      "category": "exchange",
+      "date": "2026-02-05",
+      "kind": {
+        "en": "Exchange · completed",
+        "ka": "გაცვლა · დასრულებული"
+      },
+      "unit": {
+        "en": "Mobility",
+        "ka": "მობილობა"
+      },
+      "title": {
+        "en": "Completed 2025 mobility: report on outgoing and incoming exchanges",
+        "ka": "დასრულებული 2025 მობილობა: ანგარიში გამავალ და შემომავალ გაცვლებზე"
+      },
+      "excerpt": {
+        "en": "A summary of the past year’s Erasmus+ and bilateral mobility, with student numbers and destinations.",
+        "ka": "გასული წლის Erasmus+ და ორმხრივი მობილობის შეჯამება სტუდენტთა რაოდენობითა და მიმართულებებით."
+      }
+    }
+  },
+  {
+    "key": "a7",
+    "order": 6,
+    "data": {
+      "id": "a7",
+      "category": "competitions",
+      "date": "2026-01-20",
+      "kind": {
+        "en": "Academic competition",
+        "ka": "აკადემიური კონკურსი"
+      },
+      "unit": {
+        "en": "Open",
+        "ka": "ღია"
+      },
+      "title": {
+        "en": "Announcement: competition for academic positions across the schools",
+        "ka": "განცხადება: კონკურსი აკადემიურ პოზიციებზე სკოლების მასშტაბით"
+      },
+      "excerpt": {
+        "en": "IBSU announces a competition for academic-staff vacancies; eligibility and documents are listed.",
+        "ka": "IBSU აცხადებს კონკურსს აკადემიური პერსონალის ვაკანსიებზე; პირობები და დოკუმენტები ჩამოთვლილია."
+      }
+    }
+  },
+  {
+    "key": "a8",
+    "order": 7,
+    "data": {
+      "id": "a8",
+      "category": "general",
+      "date": "2026-01-15",
+      "kind": {
+        "en": "General · admission",
+        "ka": "ზოგადი · მიღება"
+      },
+      "unit": null,
+      "title": {
+        "en": "Spring-intake registration dates for new and transferring students",
+        "ka": "საგაზაფხულო მიღების რეგისტრაციის თარიღები ახალი და გადმომავალი სტუდენტებისთვის"
+      },
+      "excerpt": {
+        "en": "Registration windows and the required documents for spring enrolment are confirmed.",
+        "ka": "დადასტურებულია რეგისტრაციის ფანჯრები და საჭირო დოკუმენტები საგაზაფხულო ჩარიცხვისთვის."
+      }
+    }
+  },
+  {
+    "key": "a9",
+    "order": 8,
+    "data": {
+      "id": "a9",
+      "category": "defences",
+      "date": "2025-12-12",
+      "kind": {
+        "en": "Doctoral defence",
+        "ka": "სადოქტორო დაცვა"
+      },
+      "unit": {
+        "en": "Education Sciences",
+        "ka": "განათლების მეცნიერებები"
+      },
+      "title": {
+        "en": "Public defence of a doctoral dissertation in Education Sciences",
+        "ka": "სადოქტორო დისერტაციის საჯარო დაცვა განათლების მეცნიერებებში"
+      },
+      "excerpt": {
+        "en": "Held at IBSU; members of the dissertation council and the public are welcome.",
+        "ka": "გაიმართება IBSU-ში; მისასალმებელია სადისერტაციო საბჭოს წევრები და საზოგადოება."
+      }
+    }
+  },
+  {
+    "key": "a10",
+    "order": 9,
+    "data": {
+      "id": "a10",
+      "category": "other",
+      "date": "2025-11-28",
+      "kind": {
+        "en": "Other",
+        "ka": "სხვა"
+      },
+      "unit": {
+        "en": "Library",
+        "ka": "ბიბლიოთეკა"
+      },
+      "title": {
+        "en": "Extended library opening hours during the examination period",
+        "ka": "ბიბლიოთეკის გახანგრძლივებული სამუშაო საათები საგამოცდო პერიოდში"
+      },
+      "excerpt": {
+        "en": "The reading room will stay open later through the exam weeks; see the updated schedule.",
+        "ka": "სამკითხველო დარბაზი საგამოცდო კვირებში გვიანობამდე იმუშავებს; იხილე განახლებული განრიგი."
+      }
+    }
+  },
+  {
+    "key": "a11",
+    "order": 10,
+    "data": {
+      "id": "a11",
+      "category": "other",
+      "date": "2025-11-10",
+      "kind": {
+        "en": "Other",
+        "ka": "სხვა"
+      },
+      "unit": {
+        "en": "Scholarships",
+        "ka": "სტიპენდიები"
+      },
+      "title": {
+        "en": "Internal scholarship and grant application window now open",
+        "ka": "გახსნილია შიდა სტიპენდიისა და გრანტის განაცხადების ფანჯარა"
+      },
+      "excerpt": {
+        "en": "Eligible students can apply for internal merit and need-based support; criteria inside.",
+        "ka": "შესაბამისი სტუდენტები შეძლებენ შიდა მერიტ- და საჭიროებაზე დაფუძნებული მხარდაჭერის მოთხოვნას; კრიტერიუმები შიგნით."
+      }
+    }
+  },
+  {
+    "key": "a12",
+    "order": 11,
+    "data": {
+      "id": "a12",
+      "category": "competitions",
+      "date": "2025-10-30",
+      "kind": {
+        "en": "Academic competition",
+        "ka": "აკადემიური კონკურსი"
+      },
+      "unit": {
+        "en": "Computing",
+        "ka": "კომპიუტერული მეცნიერება"
+      },
+      "title": {
+        "en": "Results of the academic-staff competition — Computer Science & Architecture",
+        "ka": "აკადემიური პერსონალის კონკურსის შედეგები — კომპიუტერული მეცნიერება და არქიტექტურა"
+      },
+      "excerpt": {
+        "en": "The selection committee has confirmed the appointed candidates for the school.",
+        "ka": "შესარჩევმა კომისიამ დაამტკიცა სკოლისთვის დანიშნული კანდიდატები."
+      }
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "key": "default",
+    "order": 0,
+    "data": {
+      "name": {
+        "en": "Irakli Shamatava",
+        "ka": "ირაკლი შამათავა"
+      },
+      "initials": "IS",
+      "role": {
+        "en": "Journal Editor · Doctor of Law, Affiliated Professor",
+        "ka": "ჟურნალის რედაქტორი · სამართლის დოქტორი, აფილირებული პროფესორი"
+      },
+      "email": "irakli.shamatava@ibsu.edu.ge"
+    }
+  }
+]

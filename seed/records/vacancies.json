@@ -1,0 +1,408 @@
+[
+  {
+    "key": "med-acad",
+    "order": 0,
+    "data": {
+      "id": "med-acad",
+      "status": "open",
+      "category": "academic",
+      "deadline": "2026-07-14",
+      "text": {
+        "en": {
+          "title": "Academic competition — School of Medicine",
+          "categoryLabel": "Academic competition",
+          "unit": "School of Medicine",
+          "type": "Academic · Professor / Associate Professor",
+          "summary": "Open competition for academic positions (professor, associate and assistant professor) in clinical and basic medical disciplines for the English-taught MD program.",
+          "requirements": [
+            "A relevant academic degree (PhD / MD or equivalent) in the field of the position",
+            "Teaching and, where required, clinical experience",
+            "Publications appropriate to the academic rank applied for",
+            "Command of English (the program is English-taught)"
+          ],
+          "documents": [
+            "Application and CV",
+            "Copies of diplomas and academic-rank documents",
+            "List of publications",
+            "Motivation letter"
+          ]
+        },
+        "ka": {
+          "title": "აკადემიური კონკურსი — მედიცინის სკოლა",
+          "categoryLabel": "აკადემიური კონკურსი",
+          "unit": "მედიცინის სკოლა",
+          "type": "აკადემიური · პროფესორი / ასოცირებული პროფესორი",
+          "summary": "ღია კონკურსი აკადემიურ თანამდებობებზე (პროფესორი, ასოცირებული და ასისტენტ-პროფესორი) კლინიკურ და საბაზისო სამედიცინო დისციპლინებში, ინგლისურენოვანი MD პროგრამისთვის.",
+          "requirements": [
+            "პოზიციის სფეროში შესაბამისი აკადემიური ხარისხი (PhD / MD ან ექვივალენტური)",
+            "სწავლების და, საჭიროების შემთხვევაში, კლინიკური გამოცდილება",
+            "მოთხოვნილი აკადემიური თანამდებობის შესაბამისი პუბლიკაციები",
+            "ინგლისური ენის ცოდნა (პროგრამა ინგლისურენოვანია)"
+          ],
+          "documents": [
+            "განცხადება და CV",
+            "დიპლომებისა და აკადემიური თანამდებობის დამადასტურებელი დოკუმენტების ასლები",
+            "პუბლიკაციების სია",
+            "სამოტივაციო წერილი"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "key": "lect-business",
+    "order": 1,
+    "data": {
+      "id": "lect-business",
+      "status": "open",
+      "category": "academic",
+      "deadline": "2026-07-30",
+      "text": {
+        "en": {
+          "title": "Invited lecturer — School of Business",
+          "categoryLabel": "Lecturer",
+          "unit": "School of Business",
+          "type": "Academic · Invited lecturer",
+          "summary": "Invited lecturers are sought across management, finance, marketing and economics to deliver bachelor and master courses in the upcoming academic year.",
+          "requirements": [
+            "A master’s or doctoral degree in a relevant field",
+            "Practical or academic experience in the subject taught",
+            "Ability to teach in English and/or Georgian"
+          ],
+          "documents": [
+            "CV",
+            "Copy of the relevant diploma",
+            "Short statement of the courses you can teach"
+          ]
+        },
+        "ka": {
+          "title": "მოწვეული ლექტორი — ბიზნესის სკოლა",
+          "categoryLabel": "ლექტორი",
+          "unit": "ბიზნესის სკოლა",
+          "type": "აკადემიური · მოწვეული ლექტორი",
+          "summary": "ვეძებთ მოწვეულ ლექტორებს მენეჯმენტის, ფინანსების, მარკეტინგისა და ეკონომიკის მიმართულებით, საბაკალავრო და სამაგისტრო კურსების წასაკითხად მომავალ სასწავლო წელს.",
+          "requirements": [
+            "მაგისტრის ან დოქტორის ხარისხი შესაბამის სფეროში",
+            "პრაქტიკული ან აკადემიური გამოცდილება სასწავლო საგანში",
+            "ინგლისურ და/ან ქართულ ენაზე სწავლების უნარი"
+          ],
+          "documents": [
+            "CV",
+            "შესაბამისი დიპლომის ასლი",
+            "იმ კურსების მოკლე ჩამონათვალი, რომელთა სწავლებაც შეგიძლიათ"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "key": "eng-lang",
+    "order": 2,
+    "data": {
+      "id": "eng-lang",
+      "status": "open",
+      "category": "academic",
+      "deadline": "2026-07-22",
+      "text": {
+        "en": {
+          "title": "English language instructor — Language Center",
+          "categoryLabel": "Instructor",
+          "unit": "Language Center",
+          "type": "Academic · Language instructor",
+          "summary": "The Language Center is hiring English instructors to teach general and academic English to students across all schools.",
+          "requirements": [
+            "A degree in English philology, linguistics, TEFL/TESOL or a related field",
+            "A recognised teaching qualification is an advantage",
+            "C1–C2 level English"
+          ],
+          "documents": [
+            "CV",
+            "Copy of diploma and certificates",
+            "Motivation letter"
+          ]
+        },
+        "ka": {
+          "title": "ინგლისური ენის ინსტრუქტორი — ენების ცენტრი",
+          "categoryLabel": "ინსტრუქტორი",
+          "unit": "ენების ცენტრი",
+          "type": "აკადემიური · ენის ინსტრუქტორი",
+          "summary": "ენების ცენტრი ეძებს ინგლისური ენის ინსტრუქტორებს, რომლებიც ყველა სკოლის სტუდენტებს ზოგად და აკადემიურ ინგლისურს ასწავლიან.",
+          "requirements": [
+            "ხარისხი ინგლისურ ფილოლოგიაში, ლინგვისტიკაში, TEFL/TESOL-ში ან მონათესავე სფეროში",
+            "აღიარებული პედაგოგიური კვალიფიკაცია უპირატესობად ჩაითვლება",
+            "ინგლისური ენის ცოდნა C1–C2 დონეზე"
+          ],
+          "documents": [
+            "CV",
+            "დიპლომისა და სერტიფიკატების ასლები",
+            "სამოტივაციო წერილი"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "key": "it-support",
+    "order": 3,
+    "data": {
+      "id": "it-support",
+      "status": "open",
+      "category": "admin",
+      "deadline": "2026-07-18",
+      "text": {
+        "en": {
+          "title": "IT support specialist",
+          "categoryLabel": "Administrative",
+          "unit": "IT Service",
+          "type": "Administrative · Full-time",
+          "summary": "Provide first-line technical support for staff and classrooms — workstations, network access, lecture-hall equipment and the University’s systems.",
+          "requirements": [
+            "Experience in IT support or system administration",
+            "Knowledge of Windows, networks and common office systems",
+            "Problem-solving attitude and good communication"
+          ],
+          "documents": [
+            "CV",
+            "Motivation letter"
+          ]
+        },
+        "ka": {
+          "title": "IT მხარდაჭერის სპეციალისტი",
+          "categoryLabel": "ადმინისტრაციული",
+          "unit": "IT სამსახური",
+          "type": "ადმინისტრაციული · სრული განაკვეთი",
+          "summary": "პირველი ხაზის ტექნიკური მხარდაჭერა თანამშრომლებისა და აუდიტორიებისთვის — სამუშაო სადგურები, ქსელზე წვდომა, სალექციო დარბაზების აღჭურვილობა და უნივერსიტეტის სისტემები.",
+          "requirements": [
+            "გამოცდილება IT მხარდაჭერაში ან სისტემურ ადმინისტრირებაში",
+            "Windows-ის, ქსელებისა და გავრცელებული საოფისე სისტემების ცოდნა",
+            "პრობლემების გადაჭრაზე ორიენტირებული მიდგომა და კომუნიკაციის კარგი უნარი"
+          ],
+          "documents": [
+            "CV",
+            "სამოტივაციო წერილი"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "key": "law-acad",
+    "order": 4,
+    "data": {
+      "id": "law-acad",
+      "status": "closed",
+      "category": "academic",
+      "deadline": "2026-06-15",
+      "text": {
+        "en": {
+          "title": "Academic competition — Law & State Governance School",
+          "categoryLabel": "Academic competition",
+          "unit": "School of Law and State Governance",
+          "type": "Academic · Professor / Associate Professor",
+          "summary": "Open competition for academic positions in law and public administration disciplines.",
+          "requirements": [
+            "A doctoral degree in law or a related field",
+            "Academic and/or professional experience",
+            "Publications appropriate to the rank"
+          ],
+          "documents": [
+            "Application and CV",
+            "Copies of diplomas",
+            "List of publications",
+            "Motivation letter"
+          ]
+        },
+        "ka": {
+          "title": "აკადემიური კონკურსი — სამართლისა და სახელმწიფო მართვის სკოლა",
+          "categoryLabel": "აკადემიური კონკურსი",
+          "unit": "სამართლისა და სახელმწიფო მართვის სკოლა",
+          "type": "აკადემიური · პროფესორი / ასოცირებული პროფესორი",
+          "summary": "ღია კონკურსი აკადემიურ თანამდებობებზე სამართლისა და საჯარო ადმინისტრირების დისციპლინებში.",
+          "requirements": [
+            "დოქტორის ხარისხი სამართალში ან მონათესავე სფეროში",
+            "აკადემიური და/ან პროფესიული გამოცდილება",
+            "თანამდებობის შესაბამისი პუბლიკაციები"
+          ],
+          "documents": [
+            "განცხადება და CV",
+            "დიპლომების ასლები",
+            "პუბლიკაციების სია",
+            "სამოტივაციო წერილი"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "key": "paid-intern",
+    "order": 5,
+    "data": {
+      "id": "paid-intern",
+      "status": "closed",
+      "category": "intern",
+      "deadline": "2026-05-05",
+      "text": {
+        "en": {
+          "title": "Paid internship",
+          "categoryLabel": "Internship",
+          "unit": "University administration",
+          "type": "Internship · Paid",
+          "summary": "A paid internship for students and recent graduates to gain practical experience within University administrative services.",
+          "requirements": [
+            "Current student or recent graduate",
+            "Responsibility and willingness to learn",
+            "Basic computer skills"
+          ],
+          "documents": [
+            "CV",
+            "Short motivation letter"
+          ]
+        },
+        "ka": {
+          "title": "ანაზღაურებადი სტაჟირება",
+          "categoryLabel": "სტაჟირება",
+          "unit": "უნივერსიტეტის ადმინისტრაცია",
+          "type": "სტაჟირება · ანაზღაურებადი",
+          "summary": "ანაზღაურებადი სტაჟირება სტუდენტებისა და ახალი კურსდამთავრებულებისთვის, უნივერსიტეტის ადმინისტრაციულ სამსახურებში პრაქტიკული გამოცდილების მისაღებად.",
+          "requirements": [
+            "მოქმედი სტუდენტი ან ახალი კურსდამთავრებული",
+            "პასუხისმგებლობა და სწავლის სურვილი",
+            "კომპიუტერის საბაზისო ცოდნა"
+          ],
+          "documents": [
+            "CV",
+            "მოკლე სამოტივაციო წერილი"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "key": "acad-open",
+    "order": 6,
+    "data": {
+      "id": "acad-open",
+      "status": "closed",
+      "category": "academic",
+      "deadline": "2026-03-20",
+      "text": {
+        "en": {
+          "title": "Academic open competition",
+          "categoryLabel": "Academic competition",
+          "unit": "Several schools",
+          "type": "Academic · Open competition",
+          "summary": "University-wide open competition for academic positions across schools.",
+          "requirements": [
+            "A relevant academic degree",
+            "Experience and publications appropriate to the rank applied for"
+          ],
+          "documents": [
+            "Application and CV",
+            "Copies of diplomas",
+            "List of publications"
+          ]
+        },
+        "ka": {
+          "title": "აკადემიური ღია კონკურსი",
+          "categoryLabel": "აკადემიური კონკურსი",
+          "unit": "რამდენიმე სკოლა",
+          "type": "აკადემიური · ღია კონკურსი",
+          "summary": "საუნივერსიტეტო ღია კონკურსი აკადემიურ თანამდებობებზე სხვადასხვა სკოლაში.",
+          "requirements": [
+            "შესაბამისი აკადემიური ხარისხი",
+            "მოთხოვნილი თანამდებობის შესაბამისი გამოცდილება და პუბლიკაციები"
+          ],
+          "documents": [
+            "განცხადება და CV",
+            "დიპლომების ასლები",
+            "პუბლიკაციების სია"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "key": "sport-spec",
+    "order": 7,
+    "data": {
+      "id": "sport-spec",
+      "status": "closed",
+      "category": "admin",
+      "deadline": "2026-03-20",
+      "text": {
+        "en": {
+          "title": "Specialist — sport, culture & student-organisation relations",
+          "categoryLabel": "Administrative",
+          "unit": "Student Affairs Service",
+          "type": "Administrative · Full-time",
+          "summary": "Coordinate sport, cultural and student-organisation activity and support relations with student and youth organisations.",
+          "requirements": [
+            "Higher education",
+            "Experience working with student / youth activities",
+            "Strong organisational and communication skills"
+          ],
+          "documents": [
+            "CV",
+            "Motivation letter"
+          ]
+        },
+        "ka": {
+          "title": "სპეციალისტი — სპორტი, კულტურა და სტუდენტურ ორგანიზაციებთან ურთიერთობა",
+          "categoryLabel": "ადმინისტრაციული",
+          "unit": "სტუდენტურ საქმეთა სამსახური",
+          "type": "ადმინისტრაციული · სრული განაკვეთი",
+          "summary": "სპორტული, კულტურული და სტუდენტური ორგანიზაციების საქმიანობის კოორდინაცია და სტუდენტურ და ახალგაზრდულ ორგანიზაციებთან ურთიერთობის ხელშეწყობა.",
+          "requirements": [
+            "უმაღლესი განათლება",
+            "სტუდენტურ / ახალგაზრდულ აქტივობებთან მუშაობის გამოცდილება",
+            "ორგანიზაციული და კომუნიკაციის კარგი უნარები"
+          ],
+          "documents": [
+            "CV",
+            "სამოტივაციო წერილი"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "key": "guard",
+    "order": 8,
+    "data": {
+      "id": "guard",
+      "status": "closed",
+      "category": "admin",
+      "deadline": "2026-03-15",
+      "text": {
+        "en": {
+          "title": "Security guard",
+          "categoryLabel": "Administrative",
+          "unit": "Security Service",
+          "type": "Administrative · Shift",
+          "summary": "Maintain order and safety on campus, monitor access and support the day-to-day security of the University.",
+          "requirements": [
+            "Responsibility and attentiveness",
+            "Relevant experience is an advantage"
+          ],
+          "documents": [
+            "CV / application"
+          ]
+        },
+        "ka": {
+          "title": "დაცვის თანამშრომელი",
+          "categoryLabel": "ადმინისტრაციული",
+          "unit": "დაცვის სამსახური",
+          "type": "ადმინისტრაციული · ცვლებში მუშაობა",
+          "summary": "წესრიგისა და უსაფრთხოების დაცვა კამპუსზე, შესვლის კონტროლი და უნივერსიტეტის ყოველდღიური უსაფრთხოების უზრუნველყოფა.",
+          "requirements": [
+            "პასუხისმგებლობა და ყურადღებიანობა",
+            "შესაბამისი გამოცდილება უპირატესობად ჩაითვლება"
+          ],
+          "documents": [
+            "CV / განცხადება"
+          ]
+        }
+      }
+    }
+  }
+]

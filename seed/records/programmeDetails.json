@@ -1,0 +1,113 @@
+[
+  {
+    "key": "bachelor/business-administration-management",
+    "order": 0,
+    "data": {
+      "programmeKey": "bachelor/business-administration-management",
+      "image": {
+        "src": "/photos/man-navy.webp",
+        "alt": {
+          "en": "Management students in seminar at the School of Business",
+          "ka": "მენეჯმენტის სტუდენტები სემინარზე ბიზნესის სკოლაში"
+        }
+      },
+      "objective": [
+        {
+          "en": "The Management program prepares specialists who can plan, organise, lead and control the work of a modern organisation. It builds a firm grounding in economics, accounting and quantitative methods, then layers the practical disciplines of management — strategy, operations, marketing and people — on top.",
+          "ka": "მენეჯმენტის პროგრამა ამზადებს სპეციალისტებს, რომლებსაც შეუძლიათ თანამედროვე ორგანიზაციის საქმიანობის დაგეგმვა, ორგანიზება, ხელმძღვანელობა და კონტროლი. ის ამყარებს მტკიცე საფუძველს ეკონომიკაში, ბუღალტერიასა და რაოდენობრივ მეთოდებში, შემდეგ კი ამატებს მენეჯმენტის პრაქტიკულ დისციპლინებს — სტრატეგია, ოპერაციები, მარკეტინგი და ადამიანური რესურსები."
+        },
+        {
+          "en": "Teaching is case-driven and seminar-based, with class sizes kept small so discussion stays at the centre. From the second year students work on live business problems brought in by Tbilisi companies, so graduates leave with judgement and a portfolio, not only a transcript.",
+          "ka": "სწავლება ეფუძნება ქეისებსა და სემინარებს, ჯგუფები მცირეა, რომ დისკუსია ცენტრში დარჩეს. მეორე წლიდან სტუდენტები მუშაობენ თბილისის კომპანიების რეალურ ბიზნეს-ამოცანებზე, ასე რომ კურსდამთავრებულები გადიან გამოცდილებითა და პორტფოლიოთი, და არა მხოლოდ ჩანაწერით."
+        }
+      ],
+      "study": {
+        "intro": {
+          "en": "The curriculum spans 240 ECTS across four years — a shared business core, a management specialisation, free electives and a final project.",
+          "ka": "სასწავლო გეგმა მოიცავს 240 ECTS-ს ოთხი წლის განმავლობაში — საერთო ბიზნეს-ბირთვი, მენეჯმენტის სპეციალიზაცია, თავისუფალი არჩევითი საგნები და დასკვნითი პროექტი."
+        },
+        "items": [
+          {
+            "en": "Principles of management & organisational theory",
+            "ka": "მენეჯმენტის პრინციპები და ორგანიზაციის თეორია"
+          },
+          {
+            "en": "Microeconomics & macroeconomics",
+            "ka": "მიკროეკონომიკა და მაკროეკონომიკა"
+          },
+          {
+            "en": "Financial & managerial accounting",
+            "ka": "ფინანსური და მმართველობითი ბუღალტერია"
+          },
+          {
+            "en": "Marketing & market research",
+            "ka": "მარკეტინგი და ბაზრის კვლევა"
+          },
+          {
+            "en": "Human-resource & organisational behaviour",
+            "ka": "ადამიანური რესურსები და ორგანიზაციული ქცევა"
+          },
+          {
+            "en": "Operations & project management",
+            "ka": "ოპერაციებისა და პროექტების მართვა"
+          },
+          {
+            "en": "Business statistics & quantitative methods",
+            "ka": "ბიზნეს-სტატისტიკა და რაოდენობრივი მეთოდები"
+          },
+          {
+            "en": "Business law, ethics & corporate governance",
+            "ka": "ბიზნეს-სამართალი, ეთიკა და კორპორაციული მართვა"
+          },
+          {
+            "en": "Strategic management & entrepreneurship",
+            "ka": "სტრატეგიული მენეჯმენტი და მეწარმეობა"
+          },
+          {
+            "en": "Bachelor’s thesis & supervised practicum",
+            "ka": "საბაკალავრო ნაშრომი და ზედამხედველობითი პრაქტიკა"
+          }
+        ]
+      },
+      "careers": [
+        {
+          "en": "Graduates take up roles as managers and team leads, project and operations coordinators, HR and marketing specialists, business and financial analysts, and entrepreneurs founding their own ventures — across private companies, public institutions and the non-profit sector.",
+          "ka": "კურსდამთავრებულები მუშაობენ მენეჯერებად და გუნდის ლიდერებად, პროექტებისა და ოპერაციების კოორდინატორებად, HR და მარკეტინგის სპეციალისტებად, ბიზნეს- და ფინანსურ ანალიტიკოსებად და მეწარმეებად, რომლებიც საკუთარ წამოწყებებს აარსებენ — კერძო კომპანიებში, საჯარო დაწესებულებებსა და არაკომერციულ სექტორში."
+        },
+        {
+          "en": "The degree is also a direct route into master’s study at IBSU in Management, Marketing, Finance or Management & Information Technologies.",
+          "ka": "ხარისხი ასევე პირდაპირი გზაა IBSU-ის მაგისტრატურისკენ მენეჯმენტში, მარკეტინგში, ფინანსებში ან მენეჯმენტსა და საინფორმაციო ტექნოლოგიებში."
+        }
+      ],
+      "admission": [
+        {
+          "en": "National unified entrance examinations, per the annual admission rule",
+          "ka": "ეროვნული ერთიანი მისაღები გამოცდები, ყოველწლიური მიღების წესის მიხედვით"
+        },
+        {
+          "en": "Required and elective subjects set by the Business faculty",
+          "ka": "ბიზნესის ფაკულტეტის მიერ განსაზღვრული სავალდებულო და არჩევითი საგნები"
+        },
+        {
+          "en": "Internal transfer & mobility per the credit-recognition rule",
+          "ka": "შიდა მობილობა და გადასვლა კრედიტების აღიარების წესის მიხედვით"
+        },
+        {
+          "en": "For international applicants — see Admission (Foreigners)",
+          "ka": "საერთაშორისო აპლიკანტებისთვის — იხილე მიღება (უცხოელები)"
+        }
+      ],
+      "qualification": {
+        "degree": {
+          "en": "Bachelor of Business Administration",
+          "ka": "ბიზნესის ადმინისტრირების ბაკალავრი"
+        },
+        "rest": {
+          "en": "in Management, in accordance with the National Qualifications Framework, level 6.",
+          "ka": "მენეჯმენტში, ეროვნული საკვალიფიკაციო ჩარჩოს მიხედვით, დონე 6."
+        }
+      },
+      "qualificationShort": "BBA, NQF 6"
+    }
+  }
+]

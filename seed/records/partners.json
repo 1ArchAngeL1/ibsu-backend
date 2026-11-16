@@ -1,0 +1,881 @@
+[
+  {
+    "key": "0",
+    "order": 0,
+    "data": {
+      "c": "Austria",
+      "ka": "ავსტრია",
+      "fl": "🇦🇹",
+      "r": "europe",
+      "u": [
+        "University of Graz|https://www.uni-graz.at/",
+        "University College of Teacher Education Lower Austria|https://www.ph-noe.ac.at/"
+      ]
+    }
+  },
+  {
+    "key": "1",
+    "order": 1,
+    "data": {
+      "c": "Albania",
+      "ka": "ალბანეთი",
+      "fl": "🇦🇱",
+      "r": "europe",
+      "u": [
+        "Aleksandër Moisiu University of Durrës|https://www.uamd.edu.al/",
+        "“Eqrem Çabej” University of Gjirokastër|https://www.uogj.edu.al/",
+        "“Fan S. Noli” University|https://unkorce.edu.al/",
+        "Polytechnic University of Tirana|https://www.upt.al/",
+        "Qiriazi University College|https://www.kolegjikiriaci.edu.al/",
+        "The LOGOS University College|https://www.logos.edu.al/",
+        "University College of Business|https://www.ucbt.edu.al/",
+        "University of Tirana|https://www.unitir.edu.al/",
+        "University of Vlora “Ismail Qemali”|https://univlora.edu.al/",
+        "Western Balkans University|https://wbu.edu.al/"
+      ]
+    }
+  },
+  {
+    "key": "2",
+    "order": 2,
+    "data": {
+      "c": "Belgium",
+      "ka": "ბელგია",
+      "fl": "🇧🇪",
+      "r": "europe",
+      "u": [
+        "Thomas More University of Applied Sciences|https://www.thomasmore.be/",
+        "UC Leuven-Limburg / University of Applied Sciences|https://www.ucll.be/"
+      ]
+    }
+  },
+  {
+    "key": "3",
+    "order": 3,
+    "data": {
+      "c": "Bosnia and Herzegovina",
+      "ka": "ბოსნია და ჰერცეგოვინა",
+      "fl": "🇧🇦",
+      "r": "europe",
+      "u": [
+        "College “Center for Business Studies” in Kiseljak|https://en.ceps.edu.ba/",
+        "Paneuropean University Apeiron|https://apeiron-uni.eu/en/",
+        "PIM University — Business, Engineering and Management, Banja Luka|https://univerzitetpim.edu.ba/",
+        "University of Bihać|https://unbi.ba/en/",
+        "University of East Sarajevo|https://www.ues.rs.ba/en/ues/",
+        "University of Mostar|https://www.sum.ba/en"
+      ]
+    }
+  },
+  {
+    "key": "4",
+    "order": 4,
+    "data": {
+      "c": "Bulgaria",
+      "ka": "ბულგარეთი",
+      "fl": "🇧🇬",
+      "r": "europe",
+      "u": [
+        "“Angel Kanchev” University of Ruse|https://www.uni-ruse.bg/",
+        "Higher Institute of Insurance and Finance|https://vuzf.bg/",
+        "International University College",
+        "Konstantin Preslavsky University of Shumen|https://www.shu.bg/",
+        "St. Cyril and St. Methodius University of Veliko Tarnovo|https://www.uni-vt.bg/",
+        "Technical University of Sofia|https://www.tu-sofia.bg/",
+        "Trakia University|https://trakia-uni.bg/en/",
+        "University of National and World Economy|https://www.unwe.bg/",
+        "Varna Free University|https://www.vfu.bg/",
+        "VUZF – University of Insurance and Finance|https://vuzf.bg/"
+      ]
+    }
+  },
+  {
+    "key": "5",
+    "order": 5,
+    "data": {
+      "c": "Germany",
+      "ka": "გერმანია",
+      "fl": "🇩🇪",
+      "r": "europe",
+      "u": [
+        "Albstadt-Sigmaringen University|https://www.hs-albsig.de/",
+        "Constructor University|https://constructor.university/",
+        "FH Aachen University of Applied Sciences|https://www.fh-aachen.de/",
+        "HSB Hochschule Bremen|https://www.hs-bremen.de/",
+        "HTW University of Applied Sciences Dresden|https://www.htw-dresden.de/",
+        "Karlsruhe University of Applied Sciences|https://www.h-ka.de/",
+        "NEU-ULM University of Applied Sciences|https://www.hnu.de/",
+        "Nordhausen University of Applied Sciences|https://www.hs-nordhausen.de/",
+        "OTH Amberg-Weiden|https://www.oth-aw.de/",
+        "Otto-von-Guericke-Universität Magdeburg|https://www.ovgu.de/",
+        "Technische Hochschule Lübeck|https://www.th-luebeck.de/",
+        "University of Siegen – Faculty III|https://www.uni-siegen.de/",
+        "University of Applied Sciences Karlsruhe (HKA)|https://www.h-ka.de/",
+        "University of Würzburg|https://www.uni-wuerzburg.de/",
+        "Westsächsische Hochschule Zwickau|https://www.fh-zwickau.de/"
+      ]
+    }
+  },
+  {
+    "key": "6",
+    "order": 6,
+    "data": {
+      "c": "Spain",
+      "ka": "ესპანეთი",
+      "fl": "🇪🇸",
+      "r": "europe",
+      "u": [
+        "The University of Huelva|https://www.uhu.es/",
+        "Universidad de Deusto|https://www.deusto.es/",
+        "Universidad del Atlántico Medio|https://www.universidadatlanticomedio.es/",
+        "Universidad Pontificia Comillas|https://www.comillas.edu/",
+        "University of Almería|https://www.ual.es/",
+        "University of Sevilla|https://www.us.es/"
+      ]
+    }
+  },
+  {
+    "key": "7",
+    "order": 7,
+    "data": {
+      "c": "Italy",
+      "ka": "იტალია",
+      "fl": "🇮🇹",
+      "r": "europe",
+      "u": [
+        "Istituto Teseo SSML Salerno University",
+        "Scuola Superiore per Mediatori Linguistici Vittoria",
+        "Scuola Superiore per Mediatori Linguistici CIELS",
+        "MADE Program – Academy of Fine Arts Rosario Gagliardi",
+        "UNINT – University of International Studies of Rome",
+        "Sapienza University of Rome",
+        "University of Tuscia"
+      ]
+    }
+  },
+  {
+    "key": "8",
+    "order": 8,
+    "data": {
+      "c": "Cyprus",
+      "ka": "კვიპროსი",
+      "fl": "🇨🇾",
+      "r": "europe",
+      "u": [
+        "Atlantis College",
+        "Mediterranean Institute of Management"
+      ]
+    }
+  },
+  {
+    "key": "9",
+    "order": 9,
+    "data": {
+      "c": "Latvia",
+      "ka": "ლატვია",
+      "fl": "🇱🇻",
+      "r": "europe",
+      "u": [
+        "University of Latvia",
+        "Baltic International Academy",
+        "Latvia University of Life Sciences and Technologies (LBTU)",
+        "Turiba University",
+        "Stockholm School of Economics in Riga"
+      ]
+    }
+  },
+  {
+    "key": "10",
+    "order": 10,
+    "data": {
+      "c": "Lithuania",
+      "ka": "ლიეტუვა",
+      "fl": "🇱🇹",
+      "r": "europe",
+      "u": [
+        "Vilniaus Kolegija / Higher Education Institution (VIKO)",
+        "Šiauliai University"
+      ]
+    }
+  },
+  {
+    "key": "11",
+    "order": 11,
+    "data": {
+      "c": "North Macedonia",
+      "ka": "მაკედონია",
+      "fl": "🇲🇰",
+      "r": "europe",
+      "u": [
+        "International Balkan University",
+        "University “St. Kliment Ohridski” – Bitola",
+        "BRAINSTER NEXT, Skopje"
+      ]
+    }
+  },
+  {
+    "key": "12",
+    "order": 12,
+    "data": {
+      "c": "Malta",
+      "ka": "მალტა",
+      "fl": "🇲🇹",
+      "r": "europe",
+      "u": [
+        "Global College Malta",
+        "Ascencia Malta and E-Ascencia"
+      ]
+    }
+  },
+  {
+    "key": "13",
+    "order": 13,
+    "data": {
+      "c": "Montenegro",
+      "ka": "მონტენეგრო",
+      "fl": "🇲🇪",
+      "r": "europe",
+      "u": [
+        "University Adriatic Bar",
+        "Univerzitet Mediteran Podgorica"
+      ]
+    }
+  },
+  {
+    "key": "14",
+    "order": 14,
+    "data": {
+      "c": "Netherlands",
+      "ka": "ნიდერლანდები",
+      "fl": "🇳🇱",
+      "r": "europe",
+      "u": [
+        "Western State University (WSU)",
+        "University of Groningen"
+      ]
+    }
+  },
+  {
+    "key": "15",
+    "order": 15,
+    "data": {
+      "c": "Norway",
+      "ka": "ნორვეგია",
+      "fl": "🇳🇴",
+      "r": "europe",
+      "u": [
+        "Høgskulen for grøn utvikling (University College for Green Development)"
+      ]
+    }
+  },
+  {
+    "key": "16",
+    "order": 16,
+    "data": {
+      "c": "Poland",
+      "ka": "პოლონეთი",
+      "fl": "🇵🇱",
+      "r": "europe",
+      "u": [
+        "The Mazovian University in Płock",
+        "University of Applied Sciences in Nysa",
+        "Collegium Civitas",
+        "Radom Academy of Economics",
+        "Krakow University of Economics",
+        "Kielce University of Technology",
+        "WSEI University in Lublin",
+        "Bialystok University of Technology",
+        "University of Social and Media Culture in Toruń",
+        "Institute of Management and Information Technology in Bielsko-Biała",
+        "University of Security in Poznań",
+        "Lodz University of Technology",
+        "University of Lodz",
+        "Adam Mickiewicz University",
+        "Warsaw School of Tourism and Hospitality Management",
+        "The University of Silesia in Katowice",
+        "Bydgoszcz University of Science and Technology",
+        "Maria Curie-Skłodowska University",
+        "Kozminski University",
+        "WSB University",
+        "Rzeszów University of Technology",
+        "Lazarski University",
+        "The Eugeniusz Geppert Academy of Art and Design in Wrocław",
+        "Academy of Physical Education in Katowice",
+        "Jan Długosz University in Częstochowa"
+      ]
+    }
+  },
+  {
+    "key": "17",
+    "order": 17,
+    "data": {
+      "c": "Portugal",
+      "ka": "პორტუგალია",
+      "fl": "🇵🇹",
+      "r": "europe",
+      "u": [
+        "Polytechnic Institute of Bragança (IPB)",
+        "Polytechnic Institute of Viana do Castelo",
+        "ISAG – European Business School",
+        "Polytechnic Institute of Portalegre",
+        "Universidade de Trás-os-Montes e Alto Douro",
+        "Universidade dos Açores"
+      ]
+    }
+  },
+  {
+    "key": "18",
+    "order": 18,
+    "data": {
+      "c": "Romania",
+      "ka": "რუმინეთი",
+      "fl": "🇷🇴",
+      "r": "europe",
+      "u": [
+        "University of Craiova",
+        "University of Oradea",
+        "West University of Timișoara",
+        "Ștefan cel Mare University of Suceava"
+      ]
+    }
+  },
+  {
+    "key": "19",
+    "order": 19,
+    "data": {
+      "c": "Greece",
+      "ka": "საბერძნეთი",
+      "fl": "🇬🇷",
+      "r": "europe",
+      "u": [
+        "University of the Aegean"
+      ]
+    }
+  },
+  {
+    "key": "20",
+    "order": 20,
+    "data": {
+      "c": "France",
+      "ka": "საფრანგეთი",
+      "fl": "🇫🇷",
+      "r": "europe",
+      "u": [
+        "Institut Supérieur de Gestion",
+        "Université de Versailles Saint-Quentin-en-Yvelines",
+        "Y SCHOOLS",
+        "Lyfe Institut",
+        "IPAC – European School of Political and Social Sciences, Université Catholique de Lille",
+        "Université de Bretagne Occidentale (University of Western Brittany)",
+        "Paris 1 Panthéon-Sorbonne University",
+        "Institut de Management et de Communication Interculturels"
+      ]
+    }
+  },
+  {
+    "key": "21",
+    "order": 21,
+    "data": {
+      "c": "Serbia",
+      "ka": "სერბეთი",
+      "fl": "🇷🇸",
+      "r": "europe",
+      "u": [
+        "University of Niš"
+      ]
+    }
+  },
+  {
+    "key": "22",
+    "order": 22,
+    "data": {
+      "c": "Slovakia",
+      "ka": "სლოვაკეთი",
+      "fl": "🇸🇰",
+      "r": "europe",
+      "u": [
+        "Slovak University of Agriculture in Nitra",
+        "Constantine the Philosopher University in Nitra"
+      ]
+    }
+  },
+  {
+    "key": "23",
+    "order": 23,
+    "data": {
+      "c": "Slovenia",
+      "ka": "სლოვენია",
+      "fl": "🇸🇮",
+      "r": "europe",
+      "u": [
+        "Euro-Mediterranean University (EMUNI)",
+        "College of Civil Engineering Kranj (Associated Member of New University)"
+      ]
+    }
+  },
+  {
+    "key": "24",
+    "order": 24,
+    "data": {
+      "c": "Hungary",
+      "ka": "უნგრეთი",
+      "fl": "🇭🇺",
+      "r": "europe",
+      "u": [
+        "Budapest Metropolitan University",
+        "Óbuda University",
+        "Széchenyi István University of Győr",
+        "Eötvös Loránd University",
+        "University of Debrecen"
+      ]
+    }
+  },
+  {
+    "key": "25",
+    "order": 25,
+    "data": {
+      "c": "Czechia",
+      "ka": "ჩეხეთი",
+      "fl": "🇨🇿",
+      "r": "europe",
+      "u": [
+        "Newton University",
+        "Metropolitan University Prague",
+        "VSB – Technical University of Ostrava",
+        "College of Applied Psychology",
+        "Brno University of Technology",
+        "AMBIS University"
+      ]
+    }
+  },
+  {
+    "key": "26",
+    "order": 26,
+    "data": {
+      "c": "Croatia",
+      "ka": "ხორვატია",
+      "fl": "🇭🇷",
+      "r": "europe",
+      "u": [
+        "Aspira University College",
+        "University of Zadar",
+        "Par University of Applied Sciences",
+        "EFFECTUS University of Applied Sciences"
+      ]
+    }
+  },
+  {
+    "key": "27",
+    "order": 27,
+    "data": {
+      "c": "Azerbaijan",
+      "ka": "აზერბაიჯანი",
+      "fl": "🇦🇿",
+      "r": "region",
+      "u": [
+        "Azerbaijan State University of Culture and Arts",
+        "Azerbaijan University|https://au.edu.az/",
+        "Baku Business University|https://bbu.edu.az/",
+        "Baku Eurasian University|https://beu.edu.az/",
+        "Baku State University|https://bsu.edu.az/",
+        "Khazar University|https://khazar.org/",
+        "Nakhchivan University"
+      ]
+    }
+  },
+  {
+    "key": "28",
+    "order": 28,
+    "data": {
+      "c": "Armenia",
+      "ka": "სომხეთი",
+      "fl": "🇦🇲",
+      "r": "region",
+      "u": [
+        "Yerevan Haybusak University",
+        "Brusov State University",
+        "Eurasia International University",
+        "Erebuni Medical Academy Foundation",
+        "Armenian State University of Economics"
+      ]
+    }
+  },
+  {
+    "key": "29",
+    "order": 29,
+    "data": {
+      "c": "Türkiye",
+      "ka": "თურქეთი",
+      "fl": "🇹🇷",
+      "r": "region",
+      "u": [
+        "Afyon Kocatepe University|https://aku.edu.tr/",
+        "Alanya University|https://www.alanyauniversity.edu.tr/",
+        "Bezmialem Vakıf University|https://bezmialem.edu.tr/",
+        "Bursa Uludağ University|https://www.uludag.edu.tr/",
+        "Çanakkale Onsekiz Mart University|https://www.comu.edu.tr/",
+        "Erzincan Binali Yıldırım University|https://www.ebyu.edu.tr/",
+        "Istanbul Aydın University|https://www.aydin.edu.tr/",
+        "Istanbul Gedik University (IGUN)|https://www.gedik.edu.tr/",
+        "Istanbul Gelişim University|https://gelisim.edu.tr/",
+        "Istanbul Kent University|https://www.kent.edu.tr/",
+        "Istanbul Nişantaşı University|https://www.nisantasi.edu.tr/",
+        "Istinye University|https://www.istinye.edu.tr/",
+        "Karabük University|https://www.karabuk.edu.tr/",
+        "Kırıkkale University|https://www.kku.edu.tr/",
+        "Ondokuz Mayıs University|https://www.omu.edu.tr/",
+        "Üsküdar University|https://uskudar.edu.tr/"
+      ]
+    }
+  },
+  {
+    "key": "30",
+    "order": 30,
+    "data": {
+      "c": "Ukraine",
+      "ka": "უკრაინა",
+      "fl": "🇺🇦",
+      "r": "region",
+      "u": [
+        "Ivan Franko National University of Lviv|https://lnu.edu.ua/en/",
+        "Kryvyi Rih National University",
+        "Kyiv University of Law of the National Academy of Sciences of Ukraine",
+        "Sumy State Pedagogical University named after A.S. Makarenko",
+        "National University of Water and Environmental Engineering",
+        "Kharkiv National University of Radio Electronics",
+        "International Humanitarian University",
+        "West Ukrainian National University"
+      ]
+    }
+  },
+  {
+    "key": "31",
+    "order": 31,
+    "data": {
+      "c": "Moldova",
+      "ka": "მოლდოვა",
+      "fl": "🇲🇩",
+      "r": "region",
+      "u": [
+        "Academy of Economic Studies of Moldova",
+        "Technical University of Moldova"
+      ]
+    }
+  },
+  {
+    "key": "32",
+    "order": 32,
+    "data": {
+      "c": "Bangladesh",
+      "ka": "ბანგლადეში",
+      "fl": "🇧🇩",
+      "r": "asia",
+      "u": [
+        "Daffodil International University (DIU)|https://daffodilvarsity.edu.bd/"
+      ]
+    }
+  },
+  {
+    "key": "33",
+    "order": 33,
+    "data": {
+      "c": "Vietnam",
+      "ka": "ვიეტნამი",
+      "fl": "🇻🇳",
+      "r": "asia",
+      "u": [
+        "Hanoi University of Mining and Geology|https://humg.edu.vn/",
+        "University of Science and Education – The University of Danang|https://ued.udn.vn/"
+      ]
+    }
+  },
+  {
+    "key": "34",
+    "order": 34,
+    "data": {
+      "c": "India",
+      "ka": "ინდოეთი",
+      "fl": "🇮🇳",
+      "r": "asia",
+      "u": [
+        "Birla Institute of Management Technology (BIMTECH)|https://www.bimtech.ac.in/",
+        "C.V. Raman Global University|https://cgu-odisha.ac.in/",
+        "CGC Technical Campus|https://www.cgc.edu.in/",
+        "Chandigarh Group of Colleges, Jhanjeri",
+        "Chandigarh University|https://www.cuchd.in/",
+        "Chennai Institute of Technology|https://www.citchennai.edu.in/",
+        "Dev Sanskriti Vishwavidyalaya|https://www.dsvv.ac.in/",
+        "Karpagam Academy of Higher Education",
+        "Karunya Institute of Technology and Sciences|https://www.karunya.edu/",
+        "Lovely Professional University|https://www.lpu.in/",
+        "Manav Rachna University (MRIIRS / MRU)|https://manavrachna.edu.in/",
+        "Marwadi University|https://www.marwadiuniversity.ac.in/",
+        "Noida International University|https://niu.edu.in/",
+        "O.P. Jindal Global University|https://jgu.edu.in/",
+        "PCTE Group of Institutes",
+        "PIET Business School|https://www.piet.co.in/",
+        "Quantum University|https://www.quantumuniversity.edu.in/",
+        "RK University|https://www.rku.ac.in/",
+        "VIT Bhopal University|https://vitbhopal.ac.in/",
+        "Zeal Education Society|https://zealeducation.com/"
+      ]
+    }
+  },
+  {
+    "key": "35",
+    "order": 35,
+    "data": {
+      "c": "Indonesia",
+      "ka": "ინდონეზია",
+      "fl": "🇮🇩",
+      "r": "asia",
+      "u": [
+        "STEKOM University|https://stekom.ac.id/en",
+        "Binus University|https://binus.ac.id/"
+      ]
+    }
+  },
+  {
+    "key": "36",
+    "order": 36,
+    "data": {
+      "c": "Iran",
+      "ka": "ირანი",
+      "fl": "🇮🇷",
+      "r": "asia",
+      "u": [
+        "Imam Khomeini International University|https://en.ikiu.ac.ir/"
+      ]
+    }
+  },
+  {
+    "key": "37",
+    "order": 37,
+    "data": {
+      "c": "Israel",
+      "ka": "ისრაელი",
+      "fl": "🇮🇱",
+      "r": "asia",
+      "u": [
+        "Gordon College of Education|https://en.gordon.ac.il/"
+      ]
+    }
+  },
+  {
+    "key": "38",
+    "order": 38,
+    "data": {
+      "c": "Iraq",
+      "ka": "ერაყი",
+      "fl": "🇮🇶",
+      "r": "asia",
+      "u": [
+        "Tishk International University|https://tiu.edu.iq/"
+      ]
+    }
+  },
+  {
+    "key": "39",
+    "order": 39,
+    "data": {
+      "c": "Malaysia",
+      "ka": "მალაიზია",
+      "fl": "🇲🇾",
+      "r": "asia",
+      "u": [
+        "INTI International University"
+      ]
+    }
+  },
+  {
+    "key": "40",
+    "order": 40,
+    "data": {
+      "c": "South Korea",
+      "ka": "სამხრეთ კორეა",
+      "fl": "🇰🇷",
+      "r": "asia",
+      "u": [
+        "Woosong University",
+        "Chung-Ang University",
+        "Kwangwoon University",
+        "Korea University of Technology and Education (KoreaTech)"
+      ]
+    }
+  },
+  {
+    "key": "41",
+    "order": 41,
+    "data": {
+      "c": "Thailand",
+      "ka": "ტაილანდი",
+      "fl": "🇹🇭",
+      "r": "asia",
+      "u": [
+        "Thammasat Business School"
+      ]
+    }
+  },
+  {
+    "key": "42",
+    "order": 42,
+    "data": {
+      "c": "Uzbekistan",
+      "ka": "უზბეკეთი",
+      "fl": "🇺🇿",
+      "r": "asia",
+      "u": [
+        "Urgut branch of Samarkand State University named after Sharof Rashidov",
+        "Turan International University",
+        "Chirchik State Pedagogical University",
+        "Tashkent State University of Law",
+        "EMU University"
+      ]
+    }
+  },
+  {
+    "key": "43",
+    "order": 43,
+    "data": {
+      "c": "Kazakhstan",
+      "ka": "ყაზახეთი",
+      "fl": "🇰🇿",
+      "r": "asia",
+      "u": [
+        "KIMEP University",
+        "Narxoz University",
+        "Korkyt Ata Kyzylorda University",
+        "Alem University",
+        "Suleyman Demirel University"
+      ]
+    }
+  },
+  {
+    "key": "44",
+    "order": 44,
+    "data": {
+      "c": "Kyrgyzstan",
+      "ka": "ყირგიზეთი",
+      "fl": "🇰🇬",
+      "r": "asia",
+      "u": [
+        "Kyrgyz-German Institute for Applied Informatics",
+        "Ala-Too International University"
+      ]
+    }
+  },
+  {
+    "key": "45",
+    "order": 45,
+    "data": {
+      "c": "China",
+      "ka": "ჩინეთი",
+      "fl": "🇨🇳",
+      "r": "asia",
+      "u": [
+        "Sias University",
+        "Henan Finance University",
+        "Hubei University",
+        "Shaanxi Normal University",
+        "North China University of Technology (NCUT)",
+        "Heilongjiang International University",
+        "Xi’an International Studies University"
+      ]
+    }
+  },
+  {
+    "key": "46",
+    "order": 46,
+    "data": {
+      "c": "Philippines",
+      "ka": "ფილიპინები",
+      "fl": "🇵🇭",
+      "r": "asia",
+      "u": [
+        "De La Salle University – Dasmariñas"
+      ]
+    }
+  },
+  {
+    "key": "47",
+    "order": 47,
+    "data": {
+      "c": "United States",
+      "ka": "ამერიკის შეერთებული შტატები",
+      "fl": "🇺🇸",
+      "r": "namerica",
+      "u": [
+        "California University of Pennsylvania|https://www.pennwest.edu/",
+        "State University of New York at Delhi|https://www.delhi.edu/",
+        "The University of North Dakota|https://und.edu/"
+      ]
+    }
+  },
+  {
+    "key": "48",
+    "order": 48,
+    "data": {
+      "c": "Argentina",
+      "ka": "არგენტინა",
+      "fl": "🇦🇷",
+      "r": "samerica",
+      "u": [
+        "Universidad del Salvador|https://www.usal.edu.ar/"
+      ]
+    }
+  },
+  {
+    "key": "49",
+    "order": 49,
+    "data": {
+      "c": "Brazil",
+      "ka": "ბრაზილია",
+      "fl": "🇧🇷",
+      "r": "samerica",
+      "u": [
+        "Federal University of Rio de Janeiro (UFRJ)|https://ufrj.br/",
+        "Universidade Paulista – UNIP|https://www.unip.br/"
+      ]
+    }
+  },
+  {
+    "key": "50",
+    "order": 50,
+    "data": {
+      "c": "Canada",
+      "ka": "კანადა",
+      "fl": "🇨🇦",
+      "r": "namerica",
+      "u": [
+        "Vancouver Island University",
+        "Humber College Institute of Technology and Advanced Learning"
+      ]
+    }
+  },
+  {
+    "key": "51",
+    "order": 51,
+    "data": {
+      "c": "Nigeria",
+      "ka": "ნიგერია",
+      "fl": "🇳🇬",
+      "r": "africa",
+      "u": [
+        "Nigerian Turkish Nile University (NTNU)"
+      ]
+    }
+  },
+  {
+    "key": "52",
+    "order": 52,
+    "data": {
+      "c": "Tunisia",
+      "ka": "ტუნისი",
+      "fl": "🇹🇳",
+      "r": "africa",
+      "u": [
+        "North American Private University"
+      ]
+    }
+  }
+]

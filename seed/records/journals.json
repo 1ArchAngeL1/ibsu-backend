@@ -1,0 +1,667 @@
+[
+  {
+    "key": "jebs",
+    "order": 0,
+    "data": {
+      "journalId": "jebs",
+      "id": "jebs",
+      "url": "https://jebs.ibsu.edu.ge/",
+      "accent": "#1f5fa8",
+      "accentDark": "#12223a",
+      "abbr": "JEBS",
+      "title": {
+        "en": "Journal of Education in Black Sea Region",
+        "ge": "შავი ზღვის რეგიონის განათლების ჟურნალი"
+      },
+      "field": {
+        "en": "Education",
+        "ge": "განათლება"
+      },
+      "issn": "2449-2426",
+      "eissn": "2346-8246",
+      "doi": "10.31578/jebs",
+      "freq": {
+        "en": "Biannual (June · December) · open access",
+        "ge": "ნახევარწლიური (ივნისი · დეკემბერი) · ღია წვდომა"
+      },
+      "since": 2015,
+      "scope": {
+        "en": "JEBS is a peer-reviewed international journal dedicated to publishing high-quality research in education. It strengthens the connection between research and practice at regional and global levels; articles from or dealing with Black Sea region countries are especially welcome, but authors worldwide are invited. All papers are double-blind refereed.",
+        "ge": "JEBS არის რეცენზირებადი საერთაშორისო ჟურნალი, რომელიც აქვეყნებს მაღალი ხარისხის კვლევებს განათლებაში. ის აძლიერებს კავშირს კვლევასა და პრაქტიკას შორის რეგიონულ და გლობალურ დონეზე; განსაკუთრებით მისასალმებელია შავი ზღვის რეგიონის ქვეყნებთან დაკავშირებული სტატიები, თუმცა მოწვეულნი არიან ავტორები მთელი მსოფლიოდან. ყველა ნაშრომი გადის ორმხრივ-ბრმა რეცენზირებას."
+      },
+      "topics": {
+        "en": [
+          "Teaching & learning",
+          "Curriculum development",
+          "Teacher training & professional development",
+          "Measurement & assessment",
+          "Educational technology & ICT",
+          "Education policy & leadership",
+          "Educational psychology",
+          "Distance & blended learning"
+        ],
+        "ge": [
+          "სწავლება და სწავლა",
+          "კურიკულუმის განვითარება",
+          "მასწავლებელთა მომზადება და განვითარება",
+          "გაზომვა და შეფასება",
+          "საგანმანათლებლო ტექნოლოგია და ICT",
+          "განათლების პოლიტიკა და ლიდერობა",
+          "განათლების ფსიქოლოგია",
+          "დისტანციური და შერეული სწავლება"
+        ]
+      },
+      "editor": {
+        "en": "Chief Editor — Prof. Dr. Maia Chkotua",
+        "ge": "მთავარი რედაქტორი — პროფ. დოქ. მაია ჩხოტუა"
+      },
+      "board": {
+        "en": [
+          "Prof. Dr. Maia Chkotua — International Black Sea University (Chief Editor)",
+          "Prof. Dr. Natela Doghonadze — International Black Sea University (Editor)",
+          "Prof. Dr. Ekaterine Pipia — International Black Sea University (Editor)"
+        ],
+        "ge": [
+          "პროფ. დოქ. მაია ჩხოტუა — შავი ზღვის საერთაშორისო უნივერსიტეტი (მთავარი რედაქტორი)",
+          "პროფ. დოქ. ნათელა დოღონაძე — შავი ზღვის საერთაშორისო უნივერსიტეტი (რედაქტორი)",
+          "პროფ. დოქ. ეკატერინე ფიფია — შავი ზღვის საერთაშორისო უნივერსიტეტი (რედაქტორი)"
+        ]
+      },
+      "indexing": [
+        "ISI",
+        "SIS",
+        "BASE",
+        "Index Copernicus",
+        "OAJI",
+        "CiteFactor",
+        "DRJI",
+        "ROAD",
+        "InfobaseIndex",
+        "Crossref"
+      ],
+      "stats": {
+        "issue": {
+          "en": "Vol 10 No 1 (2024)",
+          "ge": "ტ. 10 No 1 (2024)"
+        },
+        "submitted": 25,
+        "accepted": 9,
+        "rejected": 16,
+        "rejection": "64%"
+      },
+      "callForPapers": {
+        "en": "Call for Papers — Vol. 11, No. 2 (Spring 2026). Submission deadline: June 26, 2026. No submission or processing charge.",
+        "ge": "სტატიების მიღება — ტ. 11, No. 2 (გაზაფხული 2026). წარდგენის ბოლო ვადა: 26 ივნისი, 2026. წარდგენა და დამუშავება უფასოა."
+      },
+      "issues": [
+        {
+          "vol": "Vol. 11, No. 1",
+          "year": 2025,
+          "current": true,
+          "articles": [
+            {
+              "title": {
+                "en": "Teacher digital competence in post-pandemic classrooms",
+                "ge": "მასწავლებლის ციფრული კომპეტენცია პოსტპანდემიურ კლასებში"
+              },
+              "authors": "E. Pipia",
+              "pages": "5–24"
+            },
+            {
+              "title": {
+                "en": "Motivation and autonomy in EFL learning",
+                "ge": "მოტივაცია და ავტონომია უცხო ენის სწავლაში"
+              },
+              "authors": "N. Doghonadze",
+              "pages": "25–41"
+            },
+            {
+              "title": {
+                "en": "Inclusive assessment practices in higher education",
+                "ge": "ინკლუზიური შეფასების პრაქტიკა უმაღლეს განათლებაში"
+              },
+              "authors": "M. Chkotua",
+              "pages": "42–60"
+            }
+          ]
+        },
+        {
+          "vol": "Vol. 10, No. 2",
+          "year": 2024,
+          "articles": [
+            {
+              "title": {
+                "en": "Curriculum reform and learning outcomes",
+                "ge": "კურიკულუმის რეფორმა და სწავლის შედეგები"
+              },
+              "authors": "N. Doghonadze",
+              "pages": "5–22"
+            },
+            {
+              "title": {
+                "en": "Blended learning models in regional universities",
+                "ge": "შერეული სწავლების მოდელები რეგიონულ უნივერსიტეტებში"
+              },
+              "authors": "E. Pipia",
+              "pages": "23–40"
+            }
+          ]
+        },
+        {
+          "vol": "Vol. 10, No. 1",
+          "year": 2024,
+          "articles": [
+            {
+              "title": {
+                "en": "Educational leadership during institutional change",
+                "ge": "საგანმანათლებლო ლიდერობა ინსტიტუციური ცვლილების დროს"
+              },
+              "authors": "M. Chkotua",
+              "pages": "5–21"
+            }
+          ]
+        },
+        {
+          "vol": "Vol. 9, No. 2",
+          "year": 2023,
+          "articles": []
+        }
+      ],
+      "rich": true
+    }
+  },
+  {
+    "key": "jh",
+    "order": 1,
+    "data": {
+      "journalId": "jh",
+      "id": "jh",
+      "url": "https://jh.ibsu.edu.ge/",
+      "accent": "#7a1f2b",
+      "accentDark": "#2a0e13",
+      "abbr": "JH",
+      "title": {
+        "en": "Journal in Humanities",
+        "ge": "ჰუმანიტარულ მეცნიერებათა ჟურნალი"
+      },
+      "field": {
+        "en": "Humanities",
+        "ge": "ჰუმანიტარული მეცნიერებები"
+      },
+      "issn": "2346-8246",
+      "eissn": "2346-8289",
+      "doi": "10.31578/jh",
+      "freq": {
+        "en": "Biannual (June · December) · open access",
+        "ge": "ნახევარწლიური (ივნისი · დეკემბერი) · ღია წვდომა"
+      },
+      "since": 2012,
+      "scope": {
+        "en": "Journal in Humanities (JH) is an official scholarly, multidisciplinary and peer-reviewed indexed journal at IBSU, issued twice a year. It encourages contributions across the humanities — American and comparative literature, cultural and multicultural studies, gender studies, history, psychology, language, philosophy and geography — fostering a better understanding of the multidimensional nature of research.",
+        "ge": "ჰუმანიტარულ მეცნიერებათა ჟურნალი (JH) არის IBSU-ის ოფიციალური, მრავალდისციპლინური და რეცენზირებადი ინდექსირებული ჟურნალი, რომელიც გამოდის წელიწადში ორჟერ. იგი ხელს უწყობს ნაშრომებს ჰუმანიტარიის სფეროში — ამერიკული და შედარებითი ლიტერატურა, კულტურის კვლევები, გენდერ-კვლევები, ისტორია, ფსიქოლოგია, ენა, ფილოსოფია და გეოგრაფია."
+      },
+      "topics": {
+        "en": [
+          "American & comparative literature",
+          "Cultural & multicultural studies",
+          "Gender studies",
+          "History",
+          "Psychology",
+          "Language & linguistics",
+          "Philosophy",
+          "Methods of teaching languages"
+        ],
+        "ge": [
+          "ამერიკული და შედარებითი ლიტერატურა",
+          "კულტურის და მულტიკულტურული კვლევები",
+          "გენდერის კვლევები",
+          "ისტორია",
+          "ფსიქოლოგია",
+          "ენა და ლინგვისტიკა",
+          "ფილოსოფია",
+          "ენის სწავლების მეთოდები"
+        ]
+      },
+      "editor": {
+        "en": "Editor-in-Chief — Prof. Dr. Ia Nadareishvili",
+        "ge": "მთავარი რედაქტორი — პროფ. დოქ. ია ნადარეიშვილი"
+      },
+      "board": {
+        "en": [
+          "Prof. Dr. Ia Nadareishvili — International Black Sea University (Editor-in-Chief)",
+          "Prof. Dr. Manana Rusieshvili — Tbilisi State University",
+          "Assoc. Prof. Dr. Rusudan Gotsiridze — International Black Sea University",
+          "Prof. Dr. Sevda Hüseynova — Baku State University, Azerbaijan"
+        ],
+        "ge": [
+          "პროფ. დოქ. ია ნადარეიშვილი — შავი ზღვის საერთაშორისო უნივერსიტეტი (მთავარი რედაქტორი)",
+          "პროფ. დოქ. მანანა რუსიეშვილი — თბილისის სახელმწიფო უნივერსიტეტი",
+          "ასოც. პროფ. დოქ. რუსუდან გოცირიძე — შავი ზღვის საერთაშორისო უნივერსიტეტი",
+          "პროფ. დოქ. სევდა ჰუსეინოვა — ბაქოს სახელმწიფო უნივერსიტეტი, აზერბაიჯანი"
+        ]
+      },
+      "indexing": [
+        "ResearchBib",
+        "ISI",
+        "Crossref (DOI)",
+        "ROAD"
+      ],
+      "callForPapers": {
+        "en": "Call for Papers — Vol. 15, No. 1 (2026), scheduled for July 2026. Submission deadline: April 26, 2026. English-language editing required before submission.",
+        "ge": "სტატიების მიღება — ტ. 15, No. 1 (2026), გამოცემა დაგეგმილია 2026 წლის ივლისში. წარდგენის ბოლო ვადა: 26 აპრილი, 2026. სავალდებულოა ინგლისური ენის რედაქტირება წარდგენამდე."
+      },
+      "issues": [
+        {
+          "vol": "Vol. 15, No. 1",
+          "year": 2026,
+          "current": true,
+          "articles": [
+            {
+              "title": {
+                "en": "Metaphor and identity in contemporary prose",
+                "ge": "მეტაფორა და იდენტობა თანამედროვე პროზაში"
+              },
+              "authors": "M. Rusieshvili",
+              "pages": "7–26"
+            },
+            {
+              "title": {
+                "en": "Gender and voice in American women's writing",
+                "ge": "გენდერი და ხმა ამერიკელ ქალთა პროზაში"
+              },
+              "authors": "R. Gotsiridze",
+              "pages": "27–44"
+            }
+          ]
+        },
+        {
+          "vol": "Vol. 14, No. 2",
+          "year": 2025,
+          "articles": [
+            {
+              "title": {
+                "en": "Narrative time in modernist literature",
+                "ge": "ნარატიული დრო მოდერნისტულ ლიტერატურაში"
+              },
+              "authors": "I. Nadareishvili",
+              "pages": "5–23"
+            }
+          ]
+        },
+        {
+          "vol": "Vol. 14, No. 1",
+          "year": 2025,
+          "articles": []
+        }
+      ]
+    }
+  },
+  {
+    "key": "jb",
+    "order": 2,
+    "data": {
+      "journalId": "jb",
+      "id": "jb",
+      "url": "https://jb.ibsu.edu.ge/",
+      "accent": "#1d7a5f",
+      "accentDark": "#0c2c23",
+      "abbr": "JB",
+      "title": {
+        "en": "Journal of Business",
+        "ge": "ბიზნესის ჟურნალი"
+      },
+      "field": {
+        "en": "Business & Economics",
+        "ge": "ბიზნესი და ეკონომიკა"
+      },
+      "issn": "2233-369X",
+      "eissn": "2346-8297",
+      "doi": "10.31578/jb",
+      "freq": {
+        "en": "Biannual · open access",
+        "ge": "ნახევარწლიური · ღია წვდომა"
+      },
+      "since": 2012,
+      "scope": {
+        "en": "The Journal of Business (JB) is an official scholarly, referred, multi-disciplinary and peer-reviewed scientific journal of the School of Business of International Black Sea University, issued twice a year (spring and fall). It publishes scholarly works in business management and administration — theoretical and practical issues of business activity, including cases of business experience. The aim is to analyse diverse issues and provide readers with new perspectives by publishing innovative, thought-provoking and analytical articles, bridging communities of scholars and business practitioners.",
+        "ge": "ბიზნესის ჟურნალი (JB) არის შავი ზღვის საერთაშორისო უნივერსიტეტის ბიზნესის სკოლის ოფიციალური, მულტიდისციპლინური, რეცენზირებადი სამეცნიერო ჟურნალი, რომელიც გამოდის წელიწადში ორჯერ (გაზაჭდლისა და შემოდგომის). იგი აქვეყნებს ნაშრომებს ბიზნესის მართვისა და ადმინისტრირების სფეროში — ბიზნესაქიანობის თეორიული და პრაქტიკული საკითხები, ბიზნესგამოცდილების ქეისების ჩათვლით."
+      },
+      "topics": {
+        "en": [
+          "Business management & administration",
+          "Marketing",
+          "Finance & banking",
+          "Economics",
+          "Entrepreneurship & SMEs",
+          "International business",
+          "Cases of business experience"
+        ],
+        "ge": [
+          "ბიზნესის მართვა და ადმინისტრირება",
+          "მარკეტინგი",
+          "ფინანსები და საბანკო საქმე",
+          "ეკონომიკა",
+          "მეწარმეობა და მცირე ბიზნესი",
+          "საერთაშორისო ბიზნესი",
+          "ბიზნესგამოცდილების ქეისები"
+        ]
+      },
+      "editor": {
+        "en": "Published by the School of Business, IBSU",
+        "ge": "გამოცემულია IBSU-ის ბიზნესის სკოლის მიერ"
+      },
+      "board": {
+        "en": [
+          "Editorial Office — School of Business, International Black Sea University",
+          "The full editorial board is listed on the Editorial Team page."
+        ],
+        "ge": [
+          "სარედაქციო — ბიზნესის სკოლა, შავი ზღვის საერთაშორისო უნივერსიტეტი",
+          "სრული სარედაქციო გუნდი წარმოდგენილია სარედაქციო გუნდის გვერდზე."
+        ]
+      },
+      "indexing": [
+        "Scientific Indexing Services (SIS)",
+        "ResearchBib",
+        "DRJI",
+        "ISI",
+        "Crossref (DOI)",
+        "ROAD"
+      ],
+      "callForPapers": {
+        "en": "Call for Papers — Vol. 12, No. 1. Submission of research papers, abstract and author information (name, position, degree, contact, CV) by April 30. Submit via the online system; materials may also be sent to jb@ibsu.edu.ge.",
+        "ge": "სტატიების მიღება — ტ. 12, No. 1. კვლევითი ნაშრომი, აბსტრაქტი და ავტორის მონაცემები (სახელი, პოზიცია, ხარისხი, კონტაქტი, CV) წარდგენილი უნდა იყოს 30 აპრილამდე. გადაგზავნა ონლაინ სისტემით; ასევე ელ. ფოსტით: jb@ibsu.edu.ge."
+      },
+      "issues": [
+        {
+          "vol": "Vol. 12, No. 1",
+          "year": 2023,
+          "current": true,
+          "articles": [
+            {
+              "title": {
+                "en": "Determinants of FDI in Black Sea economies",
+                "ge": "პირდაპირი უცხოური ინვესტიციების დეტერმინანტები შავი ზღვის ეკონომიკებში"
+              },
+              "authors": "V. Charaia",
+              "pages": "5–25"
+            },
+            {
+              "title": {
+                "en": "Digital marketing adoption among Georgian SMEs",
+                "ge": "ციფრული მარკეტინგის დანერგვა ქართულ მცირე ბიზნესში"
+              },
+              "authors": "E. Sepashvili",
+              "pages": "26–46"
+            }
+          ]
+        },
+        {
+          "vol": "Vol. 11, No. 2",
+          "year": 2022,
+          "articles": [
+            {
+              "title": {
+                "en": "Monetary policy and inflation expectations",
+                "ge": "მონეტარული პოლიტიკა და ინფლაციური მოლოდინები"
+              },
+              "authors": "G. Mamuladze",
+              "pages": "5–24"
+            }
+          ]
+        },
+        {
+          "vol": "Vol. 11, No. 1",
+          "year": 2022,
+          "articles": []
+        }
+      ]
+    }
+  },
+  {
+    "key": "jtst",
+    "order": 3,
+    "data": {
+      "journalId": "jtst",
+      "id": "jtst",
+      "url": "https://jtst.ibsu.edu.ge/",
+      "accent": "#2f6db0",
+      "accentDark": "#10243a",
+      "abbr": "JTST",
+      "title": {
+        "en": "Journal of Technical Science & Technologies",
+        "ge": "ტექნიკურ მეცნიერებათა და ტექნოლოგიების ჟურნალი"
+      },
+      "field": {
+        "en": "Technical Sciences",
+        "ge": "ტექნიკური მეცნიერებები"
+      },
+      "issn": "2298-0032",
+      "eissn": "2346-8270",
+      "doi": "10.31578/jtst",
+      "freq": {
+        "en": "Biannual · open access",
+        "ge": "ნახევარწლიური · ღია წვდომა"
+      },
+      "since": 2012,
+      "scope": {
+        "en": "JTST publishes peer-reviewed research in computer science, information technology, engineering, applied mathematics and the architecture of computing systems, bridging foundational theory and applied technical innovation.",
+        "ge": "JTST აქვეყნებს რეცენზირებად კვლევებს კომპიუტერულ მეცნიერებაში, საინფორმაციო ტექნოლოგიებში, ინჟინერიაში, გამოყენებით მათემატიკასა და გამოთვლითი სისტემების არქიტექტურაში, თეორიისა და გამოყენებითი ინოვაციის გაერთიანებით."
+      },
+      "topics": {
+        "en": [
+          "Computer science & AI",
+          "Information systems",
+          "Software engineering",
+          "Applied mathematics",
+          "Networks & security",
+          "Computer architecture"
+        ],
+        "ge": [
+          "კომპიუტერული მეცნიერება და AI",
+          "საინფორმაციო სისტემები",
+          "პროგრამული ინჟინერია",
+          "გამოყენებითი მათემატიკა",
+          "ქსელები და უსაფრთხოება",
+          "კომპიუტერული არქიტექტურა"
+        ]
+      },
+      "editor": {
+        "en": "Editor-in-Chief — Prof. Dr. Mzia Kokhreidze",
+        "ge": "მთავარი რედაქტორი — პროფ. დოქ. მზია კოხრეიძე"
+      },
+      "board": {
+        "en": [
+          "Prof. Dr. Mzia Kokhreidze — International Black Sea University (Editor-in-Chief)",
+          "Prof. Dr. Roman Samkharadze — Georgian Technical University",
+          "Assoc. Prof. Dr. Levan Tsintsadze — International Black Sea University",
+          "Prof. Dr. Ali Yazıcı — Atılım University, Turkey"
+        ],
+        "ge": [
+          "პროფ. დოქ. მზია კოხრეიძე — შავი ზღვის საერთაშორისო უნივერსიტეტი (მთავარი რედაქტორი)",
+          "პროფ. დოქ. რომან სამხარაძე — საქართველოს ტექნიკური უნივერსიტეტი",
+          "ასოც. პროფ. დოქ. ლევან ცინცაძე — შავი ზღვის საერთაშორისო უნივერსიტეტი",
+          "პროფ. დოქ. ალი იაზიჯი — ათილიმის უნივერსიტეტი, თურქეთი"
+        ]
+      },
+      "indexing": [
+        "Scientific Indexing Services (SIS)",
+        "ResearchBib",
+        "DRJI",
+        "ISI",
+        "Crossref (DOI)",
+        "ROAD"
+      ],
+      "callForPapers": {
+        "en": "Call for Papers — next issue. The Journal of Technical Science & Technologies welcomes original papers in computing, engineering and applied sciences. Submit through the online system.",
+        "ge": "სტატიების მიღება — მომდევნო ნომერი. JTST იღებს ორიგინალურ ნაშრომებს გამოთვლებით, ინჟინერიასა და გამოყენებით მეცნიერებებში. გადაგზავნა ონლაინ სისტემით."
+      },
+      "issues": [
+        {
+          "vol": "Vol. 13, No. 1",
+          "year": 2024,
+          "current": true,
+          "articles": [
+            {
+              "title": {
+                "en": "Lightweight deep learning for edge devices",
+                "ge": "მსუბუქი ღრმა სწავლება სასაზღვრო მოწყობილობებისთვის"
+              },
+              "authors": "L. Tsintsadze",
+              "pages": "5–22"
+            },
+            {
+              "title": {
+                "en": "Graph algorithms for network resilience",
+                "ge": "გრაფული ალგორითმები ქსელის მდგრადობისთვის"
+              },
+              "authors": "R. Samkharadze",
+              "pages": "23–40"
+            }
+          ]
+        },
+        {
+          "vol": "Vol. 12, No. 2",
+          "year": 2023,
+          "articles": [
+            {
+              "title": {
+                "en": "Formal verification of distributed protocols",
+                "ge": "განაწილებული პროტოკოლების ფორმალური ვერიფიკაცია"
+              },
+              "authors": "A. Yazıcı",
+              "pages": "5–21"
+            }
+          ]
+        },
+        {
+          "vol": "Vol. 12, No. 1",
+          "year": 2023,
+          "articles": []
+        }
+      ]
+    }
+  },
+  {
+    "key": "jss",
+    "order": 4,
+    "data": {
+      "journalId": "jss",
+      "id": "jss",
+      "url": "https://jss.ibsu.edu.ge/",
+      "accent": "#6a3aa0",
+      "accentDark": "#26143c",
+      "abbr": "JSS",
+      "title": {
+        "en": "Journal of Social Sciences",
+        "ge": "სოციალურ მეცნიერებათა ჟურნალი"
+      },
+      "field": {
+        "en": "Social Sciences",
+        "ge": "სოციალური მეცნიერებები"
+      },
+      "issn": "2233-3878",
+      "eissn": "2346-8262",
+      "doi": "10.31578/jss",
+      "freq": {
+        "en": "Biannual · open access",
+        "ge": "ნახევარწლიური · ღია წვდომა"
+      },
+      "since": 2012,
+      "scope": {
+        "en": "The Journal of Social Sciences publishes peer-reviewed research in political science, international relations, sociology, law, psychology and public administration, with attention to the societies and governance of the Black Sea region.",
+        "ge": "სოციალურ მეცნიერებათა ჟურნალი აქვეყნებს რეცენზირებად კვლევებს პოლიტიკურ მეცნიერებაში, საერთაშორისო ურთიერთობებში, სოციოლოგიაში, სამართალში, ფსიქოლოგიასა და საჯარო მმართველობაში, აქცენტით შავი ზღვის რეგიონის საზოგადოებებსა და მმართველობაზე."
+      },
+      "topics": {
+        "en": [
+          "Political science",
+          "International relations",
+          "Sociology",
+          "Law & governance",
+          "Psychology",
+          "Public administration"
+        ],
+        "ge": [
+          "პოლიტიკური მეცნიერება",
+          "საერთაშორისო ურთიერთობები",
+          "სოციოლოგია",
+          "სამართალი და მმართველობა",
+          "ფსიქოლოგია",
+          "საჯარო ადმინისტრირება"
+        ]
+      },
+      "editor": {
+        "en": "Chief Editor — Dr. Givi Amaglobeli",
+        "ge": "მთავარი რედაქტორი — დოქ. გივი ამაღლობელი"
+      },
+      "board": {
+        "en": [
+          "Dr. Givi Amaglobeli — International Black Sea University (Chief Editor)",
+          "Hakan Ergun — International Black Sea University (Assistant Editor)",
+          "Faculty of Social Sciences — Editorial Board"
+        ],
+        "ge": [
+          "დოქ. გივი ამაღლობელი — შავი ზღვის საერთაშორისო უნივერსიტეტი (მთავარი რედაქტორი)",
+          "ჰაკან ერგუნი — შავი ზღვის საერთაშორისო უნივერსიტეტი (ასისტენტ რედაქტორი)",
+          "სოციალურ მეცნიერებათა ფაკულტეტი — სარედაქციო საბჭო"
+        ]
+      },
+      "indexing": [
+        "Scientific Indexing Services (SIS)",
+        "ResearchBib",
+        "DRJI",
+        "ISI",
+        "Crossref (DOI)",
+        "ROAD"
+      ],
+      "callForPapers": {
+        "en": "Call for Papers — Vol. 9, No. 1. Submission deadline: November 30. Acceptance/rejection notification within 40 days of submission. Submit through the online manuscript submission form.",
+        "ge": "სტატიების მიღება — ტ. 9, No. 1. წარდგენის ბოლო ვადა: 30 ნოემბერი. მიღების/უარყოფის შეტყობინება წარდგენიდან 40 დღეში. გადაგზავნა ონლაინ ფორმით."
+      },
+      "issues": [
+        {
+          "vol": "Vol. 9, No. 1",
+          "year": 2023,
+          "current": true,
+          "articles": [
+            {
+              "title": {
+                "en": "Regional security architecture in the Black Sea",
+                "ge": "რეგიონული უსაფრთხოების არქიტექტურა შავ ზღვაში"
+              },
+              "authors": "G. Amaglobeli",
+              "pages": "5–26"
+            },
+            {
+              "title": {
+                "en": "Civic participation and trust in institutions",
+                "ge": "სამოქალაქო მონაწილეობა და ნდობა ინსტიტუტებისადმი"
+              },
+              "authors": "H. Ergun",
+              "pages": "27–45"
+            }
+          ]
+        },
+        {
+          "vol": "Vol. 8, No. 2",
+          "year": 2022,
+          "articles": [
+            {
+              "title": {
+                "en": "Foreign policy orientation of small states",
+                "ge": "მცირე სახელმწიფოების საგარეო პოლიტიკის ორიენტაცია"
+              },
+              "authors": "T. Sharashenidze",
+              "pages": "5–24"
+            }
+          ]
+        },
+        {
+          "vol": "Vol. 8, No. 1",
+          "year": 2022,
+          "articles": []
+        }
+      ]
+    }
+  }
+]

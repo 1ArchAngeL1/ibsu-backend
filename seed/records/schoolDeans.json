@@ -1,0 +1,102 @@
+[
+  {
+    "key": "business",
+    "order": 0,
+    "data": {
+      "school": "business",
+      "initials": "EK",
+      "name": {
+        "en": "Prof. Eka Khachidze",
+        "ka": "პროფ. ეკა ხაჩიძე"
+      },
+      "role": {
+        "en": "Dean, School of Business",
+        "ka": "ბიზნესის სკოლის დეკანი"
+      },
+      "quote": {
+        "en": "We teach business the way it is actually done — with real numbers, real clients and real stakes. Our graduates do not wait for the economy to mature; they help build it.",
+        "ka": "ჩვენ ბიზნესს ისე ვასწავლით, როგორც ის რეალურად კეთდება — ნამდვილი ციფრებით, ნამდვილი კლიენტებითა და რეალური პასუხისმგებლობით. ჩვენი კურსდამთავრებულები ეკონომიკის მომწიფებას არ ელოდებიან — ისინი მას აშენებენ."
+      }
+    }
+  },
+  {
+    "key": "law",
+    "order": 1,
+    "data": {
+      "school": "law",
+      "initials": "ZR",
+      "name": {
+        "en": "Prof. Zurab Rukhadze",
+        "ka": "პროფ. ზურაბ რუხაძე"
+      },
+      "role": {
+        "en": "Dean, School of Law",
+        "ka": "სამართლის სკოლის დეკანი"
+      },
+      "quote": {
+        "en": "A lawyer is only as good as their judgement under pressure. We build that here — in the moot court, in the clinic, in front of real problems with real consequences.",
+        "ka": "იურისტი ისეთივეა, როგორიც მისი მსჯელობა ზეწოლის ქვეშ. სწორედ ამას ვაშენებთ აქ — სიმულირებულ სასამართლოში, კლინიკაში, რეალური პრობლემების წინაშე."
+      }
+    }
+  },
+  {
+    "key": "eduhum",
+    "order": 2,
+    "data": {
+      "school": "eduhum",
+      "initials": "TT",
+      "name": {
+        "en": "Prof. Tamar Tsuladze",
+        "ka": "პროფ. თამარ წულაძე"
+      },
+      "role": {
+        "en": "Dean, School of Education, Humanities & Social Sciences",
+        "ka": "სკოლის დეკანი"
+      },
+      "quote": {
+        "en": "The humanities are not a luxury for a young democracy — they are its infrastructure. We graduate the teachers, journalists and diplomats who keep a society talking to itself.",
+        "ka": "ჰუმანიტარული მეცნიერებები არ არის ფუფუნება ახალგაზრდა დემოკრატიისთვის — ისინი მისი ინფრასტრუქტურაა. ჩვენ ვამზადებთ პედაგოგებს, ჟურნალისტებსა და დიპლომატებს, რომლებიც საზოგადოებას ერთმანეთთან საუბარს განაგრძობინებენ."
+      }
+    }
+  },
+  {
+    "key": "computing",
+    "order": 3,
+    "data": {
+      "school": "computing",
+      "initials": "GM",
+      "name": {
+        "en": "Prof. Giorgi Melikidze",
+        "ka": "პროფ. გიორგი მელიქიძე"
+      },
+      "role": {
+        "en": "Dean, School of Computer Science & Architecture",
+        "ka": "სკოლის დეკანი"
+      },
+      "quote": {
+        "en": "We do not teach yesterday’s stack. Our students build with the tools the industry uses now — and the best of them ship a product before they graduate.",
+        "ka": "ჩვენ გუშინდელ ტექნოლოგიებს არ ვასწავლით. ჩვენი სტუდენტები იმ ხელსაწყოებით ქმნიან, რომელსაც ინდუსტრია დღეს იყენებს — საუკეთესოები პროდუქტს კურსდამთავრებამდე უშვებენ."
+      }
+    }
+  },
+  {
+    "key": "medicine",
+    "order": 4,
+    "data": {
+      "school": "medicine",
+      "initials": "NK",
+      "name": {
+        "en": "Prof. Nino Kiknadze, MD",
+        "ka": "პროფ. ნინო კიკნაძე, MD"
+      },
+      "role": {
+        "en": "Dean, School of Medicine",
+        "ka": "მედიცინის სკოლის დეკანი"
+      },
+      "quote": {
+        "en": "Medicine cannot be learned from a book alone. We put students in front of patients early, in English, with supervision — because that is how safe, confident doctors are made.",
+        "ka": "მედიცინა მხოლოდ წიგნით ვერ ისწავლება. ჩვენ სტუდენტებს პაციენტებთან ადრე ვაყენებთ, ინგლისურად, ზედამხედველობით — რადგან ასე იქმნება უსაფრთხო და თავდაჯერებული ექიმი."
+      }
+    }
+  }
+]

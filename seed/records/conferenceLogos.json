@@ -1,0 +1,14 @@
+[
+  {
+    "key": "default",
+    "order": 0,
+    "data": {
+      "american-studies": "/photos/conferences/american-studies.jpg",
+      "student": "/photos/conferences/student.png",
+      "halc": "/photos/conferences/halc.jpg",
+      "young-researchers": "/photos/conferences/young-researchers.jpg",
+      "silk-road": "/photos/conferences/silk-road.jpg",
+      "irceelt": "/photos/conferences/irceelt.png"
+    }
+  }
+]

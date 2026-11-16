@@ -1,0 +1,447 @@
+[
+  {
+    "key": "0",
+    "order": 0,
+    "data": {
+      "lvl": "bachelor",
+      "name": "Business Administration — Management",
+      "school": "School of Business",
+      "langs": [
+        "ge",
+        "en"
+      ],
+      "acc": "01.09.2029"
+    }
+  },
+  {
+    "key": "1",
+    "order": 1,
+    "data": {
+      "lvl": "bachelor",
+      "name": "Business Administration — Marketing",
+      "school": "School of Business",
+      "langs": [
+        "ge",
+        "en"
+      ],
+      "acc": "01.09.2029"
+    }
+  },
+  {
+    "key": "2",
+    "order": 2,
+    "data": {
+      "lvl": "bachelor",
+      "name": "Business Administration — Finances",
+      "school": "School of Business",
+      "langs": [
+        "ge",
+        "en"
+      ],
+      "acc": "14.07.2030"
+    }
+  },
+  {
+    "key": "3",
+    "order": 3,
+    "data": {
+      "lvl": "bachelor",
+      "name": "Business Administration — Accounting & Audit",
+      "school": "School of Business",
+      "langs": [
+        "ge",
+        "en"
+      ],
+      "acc": "14.07.2030"
+    }
+  },
+  {
+    "key": "4",
+    "order": 4,
+    "data": {
+      "lvl": "bachelor",
+      "name": "Business Administration — Tourism",
+      "school": "School of Business",
+      "langs": [
+        "ge",
+        "en"
+      ],
+      "acc": "22.06.2028"
+    }
+  },
+  {
+    "key": "5",
+    "order": 5,
+    "data": {
+      "lvl": "bachelor",
+      "name": "Economics",
+      "school": "School of Business",
+      "langs": [
+        "ge",
+        "en"
+      ],
+      "acc": "30.09.2031"
+    }
+  },
+  {
+    "key": "6",
+    "order": 6,
+    "data": {
+      "lvl": "bachelor",
+      "name": "Computer Science & Artificial Intelligence",
+      "school": "Computer Science & Architecture",
+      "langs": [
+        "ge",
+        "en"
+      ],
+      "acc": "18.05.2031"
+    }
+  },
+  {
+    "key": "7",
+    "order": 7,
+    "data": {
+      "lvl": "bachelor",
+      "name": "Architecture",
+      "school": "Computer Science & Architecture",
+      "langs": [
+        "ge",
+        "en"
+      ],
+      "acc": "27.04.2029"
+    }
+  },
+  {
+    "key": "8",
+    "order": 8,
+    "data": {
+      "lvl": "bachelor",
+      "name": "Graphic Design",
+      "school": "Computer Science & Architecture",
+      "langs": [
+        "en"
+      ],
+      "isNew": true,
+      "acc": "11.09.2032"
+    }
+  },
+  {
+    "key": "9",
+    "order": 9,
+    "data": {
+      "lvl": "bachelor",
+      "name": "Law",
+      "school": "School of Law",
+      "langs": [
+        "ge"
+      ],
+      "acc": "03.02.2030"
+    }
+  },
+  {
+    "key": "10",
+    "order": 10,
+    "data": {
+      "lvl": "bachelor",
+      "name": "Public Administration & State Governance",
+      "school": "School of Law",
+      "langs": [
+        "ge"
+      ],
+      "acc": "03.02.2030"
+    }
+  },
+  {
+    "key": "11",
+    "order": 11,
+    "data": {
+      "lvl": "bachelor",
+      "name": "American Studies",
+      "school": "Education & Humanities",
+      "langs": [
+        "en"
+      ],
+      "acc": "19.11.2028"
+    }
+  },
+  {
+    "key": "12",
+    "order": 12,
+    "data": {
+      "lvl": "bachelor",
+      "name": "English Philology",
+      "school": "Education & Humanities",
+      "langs": [
+        "en"
+      ],
+      "acc": "19.11.2028"
+    }
+  },
+  {
+    "key": "13",
+    "order": 13,
+    "data": {
+      "lvl": "bachelor",
+      "name": "International Relations",
+      "school": "Education & Humanities",
+      "langs": [
+        "ge",
+        "en"
+      ],
+      "acc": "26.03.2031"
+    }
+  },
+  {
+    "key": "14",
+    "order": 14,
+    "data": {
+      "lvl": "bachelor",
+      "name": "Journalism",
+      "school": "Education & Humanities",
+      "langs": [
+        "ge"
+      ],
+      "acc": "08.10.2027"
+    }
+  },
+  {
+    "key": "15",
+    "order": 15,
+    "data": {
+      "lvl": "bachelor",
+      "name": "Public Relations",
+      "school": "Education & Humanities",
+      "langs": [
+        "ge"
+      ],
+      "isNew": true,
+      "acc": "11.09.2032"
+    }
+  },
+  {
+    "key": "16",
+    "order": 16,
+    "data": {
+      "lvl": "bachelor",
+      "name": "Psychology",
+      "school": "Education & Humanities",
+      "langs": [
+        "ge",
+        "en"
+      ],
+      "isNew": true,
+      "acc": "11.09.2032"
+    }
+  },
+  {
+    "key": "17",
+    "order": 17,
+    "data": {
+      "lvl": "master",
+      "name": "Business Administration — Management",
+      "school": "School of Business",
+      "langs": [
+        "ge",
+        "en"
+      ],
+      "acc": "01.09.2029"
+    }
+  },
+  {
+    "key": "18",
+    "order": 18,
+    "data": {
+      "lvl": "master",
+      "name": "Business Administration — Marketing",
+      "school": "School of Business",
+      "langs": [
+        "en"
+      ],
+      "acc": "01.09.2029"
+    }
+  },
+  {
+    "key": "19",
+    "order": 19,
+    "data": {
+      "lvl": "master",
+      "name": "Business Administration — Finance",
+      "school": "School of Business",
+      "langs": [
+        "ge",
+        "en"
+      ],
+      "acc": "14.07.2030"
+    }
+  },
+  {
+    "key": "20",
+    "order": 20,
+    "data": {
+      "lvl": "master",
+      "name": "Law",
+      "school": "School of Law",
+      "langs": [
+        "ge"
+      ],
+      "acc": "03.02.2030"
+    }
+  },
+  {
+    "key": "21",
+    "order": 21,
+    "data": {
+      "lvl": "master",
+      "name": "US Foreign Affairs",
+      "school": "Education & Humanities",
+      "langs": [
+        "en"
+      ],
+      "acc": "19.11.2028"
+    }
+  },
+  {
+    "key": "22",
+    "order": 22,
+    "data": {
+      "lvl": "master",
+      "name": "American Studies",
+      "school": "Education & Humanities",
+      "langs": [
+        "en"
+      ],
+      "acc": "19.11.2028"
+    }
+  },
+  {
+    "key": "23",
+    "order": 23,
+    "data": {
+      "lvl": "master",
+      "name": "Educational Administration",
+      "school": "Education & Humanities",
+      "langs": [
+        "ge"
+      ],
+      "acc": "05.12.2029"
+    }
+  },
+  {
+    "key": "24",
+    "order": 24,
+    "data": {
+      "lvl": "master",
+      "name": "Digital Media & Communication",
+      "school": "Education & Humanities",
+      "langs": [
+        "ge"
+      ],
+      "acc": "08.10.2027"
+    }
+  },
+  {
+    "key": "25",
+    "order": 25,
+    "data": {
+      "lvl": "master",
+      "name": "Computer Science",
+      "school": "Computer Science & Architecture",
+      "langs": [
+        "en"
+      ],
+      "acc": "18.05.2031"
+    }
+  },
+  {
+    "key": "26",
+    "order": 26,
+    "data": {
+      "lvl": "master",
+      "name": "Management & Information Technologies",
+      "school": "Computer Science & Architecture",
+      "langs": [
+        "en"
+      ],
+      "acc": "18.05.2031"
+    }
+  },
+  {
+    "key": "27",
+    "order": 27,
+    "data": {
+      "lvl": "doctorate",
+      "name": "Business Administration",
+      "school": "School of Business",
+      "langs": [
+        "en"
+      ],
+      "acc": "01.09.2029"
+    }
+  },
+  {
+    "key": "28",
+    "order": 28,
+    "data": {
+      "lvl": "doctorate",
+      "name": "Computer Science",
+      "school": "Computer Science & Architecture",
+      "langs": [
+        "en"
+      ],
+      "acc": "18.05.2031"
+    }
+  },
+  {
+    "key": "29",
+    "order": 29,
+    "data": {
+      "lvl": "doctorate",
+      "name": "American Studies",
+      "school": "Education & Humanities",
+      "langs": [
+        "en"
+      ],
+      "acc": "19.11.2028"
+    }
+  },
+  {
+    "key": "30",
+    "order": 30,
+    "data": {
+      "lvl": "doctorate",
+      "name": "Educational Science",
+      "school": "Education & Humanities",
+      "langs": [
+        "en"
+      ],
+      "acc": "05.12.2029"
+    }
+  },
+  {
+    "key": "31",
+    "order": 31,
+    "data": {
+      "lvl": "medical",
+      "name": "Medical Doctor — one-cycle MD",
+      "school": "School of Medicine",
+      "langs": [
+        "en"
+      ],
+      "href": "Medical Program.html",
+      "acc": "24.01.2031"
+    }
+  },
+  {
+    "key": "32",
+    "order": 32,
+    "data": {
+      "lvl": "teacher",
+      "name": "Teacher Training Educational Program",
+      "school": "Education & Humanities",
+      "langs": [
+        "en"
+      ],
+      "acc": "05.12.2029"
+    }
+  }
+]

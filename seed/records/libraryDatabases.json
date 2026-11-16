@@ -1,0 +1,228 @@
+[
+  {
+    "key": "sciencedirect",
+    "order": 0,
+    "data": {
+      "id": "sciencedirect",
+      "name": "ScienceDirect®",
+      "href": "https://www.sciencedirect.com/",
+      "logo": "/photos/library/db/sciencedirect.jpg",
+      "body": {
+        "ka": "საერთაშორისო სამეცნიერო პლატფორმა, რომელსაც განკარგავს წამყვანი აკადემიური გამომცემლობა Elsevier. იგი გთავაზობთ ელექტრონულ წვდომას **18 მილიონზე მეტ სამეცნიერო მასალაზე**, რომლებიც მოიცავს 4000-ზე მეტ რეცენზირებულ ჟურნალს და 30,000-ზე მეტ ელექტრონულ წიგნს. შინაარსი დაყოფილია ოთხ ძირითად მიმართულებად: ზუსტი მეცნიერებები და ინჟინერია, საბუნებისმეტყველო მეცნიერებები, სოციალური და ჰუმანიტარული მეცნიერებები, მედიცინა და ჯანდაცვა. სტატიის სრული ტექსტი ხელმისაწვდომია როგორც **PDF**, ასევე **HTML** ფორმატში. ScienceDirect სანდო და მაღალხარისხიანი რესურსია სწავლების, კვლევისა და პროფესიული განვითარებისთვის.",
+        "en": "An international scientific platform managed by the leading academic publisher Elsevier. It offers electronic access to **more than 18 million scientific resources**, including over 4,000 peer-reviewed journals and more than 30,000 electronic books. The content is divided into four main subject areas: Physical Sciences and Engineering, Life Sciences, Social Sciences and Humanities, Medicine and Health. Full-text articles are available in both **PDF** and **HTML**. ScienceDirect is a reliable and high-quality resource for education, research and professional development."
+      }
+    }
+  },
+  {
+    "key": "scopus",
+    "order": 1,
+    "data": {
+      "id": "scopus",
+      "name": "Scopus",
+      "href": "https://www.scopus.com/search/form.uri?display=basic#basic",
+      "logo": "/photos/library/db/scopus.jpg",
+      "body": {
+        "ka": "მრავალფუნქციური სამეცნიერო რესურსი, რომელიც აერთიანებს **ბიბლიოგრაფიულ ინფორმაციას, სტატიების ანოტაციებსა (აბსტრაქტებს) და ციტირების მაჩვენებლებს** 1995 წლიდან დღემდე. ბაზა მოიცავს **21,000-ზე მეტ სამეცნიერო ჟურნალს** **5000-ზე მეტი საერთაშორისო გამომცემლობისგან**, ჯამში **50 მილიონზე მეტ სამეცნიერო ჩანაწერს**. ეს რესურსი გთავაზობთ ფართო და სანდო მასალას სხვადასხვა დისციპლინაში კვლევისთვის, ანალიზისა და აკადემიური საქმიანობისთვის.",
+        "en": "A multifunctional scientific resource that brings together **bibliographic information, abstracts and citation indicators** from 1995 to the present. The database contains **more than 21,000 scientific journals** from **over 5,000 international publishers** — **over 50 million scientific records** in all. It offers broad and reliable material for research, analysis and academic work across many disciplines."
+      }
+    }
+  },
+  {
+    "key": "funding-institutional",
+    "order": 2,
+    "data": {
+      "id": "funding-institutional",
+      "name": "Funding Institutional",
+      "href": "https://www.fundinginstitutional.com/",
+      "logo": "/photos/library/db/funding-institutional.jpg",
+      "body": {
+        "ka": "მონაცემთა ბაზა, რომელიც აერთიანებს ინფორმაციას მსოფლიოს მასშტაბით არსებული სამეცნიერო გრანტებისა და დაფინანსების შესაძლებლობების შესახებ. მომხმარებელს შეუძლია მოიძიოს საგრანტო პროექტები საკუთარი კვლევითი სფეროს შესაბამისად და მიიღოს დეტალური ინფორმაცია როგორც მიმდინარე, ისე სამომავლო დაფინანსების წყაროებზე. პლატფორმა უზრუნველყოფს წვდომას **4,300-ზე მეტ სამთავრობო და კერძო ფონდზე**, რომელთა საერთო ღირებულება აღემატება **98 მილიარდ აშშ დოლარს**. ეს არის რესურსი მკვლევრებისთვის, უნივერსიტეტებისთვის და ორგანიზაციებისთვის, რომლებიც დაინტერესებულნი არიან მეცნიერების განვითარებითა და დაფინანსების მოპოვებით.",
+        "en": "A database that brings together information on scientific grants and funding opportunities worldwide. Users can search for grant projects in their own research field and get detailed information on both current and upcoming funding sources. The platform gives access to **more than 4,300 governmental and private foundations**, with a total value exceeding **98 billion USD**. It is a valuable resource for researchers, universities and organisations interested in scientific advancement and funding opportunities."
+      }
+    }
+  },
+  {
+    "key": "cambridge",
+    "order": 3,
+    "data": {
+      "id": "cambridge",
+      "name": "Cambridge Journals Online",
+      "href": "https://www.cambridge.org/core",
+      "logo": "/photos/library/db/cambridge.jpg",
+      "body": {
+        "ka": "ელექტრონული მონაცემთა ბაზა, რომელიც მოიცავს **კემბრიჯის უნივერსიტეტის მიერ გამოცემულ რეცენზირებულ ჟურნალებს 1997 წლიდან დღემდე** — სამართალი, ბიოლოგია, ანთროპოლოგია, არქეოლოგია, ასტრონომია, მათემატიკა, ფიზიკა, ქიმია, გეოგრაფია, ისტორია, ენათმეცნიერება, ფილოსოფია, პოლიტიკა, მენეჯმენტი, სოციოლოგია, საერთაშორისო ურთიერთობები, ფსიქოლოგია, ხელოვნება, მასმედია, კომუნიკაცია და სხვა. ხელმისაწვდომია **1.8 მილიონზე მეტი სამეცნიერო სტატია**; ბევრი ჟურნალი შეტანილია Thomson Reuters-ის (Clarivate Analytics) ციტირების ინდექსში. ეს პლატფორმა მნიშვნელოვანი რესურსია აკადემიური სწავლებისა და კვლევისთვის.",
+        "en": "An electronic database of **peer-reviewed journals published by Cambridge University Press since 1997** — Law, Biology, Anthropology, Archaeology, Astronomy, Mathematics, Physics, Chemistry, Geography, History, Linguistics, Philosophy, Politics, Management, Sociology, International Relations, Psychology, Arts, Media, Communication and more. It gives access to **over 1.8 million scientific articles**, many of them indexed in the Thomson Reuters (Clarivate Analytics) citation indexes. This platform is an important resource for academic teaching and research."
+      }
+    }
+  },
+  {
+    "key": "duke",
+    "order": 4,
+    "data": {
+      "id": "duke",
+      "name": "e-Duke Journals Scholarly Collection",
+      "href": "https://read.dukeupress.edu/",
+      "logo": "/photos/library/db/duke.jpg",
+      "body": {
+        "ka": "გამორჩეული აკადემიური ჟურნალები ჰუმანიტარული და სოციალური მეცნიერებების სხვადასხვა დარგში: პოლიტიკა, სამეცნიერო კვლევები, ხელოვნების ისტორია, კულტუროლოგია, პედაგოგიკა, ფილოსოფია, გენდერული კვლევები, საერთაშორისო ურთიერთობები, რეგიონული და რელიგიური კვლევები, სოციოლოგიის თეორია, აფრიკული და აზიური კვლევები, ჯანმრთელობის დაცვა და სხვა. ბაზაში წარმოდგენილია **Scopus-ში ინდექსირებული** ჟურნალები მაღალი ციტირების მაჩვენებლებით, რაც მათ აკადემიურ ხარისხსა და სანდოობაზე მიანიშნებს. კოლექცია მნიშვნელოვანი რესურსია სტუდენტების, მკვლევრებისა და აკადემიური წრეებისთვის, რომელთაც სჭირდებათ სიღრმისეული ანალიზი თანამედროვე ჰუმანიტარულ და სოციალურ საკითხებზე.",
+        "en": "Distinguished academic journals across the humanities and social sciences: Politics, Scientific Research, Art History, Cultural Studies, Education, Philosophy, Gender Studies, International Relations, Regional and Religious Studies, Sociological Theory, African and Asian Studies, Public Health and more. The journals are **indexed in Scopus**, many with high citation indicators — a mark of their academic quality and reliability. The collection is an essential resource for students, researchers and academics who need in-depth analysis of modern issues in the humanities and social sciences."
+      }
+    }
+  },
+  {
+    "key": "elgar",
+    "order": 5,
+    "data": {
+      "id": "elgar",
+      "name": "Edward Elgar Publishing Journals and Development Studies e-books",
+      "href": "https://www.elgaronline.com/",
+      "logo": "/photos/library/db/elgar.jpg",
+      "body": {
+        "ka": "ელექტრონული პლატფორმა ჰუმანიტარული და სოციალურ-ეკონომიკური მიმართულების ჟურნალებითა და წიგნებით. **ჟურნალები** ფარავს ჰუმანიტარულ მეცნიერებებს, ეკონომიკასა და განვითარების კვლევებს; **ელექტრონული წიგნები** — საჯარო და სოციალურ მმართველობას, კორპორაციულ მართვას, მიგრაციას, ბიზნესსა და მენეჯმენტს, ინფრასტრუქტურის განვითარებასა და ინტელექტუალური საკუთრების კვლევებს. წარმოდგენილია **1300-ზე მეტი წიგნი** და **20-მდე სახელწოდების ჟურნალი**. ეს რესურსი მნიშვნელოვანია სტუდენტებისა და მკვლევრებისთვის, რომლებიც სოციალურ და ეკონომიკურ პოლიტიკაზე მუშაობენ.",
+        "en": "An electronic platform of journals and books in the humanities and socio-economic studies. **Journals** cover the Humanities, Economics and Development Studies; **e-books** cover Public and Social Governance, Corporate Management, Migration, Business and Management, Infrastructure Development and Intellectual Property. It features **over 1,300 books** and **around 20 journal titles**. This resource is valuable for students and researchers working on social and economic policy."
+      }
+    }
+  },
+  {
+    "key": "erj",
+    "order": 6,
+    "data": {
+      "id": "erj",
+      "name": "European Respiratory Journal",
+      "href": "https://erj.ersjournals.com/",
+      "logo": "/photos/library/db/erj.jpg",
+      "body": {
+        "ka": "კლინიკური და ექსპერიმენტული მედიცინის ჟურნალი: სტატიები ბიოლოგიური, ეპიდემიოლოგიური, იმუნოლოგიური, ონკოლოგიური და სხვა მიმართულებებით. ჟურნალის იმპაქტ-ფაქტორი **33.8**-ს შეადგენს; ის ევროპის რესპირატორულ საზოგადოებას ეკუთვნის.",
+        "en": "A resource in clinical and experimental medicine, with articles in Biology, Epidemiology, Immunology, Oncology and more. Its current impact factor is **33.8**; it is published by the European Respiratory Society."
+      }
+    }
+  },
+  {
+    "key": "biologists",
+    "order": 7,
+    "data": {
+      "id": "biologists",
+      "name": "The Company of Biologists’ Journals",
+      "href": "https://www.biologists.com/development/",
+      "logo": "/photos/library/db/biologists.jpg",
+      "body": {
+        "ka": "განვითარების ბიოლოგიის, უჯრედული მეცნიერებისა და ექსპერიმენტული ბიოლოგიის ჟურნალები, რომელთა გამოცემები ბიოლოგთა საზოგადოების მხარდაჭერასა და წახალისებას ეძღვნება. ბაზა მოიცავს ხუთ ჟურნალს: **Development**, **Journal of Cell Science**, **Journal of Experimental Biology**, **Disease Models & Mechanisms** და **Biology Open**.",
+        "en": "Journals in developmental biology, cell science and experimental biology, published to support and encourage the community of biologists. The collection includes five journals: **Development**, **Journal of Cell Science**, **Journal of Experimental Biology**, **Disease Models & Mechanisms** and **Biology Open**."
+      }
+    }
+  },
+  {
+    "key": "msp",
+    "order": 8,
+    "data": {
+      "id": "msp",
+      "name": "Mathematical Sciences Publishers Journals",
+      "href": "https://msp.org/publications/journals/",
+      "logo": "/photos/library/db/msp.jpg",
+      "body": {
+        "ka": "**17 რეფერირებადი ჟურნალი** მათემატიკისა და მისი მომიჯნავე დისციპლინების მიმართულებით. ძირითადი სფეროებია: სტატისტიკა, ანალიტიკა, ალგებრა, გეომეტრია, მექანიკა, ინჟინერია და სხვა.",
+        "en": "**17 peer-reviewed journals** in mathematics and adjacent disciplines. Core areas include Statistics, Analytics, Algebra, Geometry, Mechanics, Engineering and more."
+      }
+    }
+  },
+  {
+    "key": "openedition",
+    "order": 9,
+    "data": {
+      "id": "openedition",
+      "name": "OpenEdition Journals",
+      "href": "https://journals.openedition.org/",
+      "logo": "/photos/library/db/openedition.jpg",
+      "body": {
+        "ka": "ძირითადად ფრანგულენოვანი ჟურნალების ბაზა ჰუმანიტარული და სოციალური მეცნიერებების მიმართულებით. აბსტრაქტები მოცემულია სხვადასხვა ევროპულ ენაზე.",
+        "en": "A platform of mainly French-language journals in the humanities and social sciences, with abstracts in various European languages."
+      }
+    }
+  },
+  {
+    "key": "royal-society",
+    "order": 10,
+    "data": {
+      "id": "royal-society",
+      "name": "Royal Society Journals Collection",
+      "href": "https://royalsociety.org/journals/",
+      "logo": "/photos/library/db/royal-society.jpg",
+      "body": {
+        "ka": "ჟურნალები ბიოლოგიური მეცნიერებების, ფიზიკის, მათემატიკის, ინჟინერიისა და მათი მომიჯნავე დისციპლინების შესახებ.",
+        "en": "Journals in the Biological Sciences, Physics, Mathematics, Engineering and related disciplines."
+      }
+    }
+  },
+  {
+    "key": "sage",
+    "order": 11,
+    "data": {
+      "id": "sage",
+      "name": "SAGE Premier",
+      "href": "https://journals.sagepub.com/",
+      "logo": "/photos/library/db/sage.jpg",
+      "body": {
+        "ka": "სამეცნიერო, მაღალრეიტინგული ჟურნალები ჰუმანიტარული და სოციალური მეცნიერებების, ბიოლოგიური, სამედიცინო და საინჟინრო-ტექნოლოგიური სფეროებიდან — **1200-ზე მეტი დასახელების** ჟურნალის სხვადასხვა წლის ნომრები.",
+        "en": "Peer-reviewed, high-impact journals across the Humanities and Social Sciences, Biological and Medical fields, and Engineering and Technology — **over 1,200 titles**, with issues from many years."
+      }
+    }
+  },
+  {
+    "key": "acm",
+    "order": 12,
+    "data": {
+      "id": "acm",
+      "name": "ACM Digital Library",
+      "href": "https://dl.acm.org/",
+      "logo": "/photos/library/db/acm.png",
+      "body": {
+        "ka": "კომპიუტერულ მეცნიერებათა ერთ-ერთი ყველაზე ავტორიტეტული და ყოვლისმომცველი ელექტრონული ბაზა: საერთაშორისო კონფერენციების მასალები, სამეცნიერო ჟურნალები და სტატიები, სპეციალიზებული ვებსაიტები და მულტიმედიური ფაილები, ციტირებადი ნაშრომები და კომპიუტერული ლიტერატურის გზამკვლევები. მთავარი მიმართულებებია საინფორმაციო ტექნოლოგიები, პროგრამული უზრუნველყოფის განვითარება, მონაცემთა ანალიტიკა, ხელოვნური ინტელექტი, კიბერუსაფრთხოება და სხვა მიმდინარე და პერსპექტიული სფეროები. პლატფორმა უზრუნველყოფს წვდომას უახლეს კვლევებზე და მხარს უჭერს აკადემიური ცოდნის განვითარებას.",
+        "en": "One of the most authoritative and comprehensive digital databases in computer science: international conference proceedings, scientific journals and articles, specialised websites and multimedia files, cited papers and computing literature guides. The main subject areas are Information Technology, Software Development, Data Analytics, Artificial Intelligence, Cybersecurity and other current and emerging fields. The platform ensures access to cutting-edge research and supports the development of academic knowledge."
+      }
+    }
+  },
+  {
+    "key": "heinonline",
+    "order": 13,
+    "data": {
+      "id": "heinonline",
+      "name": "HeinOnline Core",
+      "href": "https://heinonline.org/HOL/Welcome",
+      "logo": "/photos/library/db/heinonline.jpg",
+      "body": {
+        "ka": "წამყვანი ციფრული რესურსი იურიდიული მეცნიერებების მიმართულებით — იურისტებისთვის, აკადემიური მკვლევრებისთვის, სტუდენტებისა და სამართლით დაინტერესებული ნებისმიერი მომხმარებლისთვის. პლატფორმა მოიცავს **100 მილიონზე მეტ რესურსს** და ერთიანი სივრციდან იძლევა წვდომას სამართლის ისტორიული და თანამედროვე დოკუმენტაციის ფართო სპექტრზე. HeinOnline Core გამოირჩევა მაღალი სანდოობითა და წყაროების სიღრმით — შეუცვლელი რესურსია სამართლის კვლევისა და სწავლისთვის. სამეცნიერო ბაზა მოიცავს შემდეგ მნიშვნელოვან კოლექციებს:",
+        "en": "A leading digital resource in legal studies, designed for lawyers, academic researchers, students and anyone interested in law. The platform contains **over 100 million resources**, giving access to a wide range of historical and modern legal documents from a single platform. HeinOnline Core is known for its high credibility and the depth of its content — an indispensable resource for legal research and learning. The database includes the following important collections:"
+      },
+      "collections": [
+        {
+          "label": "Legal Classics Library",
+          "href": "https://home.heinonline.org/databases/legal-classics-library/"
+        },
+        {
+          "label": "History of International Law Collection",
+          "href": "https://home.heinonline.org/databases/history-of-international-law/"
+        },
+        {
+          "label": "United States Supreme Court Library",
+          "href": "https://home.heinonline.org/databases/u-s-supreme-court-library/"
+        },
+        {
+          "label": "English Reports (full reprint)",
+          "href": "https://home.heinonline.org/databases/english-reports/"
+        },
+        {
+          "label": "United States Statutes at Large",
+          "href": "https://home.heinonline.org/databases/u-s-statutes-at-large/"
+        },
+        {
+          "label": "United States Code",
+          "href": "https://home.heinonline.org/databases/united-states-code/"
+        },
+        {
+          "label": "World Constitutions Illustrated",
+          "href": "https://home.heinonline.org/databases/world-constitutions-illustrated/"
+        }
+      ]
+    }
+  }
+]

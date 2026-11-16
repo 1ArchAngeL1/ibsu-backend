@@ -1,0 +1,605 @@
+[
+  {
+    "key": "business:0",
+    "order": 0,
+    "data": {
+      "school": "business",
+      "staffId": "levan-sabauri",
+      "initials": "LS",
+      "name": {
+        "en": "Assoc. Prof. Levan Sabauri",
+        "ka": "ასოც. პროფ. ლევან საბაური"
+      },
+      "role": {
+        "en": "Accounting & financial reporting",
+        "ka": "ბუღალტერია და ფინანსური ანგარიშგება"
+      },
+      "field": {
+        "en": "Finance",
+        "ka": "ფინანსები"
+      }
+    }
+  },
+  {
+    "key": "business:1",
+    "order": 1,
+    "data": {
+      "school": "business",
+      "staffId": "nino-bakhtadze",
+      "initials": "NB",
+      "name": {
+        "en": "Prof. Nino Bakhtadze",
+        "ka": "პროფ. ნინო ბახტაძე"
+      },
+      "role": {
+        "en": "Strategic management",
+        "ka": "სტრატეგიული მენეჯმენტი"
+      },
+      "field": {
+        "en": "Management",
+        "ka": "მენეჯმენტი"
+      }
+    }
+  },
+  {
+    "key": "business:2",
+    "order": 2,
+    "data": {
+      "school": "business",
+      "initials": "GK",
+      "name": {
+        "en": "Dr. Giorgi Kvirikashvili",
+        "ka": "დოქ. გიორგი კვირიკაშვილი"
+      },
+      "role": {
+        "en": "Marketing & consumer behaviour",
+        "ka": "მარკეტინგი და მომხმარებლის ქცევა"
+      },
+      "field": {
+        "en": "Marketing",
+        "ka": "მარკეტინგი"
+      }
+    }
+  },
+  {
+    "key": "business:3",
+    "order": 3,
+    "data": {
+      "school": "business",
+      "initials": "TM",
+      "name": {
+        "en": "Assoc. Prof. Tamar Mzhavanadze",
+        "ka": "ასოც. პროფ. თამარ მჟავანაძე"
+      },
+      "role": {
+        "en": "Microeconomics & policy",
+        "ka": "მიკროეკონომიკა და პოლიტიკა"
+      },
+      "field": {
+        "en": "Economics",
+        "ka": "ეკონომიკა"
+      }
+    }
+  },
+  {
+    "key": "business:4",
+    "order": 4,
+    "data": {
+      "school": "business",
+      "initials": "DK",
+      "name": {
+        "en": "Dr. David Kbilashvili",
+        "ka": "დოქ. დავით ქბილაშვილი"
+      },
+      "role": {
+        "en": "Banking & investment",
+        "ka": "საბანკო და ინვესტიცია"
+      },
+      "field": {
+        "en": "Finance",
+        "ka": "ფინანსები"
+      }
+    }
+  },
+  {
+    "key": "business:5",
+    "order": 5,
+    "data": {
+      "school": "business",
+      "initials": "AM",
+      "name": {
+        "en": "Dr. Ana Metreveli",
+        "ka": "დოქ. ანა მეტრეველი"
+      },
+      "role": {
+        "en": "Tourism & hospitality management",
+        "ka": "ტურიზმისა და სტუმარმასპინძლობის მენეჯმენტი"
+      },
+      "field": {
+        "en": "Tourism",
+        "ka": "ტურიზმი"
+      }
+    }
+  },
+  {
+    "key": "law:6",
+    "order": 6,
+    "data": {
+      "school": "law",
+      "initials": "MK",
+      "name": {
+        "en": "Prof. Maia Kopaleishvili",
+        "ka": "პროფ. მაია კოპალეიშვილი"
+      },
+      "role": {
+        "en": "Constitutional law",
+        "ka": "კონსტიტუციური სამართალი"
+      },
+      "field": {
+        "en": "Public law",
+        "ka": "საჯარო სამართალი"
+      }
+    }
+  },
+  {
+    "key": "law:7",
+    "order": 7,
+    "data": {
+      "school": "law",
+      "initials": "IG",
+      "name": {
+        "en": "Assoc. Prof. Irakli Gabisonia",
+        "ka": "ასოც. პროფ. ირაკლი გაბისონია"
+      },
+      "role": {
+        "en": "Civil & commercial law",
+        "ka": "სამოქალაქო და კომერციული სამართალი"
+      },
+      "field": {
+        "en": "Private law",
+        "ka": "კერძო სამართალი"
+      }
+    }
+  },
+  {
+    "key": "law:8",
+    "order": 8,
+    "data": {
+      "school": "law",
+      "initials": "NL",
+      "name": {
+        "en": "Dr. Nato Lominadze",
+        "ka": "დოქ. ნათო ლომინაძე"
+      },
+      "role": {
+        "en": "Criminal procedure",
+        "ka": "სისხლის სამართლის პროცესი"
+      },
+      "field": {
+        "en": "Criminal law",
+        "ka": "სისხლის სამართალი"
+      }
+    }
+  },
+  {
+    "key": "law:9",
+    "order": 9,
+    "data": {
+      "school": "law",
+      "initials": "GT",
+      "name": {
+        "en": "Dr. Giorgi Tevdorashvili",
+        "ka": "დოქ. გიორგი თევდორაშვილი"
+      },
+      "role": {
+        "en": "EU & international law",
+        "ka": "ევროკავშირისა და საერთაშორისო სამართალი"
+      },
+      "field": {
+        "en": "EU law",
+        "ka": "EU სამართალი"
+      }
+    }
+  },
+  {
+    "key": "law:10",
+    "order": 10,
+    "data": {
+      "school": "law",
+      "initials": "SK",
+      "name": {
+        "en": "Assoc. Prof. Salome Kvaratskhelia",
+        "ka": "ასოც. პროფ. სალომე კვარაცხელია"
+      },
+      "role": {
+        "en": "Public administration",
+        "ka": "საჯარო ადმინისტრირება"
+      },
+      "field": {
+        "en": "Governance",
+        "ka": "მმართველობა"
+      }
+    }
+  },
+  {
+    "key": "law:11",
+    "order": 11,
+    "data": {
+      "school": "law",
+      "initials": "DB",
+      "name": {
+        "en": "Dr. Davit Bostoghanashvili",
+        "ka": "დოქ. დავით ბოსტოღანაშვილი"
+      },
+      "role": {
+        "en": "Human rights & advocacy",
+        "ka": "ადამიანის უფლებები და ადვოკატირება"
+      },
+      "field": {
+        "en": "Human rights",
+        "ka": "უფლებები"
+      }
+    }
+  },
+  {
+    "key": "eduhum:12",
+    "order": 12,
+    "data": {
+      "school": "eduhum",
+      "initials": "KG",
+      "name": {
+        "en": "Prof. Ketevan Gigashvili",
+        "ka": "პროფ. ქეთევან გიგაშვილი"
+      },
+      "role": {
+        "en": "American studies",
+        "ka": "ამერიკისმცოდნეობა"
+      },
+      "field": {
+        "en": "Am. Studies",
+        "ka": "ამერიკისმცოდნეობა"
+      }
+    }
+  },
+  {
+    "key": "eduhum:13",
+    "order": 13,
+    "data": {
+      "school": "eduhum",
+      "initials": "RW",
+      "name": {
+        "en": "Dr. Robert Whitman",
+        "ka": "დოქ. რობერტ უიტმანი"
+      },
+      "role": {
+        "en": "English philology (visiting)",
+        "ka": "ინგლისური ფილოლოგია (მოწვეული)"
+      },
+      "field": {
+        "en": "Linguistics",
+        "ka": "ლინგვისტიკა"
+      }
+    }
+  },
+  {
+    "key": "eduhum:14",
+    "order": 14,
+    "data": {
+      "school": "eduhum",
+      "initials": "NK",
+      "name": {
+        "en": "Assoc. Prof. Nino Kvirikadze",
+        "ka": "ასოც. პროფ. ნინო კვირიკაძე"
+      },
+      "role": {
+        "en": "International relations",
+        "ka": "საერთაშორისო ურთიერთობები"
+      },
+      "field": {
+        "en": "IR",
+        "ka": "IR"
+      }
+    }
+  },
+  {
+    "key": "eduhum:15",
+    "order": 15,
+    "data": {
+      "school": "eduhum",
+      "initials": "LJ",
+      "name": {
+        "en": "Dr. Lasha Jugeli",
+        "ka": "დოქ. ლაშა ჯუღელი"
+      },
+      "role": {
+        "en": "Journalism & media",
+        "ka": "ჟურნალისტიკა და მედია"
+      },
+      "field": {
+        "en": "Media",
+        "ka": "მედია"
+      }
+    }
+  },
+  {
+    "key": "eduhum:16",
+    "order": 16,
+    "data": {
+      "school": "eduhum",
+      "initials": "MA",
+      "name": {
+        "en": "Assoc. Prof. Mariam Abramishvili",
+        "ka": "ასოც. პროფ. მარიამ აბრამიშვილი"
+      },
+      "role": {
+        "en": "Psychology",
+        "ka": "ფსიქოლოგია"
+      },
+      "field": {
+        "en": "Psychology",
+        "ka": "ფსიქოლოგია"
+      }
+    }
+  },
+  {
+    "key": "eduhum:17",
+    "order": 17,
+    "data": {
+      "school": "eduhum",
+      "initials": "ES",
+      "name": {
+        "en": "Prof. Eter Shengelia",
+        "ka": "პროფ. ეთერ შენგელია"
+      },
+      "role": {
+        "en": "Education & pedagogy",
+        "ka": "განათლება და პედაგოგიკა"
+      },
+      "field": {
+        "en": "Education",
+        "ka": "განათლება"
+      }
+    }
+  },
+  {
+    "key": "computing:18",
+    "order": 18,
+    "data": {
+      "school": "computing",
+      "initials": "AT",
+      "name": {
+        "en": "Prof. Alexander Tushishvili",
+        "ka": "პროფ. ალექსანდრე ტუშიშვილი"
+      },
+      "role": {
+        "en": "Algorithms & systems",
+        "ka": "ალგორითმები და სისტემები"
+      },
+      "field": {
+        "en": "CS",
+        "ka": "CS"
+      }
+    }
+  },
+  {
+    "key": "computing:19",
+    "order": 19,
+    "data": {
+      "school": "computing",
+      "staffId": "mariam-nadiradze",
+      "initials": "MN",
+      "name": {
+        "en": "Dr. Mariam Nadiradze",
+        "ka": "დოქ. მარიამ ნადირაძე"
+      },
+      "role": {
+        "en": "Machine learning & AI",
+        "ka": "მანქანური სწავლება და AI"
+      },
+      "field": {
+        "en": "AI",
+        "ka": "AI"
+      }
+    }
+  },
+  {
+    "key": "computing:20",
+    "order": 20,
+    "data": {
+      "school": "computing",
+      "initials": "BK",
+      "name": {
+        "en": "Assoc. Prof. Beka Kapanadze",
+        "ka": "ასოც. პროფ. ბექა კაპანაძე"
+      },
+      "role": {
+        "en": "Software engineering",
+        "ka": "პროგრამული ინჟინერია"
+      },
+      "field": {
+        "en": "Software",
+        "ka": "პროგრამები"
+      }
+    }
+  },
+  {
+    "key": "computing:21",
+    "order": 21,
+    "data": {
+      "school": "computing",
+      "initials": "NC",
+      "name": {
+        "en": "Dr. Nika Chkhaidze",
+        "ka": "დოქ. ნიკა ჩხაიძე"
+      },
+      "role": {
+        "en": "Networks & security",
+        "ka": "ქსელები და უსაფრთხოება"
+      },
+      "field": {
+        "en": "Security",
+        "ka": "უსაფრთხოება"
+      }
+    }
+  },
+  {
+    "key": "computing:22",
+    "order": 22,
+    "data": {
+      "school": "computing",
+      "initials": "LT",
+      "name": {
+        "en": "Prof. Lika Toradze",
+        "ka": "პროფ. ლიკა თორაძე"
+      },
+      "role": {
+        "en": "Architecture & urban design",
+        "ka": "არქიტექტურა და ურბანული დიზაინი"
+      },
+      "field": {
+        "en": "Architecture",
+        "ka": "არქიტექტურა"
+      }
+    }
+  },
+  {
+    "key": "computing:23",
+    "order": 23,
+    "data": {
+      "school": "computing",
+      "initials": "GS",
+      "name": {
+        "en": "Dr. Giorgi Sharashenidze",
+        "ka": "დოქ. გიორგი შარაშენიძე"
+      },
+      "role": {
+        "en": "Graphic & interaction design",
+        "ka": "გრაფიკული და ინტერაქციის დიზაინი"
+      },
+      "field": {
+        "en": "Design",
+        "ka": "დიზაინი"
+      }
+    }
+  },
+  {
+    "key": "medicine:24",
+    "order": 24,
+    "data": {
+      "school": "medicine",
+      "initials": "TG",
+      "name": {
+        "en": "Prof. Tamaz Gogia, MD",
+        "ka": "პროფ. თამაზ გოგია, MD"
+      },
+      "role": {
+        "en": "Anatomy & embryology",
+        "ka": "ანატომია და ემბრიოლოგია"
+      },
+      "field": {
+        "en": "Anatomy",
+        "ka": "ანატომია"
+      }
+    }
+  },
+  {
+    "key": "medicine:25",
+    "order": 25,
+    "data": {
+      "school": "medicine",
+      "initials": "MS",
+      "name": {
+        "en": "Dr. Maka Shanidze, MD",
+        "ka": "დოქ. მაკა შანიძე, MD"
+      },
+      "role": {
+        "en": "Physiology",
+        "ka": "ფიზიოლოგია"
+      },
+      "field": {
+        "en": "Physiology",
+        "ka": "ფიზიოლოგია"
+      }
+    }
+  },
+  {
+    "key": "medicine:26",
+    "order": 26,
+    "data": {
+      "school": "medicine",
+      "initials": "RK",
+      "name": {
+        "en": "Prof. Revaz Kakabadze, MD",
+        "ka": "პროფ. რევაზ კაკაბაძე, MD"
+      },
+      "role": {
+        "en": "Internal medicine",
+        "ka": "შინაგანი მედიცინა"
+      },
+      "field": {
+        "en": "Clinical",
+        "ka": "კლინიკური"
+      }
+    }
+  },
+  {
+    "key": "medicine:27",
+    "order": 27,
+    "data": {
+      "school": "medicine",
+      "initials": "EL",
+      "name": {
+        "en": "Dr. Elene Lomidze, MD",
+        "ka": "დოქ. ელენე ლომიძე, MD"
+      },
+      "role": {
+        "en": "Pathology",
+        "ka": "პათოლოგია"
+      },
+      "field": {
+        "en": "Pathology",
+        "ka": "პათოლოგია"
+      }
+    }
+  },
+  {
+    "key": "medicine:28",
+    "order": 28,
+    "data": {
+      "school": "medicine",
+      "initials": "AS",
+      "name": {
+        "en": "Dr. Avtandil Surguladze, MD",
+        "ka": "დოქ. ავთანდილ სურგულაძე, MD"
+      },
+      "role": {
+        "en": "Surgery (clinical)",
+        "ka": "ქირურგია (კლინიკური)"
+      },
+      "field": {
+        "en": "Surgery",
+        "ka": "ქირურგია"
+      }
+    }
+  },
+  {
+    "key": "medicine:29",
+    "order": 29,
+    "data": {
+      "school": "medicine",
+      "initials": "NM",
+      "name": {
+        "en": "Dr. Nana Maisuradze, MD",
+        "ka": "დოქ. ნანა მაისურაძე, MD"
+      },
+      "role": {
+        "en": "Pharmacology",
+        "ka": "ფარმაკოლოგია"
+      },
+      "field": {
+        "en": "Pharmacology",
+        "ka": "ფარმაკოლოგია"
+      }
+    }
+  }
+]

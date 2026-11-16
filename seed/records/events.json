@@ -1,0 +1,65 @@
+[
+  {
+    "key": "e1",
+    "order": 0,
+    "data": {
+      "id": "e1",
+      "title": {
+        "en": "IBSU Open Day — meet the schools and tour the campus",
+        "ka": "IBSU ღია კარის დღე — გაიცანი სკოლები და დაათვალიერე კამპუსი"
+      },
+      "day": "12",
+      "month": {
+        "en": "Jul",
+        "ka": "ივლ"
+      },
+      "time": "11:00",
+      "place": {
+        "en": "Main campus courtyard",
+        "ka": "მთავარი კამპუსის ეზო"
+      }
+    }
+  },
+  {
+    "key": "e2",
+    "order": 1,
+    "data": {
+      "id": "e2",
+      "title": {
+        "en": "Multidisciplinary International Student Conference",
+        "ka": "მულტიდისციპლინური საერთაშორისო სტუდენტური კონფერენცია"
+      },
+      "day": "18",
+      "month": {
+        "en": "Jul",
+        "ka": "ივლ"
+      },
+      "time": "10:00",
+      "place": {
+        "en": "Auditorium A",
+        "ka": "აუდიტორია A"
+      }
+    }
+  },
+  {
+    "key": "e3",
+    "order": 2,
+    "data": {
+      "id": "e3",
+      "title": {
+        "en": "MIT × IBSU entrepreneurship workshop with ORBIT",
+        "ka": "MIT × IBSU სამეწარმეო სემინარი ORBIT-თან ერთად"
+      },
+      "day": "05",
+      "month": {
+        "en": "Sep",
+        "ka": "სექ"
+      },
+      "time": "14:00",
+      "place": {
+        "en": "TEC lab",
+        "ka": "TEC ლაბორატორია"
+      }
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "key": "default",
+    "order": 0,
+    "data": {
+      "tag": "#ExchangeStudent",
+      "title": {
+        "en": "“It changed how I think”: a semester in South Korea",
+        "ka": "„შეცვალა ჩემი აზროვნება“: სემესტრი სამხრეთ კორეაში"
+      },
+      "excerpt": {
+        "en": "Luka Gobechia, a Computer Science student, spent a semester at the Korea University of Technology & Education on a bilateral exchange — and came back with a different way of solving problems.",
+        "ka": "ლუკა გობეჩიამ, კომპიუტერული მეცნიერების სტუდენტმა, სემესტრი გაატარა კორეის ტექნოლოგიებისა და განათლების უნივერსიტეტში ორმხრივი გაცვლით — და დაბრუნდა პრობლემების გადაჭრის ახალი გზით."
+      },
+      "author": {
+        "en": "Luka Gobechia",
+        "ka": "ლუკა გობეჩია"
+      },
+      "role": {
+        "en": "BSc Computer Science · Year 3",
+        "ka": "BSc კომპიუტერული მეცნიერება · მე-3 კურსი"
+      },
+      "img": "/photos/man-navy.webp"
+    }
+  }
+]

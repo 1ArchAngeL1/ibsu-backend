@@ -1,0 +1,1114 @@
+[
+  {
+    "key": "university:u1",
+    "order": 0,
+    "data": {
+      "desk": "university",
+      "id": "u1",
+      "cats": [
+        "conference"
+      ],
+      "date": "2026-05-20",
+      "img": "/photos/hero-meeting.webp",
+      "title": {
+        "en": "At IRCEELT 2026, IBSU hosts the conversation on rethinking how we learn",
+        "ka": "IRCEELT 2026-ზე IBSU მასპინძლობს საუბარს იმაზე, თუ როგორ ვსწავლობთ ხელახლა"
+      },
+      "tags": [
+        "conference",
+        "education"
+      ],
+      "href": null
+    }
+  },
+  {
+    "key": "university:u2",
+    "order": 1,
+    "data": {
+      "desk": "university",
+      "id": "u2",
+      "cats": [
+        "conference"
+      ],
+      "date": "2026-06-08",
+      "img": "/photos/audience.webp",
+      "title": {
+        "en": "16th International American Studies Conference opens at IBSU",
+        "ka": "IBSU-ში იხსნება ამერიკისმცოდნეობის მე-16 საერთაშორისო კონფერენცია"
+      },
+      "tags": [
+        "conference",
+        "international"
+      ],
+      "href": null
+    }
+  },
+  {
+    "key": "university:u3",
+    "order": 2,
+    "data": {
+      "desk": "university",
+      "id": "u3",
+      "cats": [
+        "partnership",
+        "student"
+      ],
+      "date": "2026-02-27",
+      "img": "/photos/man-navy.webp",
+      "title": {
+        "en": "An IBSU student's international experience on MIT's StartMIT program",
+        "ka": "IBSU-ს სტუდენტის საერთაშორისო გამოცდილება MIT-ის StartMIT პროგრამაში"
+      },
+      "tags": [
+        "computing",
+        "mit"
+      ],
+      "href": null
+    }
+  },
+  {
+    "key": "university:u4",
+    "order": 3,
+    "data": {
+      "desk": "university",
+      "id": "u4",
+      "cats": [
+        "ceremony"
+      ],
+      "date": "2025-11-05",
+      "img": "/photos/group.webp",
+      "title": {
+        "en": "IBSU holds its freshman welcome ceremony for the new cohort",
+        "ka": "IBSU-ში გაიმართა პირველკურსელთა საზეიმო მიღების ცერემონია"
+      },
+      "tags": [
+        "ceremony",
+        "campus"
+      ],
+      "href": null
+    }
+  },
+  {
+    "key": "university:u5",
+    "order": 4,
+    "data": {
+      "desk": "university",
+      "id": "u5",
+      "cats": [
+        "accreditation"
+      ],
+      "date": "2025-08-27",
+      "img": "/photos/stickers.webp",
+      "title": {
+        "en": "IBSU's education programs receive full accreditation",
+        "ka": "IBSU-ს განათლების პროგრამებმა სრული აკრედიტაცია მიიღო"
+      },
+      "tags": [
+        "education",
+        "accreditation"
+      ],
+      "href": null
+    }
+  },
+  {
+    "key": "university:u6",
+    "order": 5,
+    "data": {
+      "desk": "university",
+      "id": "u6",
+      "cats": [
+        "conference",
+        "student"
+      ],
+      "date": "2025-06-16",
+      "img": "/photos/desk-blue.webp",
+      "title": {
+        "en": "IBSU hosts its 4th International Multidisciplinary Student Conference",
+        "ka": "IBSU-მ მე-4 საერთაშორისო მულტიდისციპლინურ სტუდენტურ კონფერენციას უმასპინძლა"
+      },
+      "tags": [
+        "conference",
+        "students"
+      ],
+      "href": null
+    }
+  },
+  {
+    "key": "university:u7",
+    "order": 6,
+    "data": {
+      "desk": "university",
+      "id": "u7",
+      "cats": [
+        "partnership"
+      ],
+      "date": "2025-05-14",
+      "img": "/photos/man-check.webp",
+      "title": {
+        "en": "IBSU signs a memorandum with Université Paris 1 Panthéon-Sorbonne",
+        "ka": "IBSU-მ მემორანდუმი გააფორმა პარიზის 1 პანთეონ-სორბონის უნივერსიტეტთან"
+      },
+      "tags": [
+        "law",
+        "partnership"
+      ],
+      "href": null
+    }
+  },
+  {
+    "key": "university:u8",
+    "order": 7,
+    "data": {
+      "desk": "university",
+      "id": "u8",
+      "cats": [
+        "conference"
+      ],
+      "date": "2025-06-10",
+      "img": "/photos/model.webp",
+      "title": {
+        "en": "IBSU hosts the 15th annual American Studies conference",
+        "ka": "IBSU-მ ამერიკისმცოდნეობის მე-15 ყოველწლიურ კონფერენციას უმასპინძლა"
+      },
+      "tags": [
+        "conference",
+        "international"
+      ],
+      "href": null
+    }
+  },
+  {
+    "key": "university:u9",
+    "order": 8,
+    "data": {
+      "desk": "university",
+      "id": "u9",
+      "cats": [
+        "partnership"
+      ],
+      "date": "2025-10-27",
+      "img": "/photos/notebook-pink.webp",
+      "title": {
+        "en": "Rector Gia Kavtelishvili on IBSU's future plans and vision",
+        "ka": "რექტორი გია კავთელიშვილი IBSU-ს სამომავლო გეგმებსა და ხედვაზე"
+      },
+      "tags": [
+        "interview",
+        "university"
+      ],
+      "href": null
+    }
+  },
+  {
+    "key": "university:u10",
+    "order": 9,
+    "data": {
+      "desk": "university",
+      "id": "u10",
+      "cats": [
+        "student"
+      ],
+      "date": "2026-06-05",
+      "img": "/photos/stickers.webp",
+      "title": {
+        "en": "Street Art comes to IBSU's walls in a student-led project",
+        "ka": "Street Art მოდის IBSU-ს კედლებზე სტუდენტების პროექტით"
+      },
+      "tags": [
+        "architecture",
+        "campus"
+      ],
+      "href": null
+    }
+  },
+  {
+    "key": "university:u11",
+    "order": 10,
+    "data": {
+      "desk": "university",
+      "id": "u11",
+      "cats": [
+        "accreditation"
+      ],
+      "date": "2025-03-12",
+      "img": "/photos/woman-green.webp",
+      "title": {
+        "en": "School of Medicine renews international programmatic accreditation",
+        "ka": "მედიცინის სკოლამ საერთაშორისო პროგრამული აკრედიტაცია განაახლა"
+      },
+      "tags": [
+        "medicine",
+        "accreditation"
+      ],
+      "href": null
+    }
+  },
+  {
+    "key": "university:u12",
+    "order": 11,
+    "data": {
+      "desk": "university",
+      "id": "u12",
+      "cats": [
+        "ceremony",
+        "student"
+      ],
+      "date": "2025-07-10",
+      "img": "/photos/anniversary.webp",
+      "title": {
+        "en": "Class of 2025 graduates celebrated at the annual commencement",
+        "ka": "2025 წლის კურსდამთავრებულები დაჯილდოვდნენ ყოველწლიურ ცერემონიაზე"
+      },
+      "tags": [
+        "ceremony",
+        "graduation"
+      ],
+      "href": null
+    }
+  },
+  {
+    "key": "schools:sc1",
+    "order": 12,
+    "data": {
+      "desk": "schools",
+      "id": "sc1",
+      "cats": [
+        "business"
+      ],
+      "date": "2026-04-22",
+      "img": "/photos/desk-blue.webp",
+      "title": {
+        "en": "School of Business opens a new fintech & analytics lab",
+        "ka": "ბიზნესის სკოლა ხსნის ახალ ფინტექ და ანალიტიკის ლაბორატორიას"
+      },
+      "tags": [
+        "business",
+        "facilities"
+      ],
+      "href": "/schools/business"
+    }
+  },
+  {
+    "key": "schools:sc2",
+    "order": 13,
+    "data": {
+      "desk": "schools",
+      "id": "sc2",
+      "cats": [
+        "business"
+      ],
+      "date": "2026-03-03",
+      "img": "/photos/notebook-orange.webp",
+      "title": {
+        "en": "Business students take first place in a national case competition",
+        "ka": "ბიზნესის სტუდენტებმა პირველი ადგილი დაიკავეს ეროვნულ ქეის-კონკურსში"
+      },
+      "tags": [
+        "business",
+        "students"
+      ],
+      "href": "/schools/business"
+    }
+  },
+  {
+    "key": "schools:sc3",
+    "order": 14,
+    "data": {
+      "desk": "schools",
+      "id": "sc3",
+      "cats": [
+        "law"
+      ],
+      "date": "2025-05-14",
+      "img": "/photos/man-check.webp",
+      "title": {
+        "en": "Law school signs a memorandum with Paris 1 Panthéon-Sorbonne",
+        "ka": "სამართლის სკოლამ მემორანდუმი გააფორმა პარიზის 1 პანთეონ-სორბონთან"
+      },
+      "tags": [
+        "law",
+        "partnership"
+      ],
+      "href": "/schools/law"
+    }
+  },
+  {
+    "key": "schools:sc4",
+    "order": 15,
+    "data": {
+      "desk": "schools",
+      "id": "sc4",
+      "cats": [
+        "law"
+      ],
+      "date": "2026-02-19",
+      "img": "/photos/audience.webp",
+      "title": {
+        "en": "IBSU moot-court team advances to the international rounds",
+        "ka": "IBSU-ს მუტ-კორტის გუნდი საერთაშორისო ეტაპზე გავიდა"
+      },
+      "tags": [
+        "law",
+        "competition"
+      ],
+      "href": "/schools/law"
+    }
+  },
+  {
+    "key": "schools:sc5",
+    "order": 16,
+    "data": {
+      "desk": "schools",
+      "id": "sc5",
+      "cats": [
+        "eduhum"
+      ],
+      "date": "2026-05-20",
+      "img": "/photos/hero-meeting.webp",
+      "title": {
+        "en": "IRCEELT 2026 brings education researchers to IBSU",
+        "ka": "IRCEELT 2026 განათლების მკვლევრებს IBSU-ში კრებს"
+      },
+      "tags": [
+        "education",
+        "conference"
+      ],
+      "href": "/schools/eduhum"
+    }
+  },
+  {
+    "key": "schools:sc6",
+    "order": 17,
+    "data": {
+      "desk": "schools",
+      "id": "sc6",
+      "cats": [
+        "eduhum"
+      ],
+      "date": "2025-08-27",
+      "img": "/photos/group.webp",
+      "title": {
+        "en": "Education programs receive full accreditation",
+        "ka": "განათლების პროგრამებმა სრული აკრედიტაცია მიიღო"
+      },
+      "tags": [
+        "education",
+        "accreditation"
+      ],
+      "href": "/schools/eduhum"
+    }
+  },
+  {
+    "key": "schools:sc7",
+    "order": 18,
+    "data": {
+      "desk": "schools",
+      "id": "sc7",
+      "cats": [
+        "computing"
+      ],
+      "date": "2026-02-27",
+      "img": "/photos/man-navy.webp",
+      "title": {
+        "en": "A computing student joins MIT's StartMIT program on full scholarship",
+        "ka": "კომპიუტერული მეცნიერების სტუდენტი MIT-ის StartMIT პროგრამას სრული დაფინანსებით შეუერთდა"
+      },
+      "tags": [
+        "computing",
+        "mit"
+      ],
+      "href": "/schools/computing"
+    }
+  },
+  {
+    "key": "schools:sc8",
+    "order": 19,
+    "data": {
+      "desk": "schools",
+      "id": "sc8",
+      "cats": [
+        "computing"
+      ],
+      "date": "2026-06-05",
+      "img": "/photos/stickers.webp",
+      "title": {
+        "en": "Architecture students lead the Street Art project on campus",
+        "ka": "არქიტექტურის სტუდენტები ხელმძღვანელობენ Street Art პროექტს კამპუსზე"
+      },
+      "tags": [
+        "architecture",
+        "campus"
+      ],
+      "href": "/schools/computing"
+    }
+  },
+  {
+    "key": "schools:sc9",
+    "order": 20,
+    "data": {
+      "desk": "schools",
+      "id": "sc9",
+      "cats": [
+        "medicine"
+      ],
+      "date": "2026-03-12",
+      "img": "/photos/woman-green.webp",
+      "title": {
+        "en": "School of Medicine renews its international accreditation",
+        "ka": "მედიცინის სკოლამ საერთაშორისო აკრედიტაცია განაახლა"
+      },
+      "tags": [
+        "medicine",
+        "accreditation"
+      ],
+      "href": "/schools/medicine"
+    }
+  },
+  {
+    "key": "schools:sc10",
+    "order": 21,
+    "data": {
+      "desk": "schools",
+      "id": "sc10",
+      "cats": [
+        "medicine"
+      ],
+      "date": "2026-01-28",
+      "img": "/photos/model.webp",
+      "title": {
+        "en": "Medical students take part in a national clinical-skills olympiad",
+        "ka": "მედიცინის სტუდენტები მონაწილეობენ კლინიკური უნარების ეროვნულ ოლიმპიადაში"
+      },
+      "tags": [
+        "medicine",
+        "students"
+      ],
+      "href": "/schools/medicine"
+    }
+  },
+  {
+    "key": "schools:sc11",
+    "order": 22,
+    "data": {
+      "desk": "schools",
+      "id": "sc11",
+      "cats": [
+        "business"
+      ],
+      "date": "2025-12-15",
+      "img": "/photos/anniversary.webp",
+      "title": {
+        "en": "Business school hosts an entrepreneurship week with industry mentors",
+        "ka": "ბიზნესის სკოლა მასპინძლობს მეწარმეობის კვირას ინდუსტრიის მენტორებთან ერთად"
+      },
+      "tags": [
+        "business",
+        "entrepreneurship"
+      ],
+      "href": "/schools/business"
+    }
+  },
+  {
+    "key": "schools:sc12",
+    "order": 23,
+    "data": {
+      "desk": "schools",
+      "id": "sc12",
+      "cats": [
+        "eduhum"
+      ],
+      "date": "2025-06-10",
+      "img": "/photos/notebook-pink.webp",
+      "title": {
+        "en": "The 15th annual American Studies conference comes to IBSU",
+        "ka": "ამერიკისმცოდნეობის მე-15 ყოველწლიური კონფერენცია IBSU-ში მოდის"
+      },
+      "tags": [
+        "education",
+        "conference"
+      ],
+      "href": "/schools/eduhum"
+    }
+  },
+  {
+    "key": "international:i1",
+    "order": 24,
+    "data": {
+      "desk": "international",
+      "id": "i1",
+      "cats": [
+        "memoranda",
+        "partnership"
+      ],
+      "date": "2025-05-14",
+      "img": "/photos/man-check.webp",
+      "title": {
+        "en": "IBSU signs a memorandum with Université Paris 1 Panthéon-Sorbonne",
+        "ka": "IBSU-მ მემორანდუმი გააფორმა პარიზის 1 პანთეონ-სორბონის უნივერსიტეტთან"
+      },
+      "tags": [
+        "memorandum",
+        "france"
+      ],
+      "href": null
+    }
+  },
+  {
+    "key": "international:i2",
+    "order": 25,
+    "data": {
+      "desk": "international",
+      "id": "i2",
+      "cats": [
+        "erasmus"
+      ],
+      "date": "2026-02-27",
+      "img": "/photos/man-navy.webp",
+      "title": {
+        "en": "A computing student joins MIT's StartMIT program on a full scholarship",
+        "ka": "კომპიუტერული მეცნიერების სტუდენტი MIT-ის StartMIT პროგრამას სრული დაფინანსებით შეუერთდა"
+      },
+      "tags": [
+        "mobility",
+        "usa"
+      ],
+      "href": null
+    }
+  },
+  {
+    "key": "international:i3",
+    "order": 26,
+    "data": {
+      "desk": "international",
+      "id": "i3",
+      "cats": [
+        "conference"
+      ],
+      "date": "2026-06-08",
+      "img": "/photos/audience.webp",
+      "title": {
+        "en": "16th International American Studies Conference opens at IBSU",
+        "ka": "IBSU-ში იხსნება ამერიკისმცოდნეობის მე-16 საერთაშორისო კონფერენცია"
+      },
+      "tags": [
+        "conference",
+        "usa"
+      ],
+      "href": null
+    }
+  },
+  {
+    "key": "international:i4",
+    "order": 27,
+    "data": {
+      "desk": "international",
+      "id": "i4",
+      "cats": [
+        "erasmus"
+      ],
+      "date": "2026-06-10",
+      "img": "/photos/erasmus.webp",
+      "title": {
+        "en": "Open call: Erasmus+ student mobility for the 2026–27 academic year",
+        "ka": "ღია კონკურსი: Erasmus+ სტუდენტური მობილობა 2026–27 სასწავლო წლისთვის"
+      },
+      "tags": [
+        "erasmus",
+        "mobility"
+      ],
+      "href": null
+    }
+  },
+  {
+    "key": "international:i5",
+    "order": 28,
+    "data": {
+      "desk": "international",
+      "id": "i5",
+      "cats": [
+        "delegation"
+      ],
+      "date": "2026-04-21",
+      "img": "/photos/group.webp",
+      "title": {
+        "en": "A delegation from a European partner university visits IBSU",
+        "ka": "ევროპელი პარტნიორი უნივერსიტეტის დელეგაცია IBSU-ს ეწვია"
+      },
+      "tags": [
+        "delegation",
+        "europe"
+      ],
+      "href": null
+    }
+  },
+  {
+    "key": "international:i6",
+    "order": 29,
+    "data": {
+      "desk": "international",
+      "id": "i6",
+      "cats": [
+        "partnership",
+        "memoranda"
+      ],
+      "date": "2026-03-18",
+      "img": "/photos/desk-blue.webp",
+      "title": {
+        "en": "New double-degree agreement expands study options abroad",
+        "ka": "ახალი ორმაგი ხარისხის შეთანხმება აფართოებს სწავლის შესაძლებლობებს საზღვარგარეთ"
+      },
+      "tags": [
+        "partnership",
+        "doubleDegree"
+      ],
+      "href": null
+    }
+  },
+  {
+    "key": "international:i7",
+    "order": 30,
+    "data": {
+      "desk": "international",
+      "id": "i7",
+      "cats": [
+        "conference"
+      ],
+      "date": "2025-06-10",
+      "img": "/photos/notebook-pink.webp",
+      "title": {
+        "en": "IBSU hosts the 15th annual American Studies conference",
+        "ka": "IBSU-მ ამერიკისმცოდნეობის მე-15 ყოველწლიურ კონფერენციას უმასპინძლა"
+      },
+      "tags": [
+        "conference",
+        "usa"
+      ],
+      "href": null
+    }
+  },
+  {
+    "key": "international:i8",
+    "order": 31,
+    "data": {
+      "desk": "international",
+      "id": "i8",
+      "cats": [
+        "erasmus"
+      ],
+      "date": "2026-02-05",
+      "img": "/photos/woman-teal.webp",
+      "title": {
+        "en": "Incoming exchange students start their semester at IBSU in Tbilisi",
+        "ka": "შემომავალი გაცვლითი სტუდენტები სემესტრს IBSU-ში, თბილისში იწყებენ"
+      },
+      "tags": [
+        "mobility",
+        "incoming"
+      ],
+      "href": null
+    }
+  },
+  {
+    "key": "international:i9",
+    "order": 32,
+    "data": {
+      "desk": "international",
+      "id": "i9",
+      "cats": [
+        "delegation",
+        "partnership"
+      ],
+      "date": "2025-12-12",
+      "img": "/photos/hero-meeting.webp",
+      "title": {
+        "en": "IBSU and a regional partner sign a cooperation agreement",
+        "ka": "IBSU და რეგიონული პარტნიორი თანამშრომლობის შეთანხმებას აფორმებენ"
+      },
+      "tags": [
+        "partnership",
+        "blackSea"
+      ],
+      "href": null
+    }
+  },
+  {
+    "key": "scientific:r1",
+    "order": 33,
+    "data": {
+      "desk": "scientific",
+      "id": "r1",
+      "cats": [
+        "conference"
+      ],
+      "date": "2026-05-20",
+      "img": "/photos/hero-meeting.webp",
+      "title": {
+        "en": "IRCEELT 2026 gathers education and translation researchers at IBSU",
+        "ka": "IRCEELT 2026 განათლებისა და თარგმანის მკვლევრებს IBSU-ში კრებს"
+      },
+      "tags": [
+        "conference",
+        "education"
+      ],
+      "href": null
+    }
+  },
+  {
+    "key": "scientific:r2",
+    "order": 34,
+    "data": {
+      "desk": "scientific",
+      "id": "r2",
+      "cats": [
+        "conference"
+      ],
+      "date": "2026-06-08",
+      "img": "/photos/audience.webp",
+      "title": {
+        "en": "16th International American Studies Scientific Conference",
+        "ka": "ამერიკისმცოდნეობის მე-16 საერთაშორისო სამეცნიერო კონფერენცია"
+      },
+      "tags": [
+        "conference",
+        "humanities"
+      ],
+      "href": null
+    }
+  },
+  {
+    "key": "scientific:r3",
+    "order": 35,
+    "data": {
+      "desk": "scientific",
+      "id": "r3",
+      "cats": [
+        "doctoral"
+      ],
+      "date": "2026-06-24",
+      "img": "/photos/man-navy.webp",
+      "title": {
+        "en": "Public defence of a doctoral dissertation in Computer Science",
+        "ka": "სადოქტორო დისერტაციის საჯარო დაცვა კომპიუტერულ მეცნიერებაში"
+      },
+      "tags": [
+        "doctoralDefence",
+        "computing"
+      ],
+      "href": "/news/announcements#defences"
+    }
+  },
+  {
+    "key": "scientific:r4",
+    "order": 36,
+    "data": {
+      "desk": "scientific",
+      "id": "r4",
+      "cats": [
+        "journal"
+      ],
+      "date": "2026-03-04",
+      "img": "/photos/notebook-pink.webp",
+      "title": {
+        "en": "A new issue of the Journal of Education in Black Sea Region is out",
+        "ka": "გამოვიდა შავი ზღვის რეგიონის განათლების ჟურნალის ახალი ნომერი"
+      },
+      "tags": [
+        "journal",
+        "jebs"
+      ],
+      "href": "/research/journals/jebs"
+    }
+  },
+  {
+    "key": "scientific:r5",
+    "order": 37,
+    "data": {
+      "desk": "scientific",
+      "id": "r5",
+      "cats": [
+        "conference"
+      ],
+      "date": "2025-06-16",
+      "img": "/photos/group.webp",
+      "title": {
+        "en": "IBSU's 4th International Multidisciplinary Student Conference",
+        "ka": "IBSU-ს მე-4 საერთაშორისო მულტიდისციპლინური სტუდენტური კონფერენცია"
+      },
+      "tags": [
+        "conference",
+        "students"
+      ],
+      "href": null
+    }
+  },
+  {
+    "key": "scientific:r6",
+    "order": 38,
+    "data": {
+      "desk": "scientific",
+      "id": "r6",
+      "cats": [
+        "research",
+        "grant"
+      ],
+      "date": "2026-02-19",
+      "img": "/photos/desk-blue.webp",
+      "title": {
+        "en": "IBSU researchers win a national science-foundation grant",
+        "ka": "IBSU-ს მკვლევრებმა ეროვნული სამეცნიერო ფონდის გრანტი მოიგეს"
+      },
+      "tags": [
+        "grant",
+        "research"
+      ],
+      "href": "/research"
+    }
+  },
+  {
+    "key": "scientific:r7",
+    "order": 39,
+    "data": {
+      "desk": "scientific",
+      "id": "r7",
+      "cats": [
+        "doctoral"
+      ],
+      "date": "2026-02-11",
+      "img": "/photos/notebook-orange.webp",
+      "title": {
+        "en": "Public defence of a doctoral dissertation in Business Administration",
+        "ka": "სადოქტორო დისერტაციის საჯარო დაცვა ბიზნესის ადმინისტრირებაში"
+      },
+      "tags": [
+        "doctoralDefence",
+        "business"
+      ],
+      "href": "/news/announcements#defences"
+    }
+  },
+  {
+    "key": "scientific:r8",
+    "order": 40,
+    "data": {
+      "desk": "scientific",
+      "id": "r8",
+      "cats": [
+        "journal"
+      ],
+      "date": "2026-01-22",
+      "img": "/photos/stickers.webp",
+      "title": {
+        "en": "Call for papers: the Journal of Technical Science & Technologies",
+        "ka": "ნაშრომების მიღება: ტექნიკური მეცნიერებისა და ტექნოლოგიების ჟურნალი"
+      },
+      "tags": [
+        "journal",
+        "jtst"
+      ],
+      "href": "/research/journals/jtst"
+    }
+  },
+  {
+    "key": "scientific:r9",
+    "order": 41,
+    "data": {
+      "desk": "scientific",
+      "id": "r9",
+      "cats": [
+        "research"
+      ],
+      "date": "2025-12-15",
+      "img": "/photos/woman-green.webp",
+      "title": {
+        "en": "IBSU joins an international multi-university research consortium",
+        "ka": "IBSU უერთდება საერთაშორისო მრავალუნივერსიტეტიან კვლევით კონსორციუმს"
+      },
+      "tags": [
+        "research",
+        "consortium"
+      ],
+      "href": "/research"
+    }
+  },
+  {
+    "key": "student:st1",
+    "order": 42,
+    "data": {
+      "desk": "student",
+      "id": "st1",
+      "cats": [
+        "volunteer",
+        "clubs"
+      ],
+      "date": "2026-06-05",
+      "img": "/photos/stickers.webp",
+      "title": {
+        "en": "Students paint the campus walls in the Street Art project",
+        "ka": "სტუდენტები ხატავენ კამპუსის კედლებს Street Art პროექტში"
+      },
+      "tags": [
+        "architecture",
+        "volunteering"
+      ],
+      "href": "/student/life#clubs"
+    }
+  },
+  {
+    "key": "student:st2",
+    "order": 43,
+    "data": {
+      "desk": "student",
+      "id": "st2",
+      "cats": [
+        "clubs"
+      ],
+      "date": "2026-06-06",
+      "img": "/photos/desk-blue.webp",
+      "title": {
+        "en": "Architecture students mentor school pupils at “First Steps in Architecture”",
+        "ka": "არქიტექტურის სტუდენტები მენტორობენ მოსწავლეებს „პირველ ნაბიჯებში არქიტექტურაში“"
+      },
+      "tags": [
+        "architecture",
+        "outreach"
+      ],
+      "href": "/student/life#clubs"
+    }
+  },
+  {
+    "key": "student:st3",
+    "order": 44,
+    "data": {
+      "desk": "student",
+      "id": "st3",
+      "cats": [
+        "competition",
+        "achievement"
+      ],
+      "date": "2026-02-19",
+      "img": "/photos/audience.webp",
+      "title": {
+        "en": "The debate club takes a podium finish at an inter-university tournament",
+        "ka": "სადებატო კლუბმა საპრიზო ადგილი დაიკავა საუნივერსიტეტთაშორის ტურნირზე"
+      },
+      "tags": [
+        "debateClub",
+        "competition"
+      ],
+      "href": "/student"
+    }
+  },
+  {
+    "key": "student:st4",
+    "order": 45,
+    "data": {
+      "desk": "student",
+      "id": "st4",
+      "cats": [
+        "exchange",
+        "achievement"
+      ],
+      "date": "2026-02-27",
+      "img": "/photos/man-navy.webp",
+      "title": {
+        "en": "“It changed how I think”: a student's StartMIT story",
+        "ka": "„შეცვალა ჩემი აზროვნება“: სტუდენტის StartMIT ისტორია"
+      },
+      "tags": [
+        "exchange",
+        "mit"
+      ],
+      "href": "/international/experiences"
+    }
+  },
+  {
+    "key": "student:st5",
+    "order": 46,
+    "data": {
+      "desk": "student",
+      "id": "st5",
+      "cats": [
+        "competition"
+      ],
+      "date": "2025-06-16",
+      "img": "/photos/group.webp",
+      "title": {
+        "en": "Students present at IBSU's 4th International Multidisciplinary Conference",
+        "ka": "სტუდენტები წარდგებიან IBSU-ს მე-4 საერთაშორისო მულტიდისციპლინურ კონფერენციაზე"
+      },
+      "tags": [
+        "conference",
+        "students"
+      ],
+      "href": "/student"
+    }
+  },
+  {
+    "key": "student:st6",
+    "order": 47,
+    "data": {
+      "desk": "student",
+      "id": "st6",
+      "cats": [
+        "exchange"
+      ],
+      "date": "2026-02-05",
+      "img": "/photos/erasmus.webp",
+      "title": {
+        "en": "A semester abroad on Erasmus+ — told by the students who went",
+        "ka": "სემესტრი საზღვარგარეთ Erasmus+-ით — იმ სტუდენტების ნაამბობი, ვინც წავიდა"
+      },
+      "tags": [
+        "erasmus",
+        "exchange"
+      ],
+      "href": "/international/experiences"
+    }
+  },
+  {
+    "key": "student:st7",
+    "order": 48,
+    "data": {
+      "desk": "student",
+      "id": "st7",
+      "cats": [
+        "volunteer",
+        "clubs"
+      ],
+      "date": "2025-12-12",
+      "img": "/photos/anniversary.webp",
+      "title": {
+        "en": "Student clubs run a winter charity drive for local families",
+        "ka": "სტუდენტური კლუბები ატარებენ ზამთრის საქველმოქმედო აქციას ადგილობრივი ოჯახებისთვის"
+      },
+      "tags": [
+        "volunteering",
+        "community"
+      ],
+      "href": "/student/life#clubs"
+    }
+  },
+  {
+    "key": "student:st8",
+    "order": 49,
+    "data": {
+      "desk": "student",
+      "id": "st8",
+      "cats": [
+        "clubs",
+        "achievement"
+      ],
+      "date": "2026-03-03",
+      "img": "/photos/notebook-orange.webp",
+      "title": {
+        "en": "Business club students win first place at a national case competition",
+        "ka": "ბიზნეს-კლუბის სტუდენტებმა პირველი ადგილი დაიკავეს ეროვნულ ქეის-კონკურსში"
+      },
+      "tags": [
+        "business",
+        "competition"
+      ],
+      "href": "/student"
+    }
+  }
+]

@@ -1,0 +1,2547 @@
+[
+  {
+    "key": "elte-2026",
+    "order": 0,
+    "data": {
+      "id": "elte-2026",
+      "kind": "erasmus",
+      "university": {
+        "ka": "Eötvös Loránd University",
+        "en": "Eötvös Loránd University"
+      },
+      "place": {
+        "ka": "ბუდაპეშტი, უნგრეთი",
+        "en": "Budapest, Hungary"
+      },
+      "places": 1,
+      "term": "spring",
+      "schools": [
+        "eduhum"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "teacherTraining"
+          ]
+        }
+      ],
+      "deadline": "2026-11-11"
+    }
+  },
+  {
+    "key": "htw-dresden-2026",
+    "order": 1,
+    "data": {
+      "id": "htw-dresden-2026",
+      "kind": "erasmus",
+      "university": {
+        "ka": "HTW Dresden",
+        "en": "HTW Dresden"
+      },
+      "place": {
+        "ka": "დრეზდენი, გერმანია",
+        "en": "Dresden, Germany"
+      },
+      "places": 1,
+      "term": "spring",
+      "schools": [
+        "computing"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "computerScience"
+          ]
+        }
+      ],
+      "deadline": "2026-11-02"
+    }
+  },
+  {
+    "key": "west-attica-2026-phd",
+    "order": 2,
+    "data": {
+      "id": "west-attica-2026-phd",
+      "kind": "erasmus",
+      "university": {
+        "ka": "University of West Attica",
+        "en": "University of West Attica"
+      },
+      "place": {
+        "ka": "აიგალეო, საბერძნეთი",
+        "en": "Egaleo, Greece"
+      },
+      "places": 1,
+      "term": "spring",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "phd",
+          "programmes": [
+            "businessAdmin"
+          ]
+        }
+      ],
+      "deadline": "2026-10-30"
+    }
+  },
+  {
+    "key": "brno-2026",
+    "order": 3,
+    "data": {
+      "id": "brno-2026",
+      "kind": "erasmus",
+      "university": {
+        "ka": "Brno University of Technology",
+        "en": "Brno University of Technology"
+      },
+      "place": {
+        "ka": "ბრნო, ჩეხეთი",
+        "en": "Brno, Czech Republic"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "management"
+          ]
+        },
+        {
+          "level": "ma",
+          "programmes": [
+            "management"
+          ]
+        }
+      ],
+      "deadline": "2026-10-19"
+    }
+  },
+  {
+    "key": "amsterdam-2025",
+    "order": 4,
+    "data": {
+      "id": "amsterdam-2025",
+      "kind": "erasmus",
+      "university": {
+        "ka": "Amsterdam University of Applied Sciences",
+        "en": "Amsterdam University of Applied Sciences"
+      },
+      "place": {
+        "ka": "ამსტერდამი, ნიდერლანდები",
+        "en": "Amsterdam, Netherlands"
+      },
+      "places": 3,
+      "term": "spring",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "marketing",
+            "management"
+          ]
+        }
+      ],
+      "deadline": "2025-09-22"
+    }
+  },
+  {
+    "key": "west-attica-2025",
+    "order": 5,
+    "data": {
+      "id": "west-attica-2025",
+      "kind": "erasmus",
+      "university": {
+        "ka": "University of West Attica",
+        "en": "University of West Attica"
+      },
+      "place": {
+        "ka": "აიგალეო, საბერძნეთი",
+        "en": "Egaleo, Greece"
+      },
+      "places": 1,
+      "term": "spring",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "businessAdmin"
+          ]
+        }
+      ],
+      "deadline": "2025-09-26"
+    }
+  },
+  {
+    "key": "varna-2025",
+    "order": 6,
+    "data": {
+      "id": "varna-2025",
+      "kind": "erasmus",
+      "university": {
+        "ka": "Varna Free University “Chernorizets Hrabar”",
+        "en": "Varna Free University “Chernorizets Hrabar”"
+      },
+      "place": {
+        "ka": "ვარნა, ბულგარეთი",
+        "en": "Varna, Bulgaria"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "computing"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "architecture"
+          ]
+        }
+      ],
+      "deadline": "2025-09-26"
+    }
+  },
+  {
+    "key": "wspa-lublin-2025",
+    "order": 7,
+    "data": {
+      "id": "wspa-lublin-2025",
+      "kind": "erasmus",
+      "university": {
+        "ka": "University College of Enterprise and Administration",
+        "en": "University College of Enterprise and Administration"
+      },
+      "place": {
+        "ka": "ლუბლინი, პოლონეთი",
+        "en": "Lublin, Poland"
+      },
+      "places": 1,
+      "term": "spring",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "management"
+          ]
+        }
+      ],
+      "deadline": "2025-09-26"
+    }
+  },
+  {
+    "key": "zwickau-2025",
+    "order": 8,
+    "data": {
+      "id": "zwickau-2025",
+      "kind": "erasmus",
+      "university": {
+        "ka": "West Saxon University of Applied Sciences of Zwickau",
+        "en": "West Saxon University of Applied Sciences of Zwickau"
+      },
+      "place": {
+        "ka": "ცვიკაუ, გერმანია",
+        "en": "Zwickau, Germany"
+      },
+      "places": 2,
+      "term": "fall",
+      "schools": [
+        "computing"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "computerScience"
+          ]
+        }
+      ],
+      "deadline": "2025-05-22"
+    }
+  },
+  {
+    "key": "varna-2025-fall",
+    "order": 9,
+    "data": {
+      "id": "varna-2025-fall",
+      "kind": "erasmus",
+      "university": {
+        "ka": "Varna Free University",
+        "en": "Varna Free University"
+      },
+      "place": {
+        "ka": "ვარნა, ბულგარეთი",
+        "en": "Varna, Bulgaria"
+      },
+      "places": 2,
+      "term": "fall",
+      "schools": [
+        "computing"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "architecture"
+          ]
+        }
+      ],
+      "deadline": "2025-05-15"
+    }
+  },
+  {
+    "key": "braganca-2025",
+    "order": 10,
+    "data": {
+      "id": "braganca-2025",
+      "kind": "erasmus",
+      "university": {
+        "ka": "Polytechnic Institute of Bragança",
+        "en": "Polytechnic Institute of Bragança"
+      },
+      "place": {
+        "ka": "ბრაგანკა, პორტუგალია",
+        "en": "Bragança, Portugal"
+      },
+      "places": 1,
+      "term": "year",
+      "schools": [
+        "computing"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "computerScience"
+          ]
+        }
+      ],
+      "deadline": "2025-04-15"
+    }
+  },
+  {
+    "key": "htw-dresden-2025-fall",
+    "order": 11,
+    "data": {
+      "id": "htw-dresden-2025-fall",
+      "kind": "erasmus",
+      "university": {
+        "ka": "HTW Dresden",
+        "en": "HTW Dresden"
+      },
+      "place": {
+        "ka": "დრეზდენი, გერმანია",
+        "en": "Dresden, Germany"
+      },
+      "places": 1,
+      "term": "fall",
+      "schools": [
+        "computing"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "computerScience"
+          ]
+        }
+      ],
+      "deadline": "2025-04-10"
+    }
+  },
+  {
+    "key": "elte-2025",
+    "order": 12,
+    "data": {
+      "id": "elte-2025",
+      "kind": "erasmus",
+      "university": {
+        "ka": "Eötvös Loránd University",
+        "en": "Eötvös Loránd University"
+      },
+      "place": {
+        "ka": "ბუდაპეშტი, უნგრეთი",
+        "en": "Budapest, Hungary"
+      },
+      "places": 4,
+      "term": "fall",
+      "schools": [
+        "eduhum"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "englishPhilology"
+          ]
+        }
+      ],
+      "deadline": "2025-03-29"
+    }
+  },
+  {
+    "key": "isag-2025",
+    "order": 13,
+    "data": {
+      "id": "isag-2025",
+      "kind": "erasmus",
+      "university": {
+        "ka": "ISAG – ევროპის ბიზნეს სკოლა",
+        "en": "ISAG – European Business School"
+      },
+      "place": {
+        "ka": "პორტო, პორტუგალია",
+        "en": "Porto, Portugal"
+      },
+      "places": 2,
+      "term": "fall",
+      "schools": [
+        "business",
+        "law"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "management",
+            "economics",
+            "publicAdmin"
+          ]
+        }
+      ],
+      "deadline": "2025-03-15"
+    }
+  },
+  {
+    "key": "krakow-2024",
+    "order": 14,
+    "data": {
+      "id": "krakow-2024",
+      "kind": "erasmus",
+      "university": {
+        "ka": "Krakow University of Economics",
+        "en": "Krakow University of Economics"
+      },
+      "place": {
+        "ka": "კრაკოვი, პოლონეთი",
+        "en": "Krakow, Poland"
+      },
+      "places": 1,
+      "term": "spring",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "management",
+            "marketing"
+          ]
+        }
+      ],
+      "deadline": "2024-12-15"
+    }
+  },
+  {
+    "key": "plock-2024",
+    "order": 15,
+    "data": {
+      "id": "plock-2024",
+      "kind": "erasmus",
+      "university": {
+        "ka": "Akademia Mazowiecka w Płocku",
+        "en": "Akademia Mazowiecka w Płocku"
+      },
+      "place": {
+        "ka": "პლოცკი, პოლონეთი",
+        "en": "Płock, Poland"
+      },
+      "places": 1,
+      "term": "spring",
+      "schools": [
+        "eduhum"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "englishPhilology",
+            "americanStudies"
+          ]
+        }
+      ],
+      "deadline": "2024-12-15"
+    }
+  },
+  {
+    "key": "newton-2024",
+    "order": 16,
+    "data": {
+      "id": "newton-2024",
+      "kind": "erasmus",
+      "university": {
+        "ka": "NEWTON University",
+        "en": "NEWTON University"
+      },
+      "place": {
+        "ka": "პრაღა, ჩეხეთი",
+        "en": "Prague, Czech Republic"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "management"
+          ]
+        }
+      ],
+      "deadline": "2024-11-18"
+    }
+  },
+  {
+    "key": "wspa-lublin-2024",
+    "order": 17,
+    "data": {
+      "id": "wspa-lublin-2024",
+      "kind": "erasmus",
+      "university": {
+        "ka": "University College of Enterprise and Administration",
+        "en": "University College of Enterprise and Administration"
+      },
+      "place": {
+        "ka": "ლუბლინი, პოლონეთი",
+        "en": "Lublin, Poland"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "computing",
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "computerScience",
+            "management"
+          ]
+        }
+      ],
+      "deadline": "2024-11-18"
+    }
+  },
+  {
+    "key": "west-attica-2024",
+    "order": 18,
+    "data": {
+      "id": "west-attica-2024",
+      "kind": "erasmus",
+      "university": {
+        "ka": "University of West Attica",
+        "en": "University of West Attica"
+      },
+      "place": {
+        "ka": "აიგალეო, საბერძნეთი",
+        "en": "Egaleo, Greece"
+      },
+      "places": 1,
+      "term": "spring",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "businessAdmin"
+          ]
+        }
+      ],
+      "deadline": "2024-05-20"
+    }
+  },
+  {
+    "key": "isag-2024",
+    "order": 19,
+    "data": {
+      "id": "isag-2024",
+      "kind": "erasmus",
+      "university": {
+        "ka": "ISAG – ევროპის ბიზნეს სკოლა",
+        "en": "ISAG – European Business School"
+      },
+      "place": {
+        "ka": "პორტო, პორტუგალია",
+        "en": "Porto, Portugal"
+      },
+      "places": 2,
+      "term": "fall",
+      "schools": [
+        "business",
+        "law"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "management",
+            "economics",
+            "publicAdmin"
+          ]
+        }
+      ],
+      "deadline": "2024-03-29"
+    }
+  },
+  {
+    "key": "plock-2024-spring",
+    "order": 20,
+    "data": {
+      "id": "plock-2024-spring",
+      "kind": "erasmus",
+      "university": {
+        "ka": "Akademia Mazowiecka w Płocku",
+        "en": "Akademia Mazowiecka w Płocku"
+      },
+      "place": {
+        "ka": "პლოცკი, პოლონეთი",
+        "en": "Płock, Poland"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "eduhum"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "englishPhilology",
+            "americanStudies"
+          ]
+        }
+      ],
+      "deadline": "2024-03-17"
+    }
+  },
+  {
+    "key": "open-cyprus-2023",
+    "order": 21,
+    "data": {
+      "id": "open-cyprus-2023",
+      "kind": "erasmus",
+      "university": {
+        "ka": "Open University of Cyprus",
+        "en": "Open University of Cyprus"
+      },
+      "place": {
+        "ka": "კვიპროსი",
+        "en": "Cyprus"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ma",
+          "programmes": [
+            "businessAdmin",
+            "eduLeadership",
+            "cognitiveSystems",
+            "riskManagement"
+          ]
+        }
+      ],
+      "deadline": "2023-12-05"
+    }
+  },
+  {
+    "key": "wspa-lublin-2023",
+    "order": 22,
+    "data": {
+      "id": "wspa-lublin-2023",
+      "kind": "erasmus",
+      "university": {
+        "ka": "University College of Enterprise and Administration",
+        "en": "University College of Enterprise and Administration"
+      },
+      "place": {
+        "ka": "ლუბლინი, პოლონეთი",
+        "en": "Lublin, Poland"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "computing",
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "computerScience",
+            "management"
+          ]
+        }
+      ],
+      "deadline": "2023-11-29"
+    }
+  },
+  {
+    "key": "canarias-2023",
+    "order": 23,
+    "data": {
+      "id": "canarias-2023",
+      "kind": "erasmus",
+      "university": {
+        "ka": "Universidad Internacional de Canarias",
+        "en": "Universidad Internacional de Canarias"
+      },
+      "place": {
+        "ka": "კანარის კუნძულები, ესპანეთი",
+        "en": "Canary Islands, Spain"
+      },
+      "places": 4,
+      "term": "spring",
+      "schools": [
+        "eduhum"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "englishPhilology"
+          ]
+        }
+      ],
+      "deadline": "2023-11-29"
+    }
+  },
+  {
+    "key": "braganca-2023",
+    "order": 24,
+    "data": {
+      "id": "braganca-2023",
+      "kind": "erasmus",
+      "university": {
+        "ka": "Polytechnic Institute of Bragança",
+        "en": "Polytechnic Institute of Bragança"
+      },
+      "place": {
+        "ka": "ბრაგანკა, პორტუგალია",
+        "en": "Bragança, Portugal"
+      },
+      "places": 1,
+      "term": "year",
+      "schools": [
+        "computing"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "computerScience"
+          ]
+        }
+      ],
+      "deadline": "2023-11-10"
+    }
+  },
+  {
+    "key": "htw-dresden-2023-ma",
+    "order": 25,
+    "data": {
+      "id": "htw-dresden-2023-ma",
+      "kind": "erasmus",
+      "university": {
+        "ka": "HTW Dresden",
+        "en": "HTW Dresden"
+      },
+      "place": {
+        "ka": "დრეზდენი, გერმანია",
+        "en": "Dresden, Germany"
+      },
+      "places": 3,
+      "term": "spring",
+      "schools": [
+        "computing"
+      ],
+      "offers": [
+        {
+          "level": "ma",
+          "programmes": [
+            "computerScience"
+          ]
+        }
+      ],
+      "deadline": "2023-05-10"
+    }
+  },
+  {
+    "key": "rzeszow-2023",
+    "order": 26,
+    "data": {
+      "id": "rzeszow-2023",
+      "kind": "erasmus",
+      "university": {
+        "ka": "Rzeszów University of Technology",
+        "en": "Rzeszów University of Technology"
+      },
+      "place": {
+        "ka": "ჟეშოვი, პოლონეთი",
+        "en": "Rzeszów, Poland"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "computing"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "computerScience",
+            "architecture"
+          ]
+        }
+      ],
+      "deadline": "2023-02-28"
+    }
+  },
+  {
+    "key": "plock-2023",
+    "order": 27,
+    "data": {
+      "id": "plock-2023",
+      "kind": "erasmus",
+      "university": {
+        "ka": "Akademia Mazowiecka w Płocku",
+        "en": "Akademia Mazowiecka w Płocku"
+      },
+      "place": {
+        "ka": "პლოცკი, პოლონეთი",
+        "en": "Płock, Poland"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "eduhum"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "americanStudies"
+          ]
+        }
+      ],
+      "deadline": "2023-02-10"
+    }
+  },
+  {
+    "key": "elte-2023",
+    "order": 28,
+    "data": {
+      "id": "elte-2023",
+      "kind": "erasmus",
+      "university": {
+        "ka": "Eötvös Loránd University",
+        "en": "Eötvös Loránd University"
+      },
+      "place": {
+        "ka": "ბუდაპეშტი, უნგრეთი",
+        "en": "Budapest, Hungary"
+      },
+      "places": 3,
+      "term": "spring",
+      "schools": [
+        "eduhum"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "englishPhilology"
+          ]
+        }
+      ],
+      "deadline": "2023-02-10"
+    }
+  },
+  {
+    "key": "tashkent-law-2026",
+    "order": 29,
+    "data": {
+      "id": "tashkent-law-2026",
+      "kind": "bilateral",
+      "university": {
+        "ka": "ტაშკენტის სახელმწიფო იურიდიული უნივერსიტეტი",
+        "en": "Tashkent State University of Law"
+      },
+      "place": {
+        "ka": "ტაშკენტი, უზბეკეთი",
+        "en": "Tashkent, Uzbekistan"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "law"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "criminalLaw",
+            "privateLaw",
+            "comparativeLaw",
+            "publicLaw"
+          ]
+        }
+      ],
+      "deadline": "2026-11-16"
+    }
+  },
+  {
+    "key": "korkyt-ata-2026",
+    "order": 30,
+    "data": {
+      "id": "korkyt-ata-2026",
+      "kind": "bilateral",
+      "university": {
+        "ka": "კორკიტ ატას სახელობის ყიზილორდის უნივერსიტეტი",
+        "en": "Korkyt Ata Kyzylorda University"
+      },
+      "place": {
+        "ka": "ყიზილორდა, ყაზახეთი",
+        "en": "Kyzylorda, Kazakhstan"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "eduhum"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "englishPhilology"
+          ]
+        }
+      ],
+      "deadline": "2026-10-26"
+    }
+  },
+  {
+    "key": "aachen-2026",
+    "order": 31,
+    "data": {
+      "id": "aachen-2026",
+      "kind": "bilateral",
+      "university": {
+        "ka": "აახენის გამოყენებით მეცნიერებათა უნივერსიტეტი",
+        "en": "Aachen University of Applied Sciences"
+      },
+      "place": {
+        "ka": "აახენი, გერმანია",
+        "en": "Aachen, Germany"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "business",
+        "computing"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "globalBusiness"
+          ]
+        },
+        {
+          "level": "ma",
+          "programmes": [
+            "intlBusinessDev"
+          ]
+        }
+      ],
+      "deadline": "2026-10-26"
+    }
+  },
+  {
+    "key": "huelva-2026",
+    "order": 32,
+    "data": {
+      "id": "huelva-2026",
+      "kind": "bilateral",
+      "university": {
+        "ka": "უელვას უნივერსიტეტი",
+        "en": "University of Huelva"
+      },
+      "place": {
+        "ka": "ჰუელვა, ესპანეთი",
+        "en": "Huelva, Spain"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "business",
+        "eduhum"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "englishPhilology",
+            "tourism"
+          ]
+        }
+      ],
+      "deadline": "2026-10-10"
+    }
+  },
+  {
+    "key": "chung-ang-2026",
+    "order": 33,
+    "data": {
+      "id": "chung-ang-2026",
+      "kind": "bilateral",
+      "university": {
+        "ka": "ჩუნგ-ანგის უნივერსიტეტი",
+        "en": "Chung-Ang University"
+      },
+      "place": {
+        "ka": "სეული, სამხრეთ კორეა",
+        "en": "Seoul, South Korea"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "computing"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "computerScience"
+          ]
+        }
+      ],
+      "deadline": "2026-10-10"
+    }
+  },
+  {
+    "key": "khazar-2026",
+    "order": 34,
+    "data": {
+      "id": "khazar-2026",
+      "kind": "bilateral",
+      "university": {
+        "ka": "ხაზარის უნივერსიტეტი",
+        "en": "Khazar University"
+      },
+      "place": {
+        "ka": "ბაქო, აზერბაიჯანი",
+        "en": "Baku, Azerbaijan"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "business",
+        "eduhum",
+        "computing"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "computerScience",
+            "management",
+            "marketing",
+            "economics",
+            "finance",
+            "accounting",
+            "tourism",
+            "psychology",
+            "englishPhilology",
+            "internationalRelations",
+            "architecture"
+          ]
+        },
+        {
+          "level": "ma",
+          "programmes": [
+            "finance",
+            "eduAdmin",
+            "marketing",
+            "management"
+          ]
+        },
+        {
+          "level": "phd",
+          "programmes": [
+            "computerScience"
+          ]
+        }
+      ],
+      "deadline": "2026-10-10"
+    }
+  },
+  {
+    "key": "sse-riga-2026",
+    "order": 35,
+    "data": {
+      "id": "sse-riga-2026",
+      "kind": "bilateral",
+      "university": {
+        "ka": "სტოკჰოლმის ეკონომიკის სკოლა რიგაში",
+        "en": "Stockholm School of Economics in Riga"
+      },
+      "place": {
+        "ka": "რიგა, ლატვია",
+        "en": "Riga, Latvia"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "economics"
+          ]
+        }
+      ],
+      "deadline": "2026-10-10"
+    }
+  },
+  {
+    "key": "sapienza-2026",
+    "order": 36,
+    "data": {
+      "id": "sapienza-2026",
+      "kind": "bilateral",
+      "university": {
+        "ka": "რომის საპიენცას უნივერსიტეტი",
+        "en": "Sapienza University of Rome"
+      },
+      "place": {
+        "ka": "რომი, იტალია",
+        "en": "Rome, Italy"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "economics",
+            "finance",
+            "management"
+          ]
+        }
+      ],
+      "deadline": "2026-10-10"
+    }
+  },
+  {
+    "key": "ciels-2026",
+    "order": 37,
+    "data": {
+      "id": "ciels-2026",
+      "kind": "bilateral",
+      "university": {
+        "ka": "CIELS-ის ლინგვისტურ შუამავალთა უმაღლესი ინსტიტუტი",
+        "en": "CIELS – University Institute for Linguistic Mediators"
+      },
+      "place": {
+        "ka": "პადუა, იტალია",
+        "en": "Padua, Italy"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "marketing",
+            "tourism"
+          ]
+        }
+      ],
+      "deadline": "2026-10-10"
+    }
+  },
+  {
+    "key": "deusto-2026",
+    "order": 38,
+    "data": {
+      "id": "deusto-2026",
+      "kind": "bilateral",
+      "university": {
+        "ka": "დეუსტოს უნივერსიტეტი",
+        "en": "University of Deusto"
+      },
+      "place": {
+        "ka": "ბილბაო, ესპანეთი",
+        "en": "Bilbao, Spain"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "business",
+        "eduhum"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "tourism",
+            "internationalRelations"
+          ]
+        }
+      ],
+      "deadline": "2026-10-10"
+    }
+  },
+  {
+    "key": "vsb-ostrava-2026",
+    "order": 39,
+    "data": {
+      "id": "vsb-ostrava-2026",
+      "kind": "bilateral",
+      "university": {
+        "ka": "VSB – ოსტრავას ტექნიკური უნივერსიტეტი",
+        "en": "VSB – Technical University of Ostrava"
+      },
+      "place": {
+        "ka": "ოსტრავა, ჩეხეთი",
+        "en": "Ostrava, Czech Republic"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "business",
+        "computing"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "computerScience",
+            "economics"
+          ]
+        }
+      ],
+      "deadline": "2026-10-10"
+    }
+  },
+  {
+    "key": "albstadt-2026",
+    "order": 40,
+    "data": {
+      "id": "albstadt-2026",
+      "kind": "bilateral",
+      "university": {
+        "ka": "ალბშტადტ-ზიგმარინგენის უნივერსიტეტი",
+        "en": "Albstadt-Sigmaringen University"
+      },
+      "place": {
+        "ka": "ზიგმარინგენი, გერმანია",
+        "en": "Sigmaringen, Germany"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "computing"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "computerScience"
+          ]
+        }
+      ],
+      "deadline": "2026-10-10"
+    }
+  },
+  {
+    "key": "amsterdam-bil-2026",
+    "order": 41,
+    "data": {
+      "id": "amsterdam-bil-2026",
+      "kind": "bilateral",
+      "university": {
+        "ka": "ამსტერდამის გამოყენებითი მეცნიერებების უნივერსიტეტი",
+        "en": "Amsterdam University of Applied Sciences"
+      },
+      "place": {
+        "ka": "ამსტერდამი, ნიდერლანდები",
+        "en": "Amsterdam, Netherlands"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "marketing",
+            "management"
+          ]
+        }
+      ],
+      "deadline": "2026-10-05"
+    }
+  },
+  {
+    "key": "lyfe-2026",
+    "order": 42,
+    "data": {
+      "id": "lyfe-2026",
+      "kind": "bilateral",
+      "university": {
+        "ka": "ლიფის ინსტიტუტი",
+        "en": "Institut Lyfe"
+      },
+      "place": {
+        "ka": "ეკული, საფრანგეთი",
+        "en": "Écully, France"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "hospitality"
+          ]
+        }
+      ],
+      "deadline": "2026-09-21"
+    }
+  },
+  {
+    "key": "isg-paris-2026",
+    "order": 43,
+    "data": {
+      "id": "isg-paris-2026",
+      "kind": "bilateral",
+      "university": {
+        "ka": "ISG – საფრანგეთის საერთაშორისო ბიზნეს სკოლა",
+        "en": "ISG International Business School"
+      },
+      "place": {
+        "ka": "პარიზი, საფრანგეთი",
+        "en": "Paris, France"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "management"
+          ]
+        }
+      ],
+      "deadline": "2026-09-21"
+    }
+  },
+  {
+    "key": "ciels-2025",
+    "order": 44,
+    "data": {
+      "id": "ciels-2025",
+      "kind": "bilateral",
+      "university": {
+        "ka": "CIELS-ის ლინგვისტურ შუამავალთა უმაღლესი ინსტიტუტი",
+        "en": "CIELS – University Institute for Linguistic Mediators"
+      },
+      "place": {
+        "ka": "პადუა, იტალია",
+        "en": "Padua, Italy"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "marketing",
+            "tourism"
+          ]
+        }
+      ],
+      "deadline": "2025-09-29"
+    }
+  },
+  {
+    "key": "sapienza-2025",
+    "order": 45,
+    "data": {
+      "id": "sapienza-2025",
+      "kind": "bilateral",
+      "university": {
+        "ka": "რომის საპიენცას უნივერსიტეტი",
+        "en": "Sapienza University of Rome"
+      },
+      "place": {
+        "ka": "რომი, იტალია",
+        "en": "Rome, Italy"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "economics",
+            "finance",
+            "management"
+          ]
+        }
+      ],
+      "deadline": "2025-09-29"
+    }
+  },
+  {
+    "key": "nysa-2025",
+    "order": 46,
+    "data": {
+      "id": "nysa-2025",
+      "kind": "bilateral",
+      "university": {
+        "ka": "გამოყენებითი მეცნიერებათა უნივერსიტეტი ნისაში",
+        "en": "University of Applied Sciences in Nysa"
+      },
+      "place": {
+        "ka": "ნისა, პოლონეთი",
+        "en": "Nysa, Poland"
+      },
+      "places": 1,
+      "term": "spring",
+      "schools": [
+        "eduhum"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "englishPhilology"
+          ]
+        }
+      ],
+      "deadline": "2025-09-29"
+    }
+  },
+  {
+    "key": "vsb-ostrava-2025",
+    "order": 47,
+    "data": {
+      "id": "vsb-ostrava-2025",
+      "kind": "bilateral",
+      "university": {
+        "ka": "VSB – ოსტრავას ტექნიკური უნივერსიტეტი",
+        "en": "VSB – Technical University of Ostrava"
+      },
+      "place": {
+        "ka": "ოსტრავა, ჩეხეთი",
+        "en": "Ostrava, Czech Republic"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "business",
+        "computing"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "computerScience",
+            "economics"
+          ]
+        }
+      ],
+      "deadline": "2025-09-15"
+    }
+  },
+  {
+    "key": "karunya-2025",
+    "order": 48,
+    "data": {
+      "id": "karunya-2025",
+      "kind": "bilateral",
+      "university": {
+        "ka": "კარუნიას ტექნოლოგიებისა და მეცნიერების ინსტიტუტი",
+        "en": "Karunya Institute of Technology and Sciences"
+      },
+      "place": {
+        "ka": "კოიმბატორი, ინდოეთი",
+        "en": "Coimbatore, India"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "computing"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "computerScience"
+          ]
+        }
+      ],
+      "deadline": "2025-09-15"
+    }
+  },
+  {
+    "key": "albstadt-2025",
+    "order": 49,
+    "data": {
+      "id": "albstadt-2025",
+      "kind": "bilateral",
+      "university": {
+        "ka": "ალბშტადტ-ზიგმარინგენის უნივერსიტეტი",
+        "en": "Albstadt-Sigmaringen University"
+      },
+      "place": {
+        "ka": "ზიგმარინგენი, გერმანია",
+        "en": "Sigmaringen, Germany"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "computing"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "computerScience"
+          ]
+        }
+      ],
+      "deadline": "2025-09-15"
+    }
+  },
+  {
+    "key": "chung-ang-2025",
+    "order": 50,
+    "data": {
+      "id": "chung-ang-2025",
+      "kind": "bilateral",
+      "university": {
+        "ka": "ჩუნგ-ანგის უნივერსიტეტი",
+        "en": "Chung-Ang University"
+      },
+      "place": {
+        "ka": "სეული, სამხრეთ კორეა",
+        "en": "Seoul, South Korea"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "computing"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "computerScience"
+          ]
+        }
+      ],
+      "deadline": "2025-09-15"
+    }
+  },
+  {
+    "key": "lyfe-2025",
+    "order": 51,
+    "data": {
+      "id": "lyfe-2025",
+      "kind": "bilateral",
+      "university": {
+        "ka": "ლიფის ინსტიტუტი",
+        "en": "Institut Lyfe"
+      },
+      "place": {
+        "ka": "ეკული, საფრანგეთი",
+        "en": "Écully, France"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "hospitality"
+          ]
+        }
+      ],
+      "deadline": "2025-09-10"
+    }
+  },
+  {
+    "key": "groningen-2025",
+    "order": 52,
+    "data": {
+      "id": "groningen-2025",
+      "kind": "bilateral",
+      "university": {
+        "ka": "გრონინგენის უნივერსიტეტი",
+        "en": "University of Groningen"
+      },
+      "place": {
+        "ka": "გრონინგენი, ნიდერლანდები",
+        "en": "Groningen, Netherlands"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "eduhum"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "englishPhilology",
+            "internationalRelations"
+          ]
+        }
+      ],
+      "deadline": "2025-09-10"
+    }
+  },
+  {
+    "key": "kozminski-2025",
+    "order": 53,
+    "data": {
+      "id": "kozminski-2025",
+      "kind": "bilateral",
+      "university": {
+        "ka": "კოზმინსკის უნივერსიტეტი",
+        "en": "Kozminski University"
+      },
+      "place": {
+        "ka": "ვარშავა, პოლონეთი",
+        "en": "Warsaw, Poland"
+      },
+      "places": 1,
+      "term": "fall",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "management"
+          ]
+        }
+      ],
+      "deadline": "2025-05-15"
+    }
+  },
+  {
+    "key": "turiba-2025",
+    "order": 54,
+    "data": {
+      "id": "turiba-2025",
+      "kind": "bilateral",
+      "university": {
+        "ka": "ტურიბას უნივერსიტეტი",
+        "en": "Turība University"
+      },
+      "place": {
+        "ka": "რიგა, ლატვია",
+        "en": "Riga, Latvia"
+      },
+      "places": 2,
+      "term": "fall",
+      "schools": [
+        "business",
+        "computing",
+        "law"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "tourism",
+            "law",
+            "computerScience",
+            "businessAdmin"
+          ]
+        }
+      ],
+      "deadline": "2025-05-15"
+    }
+  },
+  {
+    "key": "collegium-civitas-2025",
+    "order": 55,
+    "data": {
+      "id": "collegium-civitas-2025",
+      "kind": "bilateral",
+      "university": {
+        "ka": "Collegium Civitas",
+        "en": "Collegium Civitas"
+      },
+      "place": {
+        "ka": "ვარშავა, პოლონეთი",
+        "en": "Warsaw, Poland"
+      },
+      "places": 2,
+      "term": "fall",
+      "schools": [
+        "eduhum",
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "management",
+            "internationalRelations",
+            "journalism"
+          ]
+        }
+      ],
+      "deadline": "2025-05-15"
+    }
+  },
+  {
+    "key": "dev-sanskriti-2025",
+    "order": 56,
+    "data": {
+      "id": "dev-sanskriti-2025",
+      "kind": "bilateral",
+      "university": {
+        "ka": "დევ სანსკრიტის უნივერსიტეტი",
+        "en": "Dev Sanskriti Vishwavidyalaya University"
+      },
+      "place": {
+        "ka": "ჰარიდვარი, ინდოეთი",
+        "en": "Haridwar, India"
+      },
+      "places": 2,
+      "term": "fall",
+      "schools": [
+        "eduhum",
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "psychology",
+            "management",
+            "journalism"
+          ]
+        }
+      ],
+      "deadline": "2025-05-15"
+    }
+  },
+  {
+    "key": "haybusak-2025",
+    "order": 57,
+    "data": {
+      "id": "haybusak-2025",
+      "kind": "bilateral",
+      "university": {
+        "ka": "ერევნის ჰაიბუსაკის უნივერსიტეტი",
+        "en": "Yerevan Haybusak University"
+      },
+      "place": {
+        "ka": "ერევანი, სომხეთი",
+        "en": "Yerevan, Armenia"
+      },
+      "places": 2,
+      "term": "fall",
+      "schools": [
+        "medicine"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "medicine"
+          ]
+        }
+      ],
+      "deadline": "2025-04-15"
+    }
+  },
+  {
+    "key": "napu-2025",
+    "order": 58,
+    "data": {
+      "id": "napu-2025",
+      "kind": "bilateral",
+      "university": {
+        "ka": "ჩრდილოეთ ამერიკის კერძო უნივერსიტეტი",
+        "en": "North American Private University"
+      },
+      "place": {
+        "ka": "საკიეტ ეზიტი, ტუნისი",
+        "en": "Sakiet Ezzit, Tunisia"
+      },
+      "places": 2,
+      "term": "fall",
+      "schools": [
+        "eduhum",
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "management",
+            "internationalRelations",
+            "journalism"
+          ]
+        }
+      ],
+      "deadline": "2025-04-15"
+    }
+  },
+  {
+    "key": "napu-2025-ma",
+    "order": 59,
+    "data": {
+      "id": "napu-2025-ma",
+      "kind": "bilateral",
+      "university": {
+        "ka": "ჩრდილოეთ ამერიკის კერძო უნივერსიტეტი",
+        "en": "North American Private University"
+      },
+      "place": {
+        "ka": "საკიეტ ეზიტი, ტუნისი",
+        "en": "Sakiet Ezzit, Tunisia"
+      },
+      "places": 2,
+      "term": "fall",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ma",
+          "programmes": [
+            "businessAdmin"
+          ]
+        }
+      ],
+      "deadline": "2025-04-15"
+    }
+  },
+  {
+    "key": "istanbul-aydin-2025",
+    "order": 60,
+    "data": {
+      "id": "istanbul-aydin-2025",
+      "kind": "bilateral",
+      "university": {
+        "ka": "სტამბულის აიდინის უნივერსიტეტი",
+        "en": "Istanbul Aydın University"
+      },
+      "place": {
+        "ka": "სტამბული, თურქეთი",
+        "en": "Istanbul, Türkiye"
+      },
+      "places": 2,
+      "term": "fall",
+      "schools": [
+        "eduhum",
+        "business",
+        "computing"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "computerScience",
+            "architecture",
+            "internationalRelations",
+            "management"
+          ]
+        }
+      ],
+      "deadline": "2025-04-14"
+    }
+  },
+  {
+    "key": "canarias-2025",
+    "order": 61,
+    "data": {
+      "id": "canarias-2025",
+      "kind": "bilateral",
+      "university": {
+        "ka": "Universidad Internacional de Canarias",
+        "en": "Universidad Internacional de Canarias"
+      },
+      "place": {
+        "ka": "კანარის კუნძულები, ესპანეთი",
+        "en": "Canary Islands, Spain"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "eduhum"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "englishPhilology"
+          ]
+        }
+      ],
+      "deadline": "2025-04-14"
+    }
+  },
+  {
+    "key": "western-brittany-2025",
+    "order": 62,
+    "data": {
+      "id": "western-brittany-2025",
+      "kind": "bilateral",
+      "university": {
+        "ka": "დასავლეთ ბრეტანის უნივერსიტეტი",
+        "en": "University of Western Brittany"
+      },
+      "place": {
+        "ka": "ბრესტი, საფრანგეთი",
+        "en": "Brest, France"
+      },
+      "places": 1,
+      "term": "fall",
+      "schools": [
+        "eduhum"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "americanStudies"
+          ]
+        }
+      ],
+      "deadline": "2025-03-03"
+    }
+  },
+  {
+    "key": "mykolas-romeris-2025",
+    "order": 63,
+    "data": {
+      "id": "mykolas-romeris-2025",
+      "kind": "bilateral",
+      "university": {
+        "ka": "მიკოლას რომერისის უნივერსიტეტი",
+        "en": "Mykolas Romeris University"
+      },
+      "place": {
+        "ka": "ვილნიუსი, ლიტვა",
+        "en": "Vilnius, Lithuania"
+      },
+      "places": 2,
+      "term": "fall",
+      "schools": [
+        "computing",
+        "eduhum",
+        "business",
+        "law"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "law",
+            "englishPhilology",
+            "psychology",
+            "computerScience",
+            "business"
+          ]
+        }
+      ],
+      "deadline": "2025-03-20"
+    }
+  },
+  {
+    "key": "sse-riga-2025",
+    "order": 64,
+    "data": {
+      "id": "sse-riga-2025",
+      "kind": "bilateral",
+      "university": {
+        "ka": "სტოკჰოლმის ეკონომიკის სკოლა რიგაში",
+        "en": "Stockholm School of Economics in Riga"
+      },
+      "place": {
+        "ka": "რიგა, ლატვია",
+        "en": "Riga, Latvia"
+      },
+      "places": 2,
+      "term": "fall",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "economics"
+          ]
+        }
+      ],
+      "deadline": "2025-03-17"
+    }
+  },
+  {
+    "key": "algebra-bernays-2025",
+    "order": 65,
+    "data": {
+      "id": "algebra-bernays-2025",
+      "kind": "bilateral",
+      "university": {
+        "ka": "Algebra Bernays University",
+        "en": "Algebra Bernays University"
+      },
+      "place": {
+        "ka": "ზაგრები, ხორვატია",
+        "en": "Zagreb, Croatia"
+      },
+      "places": 5,
+      "term": "spring",
+      "schools": [
+        "computing"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "computerScience"
+          ]
+        }
+      ],
+      "deadline": "2025-02-16"
+    }
+  },
+  {
+    "key": "haybusak-2024",
+    "order": 66,
+    "data": {
+      "id": "haybusak-2024",
+      "kind": "bilateral",
+      "university": {
+        "ka": "ერევნის ჰაიბუსაკის უნივერსიტეტი",
+        "en": "Yerevan Haybusak University"
+      },
+      "place": {
+        "ka": "ერევანი, სომხეთი",
+        "en": "Yerevan, Armenia"
+      },
+      "places": 2,
+      "term": "fall",
+      "schools": [
+        "medicine"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "medicine"
+          ]
+        }
+      ],
+      "deadline": "2024-11-15"
+    }
+  },
+  {
+    "key": "dev-sanskriti-2024",
+    "order": 67,
+    "data": {
+      "id": "dev-sanskriti-2024",
+      "kind": "bilateral",
+      "university": {
+        "ka": "დევ სანსკრიტის უნივერსიტეტი",
+        "en": "Dev Sanskriti Vishwavidyalaya University"
+      },
+      "place": {
+        "ka": "ჰარიდვარი, ინდოეთი",
+        "en": "Haridwar, India"
+      },
+      "places": 2,
+      "term": "fall",
+      "schools": [
+        "eduhum",
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "psychology",
+            "management",
+            "journalism"
+          ]
+        }
+      ],
+      "deadline": "2024-11-15"
+    }
+  },
+  {
+    "key": "sse-riga-2024",
+    "order": 68,
+    "data": {
+      "id": "sse-riga-2024",
+      "kind": "bilateral",
+      "university": {
+        "ka": "სტოკჰოლმის ეკონომიკის სკოლა რიგაში",
+        "en": "Stockholm School of Economics in Riga"
+      },
+      "place": {
+        "ka": "რიგა, ლატვია",
+        "en": "Riga, Latvia"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "economics"
+          ]
+        }
+      ],
+      "deadline": "2024-10-15"
+    }
+  },
+  {
+    "key": "istanbul-aydin-2024",
+    "order": 69,
+    "data": {
+      "id": "istanbul-aydin-2024",
+      "kind": "bilateral",
+      "university": {
+        "ka": "სტამბულის აიდინის უნივერსიტეტი",
+        "en": "Istanbul Aydın University"
+      },
+      "place": {
+        "ka": "სტამბული, თურქეთი",
+        "en": "Istanbul, Türkiye"
+      },
+      "places": 2,
+      "term": "fall",
+      "schools": [
+        "eduhum",
+        "business",
+        "computing"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "computerScience",
+            "architecture",
+            "internationalRelations",
+            "management"
+          ]
+        }
+      ],
+      "deadline": "2024-10-14"
+    }
+  },
+  {
+    "key": "newton-bil-2024",
+    "order": 70,
+    "data": {
+      "id": "newton-bil-2024",
+      "kind": "bilateral",
+      "university": {
+        "ka": "NEWTON University",
+        "en": "NEWTON University"
+      },
+      "place": {
+        "ka": "პრაღა, ჩეხეთი",
+        "en": "Prague, Czech Republic"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "management"
+          ]
+        }
+      ],
+      "deadline": "2024-10-14"
+    }
+  },
+  {
+    "key": "lodz-2024",
+    "order": 71,
+    "data": {
+      "id": "lodz-2024",
+      "kind": "bilateral",
+      "university": {
+        "ka": "ლოძის უნივერსიტეტი",
+        "en": "University of Lodz"
+      },
+      "place": {
+        "ka": "ლოძი, პოლონეთი",
+        "en": "Lodz, Poland"
+      },
+      "places": 5,
+      "term": "spring",
+      "schools": [
+        "business",
+        "law",
+        "eduhum"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "economics",
+            "management",
+            "computerScience",
+            "englishPhilology",
+            "internationalRelations",
+            "law"
+          ]
+        }
+      ],
+      "deadline": "2024-10-11"
+    }
+  },
+  {
+    "key": "metropolitan-prague-2024",
+    "order": 72,
+    "data": {
+      "id": "metropolitan-prague-2024",
+      "kind": "bilateral",
+      "university": {
+        "ka": "პრაღის მეტროპოლიტენ უნივერსიტეტი",
+        "en": "Metropolitan University Prague"
+      },
+      "place": {
+        "ka": "პრაღა, ჩეხეთი",
+        "en": "Prague, Czech Republic"
+      },
+      "places": 1,
+      "term": "spring",
+      "schools": [
+        "eduhum"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "englishPhilology",
+            "americanStudies"
+          ]
+        }
+      ],
+      "deadline": "2024-10-01"
+    }
+  },
+  {
+    "key": "ephec-2024-fall",
+    "order": 73,
+    "data": {
+      "id": "ephec-2024-fall",
+      "kind": "bilateral",
+      "university": {
+        "ka": "EPHEC University College",
+        "en": "EPHEC University College"
+      },
+      "place": {
+        "ka": "ბრიუსელი, ბელგია",
+        "en": "Brussels, Belgium"
+      },
+      "places": 2,
+      "term": "fall",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "marketing",
+            "management"
+          ]
+        }
+      ],
+      "deadline": "2024-09-30"
+    }
+  },
+  {
+    "key": "isg-2024",
+    "order": 74,
+    "data": {
+      "id": "isg-2024",
+      "kind": "bilateral",
+      "university": {
+        "ka": "ISG – საფრანგეთის საერთაშორისო ბიზნეს სკოლა",
+        "en": "Institut Supérieur de Gestion"
+      },
+      "place": {
+        "ka": "პარიზი, საფრანგეთი",
+        "en": "Paris, France"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "management"
+          ]
+        }
+      ],
+      "deadline": "2024-09-19"
+    }
+  },
+  {
+    "key": "ephec-2024",
+    "order": 75,
+    "data": {
+      "id": "ephec-2024",
+      "kind": "bilateral",
+      "university": {
+        "ka": "EPHEC University College",
+        "en": "EPHEC University College"
+      },
+      "place": {
+        "ka": "ბრიუსელი, ბელგია",
+        "en": "Brussels, Belgium"
+      },
+      "places": 2,
+      "term": "spring",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "marketing",
+            "management"
+          ]
+        }
+      ],
+      "deadline": "2024-04-20"
+    }
+  },
+  {
+    "key": "newton-bil-2024-fall",
+    "order": 76,
+    "data": {
+      "id": "newton-bil-2024-fall",
+      "kind": "bilateral",
+      "university": {
+        "ka": "NEWTON University",
+        "en": "NEWTON University"
+      },
+      "place": {
+        "ka": "პრაღა, ჩეხეთი",
+        "en": "Prague, Czech Republic"
+      },
+      "places": 2,
+      "term": "fall",
+      "schools": [
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "management"
+          ]
+        }
+      ],
+      "deadline": "2024-04-17"
+    }
+  },
+  {
+    "key": "tashkent-law-2023",
+    "order": 77,
+    "data": {
+      "id": "tashkent-law-2023",
+      "kind": "bilateral",
+      "university": {
+        "ka": "ტაშკენტის სახელმწიფო იურიდიული უნივერსიტეტი",
+        "en": "Tashkent State University of Law"
+      },
+      "place": {
+        "ka": "ტაშკენტი, უზბეკეთი",
+        "en": "Tashkent, Uzbekistan"
+      },
+      "places": 10,
+      "term": "spring",
+      "schools": [
+        "law"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "criminalLaw",
+            "comparativeLaw",
+            "privateLaw",
+            "publicLaw"
+          ]
+        }
+      ],
+      "deadline": "2023-12-29"
+    }
+  },
+  {
+    "key": "deusto-virtual-2024",
+    "order": 78,
+    "data": {
+      "id": "deusto-virtual-2024",
+      "kind": "virtual",
+      "university": {
+        "ka": "დეუსტოს უნივერსიტეტი",
+        "en": "University of Deusto"
+      },
+      "place": {
+        "ka": "ესპანეთი",
+        "en": "Spain"
+      },
+      "places": 4,
+      "term": "spring",
+      "schools": [
+        "business",
+        "eduhum"
+      ],
+      "offers": [],
+      "deadline": "2024-11-30",
+      "href": "https://drive.google.com/file/d/1B09k2tfS7P0YGPmS-fyDUu9KMQPK2_6T/view"
+    }
+  },
+  {
+    "key": "alfred-nobel-virtual-2021",
+    "order": 79,
+    "data": {
+      "id": "alfred-nobel-virtual-2021",
+      "kind": "virtual",
+      "university": {
+        "ka": "ალფრედ ნობელის უნივერსიტეტი",
+        "en": "Alfred Nobel University"
+      },
+      "place": {
+        "ka": "უკრაინა",
+        "en": "Ukraine"
+      },
+      "places": 5,
+      "term": "spring",
+      "schools": [
+        "eduhum",
+        "business"
+      ],
+      "offers": [
+        {
+          "level": "ba",
+          "programmes": [
+            "englishPhilology",
+            "economics",
+            "management"
+          ]
+        }
+      ],
+      "deadline": "2021-01-28"
+    }
+  },
+  {
+    "key": "rzeszow-virtual",
+    "order": 80,
+    "data": {
+      "id": "rzeszow-virtual",
+      "kind": "virtual",
+      "university": {
+        "ka": "რშეჟოვის ტექნოლოგიური უნივერსიტეტი",
+        "en": "Rzeszów University of Technology"
+      },
+      "place": {
+        "ka": "პოლონეთი",
+        "en": "Poland"
+      },
+      "places": 0,
+      "term": "year",
+      "schools": [
+        "computing"
+      ],
+      "offers": [],
+      "href": "https://digitalindustry.w.prz.edu.pl/en/training-program"
+    }
+  }
+]

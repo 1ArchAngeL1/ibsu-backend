@@ -1,0 +1,11 @@
+[
+  {
+    "key": "default",
+    "order": 0,
+    "data": {
+      "FIRST_CHOICE_DISCOUNT": 20,
+      "GPA_RETENTION_THRESHOLD": 71,
+      "DEFAULT_YEARS": 3
+    }
+  }
+]

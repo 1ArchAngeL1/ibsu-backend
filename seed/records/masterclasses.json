@@ -1,0 +1,82 @@
+[
+  {
+    "key": "first-90-seconds",
+    "order": 0,
+    "data": {
+      "id": "first-90-seconds",
+      "date": "2027-02-14",
+      "field": {
+        "en": "Journalism & media",
+        "ka": "ჟურნალისტიკა და მედია"
+      },
+      "title": {
+        "en": "The first 90 seconds of any story",
+        "ka": "ნებისმიერი ამბის პირველი 90 წამი"
+      },
+      "by": {
+        "en": "with Dr. Lasha Jugeli",
+        "ka": "დოქ. ლაშა ჯუღელთან"
+      }
+    }
+  },
+  {
+    "key": "how-states-negotiate",
+    "order": 1,
+    "data": {
+      "id": "how-states-negotiate",
+      "date": "2027-02-21",
+      "field": {
+        "en": "International relations",
+        "ka": "საერთაშორისო ურთიერთობები"
+      },
+      "title": {
+        "en": "How states actually negotiate",
+        "ka": "როგორ აწარმოებენ მოლაპარაკებას სახელმწიფოები"
+      },
+      "by": {
+        "en": "with Assoc. Prof. Nino Kvirikadze",
+        "ka": "ასოც. პროფ. ნინო კვირიკაძესთან"
+      }
+    }
+  },
+  {
+    "key": "reading-people",
+    "order": 2,
+    "data": {
+      "id": "reading-people",
+      "date": "2027-03-06",
+      "field": {
+        "en": "Psychology",
+        "ka": "ფსიქოლოგია"
+      },
+      "title": {
+        "en": "Reading people: an introduction to psychology",
+        "ka": "ადამიანების ამოკითხვა: შესავალი ფსიქოლოგიაში"
+      },
+      "by": {
+        "en": "with Assoc. Prof. Mariam Abramishvili",
+        "ka": "ასოც. პროფ. მარიამ აბრამიშვილთან"
+      }
+    }
+  },
+  {
+    "key": "idea-to-product",
+    "order": 3,
+    "data": {
+      "id": "idea-to-product",
+      "date": "2027-03-13",
+      "field": {
+        "en": "Computer science",
+        "ka": "კომპიუტერული მეცნიერება"
+      },
+      "title": {
+        "en": "From an idea to a working product",
+        "ka": "იდეიდან მომუშავე პროდუქტამდე"
+      },
+      "by": {
+        "en": "with Dr. Davit Maisuradze",
+        "ka": "დოქ. დავით მაისურაძესთან"
+      }
+    }
+  }
+]

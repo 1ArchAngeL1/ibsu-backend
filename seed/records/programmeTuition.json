@@ -1,0 +1,164 @@
+[
+  {
+    "key": "Management",
+    "order": 0,
+    "data": {
+      "programmeKey": "Management",
+      "level": "bachelor",
+      "slug": "business-administration-management"
+    }
+  },
+  {
+    "key": "Marketing",
+    "order": 1,
+    "data": {
+      "programmeKey": "Marketing",
+      "level": "bachelor",
+      "slug": "business-administration-marketing"
+    }
+  },
+  {
+    "key": "Finance",
+    "order": 2,
+    "data": {
+      "programmeKey": "Finance",
+      "level": "bachelor",
+      "slug": "business-administration-finances"
+    }
+  },
+  {
+    "key": "Accounting & Audit",
+    "order": 3,
+    "data": {
+      "programmeKey": "Accounting & Audit",
+      "level": "bachelor",
+      "slug": "business-administration-accounting-audit"
+    }
+  },
+  {
+    "key": "Tourism",
+    "order": 4,
+    "data": {
+      "programmeKey": "Tourism",
+      "level": "bachelor",
+      "slug": "business-administration-tourism"
+    }
+  },
+  {
+    "key": "Economics",
+    "order": 5,
+    "data": {
+      "programmeKey": "Economics",
+      "level": "bachelor",
+      "slug": "economics"
+    }
+  },
+  {
+    "key": "International Relations",
+    "order": 6,
+    "data": {
+      "programmeKey": "International Relations",
+      "level": "bachelor",
+      "slug": "international-relations"
+    }
+  },
+  {
+    "key": "Public Relations (PR)",
+    "order": 7,
+    "data": {
+      "programmeKey": "Public Relations (PR)",
+      "level": "bachelor",
+      "slug": "public-relations"
+    }
+  },
+  {
+    "key": "English Philology",
+    "order": 8,
+    "data": {
+      "programmeKey": "English Philology",
+      "level": "bachelor",
+      "slug": "english-philology"
+    }
+  },
+  {
+    "key": "Journalism",
+    "order": 9,
+    "data": {
+      "programmeKey": "Journalism",
+      "level": "bachelor",
+      "slug": "journalism"
+    }
+  },
+  {
+    "key": "Psychology",
+    "order": 10,
+    "data": {
+      "programmeKey": "Psychology",
+      "level": "bachelor",
+      "slug": "psychology"
+    }
+  },
+  {
+    "key": "American Studies",
+    "order": 11,
+    "data": {
+      "programmeKey": "American Studies",
+      "level": "bachelor",
+      "slug": "american-studies"
+    }
+  },
+  {
+    "key": "Architecture",
+    "order": 12,
+    "data": {
+      "programmeKey": "Architecture",
+      "level": "bachelor",
+      "slug": "architecture"
+    }
+  },
+  {
+    "key": "Computer Science",
+    "order": 13,
+    "data": {
+      "programmeKey": "Computer Science",
+      "level": "bachelor",
+      "slug": "computer-science-artificial-intelligence"
+    }
+  },
+  {
+    "key": "Graphic Design",
+    "order": 14,
+    "data": {
+      "programmeKey": "Graphic Design",
+      "level": "bachelor",
+      "slug": "graphic-design"
+    }
+  },
+  {
+    "key": "Law",
+    "order": 15,
+    "data": {
+      "programmeKey": "Law",
+      "level": "bachelor",
+      "slug": "law"
+    }
+  },
+  {
+    "key": "Public Administration & Governance",
+    "order": 16,
+    "data": {
+      "programmeKey": "Public Administration & Governance",
+      "level": "bachelor",
+      "slug": "public-administration-state-governance"
+    }
+  },
+  {
+    "key": "Medical Doctor (MD)",
+    "order": 17,
+    "data": {
+      "programmeKey": "Medical Doctor (MD)",
+      "level": "medical",
+      "slug": "medical-doctor-one-cycle-md"
+    }
+  }
+]

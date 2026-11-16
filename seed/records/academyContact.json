@@ -1,0 +1,22 @@
+[
+  {
+    "key": "default",
+    "order": 0,
+    "data": {
+      "ACADEMY_EMAIL": "training@ibsu.edu.ge",
+      "ACADEMY_TEL": "+995322800064",
+      "ACADEMY_BANK": {
+        "bank": {
+          "en": "JSC TBC Bank",
+          "ka": "ს.ს. „თიბისი ბანკი“"
+        },
+        "code": "TBCBGE22",
+        "name": {
+          "en": "LLC International Black Sea University",
+          "ka": "შპს შავი ზღვის საერთაშორისო უნივერსიტეტი"
+        },
+        "account": "GE52TB7505036080100001"
+      }
+    }
+  }
+]

@@ -1,0 +1,1787 @@
+[
+  {
+    "key": "business-ethics",
+    "order": 0,
+    "data": {
+      "slug": "business-ethics",
+      "year": "2026",
+      "title": {
+        "en": "Business ethics",
+        "ka": "ბიზნეს ეთიკა"
+      },
+      "heading": {
+        "en": "Business ethics and professional communication",
+        "ka": "ბიზნეს ეთიკა და პროფესიული კომუნიკაცია"
+      },
+      "lede": {
+        "en": "A practical course in business etiquette, professional conduct and the communication that carries them — for people who deal with other people every working day.",
+        "ka": "პრაქტიკული კურსი ბიზნეს ეტიკეტში, პროფესიულ ქცევასა და კომუნიკაციაში — მათთვის, ვისაც ყოველდღიურად უწევს ადამიანებთან ურთიერთობა."
+      },
+      "body": [
+        {
+          "en": "The course gives participants practical knowledge and skills in business ethics and professional communication, so they can handle relationships effectively and put what they learn to work in a real working environment.",
+          "ka": "კურსის მიზანია მონაწილეებმა შეიძინონ ბიზნეს ეთიკისა და პროფესიული კომუნიკაციის პრაქტიკული ცოდნა და უნარები, რაც დაეხმარებათ ეფექტურად წარმართონ ურთიერთობები და მიღებული ცოდნა გამოიყენონ რეალურ სამუშაო გარემოში."
+        },
+        {
+          "en": "It is meant for entrepreneurs, managers, students and anyone who communicates with different kinds of people every day and wants to strengthen their influence and professional image.",
+          "ka": "პროგრამა განკუთვნილია მეწარმეებისთვის, მენეჯერებისთვის, სტუდენტებისთვის და ყველა იმ ადამიანისთვის, ვისაც ყოველდღიურად უწევს კომუნიკაცია სხვადასხვა ტიპის ადამიანებთან და სურს გააძლიეროს საკუთარი გავლენა და პროფესიული იმიჯი."
+        }
+      ],
+      "facts": [
+        {
+          "label": {
+            "en": "Starts",
+            "ka": "დაწყების თარიღი"
+          },
+          "value": {
+            "en": "3 June 2026",
+            "ka": "2026 წლის 3 ივნისი"
+          }
+        },
+        {
+          "label": {
+            "en": "Days",
+            "ka": "დღეები"
+          },
+          "value": {
+            "en": "Wednesday / Friday",
+            "ka": "ოთხშაბათი / პარასკევი"
+          }
+        },
+        {
+          "label": {
+            "en": "Time",
+            "ka": "დრო"
+          },
+          "value": {
+            "en": "19:00 (2 hours)",
+            "ka": "19:00 (2 საათი)"
+          }
+        },
+        {
+          "label": {
+            "en": "Length",
+            "ka": "ხანგრძლივობა"
+          },
+          "value": {
+            "en": "10 meetings (5 weeks)",
+            "ka": "10 შეხვედრა (5 კვირა)"
+          }
+        },
+        {
+          "label": {
+            "en": "Format",
+            "ka": "ფორმატი"
+          },
+          "value": {
+            "en": "Hybrid",
+            "ka": "ჰიბრიდული"
+          }
+        }
+      ],
+      "trainers": [
+        {
+          "name": {
+            "en": "Nana Gogokhia",
+            "ka": "ნანა გოგოხია"
+          },
+          "role": {
+            "en": "Trainer in business communication and personal development",
+            "ka": "ბიზნეს კომუნიკაციისა და პიროვნული განვითარების ტრენერი"
+          }
+        }
+      ],
+      "topics": [
+        {
+          "en": "The foundations of business etiquette",
+          "ka": "ბიზნეს ეტიკეტის საფუძვლები"
+        },
+        {
+          "en": "Standards of professional conduct",
+          "ka": "პროფესიული ქცევის სტანდარტები"
+        },
+        {
+          "en": "Managing a first impression",
+          "ka": "პირველი შთაბეჭდილების მართვა"
+        },
+        {
+          "en": "Verbal and non-verbal communication",
+          "ka": "ვერბალური და არავერბალური კომუნიკაცია"
+        },
+        {
+          "en": "Techniques of effective listening",
+          "ka": "ეფექტური მოსმენის ტექნიკები"
+        },
+        {
+          "en": "Written business communication",
+          "ka": "საქმიანი წერილობითი კომუნიკაცია"
+        },
+        {
+          "en": "Running meetings and negotiations",
+          "ka": "შეხვედრებისა და მოლაპარაკებების მართვა"
+        },
+        {
+          "en": "Managing and resolving conflict",
+          "ka": "კონფლიქტების მართვა და გადაჭრა"
+        },
+        {
+          "en": "Assertive communication",
+          "ka": "ასერტული კომუნიკაცია"
+        },
+        {
+          "en": "Emotional intelligence in business",
+          "ka": "ემოციური ინტელექტი ბიზნესში"
+        },
+        {
+          "en": "Communication within a team",
+          "ka": "გუნდური კომუნიკაცია"
+        },
+        {
+          "en": "Building a leader's image",
+          "ka": "ლიდერული იმიჯის შექმნა"
+        },
+        {
+          "en": "Techniques of influence",
+          "ka": "გავლენის მოხდენის ტექნიკები"
+        },
+        {
+          "en": "Professional image and personal branding",
+          "ka": "პროფესიული იმიჯი და პიროვნული ბრენდინგი"
+        }
+      ],
+      "price": {
+        "en": "870 GEL",
+        "ka": "870 ლარი"
+      },
+      "notes": [
+        {
+          "en": "A 15–20% discount applies for students.",
+          "ka": "15–20% ფასდაკლება სტუდენტებისთვის."
+        },
+        {
+          "en": "Flexible payment terms are available.",
+          "ka": "ხელმისაწვდომია გადახდის მოქნილი პირობები."
+        },
+        {
+          "en": "The course ends in a bilingual certificate issued by International Black Sea University.",
+          "ka": "კურსის დასრულების შემდეგ გადმოგეცემათ შავი ზღვის საერთაშორისო უნივერსიტეტის ორენოვანი სერტიფიკატი."
+        }
+      ],
+      "register": "https://forms.gle/zGbSHUxUF2uDdmdZ9"
+    }
+  },
+  {
+    "key": "logistics-2026",
+    "order": 1,
+    "data": {
+      "slug": "logistics-2026",
+      "year": "2026",
+      "title": {
+        "en": "International freight transport",
+        "ka": "საერთაშორისო გადაზიდვები"
+      },
+      "heading": {
+        "en": "International freight, logistics and customs operations",
+        "ka": "საერთაშორისო გადაზიდვები, ლოგისტიკა და საბაჟო ოპერაციები"
+      },
+      "lede": {
+        "en": "A professional training course in the principles of international freight and logistics, and the practical side of managing customs operations.",
+        "ka": "პროფესიული ტრენინგ-კურსი საერთაშორისო გადაზიდვებისა და ლოგისტიკის პრინციპებსა და საბაჟო ოპერაციების მართვის პრაქტიკულ ასპექტებში."
+      },
+      "body": [
+        {
+          "en": "The course introduces participants to the main principles of international freight and logistics, and to the practical side of managing customs operations. It covers the important directions of international trade, customs legislation and current regulation — what effective operation on the global market calls for.",
+          "ka": "კურსი მიზნად ისახავს მონაწილეებს გააცნოს საერთაშორისო გადაზიდვებისა და ლოგისტიკის ძირითადი პრინციპები, ასევე საბაჟო ოპერაციების მართვის პრაქტიკული ასპექტები. პროგრამა მოიცავს საერთაშორისო ვაჭრობის მნიშვნელოვან მიმართულებებს, საბაჟო კანონმდებლობასა და თანამედროვე რეგულაციებს, რაც აუცილებელია გლობალურ ბაზარზე ეფექტური ოპერირებისთვის."
+        }
+      ],
+      "facts": [
+        {
+          "label": {
+            "en": "Starts",
+            "ka": "დაწყების თარიღი"
+          },
+          "value": {
+            "en": "18 May 2026",
+            "ka": "2026 წლის 18 მაისი"
+          }
+        },
+        {
+          "label": {
+            "en": "Days",
+            "ka": "დღეები"
+          },
+          "value": {
+            "en": "Monday / Wednesday / Friday",
+            "ka": "ორშაბათი / ოთხშაბათი / პარასკევი"
+          }
+        },
+        {
+          "label": {
+            "en": "Time",
+            "ka": "დრო"
+          },
+          "value": {
+            "en": "19:00 (2 hours)",
+            "ka": "19:00 (2 საათი)"
+          }
+        },
+        {
+          "label": {
+            "en": "Length",
+            "ka": "ხანგრძლივობა"
+          },
+          "value": {
+            "en": "20 meetings (10 weeks)",
+            "ka": "20 შეხვედრა (10 კვირა)"
+          }
+        },
+        {
+          "label": {
+            "en": "Format",
+            "ka": "ფორმატი"
+          },
+          "value": {
+            "en": "Online",
+            "ka": "დისტანციური"
+          }
+        }
+      ],
+      "trainers": [
+        {
+          "name": {
+            "en": "Irine Melashvili",
+            "ka": "ირინე მელაშვილი"
+          },
+          "role": {
+            "en": "Founder and managing director of Cargostar-IM, an international air freight company",
+            "ka": "საერთაშორისო ავია სატვირთო გადაზიდვების კომპანია Cargostar-IM-ის დამფუძნებელი და მმართველი დირექტორი"
+          }
+        },
+        {
+          "name": {
+            "en": "Natia Zoidze",
+            "ka": "ნათია ზოიძე"
+          },
+          "role": {
+            "en": "Lead analyst, risk management division of the Customs Department, Revenue Service",
+            "ka": "შემოსავლების სამსახურის საბაჟო დეპარტამენტის რისკების მართვის სამმართველოს წამყვანი ანალიტიკოსი"
+          }
+        },
+        {
+          "name": {
+            "en": "Mariam Elgandashvili",
+            "ka": "მარიამ ელგანდაშვილი"
+          },
+          "role": {
+            "en": "Head of the logistics sales operations department at Giant",
+            "ka": "კომპანია „გიანთის“ ლოგისტიკის გაყიდვების საოპერაციო დეპარტამენტის ხელმძღვანელი"
+          }
+        }
+      ],
+      "topics": [
+        {
+          "en": "Logistics and warehousing",
+          "ka": "ლოგისტიკა და სასაწყობე მეურნეობა"
+        },
+        {
+          "en": "Customs and non-customs warehouses",
+          "ka": "საბაჟო და არასაბაჟო საწყობები"
+        },
+        {
+          "en": "Temporary storage warehouses",
+          "ka": "დროებითი შენახვის საწყობები"
+        },
+        {
+          "en": "The principles of international freight and the modes of transport",
+          "ka": "საერთაშორისო გადაზიდვების პრინციპები და ტრანსპორტის სახეები"
+        },
+        {
+          "en": "Combined transport",
+          "ka": "კომბინირებული გადაზიდვები"
+        },
+        {
+          "en": "Cargo classification, codes and abbreviations",
+          "ka": "ტვირთის კლასიფიკაცია, კოდები და აბრევიატურები"
+        },
+        {
+          "en": "Standard and oversized cargo",
+          "ka": "გაბარიტული და არაგაბარიტული ტვირთი"
+        },
+        {
+          "en": "Sea, land and air freight",
+          "ka": "საზღვაო, სახმელეთო და ავია გადაზიდვები"
+        },
+        {
+          "en": "Documentation, including the TIR Carnet",
+          "ka": "დოკუმენტაცია, მათ შორის TIR CARNET"
+        },
+        {
+          "en": "Regulation of dangerous goods",
+          "ka": "სახიფათო ტვირთების რეგულაციები"
+        },
+        {
+          "en": "Transporting live animals (LAR)",
+          "ka": "ცოცხალი ცხოველების ტრანსპორტირება (LAR)"
+        },
+        {
+          "en": "Export and import",
+          "ka": "ექსპორტი და იმპორტი"
+        },
+        {
+          "en": "Door-to-door transport",
+          "ka": "კარიდან კარამდე ტრანსპორტირება"
+        },
+        {
+          "en": "Handling transit cargo",
+          "ka": "ტრანზიტული ტვირთის მართვა"
+        },
+        {
+          "en": "The functions of a freight terminal",
+          "ka": "სატვირთო ტერმინალის ფუნქციები"
+        },
+        {
+          "en": "Logistics marketing",
+          "ka": "ლოგისტიკური მარკეტინგი"
+        },
+        {
+          "en": "Customs clearance and international commodity codes",
+          "ka": "საბაჟო გაფორმება და საერთაშორისო სასაქონლო კოდები"
+        },
+        {
+          "en": "Liability, obligations and insurance",
+          "ka": "პასუხისმგებლობა, ვალდებულებები და დაზღვევა"
+        }
+      ],
+      "price": {
+        "en": "650 GEL",
+        "ka": "650 ლარი"
+      },
+      "notes": [
+        {
+          "en": "A 20% discount applies for IBSU students and alumni.",
+          "ka": "შავი ზღვის საერთაშორისო უნივერსიტეტის სტუდენტებისა და კურსდამთავრებულებისთვის მოქმედებს 20% ფასდაკლება."
+        },
+        {
+          "en": "The course ends in a bilingual certificate issued by International Black Sea University.",
+          "ka": "კურსის დასრულების შემდეგ გადმოგეცემათ შავი ზღვის საერთაშორისო უნივერსიტეტის ორენოვანი სერტიფიკატი."
+        }
+      ],
+      "register": "https://forms.gle/TPwcgyVwjX9XfAfV9"
+    }
+  },
+  {
+    "key": "logistics-2025",
+    "order": 2,
+    "data": {
+      "slug": "logistics-2025",
+      "year": "2025",
+      "title": {
+        "en": "International freight transport",
+        "ka": "საერთაშორისო გადაზიდვები"
+      },
+      "heading": {
+        "en": "International freight, logistics and customs operations",
+        "ka": "საერთაშორისო გადაზიდვები, ლოგისტიკა და საბაჟო ოპერაციები"
+      },
+      "lede": {
+        "en": "The 2025 edition of the Academy's freight and customs course — ten weeks on the principles of international transport and the procedures of customs operation.",
+        "ka": "აკადემიის გადაზიდვებისა და საბაჟო ოპერაციების კურსის 2025 წლის ნაკადი — ათი კვირა საერთაშორისო ტრანსპორტირების პრინციპებსა და საბაჟო პროცედურებზე."
+      },
+      "body": [
+        {
+          "en": "The course sets out to give participants a full picture of the principles of international freight and logistics, and of the procedures for managing customs operations. Along the way participants meet the aspects of international trade, customs legislation and the regulation in force — what effective business operation on the global market requires.",
+          "ka": "კურსი მიზნად ისახავს მონაწილეებს სრულყოფილად გააცნოს საერთაშორისო გადაზიდვებისა და ლოგისტიკის ძირითადი პრინციპები, ასევე საბაჟო ოპერაციების მართვის პროცედურები. კურსის განმავლობაში მონაწილეები გაეცნობიან საერთაშორისო ვაჭრობის ასპექტებს, საბაჟო კანონმდებლობასა და მიმდინარე რეგულაციებს, რომლებიც აუცილებელია ეფექტური ბიზნეს-ოპერაციებისთვის გლობალურ ბაზარზე."
+        }
+      ],
+      "facts": [
+        {
+          "label": {
+            "en": "Starts",
+            "ka": "დაწყების თარიღი"
+          },
+          "value": {
+            "en": "5 May 2025",
+            "ka": "2025 წლის 5 მაისი"
+          }
+        },
+        {
+          "label": {
+            "en": "Days",
+            "ka": "დღეები"
+          },
+          "value": {
+            "en": "Monday / Friday",
+            "ka": "ორშაბათი / პარასკევი"
+          }
+        },
+        {
+          "label": {
+            "en": "Time",
+            "ka": "დრო"
+          },
+          "value": {
+            "en": "19:00 (2 hours)",
+            "ka": "19:00 (2 საათი)"
+          }
+        },
+        {
+          "label": {
+            "en": "Length",
+            "ka": "ხანგრძლივობა"
+          },
+          "value": {
+            "en": "20 meetings (10 weeks)",
+            "ka": "20 შეხვედრა (10 კვირა)"
+          }
+        },
+        {
+          "label": {
+            "en": "Format",
+            "ka": "ფორმატი"
+          },
+          "value": {
+            "en": "Online",
+            "ka": "დისტანციური"
+          }
+        }
+      ],
+      "trainers": [
+        {
+          "name": {
+            "en": "Irine Melashvili",
+            "ka": "ირინე მელაშვილი"
+          },
+          "role": {
+            "en": "Founder and managing director of Cargostar-IM, an international air freight company",
+            "ka": "საერთაშორისო ავია სატვირთო გადაზიდვების კომპანია Cargostar-IM-ის დამფუძნებელი და მმართველი დირექტორი"
+          }
+        },
+        {
+          "name": {
+            "en": "Natia Zoidze",
+            "ka": "ნათია ზოიძე"
+          },
+          "role": {
+            "en": "Lead analyst, risk management division of the Customs Department, Revenue Service",
+            "ka": "შემოსავლების სამსახურის საბაჟო დეპარტამენტის რისკების მართვის სამმართველოს წამყვანი ანალიტიკოსი"
+          }
+        },
+        {
+          "name": {
+            "en": "Mariam Elgandashvili",
+            "ka": "მარიამ ელგანდაშვილი"
+          },
+          "role": {
+            "en": "Head of the logistics sales operations department at Giant",
+            "ka": "კომპანია „გიანთის“ ლოგისტიკის გაყიდვების საოპერაციო დეპარტამენტის ხელმძღვანელი"
+          }
+        }
+      ],
+      "topics": [
+        {
+          "en": "Logistics and warehousing: customs, non-customs and temporary storage warehouses",
+          "ka": "ლოჯისტიკა და სასაწყობე მეურნეობა: საბაჟო, არასაბაჟო და დროებითი შენახვის საწყობი"
+        },
+        {
+          "en": "Storing and declaring cargo",
+          "ka": "ტვირთის დასაწყობებისა და დეკლარირების საკითხები"
+        },
+        {
+          "en": "International freight: general principles and the modes of transport",
+          "ka": "საერთაშორისო გადაზიდვები: ზოგადი პრინციპები და ტრანსპორტის სახეები"
+        },
+        {
+          "en": "Combined transport",
+          "ka": "კომბინირებული გადაზიდვები"
+        },
+        {
+          "en": "What cargo is: categories, codes and abbreviations",
+          "ka": "ტვირთის ცნება: კატეგორიები, კოდები და აბრევიატურა"
+        },
+        {
+          "en": "Standard and oversized cargo",
+          "ka": "გაბარიტული და არაგაბარიტული ტვირთი"
+        },
+        {
+          "en": "Sea freight and its documentation",
+          "ka": "ტვირთის გადაზიდვა საზღვაო ტრანსპორტით; დოკუმენტაცია"
+        },
+        {
+          "en": "Land freight and its regulation",
+          "ka": "ტვირთის გადაზიდვა სახმელეთო ტრანსპორტით; რეგულაციები"
+        },
+        {
+          "en": "TIR Carnet documentation",
+          "ka": "დოკუმენტაცია TIR CARNET"
+        },
+        {
+          "en": "Air freight: carriers, aircraft types, loading charts, documentation",
+          "ka": "ავიაგადაზიდვები: ავიაკომპანიები, ხომალდის სახეები, loading charts, დოკუმენტაცია"
+        },
+        {
+          "en": "Regulation of dangerous goods",
+          "ka": "სახიფათო ტვირთების რეგულაცია"
+        },
+        {
+          "en": "Live animal regulations (LAR)",
+          "ka": "ცოცხალი ცხოველების რეგულაციები — LAR"
+        },
+        {
+          "en": "Export",
+          "ka": "ექსპორტი"
+        },
+        {
+          "en": "Import",
+          "ka": "იმპორტი"
+        },
+        {
+          "en": "Door-to-door transport",
+          "ka": "კარიდან კარამდე ტრანსპორტირება"
+        },
+        {
+          "en": "Servicing transit cargo",
+          "ka": "ტრანზიტული ტვირთის მომსახურება"
+        },
+        {
+          "en": "The freight terminal: its functions and obligations",
+          "ka": "სატვირთო ტერმინალი: ფუნქციები და ვალდებულებები"
+        },
+        {
+          "en": "Marketing",
+          "ka": "მარკეტინგი"
+        },
+        {
+          "en": "Customs clearance, international commodity codes, liability and insurance",
+          "ka": "ტვირთის საბაჟო გაფორმება, საერთაშორისო სასაქონლო კოდები, პასუხისმგებლობა და დაზღვევა"
+        },
+        {
+          "en": "General customs regulation",
+          "ka": "ზოგადი საბაჟო რეგულაციები"
+        },
+        {
+          "en": "ASYCUDA eCustoms: filing a declaration and an internal movement record, registration and assessment",
+          "ka": "ASYCUDA — eCustoms-ში დეკლარაციისა და შიდა გადაადგილების აღრიცხვის მოწმობის შევსების წესი, რეგისტრაცია და შეფასება"
+        },
+        {
+          "en": "Customs regulation of postal items, including customs declaration form #4",
+          "ka": "საფოსტო გზავნილების საბაჟო რეგულაციები, მათ შორის საბაჟო დეკლარაციის ფორმა #4"
+        }
+      ],
+      "price": {
+        "en": "650 GEL",
+        "ka": "650 ლარი"
+      },
+      "notes": [
+        {
+          "en": "A 20% discount applies for IBSU students and alumni.",
+          "ka": "შავი ზღვის საერთაშორისო უნივერსიტეტის სტუდენტებისა და კურსდამთავრებულებისთვის მოქმედებს 20% ფასდაკლება."
+        },
+        {
+          "en": "The course ends in a bilingual certificate issued by International Black Sea University.",
+          "ka": "კურსის დასრულების შემდეგ გადმოგეცემათ შავი ზღვის საერთაშორისო უნივერსიტეტის ორენოვანი სერტიფიკატი."
+        }
+      ],
+      "register": "https://forms.gle/RVt2bGkmbF4qcepe9"
+    }
+  },
+  {
+    "key": "ms-excel",
+    "order": 3,
+    "data": {
+      "slug": "ms-excel",
+      "year": "2025",
+      "title": {
+        "en": "MS Excel course",
+        "ka": "MS Excel კურსი"
+      },
+      "lede": {
+        "en": "Excel from its interface to macros and AI — processing data, building reports, analysing and visualising them.",
+        "ka": "Excel ინტერფეისიდან მაკროებამდე და ხელოვნურ ინტელექტამდე — მონაცემების დამუშავება, ანგარიშების აგება, ანალიზი და ვიზუალიზაცია."
+      },
+      "body": [
+        {
+          "en": "Knowing MS Excel helps in any profession. The course takes in both the first steps and the higher-level functions of the program.",
+          "ka": "MS Excel-ის ცოდნა დამხმარე ინსტრუმენტია ნებისმიერი პროფესიის ადამიანისთვის. სასწავლო კურსის ფარგლებში გაივლით MS Excel პროგრამის საწყის და მაღალი დონის ფუნქციონალებს."
+        },
+        {
+          "en": "By the end of it you will be able to process data in Excel, generate detailed reports, build a working file, analyse and visualise, and put AI to work alongside it.",
+          "ka": "კურსის გავლის შემდეგ MS Excel-ში შეძლებთ მონაცემების დამუშავებას, დეტალური ანგარიშების გენერირებას, სამუშაო ფაილის აგებას, ანალიზს, ვიზუალიზაციას და ხელოვნური ინტელექტის გამოყენებას."
+        }
+      ],
+      "facts": [
+        {
+          "label": {
+            "en": "Starts",
+            "ka": "დაწყების თარიღი"
+          },
+          "value": {
+            "en": "24 April 2025",
+            "ka": "2025 წლის 24 აპრილი"
+          }
+        },
+        {
+          "label": {
+            "en": "Days",
+            "ka": "დღეები"
+          },
+          "value": {
+            "en": "Tuesday / Thursday",
+            "ka": "სამშაბათი / ხუთშაბათი"
+          }
+        },
+        {
+          "label": {
+            "en": "Time",
+            "ka": "დრო"
+          },
+          "value": {
+            "en": "19:30 – 21:00",
+            "ka": "19:30 – 21:00"
+          }
+        },
+        {
+          "label": {
+            "en": "Length",
+            "ka": "ხანგრძლივობა"
+          },
+          "value": {
+            "en": "10 meetings (5 weeks)",
+            "ka": "10 შეხვედრა (5 კვირა)"
+          }
+        }
+      ],
+      "trainers": [
+        {
+          "name": {
+            "en": "Tsotne Shermadini",
+            "ka": "ცოტნე შერმადინი"
+          },
+          "role": {
+            "en": "Finance director of IVH Holding and head of the financial analysis department at Award Holding",
+            "ka": "IVH ჰოლდინგის ფინანსური დირექტორი, Award ჰოლდინგის ფინანსური ანალიზის დეპარტამენტის უფროსი"
+          }
+        }
+      ],
+      "topics": [
+        {
+          "en": "The Excel interface: ribbon, toolbar, worksheet tabs",
+          "ka": "MS Excel-ის ინტერფეისი: RIBBON, TOOLBAR, WORKSHEET TABS"
+        },
+        {
+          "en": "Columns and rows, and what they do",
+          "ka": "სვეტებისა და სტრიქონების ფუნქციონალი"
+        },
+        {
+          "en": "Entering data in a cell, formatting, entering data on several sheets at once",
+          "ka": "მონაცემების შეყვანა უჯრაში, ფორმატირება, რამდენიმე შიტზე ერთდროულად"
+        },
+        {
+          "en": "Adding, copying, hiding and extracting sheets",
+          "ka": "შიტის დამატება, კოპირება, დამალვა და ცალკე გატანა"
+        },
+        {
+          "en": "Setting and removing a password on a sheet and on a file",
+          "ka": "პაროლის დადება და მოხსნა შიტსა და ფაილზე"
+        },
+        {
+          "en": "The main navigation shortcuts",
+          "ka": "ძირითადი სანავიგაციო SHORTCUT-ები"
+        },
+        {
+          "en": "Entering and formatting numbers and dates",
+          "ka": "რიცხვითი და თარიღის მონაცემების შეყვანა და ფორმატირება"
+        },
+        {
+          "en": "Sorting and filtering",
+          "ka": "სორტირება და ფილტრაცია"
+        },
+        {
+          "en": "Working with tables and charts",
+          "ka": "ცხრილებსა და დიაგრამებზე მუშაობა"
+        },
+        {
+          "en": "Absolute and relative references",
+          "ka": "აბსოლუტური და ფარდობითი მისამართები"
+        },
+        {
+          "en": "Paste Special",
+          "ka": "სპეციალური ჩასმის პარამეტრები (PASTE SPECIAL)"
+        },
+        {
+          "en": "SUM, COUNT, AVERAGE, SUBTOTAL",
+          "ka": "SUM, COUNT, AVERAGE, SUBTOTAL"
+        },
+        {
+          "en": "LEN, LEFT, RIGHT, MID, CONCATENATE, UPPER, LOWER, PROPER, TRIM",
+          "ka": "LEN, LEFT, RIGHT, MID, CONCATENATE, UPPER, LOWER, PROPER, TRIM"
+        },
+        {
+          "en": "Remove Duplicates, Text to Columns, Find and Replace",
+          "ka": "REMOVE DUPLICATES, TEXT TO COLUMN, FIND AND REPLACE"
+        },
+        {
+          "en": "ROUND, ROUNDDOWN, ROUNDUP, RAND, RANDBETWEEN, SUMPRODUCT",
+          "ka": "ROUND, ROUNDDOWN, ROUNDUP, RAND, RANDBETWEEN, SUMPRODUCT"
+        },
+        {
+          "en": "TODAY, YEAR, MONTH, DAY, DATE, NETWORKDAYS.INTL, EOMONTH",
+          "ka": "TODAY, YEAR, MONTH, DAY, DATE, NETWORKDAYS.INTL, EOMONTH"
+        },
+        {
+          "en": "AND, OR, IF, IFS",
+          "ka": "AND, OR, IF, IFS"
+        },
+        {
+          "en": "SUMIFS, COUNTIFS, AVERAGEIFS",
+          "ka": "SUMIFS, COUNTIFS, AVERAGEIFS"
+        },
+        {
+          "en": "IFERROR and the error types",
+          "ka": "IFERROR და ERROR-ების მიმოხილვა"
+        },
+        {
+          "en": "VLOOKUP, HLOOKUP, XLOOKUP",
+          "ka": "VLOOKUP, HLOOKUP, XLOOKUP"
+        },
+        {
+          "en": "Data validation",
+          "ka": "DATA VALIDATION"
+        },
+        {
+          "en": "Conditional formatting",
+          "ka": "CONDITIONAL FORMATTING"
+        },
+        {
+          "en": "How pivot tables work",
+          "ka": "დინამიკური ცხრილების მუშაობის პრინციპი"
+        },
+        {
+          "en": "Choosing the right pivot fields",
+          "ka": "დინამიკური ცხრილის ველების სწორად არჩევა"
+        },
+        {
+          "en": "Summarize Values By",
+          "ka": "SUMMARIZE VALUES BY ფუნქციის გამოყენება"
+        },
+        {
+          "en": "Show Values As",
+          "ka": "SHOW VALUES AS ფუნქციის გამოყენება"
+        },
+        {
+          "en": "Slicers",
+          "ka": "სლაისერები (SLICER)"
+        },
+        {
+          "en": "The basic chart types",
+          "ka": "საბაზისო გრაფიკების მიმოხილვა"
+        },
+        {
+          "en": "Choosing a chart to suit the data",
+          "ka": "მონაცემების ტიპის მიხედვით გრაფიკის ფორმის შერჩევა"
+        },
+        {
+          "en": "Inserting a chart and controlling its design",
+          "ka": "გრაფიკის ჩასმა და დიზაინის მართვა"
+        },
+        {
+          "en": "Macros and what they are for",
+          "ka": "MACRO-ები და მათი გამოყენება"
+        },
+        {
+          "en": "Recording basic macros to automate repeated tasks",
+          "ka": "ძირითადი MACRO-ების ჩაწერა განმეორებადი ამოცანების ავტომატიზაციისთვის"
+        },
+        {
+          "en": "Assigning macros to buttons",
+          "ka": "MACRO-ების მინიჭება ღილაკებზე მარტივი წვდომისთვის"
+        },
+        {
+          "en": "Using AI while working in Excel",
+          "ka": "AI-ს გამოყენება ექსელში მუშაობისას"
+        },
+        {
+          "en": "Combined exercises drawing on everything covered",
+          "ka": "კომბინირებული ამოცანები განვლილი მასალის საფუძველზე"
+        }
+      ],
+      "price": {
+        "en": "490 GEL",
+        "ka": "490 ლარი"
+      },
+      "notes": [
+        {
+          "en": "A 20% discount applies for IBSU students and alumni.",
+          "ka": "შავი ზღვის საერთაშორისო უნივერსიტეტის სტუდენტებისა და კურსდამთავრებულებისთვის მოქმედებს 20% ფასდაკლება."
+        },
+        {
+          "en": "The course ends in a bilingual certificate issued by International Black Sea University.",
+          "ka": "კურსის დასრულების შემდეგ გადმოგეცემათ შავი ზღვის საერთაშორისო უნივერსიტეტის ორენოვანი სერტიფიკატი."
+        }
+      ],
+      "register": "https://forms.gle/U7FcAw7rx7JUwxGW6"
+    }
+  },
+  {
+    "key": "business-english",
+    "order": 4,
+    "data": {
+      "slug": "business-english",
+      "year": "2025",
+      "title": {
+        "en": "Business English",
+        "ka": "ბიზნეს ინგლისური"
+      },
+      "lede": {
+        "en": "Eight weeks on business correspondence, negotiation, presentation and the vocabulary that carries them, at B2 level.",
+        "ka": "რვა კვირა საქმიან კორესპონდენციაზე, მოლაპარაკებებზე, პრეზენტაციებსა და ბიზნეს ლექსიკაზე, B2 დონეზე."
+      },
+      "body": [
+        {
+          "en": "The course improves professional business correspondence, the conduct of negotiations, the making of presentations and business vocabulary, and develops the reading, writing and communication a working relationship asks for.",
+          "ka": "კურსის ფარგლებში მნიშვნელოვნად გაიუმჯობესებთ პროფესიული ბიზნეს ინგლისურის კორესპონდენციას, მოლაპარაკებების წარმოებას, პრეზენტაციების შედგენას და ბიზნეს ლექსიკონს. განავითარებთ საქმიანი ურთიერთობისთვის საჭირო კითხვის, წერისა და კომუნიკაციის უნარებს."
+        },
+        {
+          "en": "It is pitched at B2 level, and you sit a placement test before it begins.",
+          "ka": "კურსი გათვლილია B2 დონის მსმენელზე; დაწყებამდე გაივლით ინგლისური ენის დონის განმსაზღვრელ ტესტს."
+        }
+      ],
+      "facts": [
+        {
+          "label": {
+            "en": "Starts",
+            "ka": "დაწყების თარიღი"
+          },
+          "value": {
+            "en": "5 March",
+            "ka": "5 მარტი"
+          }
+        },
+        {
+          "label": {
+            "en": "Days",
+            "ka": "დღეები"
+          },
+          "value": {
+            "en": "Wednesday / Friday",
+            "ka": "ოთხშაბათი / პარასკევი"
+          }
+        },
+        {
+          "label": {
+            "en": "Time",
+            "ka": "დრო"
+          },
+          "value": {
+            "en": "2 academic hours",
+            "ka": "2 აკადემიური საათი"
+          }
+        },
+        {
+          "label": {
+            "en": "Length",
+            "ka": "ხანგრძლივობა"
+          },
+          "value": {
+            "en": "32 meetings (8 weeks)",
+            "ka": "32 შეხვედრა (8 კვირა)"
+          }
+        }
+      ],
+      "trainers": [
+        {
+          "name": {
+            "en": "Maia Kutateladze",
+            "ka": "მაია ქუთათელაძე"
+          },
+          "role": {
+            "en": "Assistant professor, doctor of American studies; a lecturer in English since 2002 and a long-standing language coach",
+            "ka": "ასისტენტ-პროფესორი, ამერიკისმცოდნეობის დოქტორი; 2002 წლიდან ინგლისური ენის ლექტორი, უცხო ენის ქოუჩად მუშაობის მრავალწლიანი გამოცდილებით"
+          }
+        }
+      ],
+      "weeks": [
+        {
+          "title": {
+            "en": "Week 1",
+            "ka": "კვირა 1"
+          },
+          "items": [
+            {
+              "en": "Building vocabulary around business education; working on reading skills",
+              "ka": "ბიზნეს განათლებასთან დაკავშირებით ლექსიკური მარაგის გამდიდრება; კითხვის უნარ-ჩვევების დამუშავება"
+            },
+            {
+              "en": "Functional language: writing a CV for an interview, AI in CV writing, the EUROPASS format",
+              "ka": "ფუნქციურ ენაზე მუშაობა: გასაუბრებისთვის რეზიუმეს შექმნა, AI რეზიუმეს შექმნაში, EUROPASS ფორმატის რეზიუმე"
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Week 2",
+            "ka": "კვირა 2"
+          },
+          "items": [
+            {
+              "en": "Business cases; using a job description to write a cover letter",
+              "ka": "ბიზნეს ქეისების განხილვა; სამუშაო აღწერის გამოყენება სამოტივაციო წერილის შექმნისას"
+            },
+            {
+              "en": "Reading: technology in the modern workplace; vocabulary; writing a letter of recommendation",
+              "ka": "კითხვის უნარ-ჩვევების გაუმჯობესება: ტექნოლოგიები თანამედროვე სამუშაო გარემოში; ლექსიკური მარაგის გამდიდრება; სარეკომენდაციო წერილის შექმნა"
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Week 3",
+            "ka": "კვირა 3"
+          },
+          "items": [
+            {
+              "en": "Refining grammar and comparison; developing negotiation skills",
+              "ka": "გრამატიკული ცოდნის დახვეწა და შედარება; მოლაპარაკებების უნარ-ჩვევების განვითარება"
+            },
+            {
+              "en": "Business cases; writing a memorandum; revision of vocabulary and grammar",
+              "ka": "ბიზნეს ქეისების განხილვა; მემორანდუმის წერა; ლექსიკური და გრამატიკული საკითხების გამეორება"
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Week 4",
+            "ka": "კვირა 4"
+          },
+          "items": [
+            {
+              "en": "Reading on the quality of business products; discussion; writing letters of complaint and of apology",
+              "ka": "კითხვის უნარ-ჩვევების დამუშავება ბიზნეს პროდუქტების ხარისხთან დაკავშირებით; დისკუსია; საჩივრისა და მობოდიშების წერილის წერა"
+            },
+            {
+              "en": "Grammar: the passive voice. Speaking: ways of delivering a presentation",
+              "ka": "გრამატიკა: პასიური გვარი. სასაუბრო: პრეზენტაციის წარდგენის ხერხები"
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Week 5",
+            "ka": "კვირა 5"
+          },
+          "items": [
+            {
+              "en": "Business cases; writing instructions",
+              "ka": "ბიზნეს ქეისების განხილვა; ინსტრუქციების წერა"
+            },
+            {
+              "en": "Revision; cohesion, tone and register in an email",
+              "ka": "განვლილი მასალის გამეორება; ელექტრონული წერილის ბმულობა, ტონი და რეგისტრი"
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Week 6",
+            "ka": "კვირა 6"
+          },
+          "items": [
+            {
+              "en": "Reading on project management; vocabulary; working on a business plan",
+              "ka": "კითხვის უნარ-ჩვევების დამუშავება: პროექტის მართვა; ლექსიკის გამდიდრება; ბიზნეს გეგმის დაწერაზე მუშაობა"
+            },
+            {
+              "en": "Grammar: expressing criticism. Speaking: constructive criticism; writing minutes",
+              "ka": "გრამატიკა: კრიტიკის გამოხატვა. სასაუბრო: კონსტრუქციული კრიტიკის გამოხატვა; შეხვედრის ოქმის წერა"
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Week 7",
+            "ka": "კვირა 7"
+          },
+          "items": [
+            {
+              "en": "Business cases; writing a report",
+              "ka": "ბიზნეს ქეისების განხილვა; მოხსენების წერა"
+            },
+            {
+              "en": "Reading on viral marketing; marketing vocabulary; a business post for social media, with AI",
+              "ka": "კითხვის უნარ-ჩვევების დამუშავება: ვირუსული მარკეტინგი; ლექსიკური მარაგის გამდიდრება — მარკეტინგი; სოციალური მედიისთვის ბიზნეს პოსტის შექმნა, AI-ს გამოყენებით"
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Week 8",
+            "ka": "კვირა 8"
+          },
+          "items": [
+            {
+              "en": "Grammar: interactive discussion. Speaking: handling a refusal; the technique of a letter of refusal",
+              "ka": "გრამატიკა: ინტერაქციული დისკუსია. სასაუბრო: როგორ გავართვათ თავი უარს; უარის წერილის წერის ტექნიკა"
+            },
+            {
+              "en": "Business cases; writing a business offer by email; revision and a summing-up, with AI tools in business communication",
+              "ka": "ბიზნეს ქეისების განხილვა; ელექტრონული ფოსტით ბიზნეს შეთავაზების წერა; გამეორება და კურსის შეჯამება, ხელოვნური ინტელექტის ინსტრუმენტები ბიზნეს კომუნიკაციაში"
+            }
+          ]
+        }
+      ],
+      "price": {
+        "en": "650 GEL",
+        "ka": "650 ლარი"
+      },
+      "notes": [
+        {
+          "en": "A 20% discount applies for IBSU students and alumni.",
+          "ka": "შავი ზღვის საერთაშორისო უნივერსიტეტის სტუდენტებისა და კურსდამთავრებულებისთვის მოქმედებს 20% ფასდაკლება."
+        },
+        {
+          "en": "The course ends in a bilingual certificate issued by International Black Sea University.",
+          "ka": "კურსის დასრულების შემდეგ გადმოგეცემათ შავი ზღვის საერთაშორისო უნივერსიტეტის ორენოვანი სერტიფიკატი."
+        }
+      ],
+      "register": "https://forms.gle/fZAfKicUoYwoQ1u39"
+    }
+  },
+  {
+    "key": "project-management",
+    "order": 5,
+    "data": {
+      "slug": "project-management",
+      "year": "2025",
+      "title": {
+        "en": "Project Management",
+        "ka": "Project Management"
+      },
+      "lede": {
+        "en": "Twelve lectures on project management principles, methodologies and practice, against globally recognised standards.",
+        "ka": "თორმეტი ლექცია პროექტის მართვის პრინციპებზე, მეთოდოლოგიებსა და პრაქტიკაზე, საერთაშორისოდ აღიარებული სტანდარტების მიხედვით."
+      },
+      "body": [
+        {
+          "en": "The training course is designed to give a comprehensive understanding of project management principles, methodologies and best practices aligned with globally recognised standards — key concepts and terminology, the Waterfall, Hybrid and Agile methodologies, and practical skills in project initiation, planning, execution, monitoring and closing.",
+          "ka": "ტრენინგ-კურსი გათვლილია პროექტის მართვის პრინციპების, მეთოდოლოგიებისა და საუკეთესო პრაქტიკის სრულ გაცნობაზე, საერთაშორისოდ აღიარებული სტანდარტების შესაბამისად — ძირითადი ცნებები და ტერმინოლოგია, Waterfall, Hybrid და Agile მეთოდოლოგიები, პრაქტიკული უნარები პროექტის ინიცირებაში, დაგეგმვაში, განხორციელებაში, მონიტორინგსა და დახურვაში."
+        },
+        {
+          "en": "It strengthens competency in risk management, quality control, stakeholder management and project communication, and introduces participants to current and emerging trends in the field.",
+          "ka": "კურსი აძლიერებს კომპეტენციას რისკების მართვაში, ხარისხის კონტროლში, დაინტერესებულ მხარეებთან მუშაობასა და საპროექტო კომუნიკაციაში და აცნობს მონაწილეებს დარგის მიმდინარე და ახალ ტენდენციებს."
+        }
+      ],
+      "facts": [
+        {
+          "label": {
+            "en": "Starts",
+            "ka": "დაწყების თარიღი"
+          },
+          "value": {
+            "en": "25 March 2025",
+            "ka": "2025 წლის 25 მარტი"
+          }
+        },
+        {
+          "label": {
+            "en": "Days",
+            "ka": "დღეები"
+          },
+          "value": {
+            "en": "Tuesday / Friday",
+            "ka": "სამშაბათი / პარასკევი"
+          }
+        },
+        {
+          "label": {
+            "en": "Time",
+            "ka": "დრო"
+          },
+          "value": {
+            "en": "19:00 – 20:00",
+            "ka": "19:00 – 20:00"
+          }
+        },
+        {
+          "label": {
+            "en": "Length",
+            "ka": "ხანგრძლივობა"
+          },
+          "value": {
+            "en": "12 lectures, 2 hours each",
+            "ka": "12 ლექცია, თითო 2 საათი"
+          }
+        },
+        {
+          "label": {
+            "en": "Language",
+            "ka": "ენა"
+          },
+          "value": {
+            "en": "English",
+            "ka": "ინგლისური"
+          }
+        }
+      ],
+      "trainers": [
+        {
+          "name": {
+            "en": "Tamta Lomtadze",
+            "ka": "თამთა ლომთაძე"
+          },
+          "role": {
+            "en": "Senior manager and Project Management Professional (PMP) with over a decade leading programs in Georgian and international organisations, think tanks and the civil service; MSc in International Relations, University of Glasgow (Chevening); member of the PMI Georgia Chapter",
+            "ka": "სენიორ მენეჯერი და Project Management Professional (PMP), ათ წელზე მეტი გამოცდილებით ქართულ და საერთაშორისო ორგანიზაციებში, კვლევით ცენტრებსა და საჯარო სამსახურში; საერთაშორისო ურთიერთობების მაგისტრი (გლაზგოს უნივერსიტეტი, Chevening); PMI-ის საქართველოს ფილიალის წევრი"
+          }
+        }
+      ],
+      "topics": [
+        {
+          "en": "Lecture 1 — Introduction to project management",
+          "ka": "ლექცია 1 — პროექტის მართვის შესავალი"
+        },
+        {
+          "en": "Lecture 2 — Introduction to Agile project management",
+          "ka": "ლექცია 2 — Agile პროექტის მართვის შესავალი"
+        },
+        {
+          "en": "Lecture 3 — Project planning",
+          "ka": "ლექცია 3 — პროექტის დაგეგმვა"
+        },
+        {
+          "en": "Lecture 4 — Project initiation",
+          "ka": "ლექცია 4 — პროექტის ინიცირება"
+        },
+        {
+          "en": "Lecture 5 — Project execution",
+          "ka": "ლექცია 5 — პროექტის განხორციელება"
+        },
+        {
+          "en": "Lecture 6 — Project execution II",
+          "ka": "ლექცია 6 — პროექტის განხორციელება II"
+        },
+        {
+          "en": "Lecture 7 — Monitoring and controlling",
+          "ka": "ლექცია 7 — მონიტორინგი და კონტროლი"
+        },
+        {
+          "en": "Lecture 8 — Project closing",
+          "ka": "ლექცია 8 — პროექტის დახურვა"
+        },
+        {
+          "en": "Lecture 9 — Project risk management",
+          "ka": "ლექცია 9 — პროექტის რისკების მართვა"
+        },
+        {
+          "en": "Lecture 10 — Project quality management",
+          "ka": "ლექცია 10 — პროექტის ხარისხის მართვა"
+        },
+        {
+          "en": "Lecture 11 — Stakeholder management and project communication",
+          "ka": "ლექცია 11 — დაინტერესებულ მხარეებთან მუშაობა და საპროექტო კომუნიკაცია"
+        },
+        {
+          "en": "Lecture 12 — Current trends in project management",
+          "ka": "ლექცია 12 — მიმდინარე ტენდენციები პროექტის მართვაში"
+        }
+      ],
+      "price": {
+        "en": "590 GEL",
+        "ka": "590 ლარი"
+      },
+      "notes": [
+        {
+          "en": "No specific requirements; at least B2/C1 English is desirable.",
+          "ka": "სპეციალური მოთხოვნები არ არის; სასურველია ინგლისურის B2/C1 დონე."
+        },
+        {
+          "en": "A 20% discount applies for IBSU students and alumni.",
+          "ka": "შავი ზღვის საერთაშორისო უნივერსიტეტის სტუდენტებისა და კურსდამთავრებულებისთვის მოქმედებს 20% ფასდაკლება."
+        },
+        {
+          "en": "The course ends in a bilingual certificate issued by International Black Sea University.",
+          "ka": "კურსის დასრულების შემდეგ გადმოგეცემათ შავი ზღვის საერთაშორისო უნივერსიტეტის ორენოვანი სერტიფიკატი."
+        }
+      ],
+      "register": "https://forms.gle/FsvJzDvMA26DDQ3x5"
+    }
+  },
+  {
+    "key": "chinese",
+    "order": 6,
+    "data": {
+      "slug": "chinese",
+      "year": "2025",
+      "title": {
+        "en": "Chinese language course",
+        "ka": "ჩინური ენის კურსი"
+      },
+      "lede": {
+        "en": "Eight weeks of Chinese from the first characters: writing, phonetics, grammar and vocabulary, open to anyone from the age of 16.",
+        "ka": "რვა კვირა ჩინური პირველი იეროგლიფიდან: მართლწერა, ფონეტიკა, გრამატიკა და ლექსიკა, ნებისმიერი მსურველისთვის 16 წლიდან."
+      },
+      "body": [
+        {
+          "en": "The course covers the writing of characters, phonetics, grammar and vocabulary, and is open to anyone from the age of 16.",
+          "ka": "კურსის ფარგლებში შეისწავლით იეროგლიფების მართლწერას, ფონეტიკას, გრამატიკასა და ლექსიკას. კურსი გათვლილია ნებისმიერ მსურველზე 16 წლიდან."
+        }
+      ],
+      "facts": [
+        {
+          "label": {
+            "en": "Starts",
+            "ka": "დაწყების თარიღი"
+          },
+          "value": {
+            "en": "3 April",
+            "ka": "3 აპრილი"
+          }
+        },
+        {
+          "label": {
+            "en": "Days",
+            "ka": "დღეები"
+          },
+          "value": {
+            "en": "Tuesday / Thursday",
+            "ka": "სამშაბათი / ხუთშაბათი"
+          }
+        },
+        {
+          "label": {
+            "en": "Time",
+            "ka": "დრო"
+          },
+          "value": {
+            "en": "2 academic hours",
+            "ka": "2 აკადემიური საათი"
+          }
+        },
+        {
+          "label": {
+            "en": "Length",
+            "ka": "ხანგრძლივობა"
+          },
+          "value": {
+            "en": "8 weeks",
+            "ka": "8 კვირა"
+          }
+        }
+      ],
+      "trainers": [
+        {
+          "name": {
+            "en": "A sinologist and translator",
+            "ka": "სინოლოგი და მთარგმნელი"
+          },
+          "role": {
+            "en": "Doctor of social sciences and visiting lecturer in Chinese at IBSU; teaching Chinese at private and state universities since 2017",
+            "ka": "სოციალურ მეცნიერებათა დოქტორი, ჩინური ენის მოწვეული ლექტორი შავი ზღვის საერთაშორისო უნივერსიტეტში; 2017 წლიდან ასწავლის ჩინურს კერძო და სახელმწიფო უნივერსიტეტებში"
+          }
+        }
+      ],
+      "weeks": [
+        {
+          "title": {
+            "en": "Week 1",
+            "ka": "კვირა 1"
+          },
+          "items": [
+            {
+              "en": "Hello — 你好",
+              "ka": "გამარჯობა — 你好"
+            },
+            {
+              "en": "Thank you — 谢谢你",
+              "ka": "მადლობა — 谢谢你"
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Week 2",
+            "ka": "კვირა 2"
+          },
+          "items": [
+            {
+              "en": "What is your name? — 你叫什么名字？",
+              "ka": "რა გქვია სახელი? — 你叫什么名字？"
+            },
+            {
+              "en": "She is my Chinese teacher — 她是我的汉语老师",
+              "ka": "ის ჩემი ჩინურის მასწავლებელია — 她是我的汉语老师"
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Week 3",
+            "ka": "კვირა 3"
+          },
+          "items": [
+            {
+              "en": "Her daughter is twenty — 她女儿今年二十岁",
+              "ka": "მისი ქალიშვილი 20 წლისაა — 她女儿今年二十岁"
+            },
+            {
+              "en": "I can speak Chinese — 我会说汉语",
+              "ka": "მე შემიძლია ჩინურად საუბარი — 我会说汉语"
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Week 4",
+            "ka": "კვირა 4"
+          },
+          "items": [
+            {
+              "en": "What is the date today? — 今天几号",
+              "ka": "რა დღეა დღეს? — 今天几号"
+            },
+            {
+              "en": "I would like to drink tea — 我想喝茶",
+              "ka": "მე მიყვარს ჩაის დალევა — 我想喝茶"
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Week 5",
+            "ka": "კვირა 5"
+          },
+          "items": [
+            {
+              "en": "Where does your son work? — 你儿子在哪儿工作？",
+              "ka": "შენი ვაჟი სად მუშაობს? — 你儿子在哪儿工作？"
+            },
+            {
+              "en": "May I sit here? — 我能坐这儿吗",
+              "ka": "შემიძლია აქ დავჯდე? — 我能坐这儿吗"
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Week 6",
+            "ka": "კვირა 6"
+          },
+          "items": [
+            {
+              "en": "What time is it now? — 现在几点",
+              "ka": "ახლა რომელი საათია? — 现在几点"
+            },
+            {
+              "en": "What will the weather be tomorrow? — 明天天气怎么样？",
+              "ka": "როგორი ამინდი იქნება ხვალ? — 明天天气怎么样？"
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Week 7",
+            "ka": "კვირა 7"
+          },
+          "items": [
+            {
+              "en": "He bought quite a lot of clothes — 他买了不少衣服",
+              "ka": "მან საკმაოდ ბევრი ტანსაცმელი შეიძინა — 他买了不少衣服"
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Week 8",
+            "ka": "კვირა 8"
+          },
+          "items": [
+            {
+              "en": "Oral and written examination",
+              "ka": "ზეპირი და წერილობითი გამოცდა"
+            }
+          ]
+        }
+      ],
+      "price": {
+        "en": "490 GEL",
+        "ka": "490 ლარი"
+      },
+      "notes": [
+        {
+          "en": "A 20% discount applies for IBSU students and alumni.",
+          "ka": "შავი ზღვის საერთაშორისო უნივერსიტეტის სტუდენტებისა და კურსდამთავრებულებისთვის მოქმედებს 20% ფასდაკლება."
+        },
+        {
+          "en": "The course ends in a bilingual certificate issued by International Black Sea University.",
+          "ka": "კურსის დასრულების შემდეგ გადმოგეცემათ შავი ზღვის საერთაშორისო უნივერსიტეტის ორენოვანი სერტიფიკატი."
+        }
+      ],
+      "register": "https://forms.gle/S8e1nu2X2PNaqviP8"
+    }
+  },
+  {
+    "key": "european-court",
+    "order": 7,
+    "data": {
+      "slug": "european-court",
+      "year": "2025",
+      "title": {
+        "en": "The European Court of Human Rights",
+        "ka": "ევროპული სასამართლო"
+      },
+      "heading": {
+        "en": "How to conduct a case before the European Court of Human Rights",
+        "ka": "როგორ ვაწარმოოთ საქმე ადამიანის უფლებათა ევროპულ სასამართლოში?"
+      },
+      "lede": {
+        "en": "A course for students, lawyers, future advocates and human rights defenders on conducting a case before the European Court of Human Rights.",
+        "ka": "კურსი სტუდენტებისთვის, იურისტებისთვის, მომავალი ადვოკატებისა და უფლებადამცველებისთვის — როგორ ვაწარმოოთ საქმე ადამიანის უფლებათა ევროპულ სასამართლოში."
+      },
+      "body": [
+        {
+          "en": "The course helps students, lawyers, future advocates and human rights lawyers to conduct a case before the European Court of Human Rights to a professional standard.",
+          "ka": "კურსი დაეხმარება სტუდენტებს, იურისტებს, მომავალ ადვოკატებსა და უფლებადამცველებს კვალიფიციურად აწარმოონ საქმე ადამიანის უფლებათა ევროპულ სასამართლოში."
+        }
+      ],
+      "facts": [
+        {
+          "label": {
+            "en": "Starts",
+            "ka": "დაწყების თარიღი"
+          },
+          "value": {
+            "en": "15 April 2025",
+            "ka": "2025 წლის 15 აპრილი"
+          }
+        },
+        {
+          "label": {
+            "en": "Days",
+            "ka": "დღეები"
+          },
+          "value": {
+            "en": "Tuesday / Thursday",
+            "ka": "სამშაბათი / ხუთშაბათი"
+          }
+        },
+        {
+          "label": {
+            "en": "Time",
+            "ka": "დრო"
+          },
+          "value": {
+            "en": "19:00 – 21:00",
+            "ka": "19:00 – 21:00"
+          }
+        },
+        {
+          "label": {
+            "en": "Length",
+            "ka": "ხანგრძლივობა"
+          },
+          "value": {
+            "en": "8 meetings (5 weeks)",
+            "ka": "8 შეხვედრა (5 კვირა)"
+          }
+        },
+        {
+          "label": {
+            "en": "Format",
+            "ka": "ფორმატი"
+          },
+          "value": {
+            "en": "Hybrid",
+            "ka": "ჰიბრიდული"
+          }
+        }
+      ],
+      "trainers": [
+        {
+          "name": {
+            "en": "Tamar Avaliani",
+            "ka": "თამარ ავალიანი"
+          },
+          "role": {
+            "en": "Doctor of law with more than ten years as a human rights lawyer and consultant in non-governmental organisations; conducting cases before the national courts and the European Court of Human Rights since 2010, and the author of some thirty publications on human rights and justice",
+            "ka": "სამართლის დოქტორი, ათ წელზე მეტი გამოცდილებით ადამიანის უფლებათა იურისტად და ექსპერტ-კონსულტანტად არასამთავრობო ორგანიზაციებში; 2010 წლიდან აწარმოებს საქმეებს როგორც ეროვნულ, ისე ადამიანის უფლებათა ევროპულ სასამართლოში; ადამიანის უფლებებსა და მართლმსაჯულებაზე ოცდაათამდე პუბლიკაციის ავტორი"
+          }
+        }
+      ],
+      "topics": [
+        {
+          "en": "1. The European Convention on Human Rights and its additional protocols",
+          "ka": "თემა 1. ადამიანის უფლებათა და ძირითად თავისუფლებათა დაცვის ევროპული კონვენცია და მისი დამატებითი ოქმები"
+        },
+        {
+          "en": "2. The European Court of Human Rights",
+          "ka": "თემა 2. ადამიანის უფლებათა ევროპული სასამართლო"
+        },
+        {
+          "en": "3. Who may bring an individual application",
+          "ka": "თემა 3. ინდივიდუალური საჩივრით მიმართვის სუბიექტები"
+        },
+        {
+          "en": "4. The admissibility conditions of an individual application",
+          "ka": "თემა 4. ინდივიდუალური საჩივრის მისაღებობის წინაპირობები"
+        },
+        {
+          "en": "5. What bars an individual application from examination",
+          "ka": "თემა 5. ინდივიდუალური საჩივრის განხილვის დამაბრკოლებელი გარემოებები"
+        },
+        {
+          "en": "6. Grounds for striking an application out of the list of cases",
+          "ka": "თემა 6. საჩივრის განსახილველ საქმეთა ნუსხიდან ამორიცხვის საფუძვლები"
+        },
+        {
+          "en": "7. The communication stage",
+          "ka": "თემა 7. საქმის კომუნიცირების ეტაპი"
+        },
+        {
+          "en": "8. Friendly settlements",
+          "ka": "თემა 8. დავის მეგობრული მოგვარება (Friendly settlements)"
+        },
+        {
+          "en": "9. Unilateral declarations",
+          "ka": "თემა 9. ცალმხრივი აღიარება (Unilateral Declarations)"
+        },
+        {
+          "en": "10. Referral to the Grand Chamber and its conditions",
+          "ka": "თემა 10. დიდი პალატისთვის საქმის გადაცემა და დასაშვებობის წინაპირობები"
+        },
+        {
+          "en": "11. Just satisfaction",
+          "ka": "თემა 11. სამართლიანი დაკმაყოფილება"
+        },
+        {
+          "en": "12. The right to a defence",
+          "ka": "თემა 12. დაცვის უფლება"
+        },
+        {
+          "en": "13. Interim measures",
+          "ka": "თემა 13. დროებითი ღონისძიება (Interim Measures)"
+        },
+        {
+          "en": "14. The binding force of a judgment and its execution",
+          "ka": "თემა 14. ევროპული სასამართლოს გადაწყვეტილების სავალდებულო ძალა და მისი აღსრულება"
+        },
+        {
+          "en": "15. Inter-state cases",
+          "ka": "თემა 15. სახელმწიფოთაშორისი საქმეების განხილვა"
+        },
+        {
+          "en": "16. The practical rules of completing an application",
+          "ka": "თემა 16. საჩივრის შევსების პრაქტიკული წესები"
+        }
+      ],
+      "price": {
+        "en": "420 GEL",
+        "ka": "420 ლარი"
+      },
+      "notes": [
+        {
+          "en": "A 20% discount applies for IBSU students and alumni.",
+          "ka": "შავი ზღვის საერთაშორისო უნივერსიტეტის სტუდენტებისა და კურსდამთავრებულებისთვის მოქმედებს 20% ფასდაკლება."
+        },
+        {
+          "en": "The course ends in a bilingual certificate issued by International Black Sea University.",
+          "ka": "კურსის დასრულების შემდეგ გადმოგეცემათ შავი ზღვის საერთაშორისო უნივერსიტეტის ორენოვანი სერტიფიკატი."
+        }
+      ],
+      "register": "https://forms.gle/tD4j51LFgKRTnuWBA"
+    }
+  },
+  {
+    "key": "georgian-language",
+    "order": 8,
+    "data": {
+      "slug": "georgian-language",
+      "year": "2025",
+      "title": {
+        "en": "General Georgian Language Course",
+        "ka": "ქართული ენის ზოგადი კურსი"
+      },
+      "lede": {
+        "en": "Seven weeks of Georgian from the alphabet to free conversation on everyday subjects.",
+        "ka": "შვიდი კვირა ქართული ანბანიდან ყოველდღიურ თემებზე თავისუფალ საუბრამდე."
+      },
+      "body": [
+        {
+          "en": "Within the course students reach a working level of Georgian: reading and writing, constructing simple sentences, presenting themselves, holding basic conversations on various subjects and using core vocabulary readily.",
+          "ka": "კურსის ფარგლებში მსმენელები მიაღწევენ ქართული ენის გარკვეულ დონეს: შეძლებენ ქართულად კითხვასა და წერას, მარტივი წინადადებების აგებას, საკუთარი თავის წარდგენას, ყოველდღიურ თემებზე საბაზისო დიალოგის წარმართვასა და ძირითადი ლექსიკის თავისუფლად გამოყენებას."
+        }
+      ],
+      "facts": [
+        {
+          "label": {
+            "en": "Starts",
+            "ka": "დაწყების თარიღი"
+          },
+          "value": {
+            "en": "1 April 2025",
+            "ka": "2025 წლის 1 აპრილი"
+          }
+        },
+        {
+          "label": {
+            "en": "Days",
+            "ka": "დღეები"
+          },
+          "value": {
+            "en": "Monday / Tuesday",
+            "ka": "ორშაბათი / სამშაბათი"
+          }
+        },
+        {
+          "label": {
+            "en": "Time",
+            "ka": "დრო"
+          },
+          "value": {
+            "en": "2 academic hours",
+            "ka": "2 აკადემიური საათი"
+          }
+        },
+        {
+          "label": {
+            "en": "Length",
+            "ka": "ხანგრძლივობა"
+          },
+          "value": {
+            "en": "14 meetings (7 weeks)",
+            "ka": "14 შეხვედრა (7 კვირა)"
+          }
+        },
+        {
+          "label": {
+            "en": "Format",
+            "ka": "ფორმატი"
+          },
+          "value": {
+            "en": "Hybrid",
+            "ka": "ჰიბრიდული"
+          }
+        }
+      ],
+      "trainers": [
+        {
+          "name": {
+            "en": "Pikria Chanturia",
+            "ka": "ფიქრია ჭანტურია"
+          },
+          "role": {
+            "en": "PhD student in Kartvelian linguistics, linguist and researcher; teaching Georgian at various universities since 2022 and working on questions of Georgian linguistics for more than twelve years",
+            "ka": "ქართველური ენათმეცნიერების დოქტორანტი, ლინგვისტი და მკვლევარი; 2022 წლიდან ასწავლის ქართულს სხვადასხვა უნივერსიტეტში და თორმეტ წელზე მეტია მუშაობს ქართული ენათმეცნიერების საკითხებზე"
+          }
+        }
+      ],
+      "weeks": [
+        {
+          "title": {
+            "en": "Week 1",
+            "ka": "კვირა 1"
+          },
+          "items": [
+            {
+              "en": "The Georgian language and script; the alphabet; writing and pronouncing the consonants; basic vocabulary in group work",
+              "ka": "ქართული ენა და დამწერლობა; ანბანი; თანხმოვნების წერა და გამოთქმა; საბაზისო ლექსიკა ჯგუფური მუშაობით"
+            },
+            {
+              "en": "The consonants and vowels particular to Georgian; writing and speaking tasks; the lexical units a simple dialogue needs",
+              "ka": "ქართულისთვის დამახასიათებელი თანხმოვნები და ხმოვნები; წერისა და მეტყველების დავალებები; მარტივი დიალოგისთვის საჭირო ლექსიკა"
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Week 2",
+            "ka": "კვირა 2"
+          },
+          "items": [
+            {
+              "en": "The whole alphabet, discussed with the group; listening to and taking in Georgian vocabulary; composing a dialogue; language games",
+              "ka": "მთლიანი ანბანი ჯგუფთან ერთად; ქართული ლექსიკის მოსმენა და აღქმა; დიალოგის შედგენა; ენობრივი თამაშები"
+            },
+            {
+              "en": "Reading and writing; oral speech and pronunciation — the game “Imitation”; conjugating one verb",
+              "ka": "კითხვა და წერა; ზეპირი მეტყველება და გამოთქმა — თამაში „იმიტაცია“; ერთი ზმნის უღლება"
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Week 3",
+            "ka": "კვირა 3"
+          },
+          "items": [
+            {
+              "en": "Composing a simple clause; Georgian cuisine as a way into vocabulary",
+              "ka": "მარტივი წინადადების შედგენა; ქართული სამზარეულო როგორც ლექსიკაზე მუშაობის საშუალება"
+            },
+            {
+              "en": "The essential grammatical units; work on dialogues",
+              "ka": "ძირითადი გრამატიკული ერთეულები; დიალოგებზე მუშაობა"
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Week 4",
+            "ka": "კვირა 4"
+          },
+          "items": [
+            {
+              "en": "Using artificial intelligence to set a learner's own pace; reading and writing skills",
+              "ka": "ხელოვნური ინტელექტის გამოყენება მსმენელის საკუთარი ტემპის დასადგენად; კითხვისა და წერის უნარები"
+            },
+            {
+              "en": "Self-presentation; interactive games on Georgian folklore",
+              "ka": "საკუთარი თავის წარდგენა; ინტერაქციული თამაშები ქართულ ფოლკლორზე"
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Week 5",
+            "ka": "კვირა 5"
+          },
+          "items": [
+            {
+              "en": "The grammatical category of tense; speaking — the “Speak Out” activity",
+              "ka": "დროის გრამატიკული კატეგორია; მეტყველება — აქტივობა „Speak Out“"
+            },
+            {
+              "en": "Fixing what you hear correctly; fast writing with the timer method",
+              "ka": "მოსმენილის სწორად დაფიქსირება; სწრაფი წერა ტაიმერის მეთოდით"
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Weeks 6–7",
+            "ka": "კვირა 6–7"
+          },
+          "items": [
+            {
+              "en": "Consolidating reading, writing and conversation on everyday subjects, and the vocabulary the course has built",
+              "ka": "კითხვის, წერისა და ყოველდღიურ თემებზე საუბრის განმტკიცება და კურსის განმავლობაში დაგროვილი ლექსიკა"
+            }
+          ]
+        }
+      ],
+      "price": {
+        "en": "420 GEL",
+        "ka": "420 ლარი"
+      },
+      "notes": [
+        {
+          "en": "A 20% discount applies for IBSU students and alumni.",
+          "ka": "შავი ზღვის საერთაშორისო უნივერსიტეტის სტუდენტებისა და კურსდამთავრებულებისთვის მოქმედებს 20% ფასდაკლება."
+        },
+        {
+          "en": "The course ends in a bilingual certificate issued by International Black Sea University.",
+          "ka": "კურსის დასრულების შემდეგ გადმოგეცემათ შავი ზღვის საერთაშორისო უნივერსიტეტის ორენოვანი სერტიფიკატი."
+        }
+      ],
+      "register": "https://forms.gle/NcW2jbifCxudX4N2A"
+    }
+  }
+]

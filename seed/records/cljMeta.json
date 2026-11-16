@@ -1,0 +1,17 @@
+[
+  {
+    "key": "default",
+    "order": 0,
+    "data": {
+      "abbr": "CLJ",
+      "title": {
+        "en": "Contemporary Law Journal",
+        "ka": "თანამედროვე სამართლის ჟურნალი"
+      },
+      "field": {
+        "en": "Law",
+        "ka": "სამართალი"
+      }
+    }
+  }
+]

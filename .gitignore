@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.env
+.env.local
+*.tsbuildinfo
+
+# Uploaded media lives on disk next to the API. Never in git.
+uploads/
+
+# A local MongoDB, for developing against. `npm run mongo` starts it.
+.mongo-data/
+
+# The one-time raw extraction, 23 MB of it. Reproducible: check out a commit
+# from before the migration and run `npm run extract`. What the seeder
+# actually needs — seed/records and seed/copy — is committed, because that is
+# the site's content and the path back if a restore is ever needed.
+seed/legacy/
+seed/*.json

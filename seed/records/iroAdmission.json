@@ -1,0 +1,359 @@
+[
+  {
+    "key": "about",
+    "order": 0,
+    "data": {
+      "id": "about",
+      "title": {
+        "ka": "ჩვენს შესახებ",
+        "en": "About us"
+      },
+      "blocks": {
+        "ka": [
+          {
+            "p": "**შავი ზღვის საერთაშორისო უნივერსიტეტი** არის საქართველოში აკრედიტირებული და ავტორიზებული უმაღლესი საგანმანათლებლო დაწესებულება, რომელიც გთავაზობთ 26 საგანმანათლებლო პროგრამას ინგლისურ ენაზე სწავლების სამივე საფეხურზე – პირველი (ბაკალავრიატი), მეორე (მაგისტრატურა) და მესამე (დოქტორანტურა), განათლებასა და ჰუმანიტარულ მეცნიერებებში, კომპიუტერულ ტექნოლოგიებსა და ინჟინერიაში, ბიზნესის მენეჯმენტსა და სოციალურ მეცნიერებებში."
+          }
+        ],
+        "en": [
+          {
+            "p": "**International Black Sea University** is an accredited and authorized higher education institution in Georgia, and offers 26 degree programs in English in three cycles: first (bachelor’s), second (master’s) and third (Ph.D.) in education and humanities, computer technologies and engineering, business management, and social sciences."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "rules",
+    "order": 1,
+    "data": {
+      "id": "rules",
+      "title": {
+        "ka": "ჩარიცხვის წესი",
+        "en": "Rules for enrollment of international students"
+      },
+      "blocks": {
+        "ka": [
+          {
+            "p": "[საერთაშორისო სტუდენტების ჩარიცხვის წესი](https://drive.google.com/file/d/1FifxZu67Kly5YQwP0F8nnF61uKWJek0v/view)"
+          }
+        ],
+        "en": [
+          {
+            "p": "[Rules for enrollment of international students](https://drive.google.com/open?id=1liNJW-Tn2rd_kv9SbV_mYQfAvZVBvyqW&authuser=0)"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "no-exams",
+    "order": 2,
+    "data": {
+      "id": "no-exams",
+      "title": {
+        "ka": "გამოცდების გარეშე მიღება",
+        "en": "Studying without passing the unified national exams"
+      },
+      "blocks": {
+        "ka": [
+          {
+            "p": "**ერთიანი ეროვნული გამოცდების გავლის გარეშე სწავლის უფლების მქონე აბიტურიენტებისათვის/სტუდენტებისათვის დაწესებული მოთხოვნები**"
+          },
+          {
+            "p": "სრული ინფორმაცია შეგიძლიათ იხილოთ საქართველოს განათლებისა და მეცნიერების მინისტრის 2011 წლის 29 დეკემბრის ბრძანება №224/ნ-ში „უმაღლეს საგანმანათლებლო დაწესებულებაში ერთიანი ეროვნული გამოცდების გავლის გარეშე სწავლის უფლების მქონე აბიტურიენტების/სტუდენტების მიერ დოკუმენტების წარდგენისა და განხილვის წესის დამტკიცების შესახებ“."
+          },
+          {
+            "p": "**ერთიანი ეროვნული გამოცდების გავლის გარეშე სწავლა, ამ წესის შესაბამისად დასაშვებია:**"
+          },
+          {
+            "p": "ა) უცხო ქვეყნის მოქალაქეებისა და მოქალაქეობის არმქონე პირებისთვის, რომლებმაც უცხო ქვეყანაში მიიღეს სრული ზოგადი ან მისი ეკვივალენტური განათლება, ან უცხო ქვეყნის მოქალაქეებისა და მოქალაქეობის არმქონე პირებისთვის (გარდა იმ პირებისა, რომლებიც იმავდროულად საქართველოს მოქალაქეები არიან), რომლებმაც საქართველოში მიიღეს სრული ზოგადი ან მისი ეკვივალენტური განათლება საქართველოს მიერ აღიარებული უცხო ქვეყნის ან საერთაშორისო პროგრამების მიხედვით;"
+          },
+          {
+            "p": "ბ) საქართველოს მოქალაქეებისათვის, რომლებმაც უცხო ქვეყანაში მიიღეს სრული ზოგადი ან მისი ეკვივალენტური განათლება და სრული ზოგადი განათლების ბოლო 2 წელი ისწავლეს უცხო ქვეყანაში;"
+          },
+          {
+            "p": "გ) უცხო ქვეყნის მოქალაქეებისათვის (გარდა ერთობლივი უმაღლესი საგანმანათლებლო პროგრამის მონაწილე სტუდენტებისა და გაცვლითი საგანმანათლებლო პროგრამის მონაწილე სტუდენტებისა), რომლებიც სწავლობენ/სწავლობდნენ და მიღებული აქვთ კრედიტები/კვალიფიკაცია უცხო ქვეყანაში ამ ქვეყნის კანონმდებლობის შესაბამისად აღიარებულ უმაღლეს საგანმანათლებლო დაწესებულებაში;"
+          },
+          {
+            "p": "დ) საქართველოს მოქალაქეებისათვის (გარდა ერთობლივი უმაღლესი საგანმანათლებლო პროგრამის მონაწილე სტუდენტებისა და გაცვლითი საგანმანათლებლო პროგრამის მონაწილე სტუდენტებისა), რომლებიც ერთ-ერთი სემესტრის განმავლობაში არანაკლებ 75 დღისა ცხოვრობენ/ცხოვრობდნენ, სწავლობენ/სწავლობდნენ და მიღებული აქვთ კრედიტები/კვალიფიკაცია უცხო ქვეყანაში ამ ქვეყნის კანონმდებლობის შესაბამისად აღიარებულ უმაღლეს საგანმანათლებლო დაწესებულებაში. (იხილეთ ზემოთ მითითებული წესის მე-2 მუხლის მე-8 პუნქტის „ვ“ ქვეპუნქტით განსაზღვრული მოთხოვნები)."
+          }
+        ],
+        "en": [
+          {
+            "p": "**Requirements set for entrants/students with the right to study without passing the unified national exams**"
+          },
+          {
+            "p": "Full information can be found in the Order of the Minister of Education and Science of Georgia dated December 29, 2011 No. 224/N “On approval of the procedure for submission and review of documents by entrants/students who have the right to study in a higher educational institution without passing unified national exams”."
+          },
+          {
+            "p": "**According to this regulation, studying without passing the unified national exams is permitted:**"
+          },
+          {
+            "p": "a) for foreign nationals and stateless individuals who obtained a full general education or its equivalent abroad; or for foreign nationals and stateless individuals (apart from those who simultaneously hold Georgian citizenship) who obtained a full general education or its equivalent in Georgia in accordance with foreign or international programs acknowledged by Georgia;"
+          },
+          {
+            "p": "b) for Georgian nationals who completed their last two years of a full general education program abroad and obtained a full general education there, or its equivalent;"
+          },
+          {
+            "p": "c) for foreign nationals who have studied and obtained credits or qualifications in a foreign higher education institution that is accredited in line with this country’s legal requirements (apart from students taking part in joint higher education programs and exchange students);"
+          },
+          {
+            "p": "d) for Georgian citizens who, during one of their semesters in an educational institution, spent at least 75 days studying abroad at a higher education institution recognized by this country’s laws (apart from students taking part in joint higher education programs and exchange education programs), and who lived, studied, and received credits or qualifications abroad. (See the conditions outlined in the aforementioned rule, Article 2, Clause 8, subparagraph f.)"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "degree",
+    "order": 3,
+    "data": {
+      "id": "degree",
+      "title": {
+        "ka": "ხარისხის მაძიებელი სტუდენტებისთვის",
+        "en": "For degree-seeking students"
+      },
+      "blocks": {
+        "ka": [
+          {
+            "p": "შავი ზღვის საერთაშორისო უნივერსიტეტში (IBSU) სწავლის გასაგრძელებლად, გთხოვთ, გაეცნოთ თანდართულ [სახელმძღვანელოს](https://ibsu.edu.ge/wp-content/uploads/2024/10/IBSU-ADMISSION-GUIDELINES-2025.17.12.docx), შეავსოთ ელექტრონული [განაცხადის ფორმა](https://ibsu.edu.ge/wp-content/uploads/2024/10/IBSU-Application_Form_2026-.docx) და დამატებით დოკუმენტებთან ერთად გამოაგზავნოთ ჩვენს ელექტრონულ მისამართზე: [iro@ibsu.edu.ge](mailto:iro@ibsu.edu.ge)"
+          },
+          {
+            "p": "**წარსადგენი დოკუმენტაციის ნუსხა:**"
+          },
+          {
+            "ul": [
+              "**პასპორტის ასლი** (ნოტარიულად დამოწმებული და ქართულად თარგმნილი);",
+              "**სკოლის ატესტატი / ბაკალავრის დიპლომი / მაგისტრის დიპლომი** (ნოტარიულად დამოწმებული და ქართულად თარგმნილი);",
+              "**ნიშნების ფურცელი / ტრანსკრიპტი** (ნოტარიულად დამოწმებული და ქართულად თარგმნილი);",
+              "**ავტობიოგრაფია (CV) და სამოტივაციო წერილი**;",
+              "**ინგლისური ენის საერთაშორისო სერტიფიკატი** (IELTS – 6.0; TOEFL – 78) ან სხვა შესაბამისი დოკუმენტი;",
+              "**B2 დონის ცოდნის დამადასტურებელი სერტიფიკატი.**"
+            ]
+          },
+          {
+            "p": "**შენიშვნა:** იმ აპლიკანტებისთვის, რომლებმაც ბაკალავრიატის, მაგისტრატურის ან დოქტორანტურის საფეხური ინგლისურენოვან პროგრამაზე დაასრულეს, სერტიფიკატის წარდგენა სავალდებულო არ არის. თუმცა, სერტიფიკატის არქონის შემთხვევაში, კანდიდატი ვალდებულია გაიაროს IBSU-ს მიერ ორგანიზებული ტესტირება."
+          },
+          {
+            "p": "**საერთაშორისო მობილობის (გადმოყვანის) შემთხვევაში** აპლიკანტი ვალდებულია წარმოადგინოს:"
+          },
+          {
+            "ul": [
+              "პასპორტი;",
+              "ოფიციალური ტრანსკრიპტი (ნიშნების ფურცელი) მშობლიური უნივერსიტეტიდან."
+            ]
+          },
+          {
+            "p": "**პროცედურის დასკვნითი ეტაპი**"
+          },
+          {
+            "p": "ყველა მოსამზადებელი პროცედურის წარმატებით დასრულების შემდეგ, აპლიკანტის დოკუმენტებს განათლების ხარისხის განვითარების ეროვნული ცენტრის ელექტრონულ პორტალზე ტვირთავს IBSU-ს საერთაშორისო ურთიერთობების სამსახური."
+          },
+          {
+            "p": "სამინისტროს მხრიდან დადებითი გადაწყვეტილების (ბრძანების) მიღებისთანავე, სტუდენტთა მომსახურების დეპარტამენტი ატყობინებს სტუდენტს (ან მის წარმომადგენელს) და ითხოვს სწავლის საფასურის გადახდას."
+          }
+        ],
+        "en": [
+          {
+            "p": "To apply to study at IBSU, please see the attached [guidelines](https://ibsu.edu.ge/wp-content/uploads/2024/10/IBSU-ADMISSION-GUIDELINES-2025.17.12.docx), fill out the electronic [application form](https://ibsu.edu.ge/wp-content/uploads/2024/10/IBSU-Application_Form_2026-.docx) and send it along with additional documents to our email address [iro@ibsu.edu.ge](mailto:iro@ibsu.edu.ge)."
+          },
+          {
+            "ul": [
+              "Copy of passport (notarized and translated into Georgian)",
+              "School graduation certificate / Bachelor’s diploma / Master’s diploma (notarized and translated into Georgian)",
+              "Marksheet (notarized and translated into Georgian)",
+              "Resume (CV) and cover letter",
+              "International certificate of English language (IELTS – 6.0; TOEFL – 78) or other",
+              "A certificate of B2 level, recognized accordingly (for bachelors who graduated in English, and for masters and doctors who completed a higher education program in English, a certificate is not mandatory; those without one take a test organized by IBSU)"
+            ]
+          },
+          {
+            "p": "**In case of international degree mobility (transfer),** the applicant is obliged to submit:"
+          },
+          {
+            "ul": [
+              "Passport",
+              "Official transcript from the home university"
+            ]
+          },
+          {
+            "p": "After the successful completion of all preparatory procedures, the applicant’s documents are uploaded to the electronic portal of the National Center for Educational Quality Enhancement by the IBSU International Relations Office team. Upon receipt of the Ministry’s decree, the Student Affairs Department notifies the student (or their representative) and requests the payment."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "calendar",
+    "order": 4,
+    "data": {
+      "id": "calendar",
+      "title": {
+        "ka": "აკადემიური კალენდარი",
+        "en": "Academic calendar"
+      },
+      "blocks": {
+        "ka": [
+          {
+            "p": "[აკადემიური კალენდარი](/student/calendar)"
+          }
+        ],
+        "en": [
+          {
+            "p": "[Academic calendar](/student/calendar)"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "residence",
+    "order": 5,
+    "data": {
+      "id": "residence",
+      "title": {
+        "ka": "ბინადრობის ნებართვა",
+        "en": "Student residence permit"
+      },
+      "blocks": {
+        "ka": [
+          {
+            "p": "საქართველოში სწავლისათვის, სტუდენტმა ბინადრობის ნებართვაზე უნდა შეიტანოს განაცხადი სერვისების განვითარების სააგენტოში საქართველოში ჩამოსვლიდან პირველი 3 თვის განმავლობაში (იხილეთ ბმული: [sda.gov.ge](https://sda.gov.ge/))."
+          },
+          {
+            "p": "**ბინადრობის ნებართვის სარეგისტრაციო საფასური:**"
+          },
+          {
+            "lines": [
+              "30-ე კალენდარული დღე – 300 ლარი",
+              "20-ე კალენდარული დღე – 450 ლარი",
+              "მე-10 კალენდარული დღე – 600 ლარი"
+            ]
+          },
+          {
+            "p": "აპლიკანტები ყველა საჭირო დოკუმენტაციის წარსადგენად პირადად უნდა ეწვიონ [იუსტიციის სახლს](http://psh.gov.ge/index.php?sec_id=1&lang_id=ENG)."
+          }
+        ],
+        "en": [
+          {
+            "p": "In order to study in Georgia, a student must apply for a residence permit at the Services Development Agency within the first 3 months after arriving in Georgia (see: [sda.gov.ge](https://sda.gov.ge/))."
+          },
+          {
+            "p": "**Residence permit registration fee:**"
+          },
+          {
+            "lines": [
+              "30th calendar day – 300 GEL",
+              "20th calendar day – 450 GEL",
+              "10th calendar day – 600 GEL"
+            ]
+          },
+          {
+            "p": "Applicants will have to visit the [Public Service Hall](http://psh.gov.ge/index.php?sec_id=1&lang_id=ENG) personally to submit all the required documents."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "visa",
+    "order": 6,
+    "data": {
+      "id": "visa",
+      "title": {
+        "ka": "ვიზასთან დაკავშირებული ინფორმაცია",
+        "en": "Visa information"
+      },
+      "blocks": {
+        "ka": [
+          {
+            "p": "საქართველოში სწავლისათვის აპლიკანტი უკვე ჩარიცხული უნდა იყოს შავი ზღვის საერთაშორისო უნივერსიტეტში. ვიზის მისაღებად აპლიკანტმა უნდა გააკეთოს შესაბამისი განცხადება (იხილეთ ბმული: [mfa.gov.ge](https://mfa.gov.ge)). ევროკავშირის ქვეყნის მოქალაქეებს შეუძლიათ აღნიშნული პროცედურის დაწყება საკუთარ ქვეყანაში არსებულ საქართველოს საელჩოში ან საქართველოში ჩამოსვლის შემდგომ."
+          },
+          {
+            "ul": [
+              "[ქვეყნების სია](https://www.geoconsul.gov.ge/HtmlPage/Html/View?id=25&lang=Eng): შეამოწმეთ, არის თუ არა თქვენი ქვეყანა უვიზო რეჟიმის კატეგორიაში",
+              "[ქვეყნების სია](https://www.geoconsul.gov.ge/HtmlPage/Html/View?id=32&lang=Eng): შეამოწმეთ, გჭირდებათ თუ არა ვიზა საქართველოში ჩამოსვლამდე",
+              "[საქართველოს საელჩოების სია საზღვარგარეთ](https://mfa.gov.ge/MainNav/EmbassiesRepresentations/GeorgianMissionsAbroad.aspx): შეამოწმეთ, არის თუ არა საქართველოს საელჩო/მისია/წარმომადგენელი თქვენს ქვეყანაში ვიზის მოთხოვნისთვის"
+            ]
+          }
+        ],
+        "en": [
+          {
+            "p": "To study in Georgia, the applicant must already be enrolled in the International Black Sea University. To get a visa, the applicant must fill in an appropriate application (see: [mfa.gov.ge](https://mfa.gov.ge)). Citizens of EU countries can start the procedure at the Georgian embassy in their own country or after arriving in Georgia."
+          },
+          {
+            "ul": [
+              "[List of countries](https://www.geoconsul.gov.ge/HtmlPage/Html/View?id=25&lang=Eng): check if your country is visa-free",
+              "[List of countries](https://www.geoconsul.gov.ge/HtmlPage/Html/View?id=32&lang=Eng): check if you need a visa before coming to Georgia",
+              "[Georgian embassies abroad](https://mfa.gov.ge/MainNav/EmbassiesRepresentations/GeorgianMissionsAbroad.aspx): check if there is a Georgian embassy, mission or representative in your country for visa requirements"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "safety",
+    "order": 7,
+    "data": {
+      "id": "safety",
+      "title": {
+        "ka": "რამდენად უსაფრთხოა თბილისი სწავლისა და ცხოვრებისთვის?",
+        "en": "Is Tbilisi a safe place to study?"
+      },
+      "blocks": {
+        "ka": [
+          {
+            "p": "თბილისი საერთაშორისო სტუდენტებისთვის ერთ-ერთი ყველაზე უსაფრთხო და მსოფლიოს ყველაზე მეგობრული ქალაქია."
+          },
+          {
+            "p": "ამჟამინდელი [Numbeo Safety Index](https://www.numbeo.com/crime/rankings_current.jsp)-ის მიხედვით, თბილისს მინიჭებული აქვს 80 ქულა და უსაფრთხოების მხრივ 374 ქალაქიდან მე-15 ადგილს იკავებს."
+          }
+        ],
+        "en": [
+          {
+            "p": "Tbilisi is one of the safest destinations for international students and one of the friendliest cities in the world."
+          },
+          {
+            "p": "According to the current [Numbeo Safety Index](https://www.numbeo.com/crime/rankings_current.jsp), Tbilisi has a score of 80 – ranking it at number 15 of 374 cities globally for safety."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "cost",
+    "order": 8,
+    "data": {
+      "id": "cost",
+      "title": {
+        "ka": "რამდენად ძვირია თბილისი საცხოვრებლად?",
+        "en": "Is Tbilisi an expensive city to live in?"
+      },
+      "blocks": {
+        "ka": [
+          {
+            "p": "ცხოვრების ღირებულება მნიშვნელოვანი ფინანსური ტვირთია სტუდენტთათვის: სწავლის საფასურის გარდა, მათ უნდა გაიღონ ისეთი ხარჯებიც, როგორიცაა საცხოვრებელი, კვება და სოციალური საჭიროებები."
+          },
+          {
+            "p": "ამჟამინდელი [Numbeo Cost of Living Index](https://www.numbeo.com/cost-of-living/rankings_current.jsp)-ის მიხედვით, თბილისს მინიჭებული აქვს 28,25 ქულა და 476 ქალაქიდან 321-ე ადგილს იკავებს საცხოვრებელი ხარჯების სიძვირის მიხედვით (რაც უფრო მაღალია რეიტინგი, მით უფრო ძვირია საცხოვრებელი ხარჯები). თბილისში ტრანსპორტირება, კვება და სხვა სახის პროდუქცია და მომსახურება ფინანსურად ზოგადად ხელმისაწვდომია."
+          },
+          {
+            "p": "ვერ პოულობთ თქვენს კითხვებზე პასუხებს IBSU-ს ვებგვერდზე? გთხოვთ, მოგვწეროთ: [iro@ibsu.edu.ge](mailto:iro@ibsu.edu.ge)"
+          }
+        ],
+        "en": [
+          {
+            "p": "The cost of living matters when you study: aside from tuition fees, students should consider the local cost of living – including items like housing, food, and social life."
+          },
+          {
+            "p": "According to the current [Numbeo Cost of Living Index](https://www.numbeo.com/cost-of-living/rankings_current.jsp), Tbilisi has a score of 28.25 – ranking it at number 321 of 476 cities globally for the cost of living (the higher the ranking, the more expensive the cost of living is). In Tbilisi, transportation, food and other goods are among the affordable costs."
+          },
+          {
+            "p": "Can’t find the answer to your inquiry on the IBSU sites? Please write to [iro@ibsu.edu.ge](mailto:iro@ibsu.edu.ge)."
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "key": "digital-education-ideathon",
+    "order": 0,
+    "data": {
+      "id": "digital-education-ideathon",
+      "image": "/photos/model.webp",
+      "kind": {
+        "en": "Ideathon",
+        "ka": "იდეათონი"
+      },
+      "title": {
+        "en": "Changes for Digital Education",
+        "ka": "ცვლილებები ციფრული განათლებისთვის"
+      },
+      "body": {
+        "en": "A two-day ideathon, organised by the center, where selected student teams worked on developing digital education — shaping innovative ideas and presenting them to a jury. Mentors from across the fields helped teams refine their ideas and develop them into future startups, working through real challenges in education and the technological solutions that could be applied widely.",
+        "ka": "ორდღიანი იდეათონი ცენტრის ორგანიზებით, სადაც შერჩეულმა სტუდენტურმა გუნდებმა იმუშავეს ციფრული განათლების განვითარებაზე — შეიმუშავეს ინოვაციური იდეები და წარადგინეს ჟიურის წინაშე. სხვადასხვა დარგის მენტორებმა დაეხმარნენ გუნდებს იდეების დახვეწასა და სამომავლო სტარტაპებად განვითარებაში, განათლების სფეროს რეალურ გამოწვევებსა და ფართოდ გამოსაყენებელ ტექნოლოგიურ გადაწყვეტილებებზე მუშაობით."
+      },
+      "tags": {
+        "en": [
+          "2-day format",
+          "Student teams",
+          "Jury pitch",
+          "Mentored"
+        ],
+        "ka": [
+          "2-დღიანი ფორმატი",
+          "სტუდენტური გუნდები",
+          "ჟიურის წინაშე",
+          "მენტორობით"
+        ]
+      }
+    }
+  },
+  {
+    "key": "uni4verse",
+    "order": 1,
+    "data": {
+      "id": "uni4verse",
+      "image": "/photos/stickers.webp",
+      "kind": {
+        "en": "Startup contest",
+        "ka": "სტარტაპ კონკურსი"
+      },
+      "title": {
+        "en": "UNI4VERSE",
+        "ka": "UNI4VERSE"
+      },
+      "body": {
+        "en": "The center took part successfully in the inter-university startup contest UNI4VERSE, organised by Georgia's Innovation and Technology Agency to grow universities' and students' interest in innovation and technology. In the internal round, students developed and positioned their ideas around green economy and renewable resources — from solar and thermal efficiency and waste-to-energy to monitoring energy use, recycling construction waste and improving green mobility — guided by mentors from across the fields.",
+        "ka": "ცენტრმა წარმატებით მიიღო მონაწილეობა საუნივერსიტეტო სტარტაპ კონკურსში UNI4VERSE, რომელიც საქართველოს ინოვაციებისა და ტექნოლოგიების სააგენტოს ორგანიზებით გაიმართა, უნივერსიტეტებისა და სტუდენტების ინოვაციებისა და ტექნოლოგიების მიმართ დაინტერესების ზრდის მიზნით. შიდა ეტაპზე სტუდენტებმა განავითარეს და სწორად მოახდინეს პოზიციონირება მწვანე ეკონომიკისა და განახლებადი რესურსების მიმართულებით — მზისა და თბური ენერგიის ეფექტიანობიდან და ნარჩენების ენერგეტიკული გამოყენებიდან ენერგიის მოხმარების მონიტორინგამდე, სამშენებლო ნარჩენების გადამუშავებამდე და მწვანე მობილობის გაუმჯობესებამდე — სხვადასხვა დარგის მენტორების ხელმძღვანელობით."
+      },
+      "tags": {
+        "en": [
+          "GITA",
+          "Green economy",
+          "Renewables",
+          "Inter-university"
+        ],
+        "ka": [
+          "GITA",
+          "მწვანე ეკონომიკა",
+          "განახლებადი ენერგია",
+          "საუნივერსიტეტთაშორისი"
+        ]
+      }
+    }
+  },
+  {
+    "key": "founder-meetings",
+    "order": 2,
+    "data": {
+      "id": "founder-meetings",
+      "image": "/photos/audience.webp",
+      "kind": {
+        "en": "Regular series",
+        "ka": "რეგულარული სერია"
+      },
+      "title": {
+        "en": "Meetings with founders",
+        "ka": "შეხვედრები დამფუძნებლებთან"
+      },
+      "body": {
+        "en": "A standing part of the center's work — students and aspiring entrepreneurs share practical experience with successful founders. It's an ongoing process, continually bringing new inspiring stories, real business experience and valuable contacts. Thanks to the interactive format, participants can ask questions, discuss their own ideas and get practical advice for moving forward in the startup ecosystem.",
+        "ka": "ცენტრის მუშაობის მუდმივი ნაწილი — სტუდენტები და დამწყები მეწარმეები წარმატებულ დამფუძნებლებთან ერთად პრაქტიკულ გამოცდილებას იზიარებენ. ეს უწყვეტი პროცესია, რომელიც მუდმივად გვაწვდის ახალ ინსპირაციულ ისტორიებს, რეალურ ბიზნესგამოცდილებასა და ღირებულ კონტაქტებს. ინტერაქტიული ფორმატის წყალობით, მონაწილეებს შეუძლიათ დასვან კითხვები, განიხილონ საკუთარი იდეები და მიიღონ პრაქტიკული რჩევები სტარტაპ ეკოსისტემაში წინსვლისთვის."
+      },
+      "tags": {
+        "en": [
+          "Founders",
+          "Q&A",
+          "Networking",
+          "Ongoing"
+        ],
+        "ka": [
+          "დამფუძნებლები",
+          "კითხვა-პასუხი",
+          "ქსელური კავშირები",
+          "მუდმივი"
+        ]
+      }
+    }
+  },
+  {
+    "key": "startup-grind-georgia",
+    "order": 3,
+    "data": {
+      "id": "startup-grind-georgia",
+      "image": "/photos/anniversary.webp",
+      "kind": {
+        "en": "Partnership",
+        "ka": "პარტნიორობა"
+      },
+      "title": {
+        "en": "Startup Grind Georgia",
+        "ka": "Startup Grind Georgia"
+      },
+      "body": {
+        "en": "Another significant step toward strengthening the startup ecosystem. Through the collaboration, students and aspiring entrepreneurs get a unique chance to join an international network, attend inspiring events, meet successful entrepreneurs and gain practical knowledge. The partnership helps grow the University's startup culture and builds real connections to the business world.",
+        "ka": "კიდევ ერთი მნიშვნელოვანი ნაბიჯი სტარტაპ ეკოსისტემის გასაძლიერებლად. თანამშრომლობის ფარგლებში სტუდენტებსა და დამწყებ მეწარმეებს ეძლევათ უნიკალური შესაძლებლობა ჩაერთონ საერთაშორისო ქსელში, დაესწრონ ინსპირაციულ ღონისძიებებს, გაიცნონ წარმატებული მეწარმეები და მიიღონ პრაქტიკული ცოდნა. ეს პარტნიორობა ხელს უწყობს უნივერსიტეტის სტარტაპ კულტურის განვითარებას და სტუდენტებს რეალურ კავშირებს უქმნის ბიზნესის სამყაროსთან."
+      },
+      "tags": {
+        "en": [
+          "International network",
+          "Events",
+          "Mentorship",
+          "Connections"
+        ],
+        "ka": [
+          "საერთაშორისო ქსელი",
+          "ღონისძიებები",
+          "მენტორობა",
+          "კავშირები"
+        ]
+      }
+    }
+  }
+]

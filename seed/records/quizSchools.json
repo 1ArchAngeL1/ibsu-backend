@@ -1,0 +1,173 @@
+[
+  {
+    "key": "business",
+    "order": 0,
+    "data": {
+      "key": "business",
+      "accent": "#2e8b4f",
+      "page": "School-Business.html",
+      "name": {
+        "en": "School of Business",
+        "ge": "ბიზნესის სკოლა"
+      },
+      "tag": {
+        "en": "You think in systems, numbers and outcomes",
+        "ge": "შენ სისტემებით, ციფრებითა და შედეგებით აზროვნებ"
+      },
+      "desc": {
+        "en": "Organising, planning and the logic of money and markets come naturally to you. Business at IBSU turns that instinct into management, finance and entrepreneurship you can build a career on.",
+        "ge": "თქვენ ძლიერი ნებისყოფის, ცნობისმოყვარე ადამიანი ხართ, რომელსაც უყვარს დეტალებზე დაკვირვება. გაქვთ დიდი ინტერესი სიახლეების მიმართ. პასუხისმგებლობის აღების უნარის გამომუშავება გჭირდებათ და იქნებით კარგი ეკონომისტი, მკვლევარი, მეცნიერი."
+      },
+      "programs": [
+        {
+          "en": "Business Administration",
+          "ge": "ბიზნესის ადმინისტრირება"
+        },
+        {
+          "en": "Finance",
+          "ge": "ფინანსები"
+        },
+        {
+          "en": "Economics",
+          "ge": "ეკონომიკა"
+        },
+        {
+          "en": "Marketing",
+          "ge": "მარკეტინგი"
+        }
+      ]
+    }
+  },
+  {
+    "key": "law",
+    "order": 1,
+    "data": {
+      "key": "law",
+      "accent": "#7a1f2b",
+      "page": "School-Law.html",
+      "name": {
+        "en": "School of Law",
+        "ge": "სამართლის სკოლა"
+      },
+      "tag": {
+        "en": "You care about rules, rights and fairness",
+        "ge": "შენ წესები, უფლებები და სამართლიანობა გადარდებს"
+      },
+      "desc": {
+        "en": "You are drawn to how rules are made, argued and applied, and to standing up for people. The Law programme builds the reasoning and advocacy to do exactly that.",
+        "ge": "შენ გიზიდავს, როგორ იქმნება, განიხილება და გამოიყენება წესები და როგორ იცავ ადამიანებს. სამართლის პროგრამა სწორედ ამისთვის საჭირო მსჯელობასა და ადვოკატირებას გასწავლის."
+      },
+      "programs": [
+        {
+          "en": "Law (LLB)",
+          "ge": "სამართალი (LLB)"
+        }
+      ]
+    }
+  },
+  {
+    "key": "cs",
+    "order": 2,
+    "data": {
+      "key": "cs",
+      "accent": "#2f86d6",
+      "page": "School-Computing.html",
+      "name": {
+        "en": "Computer Science & Architecture",
+        "ge": "კომპიუტერული მეცნიერებისა და არქიტექტურის სკოლა"
+      },
+      "tag": {
+        "en": "You like building, solving and designing",
+        "ge": "შენ გიყვარს შექმნა, ამოხსნა და დიზაინი"
+      },
+      "desc": {
+        "en": "Logic, machines, structure and form all pull at you. This school spans software and computing through to architecture and design — fields where you build the thing, not just describe it.",
+        "ge": "ლოგიკა, მანქანები, სტრუქტურა და ფორმა — ეს ყველაფერი გიზიდავს. ეს სკოლა მოიცავს პროგრამირებასა და გამოთვლებს, არქიტექტურასა და დიზაინს — სფეროებს, სადაც ნივთს ქმნი და არა მხოლოდ აღწერ."
+      },
+      "programs": [
+        {
+          "en": "Computer Science",
+          "ge": "კომპიუტერული მეცნიერება"
+        },
+        {
+          "en": "Information Technology",
+          "ge": "საინფორმაციო ტექნოლოგიები"
+        },
+        {
+          "en": "Architecture",
+          "ge": "არქიტექტურა"
+        }
+      ]
+    }
+  },
+  {
+    "key": "eduhum",
+    "order": 3,
+    "data": {
+      "key": "eduhum",
+      "accent": "#cf9f0a",
+      "page": "School-Education.html",
+      "name": {
+        "en": "Education, Humanities & Social Sciences",
+        "ge": "განათლების, ჰუმანიტარულ და სოციალურ მეცნიერებათა სკოლა"
+      },
+      "tag": {
+        "en": "You are drawn to people, language and ideas",
+        "ge": "შენ ადამიანები, ენა და იდეები გიზიდავს"
+      },
+      "desc": {
+        "en": "Stories, expression, culture and human behaviour are where you come alive. This school covers psychology, journalism, languages, education and international affairs.",
+        "ge": "ისტორიები, გამოხატვა, კულტურა და ადამიანის ქცევა — სწორედ აქ ცოცხლდები. ეს სკოლა მოიცავს ფსიქოლოგიას, ჟურნალისტიკას, ენებს, განათლებასა და საერთაშორისო ურთიერთობებს."
+      },
+      "programs": [
+        {
+          "en": "Psychology",
+          "ge": "ფსიქოლოგია"
+        },
+        {
+          "en": "Journalism",
+          "ge": "ჟურნალისტიკა"
+        },
+        {
+          "en": "English Philology",
+          "ge": "ინგლისური ფილოლოგია"
+        },
+        {
+          "en": "International Relations",
+          "ge": "საერთაშორისო ურთიერთობები"
+        },
+        {
+          "en": "Education",
+          "ge": "განათლება"
+        }
+      ]
+    }
+  },
+  {
+    "key": "medicine",
+    "order": 4,
+    "data": {
+      "key": "medicine",
+      "accent": "#1f9e86",
+      "page": "School-Medicine.html",
+      "name": {
+        "en": "School of Medicine",
+        "ge": "მედიცინის სკოლა"
+      },
+      "tag": {
+        "en": "You are curious about the body, science and care",
+        "ge": "შენ ცოცხალი სამყარო, მეცნიერება და მზრუნველობა გაინტერესებს"
+      },
+      "desc": {
+        "en": "Biology, the laboratory and the impulse to help draw you in. The six-year, English-taught Medical Doctor programme is built for exactly that curiosity and care.",
+        "ge": "ბიოლოგია, ლაბორატორია და დახმარების სურვილი გიზიდავს. ექვსწლიანი, ინგლისურენოვანი ექიმის (MD) პროგრამა სწორედ ამ ცნობისმოყვარეობასა და მზრუნველობაზეა აგებული."
+      },
+      "programs": [
+        {
+          "en": "Medicine (MD)",
+          "ge": "მედიცინა (MD)"
+        }
+      ]
+    }
+  }
+]

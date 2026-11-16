@@ -1,0 +1,162 @@
+[
+  {
+    "key": "lasha-jugeli",
+    "order": 0,
+    "data": {
+      "id": "lasha-jugeli",
+      "group": "hum",
+      "name": {
+        "en": "Dr. Lasha Jugeli",
+        "ka": "დოქ. ლაშა ჯუღელი"
+      },
+      "field": {
+        "en": "Journalism & media",
+        "ka": "ჟურნალისტიკა და მედია"
+      },
+      "bio": {
+        "en": "Newsroom editor turned lecturer; teaches reporting, interviewing and digital storytelling.",
+        "ka": "რედაქციის ყოფილი რედაქტორი, ახლა ლექტორი; ასწავლის რეპორტაჟს, ინტერვიუსა და ციფრულ თხრობას."
+      }
+    }
+  },
+  {
+    "key": "nino-kvirikadze",
+    "order": 1,
+    "data": {
+      "id": "nino-kvirikadze",
+      "group": "hum",
+      "name": {
+        "en": "Nino Kvirikadze",
+        "ka": "ნინო კვირიკაძე"
+      },
+      "field": {
+        "en": "International relations",
+        "ka": "საერთაშორისო ურთიერთობები"
+      },
+      "bio": {
+        "en": "Associate professor of diplomacy and negotiation, with a focus on the Black Sea region.",
+        "ka": "დიპლომატიისა და მოლაპარაკების ასოცირებული პროფესორი, შავი ზღვის რეგიონზე აქცენტით."
+      }
+    }
+  },
+  {
+    "key": "mariam-abramishvili",
+    "order": 2,
+    "data": {
+      "id": "mariam-abramishvili",
+      "group": "hum",
+      "name": {
+        "en": "Mariam Abramishvili",
+        "ka": "მარიამ აბრამიშვილი"
+      },
+      "field": {
+        "en": "Psychology",
+        "ka": "ფსიქოლოგია"
+      },
+      "bio": {
+        "en": "Researches motivation and learning; runs the school's psychology taster sessions.",
+        "ka": "იკვლევს მოტივაციასა და სწავლას; ატარებს სკოლის ფსიქოლოგიის საცნობ სესიებს."
+      }
+    }
+  },
+  {
+    "key": "davit-maisuradze",
+    "order": 3,
+    "data": {
+      "id": "davit-maisuradze",
+      "group": "tech",
+      "name": {
+        "en": "Dr. Davit Maisuradze",
+        "ka": "დოქ. დავით მაისურაძე"
+      },
+      "field": {
+        "en": "Computer science",
+        "ka": "კომპიუტერული მეცნიერება"
+      },
+      "bio": {
+        "en": "Software engineer and lecturer; teaches the first steps from code to a shipped product.",
+        "ka": "პროგრამული ინჟინერი და ლექტორი; ასწავლის პირველ ნაბიჯებს კოდიდან მზა პროდუქტამდე."
+      }
+    }
+  },
+  {
+    "key": "giorgi-berdzenishvili",
+    "order": 4,
+    "data": {
+      "id": "giorgi-berdzenishvili",
+      "group": "biz",
+      "name": {
+        "en": "Prof. Giorgi Berdzenishvili",
+        "ka": "პროფ. გიორგი ბერძენიშვილი"
+      },
+      "field": {
+        "en": "Business strategy",
+        "ka": "ბიზნეს სტრატეგია"
+      },
+      "bio": {
+        "en": "Leads the business-strategy track; brings real cases from Georgian and regional firms.",
+        "ka": "ხელმძღვანელობს ბიზნეს-სტრატეგიის მიმართულებას; მოაქვს რეალური ქეისები ქართული და რეგიონული კომპანიებიდან."
+      }
+    }
+  },
+  {
+    "key": "ana-kapanadze",
+    "order": 5,
+    "data": {
+      "id": "ana-kapanadze",
+      "group": "law",
+      "name": {
+        "en": "Assoc. Prof. Ana Kapanadze",
+        "ka": "ასოც. პროფ. ანა კაპანაძე"
+      },
+      "field": {
+        "en": "Law",
+        "ka": "სამართალი"
+      },
+      "bio": {
+        "en": "Teaches constitutional law and runs the mock-trial sessions in the moot courtroom.",
+        "ka": "ასწავლის საკონსტიტუციო სამართალს და ატარებს იმიტირებული სასამართლოს სესიებს სასწავლო დარბაზში."
+      }
+    }
+  },
+  {
+    "key": "salome-topuria",
+    "order": 6,
+    "data": {
+      "id": "salome-topuria",
+      "group": "tech",
+      "name": {
+        "en": "Arch. Salome Topuria",
+        "ka": "არქ. სალომე თოფურია"
+      },
+      "field": {
+        "en": "Architecture",
+        "ka": "არქიტექტურა"
+      },
+      "bio": {
+        "en": "Practising architect; guides the first-step studio from sketch to scale model.",
+        "ka": "მოქმედი არქიტექტორი; უძღვება პირველი ნაბიჯის სტუდიას ესკიზიდან მაკეტამდე."
+      }
+    }
+  },
+  {
+    "key": "tamar-tsuladze",
+    "order": 7,
+    "data": {
+      "id": "tamar-tsuladze",
+      "group": "hum",
+      "name": {
+        "en": "Prof. Tamar Tsuladze",
+        "ka": "პროფ. თამარ წულაძე"
+      },
+      "field": {
+        "en": "Education & humanities",
+        "ka": "განათლება და ჰუმანიტარია"
+      },
+      "bio": {
+        "en": "Dean of the school; opens the year with a lecture on why the humanities matter.",
+        "ka": "სკოლის დეკანი; წელს ხსნის ლექციით იმაზე, თუ რატომ აქვს მნიშვნელობა ჰუმანიტარიას."
+      }
+    }
+  }
+]

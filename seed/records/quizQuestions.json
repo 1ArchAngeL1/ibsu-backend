@@ -1,0 +1,614 @@
+[
+  {
+    "key": "0",
+    "order": 0,
+    "data": {
+      "a": "medicine",
+      "en": "Are you curious about how birds migrate?",
+      "ge": "გაინტერესებს როგორ მიგრირებენ ფრინველები?"
+    }
+  },
+  {
+    "key": "1",
+    "order": 1,
+    "data": {
+      "a": "cs",
+      "en": "Do you like observing the weather and making your own forecasts?",
+      "ge": "გიყვარს ამინდზე დაკვირვება და საკუთარი პროგნოზების გაკეთება?"
+    }
+  },
+  {
+    "key": "2",
+    "order": 2,
+    "data": {
+      "a": "business",
+      "en": "Do you work out the interest on money paid into or out of a bank?",
+      "ge": "ბანკში შეტანილ/გამოტანილ ფულზე პროცენტს ითვლი/დაითვლი?"
+    }
+  },
+  {
+    "key": "3",
+    "order": 3,
+    "data": {
+      "a": "cs",
+      "en": "Do you enjoy design and drawing?",
+      "ge": "გიყვარს დიზაინი და ხატვა?"
+    }
+  },
+  {
+    "key": "4",
+    "order": 4,
+    "data": {
+      "a": "eduhum",
+      "en": "Do you like visiting museums?",
+      "ge": "გიყვარს მუზეუმებში სიარული?"
+    }
+  },
+  {
+    "key": "5",
+    "order": 5,
+    "data": {
+      "a": "eduhum",
+      "en": "Are you interested in studying the writing style of contemporary authors?",
+      "ge": "გაინტერესებს თანამედროვე მწერლების წერის სტილის შესწავლა?"
+    }
+  },
+  {
+    "key": "6",
+    "order": 6,
+    "data": {
+      "a": "medicine",
+      "en": "Are you interested in laboratory instruments, such as the microscope?",
+      "ge": "გაინტერესებს ლაბორატორიული ინსტრუმენტები, მაგალითად, როგორიცაა მიკროსკოპი?"
+    }
+  },
+  {
+    "key": "7",
+    "order": 7,
+    "data": {
+      "a": "business",
+      "en": "Are you interested in organising a sales campaign?",
+      "ge": "გაინტერესებს გაყიდვების კამპანიის ორგანიზება?"
+    }
+  },
+  {
+    "key": "8",
+    "order": 8,
+    "data": {
+      "a": "business",
+      "en": "Do you like organising and running a meeting?",
+      "ge": "მოგწონს შეხვედრის ორგანიზება და მართვა?"
+    }
+  },
+  {
+    "key": "9",
+    "order": 9,
+    "data": {
+      "a": "business",
+      "en": "Are you interested in running a small business?",
+      "ge": "გაინტერესებს მცირე ბიზნესის წარმოება?"
+    }
+  },
+  {
+    "key": "10",
+    "order": 10,
+    "data": {
+      "a": "business",
+      "en": "Do you like planning work for other people?",
+      "ge": "მოგწონს სამუშაოს დაგეგმვა სხვა ადამიანებისთვის?"
+    }
+  },
+  {
+    "key": "11",
+    "order": 11,
+    "data": {
+      "a": "eduhum",
+      "en": "Do you enjoy taking part in small group discussions?",
+      "ge": "მოგწონს მცირე ჯგუფურ დისკუსიებში მონაწილეობა?"
+    }
+  },
+  {
+    "key": "12",
+    "order": 12,
+    "data": {
+      "a": "medicine",
+      "en": "Do you like finding and watching videos about surgical procedures?",
+      "ge": "გიყვარს ქირურგიული პროცედურის შესახებ ვიდეოების მოძიება და ყურება?"
+    }
+  },
+  {
+    "key": "13",
+    "order": 13,
+    "data": {
+      "a": "business",
+      "en": "Do you like finding errors in a financial report?",
+      "ge": "გიყვარს ფინანსურ ანგარიშში შეცდომების პოვნა?"
+    }
+  },
+  {
+    "key": "14",
+    "order": 14,
+    "data": {
+      "a": "cs",
+      "en": "Do you enjoy drawing up plans and diagrams?",
+      "ge": "მოგწონს გეგმებისა და სქემების შედგენა?"
+    }
+  },
+  {
+    "key": "15",
+    "order": 15,
+    "data": {
+      "a": "business",
+      "en": "Are you interested in record-keeping — sorting and filing documents?",
+      "ge": "გაინტერესებს საქმის წარმოება, საქაღალდებში გადანაწილება/ჩალაგება?"
+    }
+  },
+  {
+    "key": "16",
+    "order": 16,
+    "data": {
+      "a": "medicine",
+      "en": "Can you help people in emergency situations?",
+      "ge": "შეგიძლია საგანგებო სიტუაციებში ადამიანების დახმარება?"
+    }
+  },
+  {
+    "key": "17",
+    "order": 17,
+    "data": {
+      "a": "business",
+      "en": "Are you interested in managing all of an organisation's finances?",
+      "ge": "გაინტერესებს ორგანიზაციის ყველა ფინანსური საქმის მართვა?"
+    }
+  },
+  {
+    "key": "18",
+    "order": 18,
+    "data": {
+      "a": "eduhum",
+      "en": "Do you like composing or arranging music?",
+      "ge": "მოგწონს მუსიკალური ნაწარმოების შედგენა ან არანჟირება?"
+    }
+  },
+  {
+    "key": "19",
+    "order": 19,
+    "data": {
+      "a": "law",
+      "en": "Do you like developing new rules or policies?",
+      "ge": "მოგწონს ახალი წესების ან პოლიტიკის შემუშავება?"
+    }
+  },
+  {
+    "key": "20",
+    "order": 20,
+    "data": {
+      "a": "medicine",
+      "en": "Do you like studying biology?",
+      "ge": "მოგწონს ბიოლოგიის შესწავლა?"
+    }
+  },
+  {
+    "key": "21",
+    "order": 21,
+    "data": {
+      "a": "law",
+      "en": "Would you take part in a campaign run for political goals?",
+      "ge": "ჩაერთვები პოლიტიკური მიზნებისთვის დაგეგმილ კამპანიაში?"
+    }
+  },
+  {
+    "key": "22",
+    "order": 22,
+    "data": {
+      "a": "cs",
+      "en": "Do you like sorting, collecting and storing things?",
+      "ge": "მოგწონს ნივთების დახარისხება, დაგროვება და შენახვა?"
+    }
+  },
+  {
+    "key": "23",
+    "order": 23,
+    "data": {
+      "a": "law",
+      "en": "Are you interested in working on a community (village, region) development project?",
+      "ge": "გაინტერესებს თემის (სოფლის, რეგიონის) განვითარების პროექტზე მუშაობა?"
+    }
+  },
+  {
+    "key": "24",
+    "order": 24,
+    "data": {
+      "a": "cs",
+      "en": "Are you interested in learning to repair computers?",
+      "ge": "გაინტერესებს კომპიუტერის შეკეთების სწავლა?"
+    }
+  },
+  {
+    "key": "25",
+    "order": 25,
+    "data": {
+      "a": "business",
+      "en": "Do you like setting schedules and managing time?",
+      "ge": "გიყვარს საათის დაყენება და დროის მართვა?"
+    }
+  },
+  {
+    "key": "26",
+    "order": 26,
+    "data": {
+      "a": "medicine",
+      "en": "Are you curious about how the brain works?",
+      "ge": "გაინტერესებს როგორ მუშაობს ტვინი?"
+    }
+  },
+  {
+    "key": "27",
+    "order": 27,
+    "data": {
+      "a": "eduhum",
+      "en": "Do you like taking creative photographs?",
+      "ge": "გიყვარს კრეატიული ფოტოების გადაღება?"
+    }
+  },
+  {
+    "key": "28",
+    "order": 28,
+    "data": {
+      "a": "business",
+      "en": "Are you interested in keeping track of expenses?",
+      "ge": "გაინტერესებს ხარჯების აღრიცხვა?"
+    }
+  },
+  {
+    "key": "29",
+    "order": 29,
+    "data": {
+      "a": "eduhum",
+      "en": "If you could play, would you play in a band?",
+      "ge": "დაკვრა რომ იცოდე/იცი დაუკრავდი ბენდში?"
+    }
+  },
+  {
+    "key": "30",
+    "order": 30,
+    "data": {
+      "a": "eduhum",
+      "en": "If you could play, would you play in a jazz orchestra?",
+      "ge": "დაკვრა რომ იცოდე/იცი დაუკრავდი ჯაზის ორკესტრში?"
+    }
+  },
+  {
+    "key": "31",
+    "order": 31,
+    "data": {
+      "a": "business",
+      "en": "Could you put together a budget for your class trip?",
+      "ge": "შეგიძლია გააკეთო ბიუჯეტი შენი კლასის ექსკურსიისთვის?"
+    }
+  },
+  {
+    "key": "32",
+    "order": 32,
+    "data": {
+      "a": "business",
+      "en": "Can you work with others on a single project?",
+      "ge": "შეგიძლია სხვებთან ერთად ერთ პროექტზე მუშაობა?"
+    }
+  },
+  {
+    "key": "33",
+    "order": 33,
+    "data": {
+      "a": "eduhum",
+      "en": "Are you interested in writing a film script?",
+      "ge": "გაინტერესებს ფილმის სცენარის დაწერა?"
+    }
+  },
+  {
+    "key": "34",
+    "order": 34,
+    "data": {
+      "a": "law",
+      "en": "Would you survey your classmates to find out their complaints?",
+      "ge": "ჩაატარებდი კლასელების გამოკითხვას მათი პრეტენზიების გამოსავლენად?"
+    }
+  },
+  {
+    "key": "35",
+    "order": 35,
+    "data": {
+      "a": "medicine",
+      "en": "Can you give first aid to someone who is injured?",
+      "ge": "შეგიძლია აღმოუჩინო პირველადი დახმარება დაშავებულს?"
+    }
+  },
+  {
+    "key": "36",
+    "order": 36,
+    "data": {
+      "a": "eduhum",
+      "en": "Could you choose the music to play on a local radio station?",
+      "ge": "შეგიძლია მუსიკის შერჩევა ადგილობრივ რადიოსადგურზე დასაკრავად?"
+    }
+  },
+  {
+    "key": "37",
+    "order": 37,
+    "data": {
+      "a": "law",
+      "en": "Would you be a member of your city council?",
+      "ge": "იქნებოდი შენი ქალაქის საკრებულოს წევრი?"
+    }
+  },
+  {
+    "key": "38",
+    "order": 38,
+    "data": {
+      "a": "medicine",
+      "en": "Do you try to help a person in distress?",
+      "ge": "ცდილობ დაეხმარო ადამიანს გასაჭირში?"
+    }
+  },
+  {
+    "key": "39",
+    "order": 39,
+    "data": {
+      "a": "cs",
+      "en": "Are you interested in operating electronic equipment?",
+      "ge": "გაინტერესებს ელექტრონული მოწყობილობის მართვა?"
+    }
+  },
+  {
+    "key": "40",
+    "order": 40,
+    "data": {
+      "a": "cs",
+      "en": "Are you interested in watching a technician repair a television?",
+      "ge": "გაინტერესებს უყურო, როგორ ასწორებს ხელოსანი ტელევიზორს?"
+    }
+  },
+  {
+    "key": "41",
+    "order": 41,
+    "data": {
+      "a": "eduhum",
+      "en": "Would you be a guide for visitors?",
+      "ge": "იქნებოდი ვიზიტორთა მეგზური?"
+    }
+  },
+  {
+    "key": "42",
+    "order": 42,
+    "data": {
+      "a": "eduhum",
+      "en": "Are you interested in learning how to solve people's problems?",
+      "ge": "გაინტერესებს იმის სწავლა, როგორ გადაჭრა ადამიანების პრობლემები?"
+    }
+  },
+  {
+    "key": "43",
+    "order": 43,
+    "data": {
+      "a": "eduhum",
+      "en": "Would you organise a museum tour for your class?",
+      "ge": "გაუკეთებ შენი კლასის მუზეუმში ექსკურსიას ორგანიზებას?"
+    }
+  },
+  {
+    "key": "44",
+    "order": 44,
+    "data": {
+      "a": "medicine",
+      "en": "Would you counsel and support people who use drugs?",
+      "ge": "გაუწევ კონსულტაციას/დახმარებას ნარკოტიკების მომხმარებლებს?"
+    }
+  },
+  {
+    "key": "45",
+    "order": 45,
+    "data": {
+      "a": "business",
+      "en": "Do you like reading posts about prominent businesspeople online?",
+      "ge": "გაინტერესებს ინტერნეტში გამოჩენილი ბიზნესმენების შესახებ პოსტების კითხვა?"
+    }
+  },
+  {
+    "key": "46",
+    "order": 46,
+    "data": {
+      "a": "business",
+      "en": "Are you interested in how installment payments are calculated?",
+      "ge": "გაინტერესებს როგორ ითვლება და ხდება განვადებით ანაზღაურება?"
+    }
+  },
+  {
+    "key": "47",
+    "order": 47,
+    "data": {
+      "a": "cs",
+      "en": "Are you interested in — or able to — design a metal sculpture?",
+      "ge": "გაინტერესებს/შეგიძლია ლითონის სკულპტურის დაპროექტება?"
+    }
+  },
+  {
+    "key": "48",
+    "order": 48,
+    "data": {
+      "a": "law",
+      "en": "Can you explain people's legal rights to them?",
+      "ge": "შეგიძლია ადამიანებისთვის მათი სამართლებრივი უფლებების ახსნა?"
+    }
+  },
+  {
+    "key": "49",
+    "order": 49,
+    "data": {
+      "a": "eduhum",
+      "en": "Can you write short stories?",
+      "ge": "შეგიძლია მოთხრობების წერა?"
+    }
+  },
+  {
+    "key": "50",
+    "order": 50,
+    "data": {
+      "a": "business",
+      "en": "Would you help people make financial decisions?",
+      "ge": "დაეხმარები ადამიანებს ფინანსური გადაწყვეტილებების მიღებაში?"
+    }
+  },
+  {
+    "key": "51",
+    "order": 51,
+    "data": {
+      "a": "business",
+      "en": "Are you interested in what taxes you pay?",
+      "ge": "გაინტერესებს რა გადასახადებს იხდი?"
+    }
+  },
+  {
+    "key": "52",
+    "order": 52,
+    "data": {
+      "a": "eduhum",
+      "en": "Can you write a review of a film you watched or a book you read?",
+      "ge": "შეგიძლია დაწერო კრიტიკა ნანახ ფილმზე ან წაკითხულ წიგნზე?"
+    }
+  },
+  {
+    "key": "53",
+    "order": 53,
+    "data": {
+      "a": "business",
+      "en": "Do you know how much money you need each month to cover your expenses?",
+      "ge": "იცი რამდენი ლარი გჭირდება ყოველ თვე შენი ხარჯების დასაფარად?"
+    }
+  },
+  {
+    "key": "54",
+    "order": 54,
+    "data": {
+      "a": "eduhum",
+      "en": "Would you act in a play or a film?",
+      "ge": "იქნებოდი მსახიობი სპექტაკლში ან ფილმში?"
+    }
+  },
+  {
+    "key": "55",
+    "order": 55,
+    "data": {
+      "a": "law",
+      "en": "Are you good at calming arguments between friends?",
+      "ge": "კარგად გამოგდის მეგობრებს შორის კამათის დამშვიდება?"
+    }
+  },
+  {
+    "key": "56",
+    "order": 56,
+    "data": {
+      "a": "eduhum",
+      "en": "Have you helped someone make an important decision?",
+      "ge": "დაეხმარე ვინმეს მნიშვნელოვანი გადაწყვეტილების მიღებაში?"
+    }
+  },
+  {
+    "key": "57",
+    "order": 57,
+    "data": {
+      "a": "business",
+      "en": "Do you know how much you spend on transport each month?",
+      "ge": "იცი რამდენ ლარს ხარჯავ ყოველ თვე ტრანსპორტში?"
+    }
+  },
+  {
+    "key": "58",
+    "order": 58,
+    "data": {
+      "a": "eduhum",
+      "en": "Are you good at entertaining people with jokes and stories?",
+      "ge": "კარგად გამოგდის ხალხის გართობა ხუმრობებითა და ისტორიებით?"
+    }
+  },
+  {
+    "key": "59",
+    "order": 59,
+    "data": {
+      "a": "cs",
+      "en": "Working outdoors, away from a building",
+      "ge": "შენობის გარეთ მუშაობა"
+    }
+  },
+  {
+    "key": "60",
+    "order": 60,
+    "data": {
+      "a": "medicine",
+      "en": "Reading scientific literature",
+      "ge": "სამეცნიერო ლიტერატურის კითხვა"
+    }
+  },
+  {
+    "key": "61",
+    "order": 61,
+    "data": {
+      "a": "medicine",
+      "en": "Working in a research office",
+      "ge": "კვლევით ოფისში მუშაობა"
+    }
+  },
+  {
+    "key": "62",
+    "order": 62,
+    "data": {
+      "a": "cs",
+      "en": "Applying mathematics in practice",
+      "ge": "მათემატიკის პრაქტიკაში გამოყენება"
+    }
+  },
+  {
+    "key": "63",
+    "order": 63,
+    "data": {
+      "a": "cs",
+      "en": "Studying physics",
+      "ge": "ფიზიკის შესწავლა"
+    }
+  },
+  {
+    "key": "64",
+    "order": 64,
+    "data": {
+      "a": "cs",
+      "en": "Studying mathematics",
+      "ge": "მათემატიკის შესწავლა"
+    }
+  },
+  {
+    "key": "65",
+    "order": 65,
+    "data": {
+      "a": "cs",
+      "en": "Designing and modelling furniture, clothing and posters",
+      "ge": "ავეჯის, ტანსაცმლის, პლაკატების დიზაინი და მოდელირება"
+    }
+  },
+  {
+    "key": "66",
+    "order": 66,
+    "data": {
+      "a": "eduhum",
+      "en": "Studying human relationships",
+      "ge": "ადამიანური ურთიერთობების შესწავლა"
+    }
+  },
+  {
+    "key": "67",
+    "order": 67,
+    "data": {
+      "a": "business",
+      "en": "Studying the paths to success in business",
+      "ge": "ბიზნესში წარმატების მისაღწევი გზების შესწავლა"
+    }
+  }
+]

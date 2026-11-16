@@ -1,0 +1,1038 @@
+[
+  {
+    "key": "column:0",
+    "order": 0,
+    "data": {
+      "columnKind": "column",
+      "date": "2023-04-05",
+      "img": "/photos/media/columns/me-and-europe-1.jpg",
+      "en": {
+        "title": "ნინი შაორშაძე: მე და ევროპა",
+        "author": "Nini Shaorshadze"
+      },
+      "ge": {
+        "title": "ნინი შაორშაძე: მე და ევროპა",
+        "author": "ნინი შაორშაძე"
+      }
+    }
+  },
+  {
+    "key": "column:1",
+    "order": 1,
+    "data": {
+      "columnKind": "column",
+      "date": "2023-04-13",
+      "img": "/photos/media/columns/me-and-europe-2.jpg",
+      "en": {
+        "title": "ნინი შაორშაძე: მე და ევროპა",
+        "author": "Nini Shaorshadze"
+      },
+      "ge": {
+        "title": "ნინი შაორშაძე: მე და ევროპა",
+        "author": "ნინი შაორშაძე"
+      }
+    }
+  },
+  {
+    "key": "profile:2",
+    "order": 2,
+    "data": {
+      "columnKind": "profile",
+      "date": "2026-07-14",
+      "en": {
+        "title": "იქ, სადაც იდეა ფორმას იძენს",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "იქ, სადაც იდეა ფორმას იძენს",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/profile/0.jpg"
+    }
+  },
+  {
+    "key": "profile:3",
+    "order": 3,
+    "data": {
+      "columnKind": "profile",
+      "date": "2025-03-19",
+      "en": {
+        "title": "გარდასახვა / The art of transformation – Copy",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "გარდასახვა / The art of transformation – Copy",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/profile/1.jpg"
+    }
+  },
+  {
+    "key": "profile:4",
+    "order": 4,
+    "data": {
+      "columnKind": "profile",
+      "date": "2025-02-26",
+      "en": {
+        "title": "კერამიკის სახელოსნოში / Inside the ceramic studio",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "კერამიკის სახელოსნოში / Inside the ceramic studio",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/profile/2.jpg"
+    }
+  },
+  {
+    "key": "profile:5",
+    "order": 5,
+    "data": {
+      "columnKind": "profile",
+      "date": "2025-02-19",
+      "en": {
+        "title": "და – მეგზური დიდი ფეხბურთისაკენ",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "და – მეგზური დიდი ფეხბურთისაკენ",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/profile/3.jpg"
+    }
+  },
+  {
+    "key": "profile:6",
+    "order": 6,
+    "data": {
+      "columnKind": "profile",
+      "date": "2025-02-19",
+      "en": {
+        "title": "ირგვლივ უამრავი რამაა დასახატი, მთავარია, შეამჩნიო",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "ირგვლივ უამრავი რამაა დასახატი, მთავარია, შეამჩნიო",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/profile/4.jpg"
+    }
+  },
+  {
+    "key": "profile:7",
+    "order": 7,
+    "data": {
+      "columnKind": "profile",
+      "date": "2025-02-19",
+      "en": {
+        "title": "ყვავილები გამვლელებისათვის / Flowers for passersby",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "ყვავილები გამვლელებისათვის / Flowers for passersby",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/profile/5.jpg"
+    }
+  },
+  {
+    "key": "profile:8",
+    "order": 8,
+    "data": {
+      "columnKind": "profile",
+      "date": "2024-01-26",
+      "en": {
+        "title": "კერამიკის ოსტატის ერთადერთი სახელოსნო-მუზეუმი შიდა ქართლში",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "კერამიკის ოსტატის ერთადერთი სახელოსნო-მუზეუმი შიდა ქართლში",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/profile/6.jpg"
+    }
+  },
+  {
+    "key": "profile:9",
+    "order": 9,
+    "data": {
+      "columnKind": "profile",
+      "date": "2023-12-14",
+      "en": {
+        "title": "ნინო თათარაშვილის პორტრეტი – ლუკა ამბალიას ვიდეო ინტერვიუ",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "ნინო თათარაშვილის პორტრეტი – ლუკა ამბალიას ვიდეო ინტერვიუ",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/profile/7.jpg"
+    }
+  },
+  {
+    "key": "profile:10",
+    "order": 10,
+    "data": {
+      "columnKind": "profile",
+      "date": "2023-03-21",
+      "en": {
+        "title": "დავით მათიაშვილი",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "დავით მათიაშვილი",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/profile/8.jpg"
+    }
+  },
+  {
+    "key": "blog:11",
+    "order": 11,
+    "data": {
+      "columnKind": "blog",
+      "date": "2023-11-13",
+      "en": {
+        "title": "ნინი შაორშაძე: შინ ევროპაში (ბლოგი)",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "ნინი შაორშაძე: შინ ევროპაში (ბლოგი)",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/blog/0.jpg"
+    }
+  },
+  {
+    "key": "blog:12",
+    "order": 12,
+    "data": {
+      "columnKind": "blog",
+      "date": "2023-11-13",
+      "en": {
+        "title": "მარიამ ქობალია: ევროკავშირი – არჩევანის თავისუფლება განათლებისთვის",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "მარიამ ქობალია: ევროკავშირი – არჩევანის თავისუფლება განათლებისთვის",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/blog/1.jpg"
+    }
+  },
+  {
+    "key": "blog:13",
+    "order": 13,
+    "data": {
+      "columnKind": "blog",
+      "date": "2023-11-07",
+      "en": {
+        "title": "აღმოჩენებით სავსე სახლი",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "აღმოჩენებით სავსე სახლი",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/blog/2.jpg"
+    }
+  },
+  {
+    "key": "blog:14",
+    "order": 14,
+    "data": {
+      "columnKind": "blog",
+      "date": "2023-10-13",
+      "en": {
+        "title": "ნათია შენგელიას პირველი მოგზაურობა ტაო-კლარჯეთში (ფოტორეპორტაჟი)",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "ნათია შენგელიას პირველი მოგზაურობა ტაო-კლარჯეთში (ფოტორეპორტაჟი)",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/blog/3.jpg"
+    }
+  },
+  {
+    "key": "blog:15",
+    "order": 15,
+    "data": {
+      "columnKind": "blog",
+      "date": "2023-10-11",
+      "en": {
+        "title": "ანო ტვილდიანი: ქალებმა საკუთარი თავის და სხვა ქალების გაძლიერება უნდა ვისწავლოთ",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "ანო ტვილდიანი: ქალებმა საკუთარი თავის და სხვა ქალების გაძლიერება უნდა ვისწავლოთ",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/blog/4.jpg"
+    }
+  },
+  {
+    "key": "blog:16",
+    "order": 16,
+    "data": {
+      "columnKind": "blog",
+      "date": "2023-07-21",
+      "en": {
+        "title": "ნინი შაორშაძე: მე და ევროპა – საქართველო ლიეტუვაში (გაგრძელება)",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "ნინი შაორშაძე: მე და ევროპა – საქართველო ლიეტუვაში (გაგრძელება)",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/blog/5.jpg"
+    }
+  },
+  {
+    "key": "blog:17",
+    "order": 17,
+    "data": {
+      "columnKind": "blog",
+      "date": "2023-07-20",
+      "en": {
+        "title": "რეენა, ჰამდანი და ონოლია – მე და საქართველო (აუდიო)",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "რეენა, ჰამდანი და ონოლია – მე და საქართველო (აუდიო)",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/blog/6.jpg"
+    }
+  },
+  {
+    "key": "blog:18",
+    "order": 18,
+    "data": {
+      "columnKind": "blog",
+      "date": "2023-07-18",
+      "en": {
+        "title": "გიორგი ერაძის ზაფხული ბუდაპეშტში (ფოტორეპორტაჟი)",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "გიორგი ერაძის ზაფხული ბუდაპეშტში (ფოტორეპორტაჟი)",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/blog/7.jpg"
+    }
+  },
+  {
+    "key": "blog:19",
+    "order": 19,
+    "data": {
+      "columnKind": "blog",
+      "date": "2023-07-18",
+      "en": {
+        "title": "ნინი შაორშაძე: მე და ევროპა – საქართველო ლიეტუვაში",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "ნინი შაორშაძე: მე და ევროპა – საქართველო ლიეტუვაში",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/theses/lithuania.jpg"
+    }
+  },
+  {
+    "key": "blog:20",
+    "order": 20,
+    "data": {
+      "columnKind": "blog",
+      "date": "2023-07-14",
+      "en": {
+        "title": "მარიამ ქობალია – მე და ევროპა პოდკასტი",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "მარიამ ქობალია – მე და ევროპა პოდკასტი",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/blog/9.jpg"
+    }
+  },
+  {
+    "key": "blog:21",
+    "order": 21,
+    "data": {
+      "columnKind": "blog",
+      "date": "2023-06-22",
+      "en": {
+        "title": "მარიამ კიპაროიძის “ევროპის დღე”",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "მარიამ კიპაროიძის “ევროპის დღე”",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/blog/10.jpg"
+    }
+  },
+  {
+    "key": "blog:22",
+    "order": 22,
+    "data": {
+      "columnKind": "blog",
+      "date": "2023-06-22",
+      "en": {
+        "title": "ანა მაზიაშვილის “ევროპის დღე”",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "ანა მაზიაშვილის “ევროპის დღე”",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/blog/11.jpg"
+    }
+  },
+  {
+    "key": "blog:23",
+    "order": 23,
+    "data": {
+      "columnKind": "blog",
+      "date": "2023-06-22",
+      "en": {
+        "title": "გიორგი ერაძის “ევროპის დღე”",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "გიორგი ერაძის “ევროპის დღე”",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/blog/12.jpg"
+    }
+  },
+  {
+    "key": "blog:24",
+    "order": 24,
+    "data": {
+      "columnKind": "blog",
+      "date": "2023-06-15",
+      "en": {
+        "title": "ევროპის დღე IBSU რადიოში",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "ევროპის დღე IBSU რადიოში",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/theses/europe-day.jpg"
+    }
+  },
+  {
+    "key": "blog:25",
+    "order": 25,
+    "data": {
+      "columnKind": "blog",
+      "date": "2023-06-06",
+      "en": {
+        "title": "მარიამ ქობალია: მე და ევროპა",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "მარიამ ქობალია: მე და ევროპა",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/blog/14.jpg"
+    }
+  },
+  {
+    "key": "blog:26",
+    "order": 26,
+    "data": {
+      "columnKind": "blog",
+      "date": "2023-05-31",
+      "en": {
+        "title": "ნოვრუზ ბაირამი მედინასთან",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "ნოვრუზ ბაირამი მედინასთან",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/blog/15.jpg"
+    }
+  },
+  {
+    "key": "blog:27",
+    "order": 27,
+    "data": {
+      "columnKind": "blog",
+      "date": "2023-05-19",
+      "en": {
+        "title": "მარიამ კიპაროიძე: მე და ევროპა",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "მარიამ კიპაროიძე: მე და ევროპა",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/blog/16.jpg"
+    }
+  },
+  {
+    "key": "blog:28",
+    "order": 28,
+    "data": {
+      "columnKind": "blog",
+      "date": "2023-05-19",
+      "en": {
+        "title": "ანა მაზიაშვილი: მე და ევროპა",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "ანა მაზიაშვილი: მე და ევროპა",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/blog/17.jpg"
+    }
+  },
+  {
+    "key": "blog:29",
+    "order": 29,
+    "data": {
+      "columnKind": "blog",
+      "date": "2023-05-19",
+      "en": {
+        "title": "გიორგი ერაძე: მე და ევროპა",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "გიორგი ერაძე: მე და ევროპა",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/blog/18.jpg"
+    }
+  },
+  {
+    "key": "blog:30",
+    "order": 30,
+    "data": {
+      "columnKind": "blog",
+      "date": "2023-05-11",
+      "en": {
+        "title": "ნინი შაორშაძის ბლოგი – ევროპაში გვინდა!",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "ნინი შაორშაძის ბლოგი – ევროპაში გვინდა!",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/blog/19.jpg"
+    }
+  },
+  {
+    "key": "blog:31",
+    "order": 31,
+    "data": {
+      "columnKind": "blog",
+      "date": "2023-04-13",
+      "en": {
+        "title": "ნინი შაორშაძე: მე და ევროპა",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "ნინი შაორშაძე: მე და ევროპა",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/blog/20.jpg"
+    }
+  },
+  {
+    "key": "blog:32",
+    "order": 32,
+    "data": {
+      "columnKind": "blog",
+      "date": "2021-05-28",
+      "en": {
+        "title": "“დამოუკიდებლობა ერის ზნეობის გადარჩენაა და ამდენად, თვით ერის გადარჩენაც”",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "“დამოუკიდებლობა ერის ზნეობის გადარჩენაა და ამდენად, თვით ერის გადარჩენაც”",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/blog/21.jpg"
+    }
+  },
+  {
+    "key": "blog:33",
+    "order": 33,
+    "data": {
+      "columnKind": "blog",
+      "date": "2020-07-21",
+      "en": {
+        "title": "საბაკალავრო ბლოგები 2019/2020",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "საბაკალავრო ბლოგები 2019/2020",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/blog/22.jpg"
+    }
+  },
+  {
+    "key": "blog:34",
+    "order": 34,
+    "data": {
+      "columnKind": "blog",
+      "date": "2020-05-07",
+      "en": {
+        "title": "ქართული რეტრო მუსიკის 5 ვარსკვლავი",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "ქართული რეტრო მუსიკის 5 ვარსკვლავი",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/blog/23.jpg"
+    }
+  },
+  {
+    "key": "blog:35",
+    "order": 35,
+    "data": {
+      "columnKind": "blog",
+      "date": "2019-12-16",
+      "en": {
+        "title": "ევროკავშირში მიმოფანტული მიგრანტები",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "ევროკავშირში მიმოფანტული მიგრანტები",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/blog/24.jpg"
+    }
+  },
+  {
+    "key": "blog:36",
+    "order": 36,
+    "data": {
+      "columnKind": "blog",
+      "date": "2019-12-16",
+      "en": {
+        "title": "დარიალის ხეობა ცოტა ხანში ნაგავსაყრელად იქცევა",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "დარიალის ხეობა ცოტა ხანში ნაგავსაყრელად იქცევა",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/blog/25.jpg"
+    }
+  },
+  {
+    "key": "blog:37",
+    "order": 37,
+    "data": {
+      "columnKind": "blog",
+      "date": "2019-12-16",
+      "en": {
+        "title": "ოჯახში ძალადობის მსხვერპლი: ყველაზე რთული მოძალადე ადამიანთან ცხოვრებაა",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "ოჯახში ძალადობის მსხვერპლი: ყველაზე რთული მოძალადე ადამიანთან ცხოვრებაა",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/blog/26.jpg"
+    }
+  },
+  {
+    "key": "blog:38",
+    "order": 38,
+    "data": {
+      "columnKind": "blog",
+      "date": "2019-12-16",
+      "en": {
+        "title": "ტურისტებით სავსე ყაზბეგი ყოფითი და ეკოლოგიური პრობლემების პირისპირ",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "ტურისტებით სავსე ყაზბეგი ყოფითი და ეკოლოგიური პრობლემების პირისპირ",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/blog/27.jpg"
+    }
+  },
+  {
+    "key": "online:39",
+    "order": 39,
+    "data": {
+      "columnKind": "online",
+      "date": "2025-05-06",
+      "en": {
+        "title": "“პარაგრაფი” – 2024 წლის შემოდგომის სემესტრის გაზეთი",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "“პარაგრაფი” – 2024 წლის შემოდგომის სემესტრის გაზეთი",
+        "author": "IBSU მედია ცენტრი"
+      }
+    }
+  },
+  {
+    "key": "online:40",
+    "order": 40,
+    "data": {
+      "columnKind": "online",
+      "date": "2023-02-08",
+      "en": {
+        "title": "IBSU-ს ჟურნალისტიკის საბაკალავრო პროგრამის მეორეკურსელების სტუდენტური ნაშრომი – “მთავარი გაზეთი”",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "IBSU-ს ჟურნალისტიკის საბაკალავრო პროგრამის მეორეკურსელების სტუდენტური ნაშრომი – “მთავარი გაზეთი”",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/online/1.jpg"
+    }
+  },
+  {
+    "key": "online:41",
+    "order": 41,
+    "data": {
+      "columnKind": "online",
+      "date": "2022-03-09",
+      "en": {
+        "title": "NEWSFEED – სასწავლო გაზეთი",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "NEWSFEED – სასწავლო გაზეთი",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/online/2.jpg"
+    }
+  },
+  {
+    "key": "online:42",
+    "order": 42,
+    "data": {
+      "columnKind": "online",
+      "date": "2019-04-22",
+      "en": {
+        "title": "გადაცემა “მრავალკუთხედი” თამაზ ზარიძესთან ერთად",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "გადაცემა “მრავალკუთხედი” თამაზ ზარიძესთან ერთად",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/online/3.jpg"
+    }
+  },
+  {
+    "key": "online:43",
+    "order": 43,
+    "data": {
+      "columnKind": "online",
+      "date": "2019-04-15",
+      "en": {
+        "title": "ენგურის ხიდით გაყოფილი სამგლოვიარო პროცესია",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "ენგურის ხიდით გაყოფილი სამგლოვიარო პროცესია",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/online/4.jpg"
+    }
+  },
+  {
+    "key": "online:44",
+    "order": 44,
+    "data": {
+      "columnKind": "online",
+      "date": "2019-04-05",
+      "en": {
+        "title": "IBSU NEWS",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "IBSU NEWS",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/online/5.jpg"
+    }
+  },
+  {
+    "key": "online:45",
+    "order": 45,
+    "data": {
+      "columnKind": "online",
+      "date": "2019-04-03",
+      "en": {
+        "title": "1,2- მილიარდიანი პროექტის ირგვლივ ვნებათაღელვა არ ცხრება – სვანები იფიცებიან, რომ ჰესებს დაბლოკავენ",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "1,2- მილიარდიანი პროექტის ირგვლივ ვნებათაღელვა არ ცხრება – სვანები იფიცებიან, რომ ჰესებს დაბლოკავენ",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/online/6.jpg"
+    }
+  },
+  {
+    "key": "online:46",
+    "order": 46,
+    "data": {
+      "columnKind": "online",
+      "date": "2019-04-03",
+      "en": {
+        "title": "ქავთარაძის ქუჩის მოსახლობა რეკრეაციული ზონის დასაცავად იბრძვის – “გორა ჩვენია! არა m2-ს!”",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "ქავთარაძის ქუჩის მოსახლობა რეკრეაციული ზონის დასაცავად იბრძვის – “გორა ჩვენია! არა m2-ს!”",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/online/7.jpg"
+    }
+  },
+  {
+    "key": "online:47",
+    "order": 47,
+    "data": {
+      "columnKind": "online",
+      "date": "2019-04-01",
+      "en": {
+        "title": "დარიალის ხეობის მოდარაჯეები",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "დარიალის ხეობის მოდარაჯეები",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/online/8.jpg"
+    }
+  },
+  {
+    "key": "online:48",
+    "order": 48,
+    "data": {
+      "columnKind": "online",
+      "date": "2019-04-01",
+      "en": {
+        "title": "შეზღუდული შესაძლებლობების მქონე პირების უფლებრივი მდგომარეობა საქართველოში",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "შეზღუდული შესაძლებლობების მქონე პირების უფლებრივი მდგომარეობა საქართველოში",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/online/9.jpg"
+    }
+  },
+  {
+    "key": "online:49",
+    "order": 49,
+    "data": {
+      "columnKind": "online",
+      "date": "2019-04-01",
+      "en": {
+        "title": "ბუნებასთან ჭიდილი",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "ბუნებასთან ჭიდილი",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/online/10.jpg"
+    }
+  },
+  {
+    "key": "online:50",
+    "order": 50,
+    "data": {
+      "columnKind": "online",
+      "date": "2019-04-01",
+      "en": {
+        "title": "გერგეტის სამებამდე მისასვლელი გზა ტურისტების რაოდენობას გაზრდის",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "გერგეტის სამებამდე მისასვლელი გზა ტურისტების რაოდენობას გაზრდის",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/online/11.jpg"
+    }
+  },
+  {
+    "key": "online:51",
+    "order": 51,
+    "data": {
+      "columnKind": "online",
+      "date": "2019-04-01",
+      "en": {
+        "title": "სტეფანწმინდაში ტურიზმი ვითარდება",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "სტეფანწმინდაში ტურიზმი ვითარდება",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/online/12.jpg"
+    }
+  },
+  {
+    "key": "online:52",
+    "order": 52,
+    "data": {
+      "columnKind": "online",
+      "date": "2019-03-07",
+      "en": {
+        "title": "„ურბანული აქტივიზმი“",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "„ურბანული აქტივიზმი“",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/online/13.jpg"
+    }
+  },
+  {
+    "key": "online:53",
+    "order": 53,
+    "data": {
+      "columnKind": "online",
+      "date": "2019-03-06",
+      "en": {
+        "title": "“პირველადი დახმარების ტრენინგი”",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "“პირველადი დახმარების ტრენინგი”",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/online/14.jpg"
+    }
+  },
+  {
+    "key": "online:54",
+    "order": 54,
+    "data": {
+      "columnKind": "online",
+      "date": "2019-02-27",
+      "en": {
+        "title": "ოჯახში ძალადობის მსხვერპლი: ვნანობ მოთმინებას",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "ოჯახში ძალადობის მსხვერპლი: ვნანობ მოთმინებას",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/online/15.jpg"
+    }
+  },
+  {
+    "key": "online:55",
+    "order": 55,
+    "data": {
+      "columnKind": "online",
+      "date": "2019-02-25",
+      "en": {
+        "title": "„ოცნების ქალაქის“ ბინადრები",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "„ოცნების ქალაქის“ ბინადრები",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/online/16.jpg"
+    }
+  },
+  {
+    "key": "online:56",
+    "order": 56,
+    "data": {
+      "columnKind": "online",
+      "date": "2019-02-21",
+      "en": {
+        "title": "სტუდენტების დასაქმება ისევ პრობლემად რჩება",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "სტუდენტების დასაქმება ისევ პრობლემად რჩება",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/online/17.jpg"
+    }
+  },
+  {
+    "key": "online:57",
+    "order": 57,
+    "data": {
+      "columnKind": "online",
+      "date": "2019-02-11",
+      "en": {
+        "title": "სელექციური აბორტის სტატისტიკა საქართველოში",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "სელექციური აბორტის სტატისტიკა საქართველოში",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/online/18.jpg"
+    }
+  },
+  {
+    "key": "online:58",
+    "order": 58,
+    "data": {
+      "columnKind": "online",
+      "date": "2019-02-08",
+      "en": {
+        "title": "აქ ჩვენ ვძულვართ, იმიტომ, რომ ბოშები ვართ",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "აქ ჩვენ ვძულვართ, იმიტომ, რომ ბოშები ვართ",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/online/19.jpg"
+    }
+  },
+  {
+    "key": "online:59",
+    "order": 59,
+    "data": {
+      "columnKind": "online",
+      "date": "2019-02-08",
+      "en": {
+        "title": "8 დღიანი მოგზაურობა მომაკვდავ მთაში",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "8 დღიანი მოგზაურობა მომაკვდავ მთაში",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/online/20.jpg"
+    }
+  },
+  {
+    "key": "online:60",
+    "order": 60,
+    "data": {
+      "columnKind": "online",
+      "date": "2019-02-07",
+      "en": {
+        "title": "ნარკოდამოკიდებულებს გვერდში დგომა სჭირდებათ – ციხე არაა გამოსავალი",
+        "author": "IBSU Media Centre"
+      },
+      "ge": {
+        "title": "ნარკოდამოკიდებულებს გვერდში დგომა სჭირდებათ – ციხე არაა გამოსავალი",
+        "author": "IBSU მედია ცენტრი"
+      },
+      "img": "/photos/media/online/21.jpg"
+    }
+  }
+]

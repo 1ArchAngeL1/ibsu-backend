@@ -1,0 +1,14 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    // The migration tools run under tsx as ES modules and use
+    // `import.meta.dirname`; the API itself is CommonJS, which is what Nest
+    // builds. The two cannot share one `module` setting.
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "rootDir": "..",
+    "types": ["node"],
+    "noEmit": true
+  },
+  "include": ["./**/*.ts"]
+}

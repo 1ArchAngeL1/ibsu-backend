@@ -1,0 +1,56 @@
+[
+  {
+    "key": "default",
+    "order": 0,
+    "data": {
+      "Business Administration": {
+        "level": "bachelor",
+        "name": "Business Administration — Management"
+      },
+      "Finance": {
+        "level": "bachelor",
+        "name": "Business Administration — Finances"
+      },
+      "Economics": {
+        "level": "bachelor",
+        "name": "Economics"
+      },
+      "Marketing": {
+        "level": "bachelor",
+        "name": "Business Administration — Marketing"
+      },
+      "Law (LLB)": {
+        "level": "bachelor",
+        "name": "Law"
+      },
+      "Computer Science": {
+        "level": "bachelor",
+        "name": "Computer Science & Artificial Intelligence"
+      },
+      "Architecture": {
+        "level": "bachelor",
+        "name": "Architecture"
+      },
+      "Psychology": {
+        "level": "bachelor",
+        "name": "Psychology"
+      },
+      "Journalism": {
+        "level": "bachelor",
+        "name": "Journalism"
+      },
+      "English Philology": {
+        "level": "bachelor",
+        "name": "English Philology"
+      },
+      "International Relations": {
+        "level": "bachelor",
+        "name": "International Relations"
+      },
+      "Medicine (MD)": {
+        "level": "medical",
+        "name": "Medical Doctor — one-cycle MD"
+      }
+    }
+  }
+]

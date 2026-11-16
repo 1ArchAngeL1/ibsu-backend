@@ -1,0 +1,194 @@
+[
+  {
+    "key": "ka:libraries",
+    "order": 0,
+    "data": {
+      "locale": "ka",
+      "id": "libraries",
+      "title": "ელექტრონული ბიბლიოთეკები",
+      "links": [
+        {
+          "label": "საქართველოს პარლამენტის ეროვნული ბიბლიოთეკა – ციფრული ბიბლიოთეკა „ივერიელი“",
+          "href": "https://dspace.nplg.gov.ge/?locale=ka"
+        },
+        {
+          "label": "ელექტრონული რესურსების პორტალი El.Ge – განათლების და მეცნიერების სამინისტრო",
+          "href": "https://el.ge/"
+        },
+        {
+          "label": "მასწავლებელთა პროფესიული განვითარების ცენტრის სასწავლო ფილმები",
+          "href": "https://www.tpdc.ge/geo/educational-films/372"
+        },
+        {
+          "label": "ინტერნეტგაზეთი „მასწავლებელი“",
+          "href": "https://mastsavlebeli.ge/"
+        },
+        {
+          "label": "ელექტრონული ბიბლიოთეკა „ბუკი“ – განათლების და მეცნიერების სამინისტრო",
+          "href": "http://buki.ge/library-list.html"
+        },
+        {
+          "label": "ელექტრონული ბიბლიოთეკა – ინტერნეტ არქივი (Internet Archive)",
+          "href": "https://archive.org/"
+        },
+        {
+          "label": "მსოფლიო ციფრული ბიბლიოთეკა (The World Digital Library)",
+          "href": "https://www.loc.gov/item/lcwaN0018836/"
+        },
+        {
+          "label": "ელექტრონული სამეცნიერო ბიბლიოთეკა (Digital Library of Science)",
+          "href": "https://fs.unm.edu/eBooks-otherformats.htm"
+        }
+      ]
+    }
+  },
+  {
+    "key": "ka:dictionaries",
+    "order": 1,
+    "data": {
+      "locale": "ka",
+      "id": "dictionaries",
+      "title": "ლექსიკონები და ცნობარები",
+      "links": [
+        {
+          "label": "ინგლისურ-ქართული ლექსიკონი (ლექსიკოგრაფიული ცენტრი)",
+          "href": "https://dictionary.ge/"
+        },
+        {
+          "label": "ქართულ-ინგლისური და ინგლისურ-ქართული ონლაინ ლექსიკონი",
+          "href": "https://www.translate.ge/"
+        },
+        {
+          "label": "ელექტრონული ბიბლიოთეკა – პროექტი „გუტენბერგი“ (Project Gutenberg)",
+          "href": "https://www.gutenberg.org/"
+        },
+        {
+          "label": "ლექსიკონების ნაკრები",
+          "href": "https://www.yourdictionary.com/"
+        },
+        {
+          "label": "ენციკლოპედია ბრიტანიკა",
+          "href": "https://www.britannica.com/"
+        },
+        {
+          "label": "Encyclopedia.com",
+          "href": "https://www.encyclopedia.com/"
+        },
+        {
+          "label": "ბიოგრაფიული ლექსიკონი",
+          "href": "http://www.nplg.gov.ge/bios/ka/"
+        },
+        {
+          "label": "ფიზიკის ლექსიკონი",
+          "href": "http://physics.6te.net/"
+        },
+        {
+          "label": "კიბერსივრცესა და კიბერსამართალში ხშირად გამოყენებული ტერმინების ქართული განმარტება",
+          "href": "https://ilawge.blogspot.com/p/blog-page_11.html"
+        },
+        {
+          "label": "იურიდიულ ტერმინთა განმარტებითი ლექსიკონი",
+          "href": "https://iuristebi.wordpress.com/wp-content/uploads/2011/07/nolos-plain-english-law-dictionary.pdf"
+        },
+        {
+          "label": "სოციალურ და პოლიტიკურ ტერმინთა ლექსიკონი-ცნობარი",
+          "href": "http://css.ge/?p=828&lang=ka"
+        },
+        {
+          "label": "ორთოგრაფიული, განმარტებითი და სატელეკომუნიკაციო ლექსიკონი",
+          "href": "https://ena.ge/orthography-online"
+        }
+      ]
+    }
+  },
+  {
+    "key": "en:libraries",
+    "order": 2,
+    "data": {
+      "locale": "en",
+      "id": "libraries",
+      "title": "Electronic libraries",
+      "links": [
+        {
+          "label": "The National Parliamentary Library of Georgia",
+          "href": "https://www.nplg.gov.ge/eng/Digital_Library"
+        },
+        {
+          "label": "Digital Resource Portal El.Ge – Ministry of Education and Science of Georgia",
+          "href": "https://el.ge/"
+        },
+        {
+          "label": "National Center for Teacher Professional Development",
+          "href": "http://www.tpdc.ge/eng/publication-1/191"
+        },
+        {
+          "label": "The World Digital Library",
+          "href": "https://www.loc.gov/item/lcwaN0018836/"
+        },
+        {
+          "label": "Electronic Library: Project Gutenberg",
+          "href": "https://www.gutenberg.org/"
+        },
+        {
+          "label": "Electronic Library: Internet Archive",
+          "href": "http://www.archive.org/"
+        },
+        {
+          "label": "Digital Library of Science",
+          "href": "http://fs.gallup.unm.edu/eBooks-otherformats.htm"
+        }
+      ]
+    }
+  },
+  {
+    "key": "en:dictionaries",
+    "order": 3,
+    "data": {
+      "locale": "en",
+      "id": "dictionaries",
+      "title": "Dictionaries and reference books",
+      "links": [
+        {
+          "label": "English-Georgian Online Dictionary (Lexicographical Center)",
+          "href": "https://dictionary.ge/en/"
+        },
+        {
+          "label": "Georgian-English and English-Georgian Online Dictionary",
+          "href": "http://www.translate.ge/"
+        },
+        {
+          "label": "Encyclopedia Britannica",
+          "href": "http://www.eb.com/"
+        },
+        {
+          "label": "Encyclopedia.com",
+          "href": "http://www.encyclopedia.com/"
+        },
+        {
+          "label": "Reference website for biographies",
+          "href": "http://www.biography.com/"
+        },
+        {
+          "label": "Dictionary of Physics",
+          "href": "http://physics.6te.net/"
+        },
+        {
+          "label": "Georgian explanations of terms that often occur in cyberspace and cyber law",
+          "href": "https://ilawge.blogspot.com/p/blog-page_11.html"
+        },
+        {
+          "label": "English Law Dictionary",
+          "href": "https://iuristebi.files.wordpress.com/2011/07/nolos-plain-english-law-dictionary.pdf"
+        },
+        {
+          "label": "A Dictionary of Law",
+          "href": "https://iuristebi.wordpress.com/%e1%83%98%e1%83%a3%e1%83%a0%e1%83%98%e1%83%93%e1%83%98%e1%83%a3%e1%83%9a%e1%83%98-%e1%83%9a%e1%83%94%e1%83%a5%e1%83%a1%e1%83%98%e1%83%99%e1%83%9d%e1%83%9c%e1%83%98/"
+        },
+        {
+          "label": "Orthographic, Explanatory and Telecommunication Dictionary",
+          "href": "http://ena.ge/orthography-online"
+        }
+      ]
+    }
+  }
+]

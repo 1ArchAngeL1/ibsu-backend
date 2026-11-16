@@ -1,0 +1,27 @@
+[
+  {
+    "key": "default",
+    "order": 0,
+    "data": {
+      "id": "black-sea-governance",
+      "title": {
+        "en": "Governance in the Black Sea Region",
+        "ka": "მმართველობა შავი ზღვის რეგიონში"
+      },
+      "format": "editedVolume",
+      "year": 2025,
+      "publisher": {
+        "en": "IBSU Press",
+        "ka": "IBSU Press"
+      },
+      "subject": {
+        "en": "Social sciences",
+        "ka": "სოციალური მეცნიერებები"
+      },
+      "blurb": {
+        "en": "A collection of essays from IBSU scholars and partner researchers on economy, policy and cooperation across the wider Black Sea region — drawn from the University’s conferences and funded projects.",
+        "ka": "IBSU-ს მკვლევრებისა და პარტნიორი მკვლევრების ესეების კრებული ეკონომიკაზე, პოლიტიკასა და თანამშრომლობაზე ფართო შავი ზღვის რეგიონში — შექმნილი უნივერსიტეტის კონფერენციებისა და დაფინანსებული პროექტების საფუძველზე."
+      }
+    }
+  }
+]

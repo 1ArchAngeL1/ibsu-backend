@@ -1,0 +1,194 @@
+[
+  {
+    "key": "digital-competences",
+    "order": 0,
+    "data": {
+      "id": "digital-competences",
+      "status": "ongoing",
+      "international": true,
+      "fund": {
+        "en": "Erasmus+ KA2",
+        "ka": "Erasmus+ KA2"
+      },
+      "title": {
+        "en": "Digital competences for higher education",
+        "ka": "ციფრული კომპეტენციები უმაღლესი განათლებისთვის"
+      },
+      "summary": {
+        "en": "A capacity-building partnership upgrading digital teaching and assessment across a consortium of European universities.",
+        "ka": "შესაძლებლობების განვითარების პარტნიორობა, რომელიც აუმჯობესებს ციფრულ სწავლებასა და შეფასებას ევროპული უნივერსიტეტების კონსორციუმში."
+      },
+      "tags": {
+        "en": [
+          "Education",
+          "Erasmus+",
+          "Consortium"
+        ],
+        "ka": [
+          "განათლება",
+          "Erasmus+",
+          "კონსორციუმი"
+        ]
+      }
+    }
+  },
+  {
+    "key": "black-sea-lab",
+    "order": 1,
+    "data": {
+      "id": "black-sea-lab",
+      "status": "ongoing",
+      "international": true,
+      "fund": {
+        "en": "Horizon",
+        "ka": "Horizon"
+      },
+      "title": {
+        "en": "Black Sea regional cooperation lab",
+        "ka": "შავი ზღვის რეგიონული თანამშრომლობის ლაბორატორია"
+      },
+      "summary": {
+        "en": "Joint research on regional economy, governance and sustainability with partners around the Black Sea basin.",
+        "ka": "ერთობლივი კვლევა რეგიონულ ეკონომიკაზე, მმართველობასა და მდგრადობაზე შავი ზღვის აუზის პარტნიორებთან."
+      },
+      "tags": {
+        "en": [
+          "Social sciences",
+          "Horizon",
+          "Regional"
+        ],
+        "ka": [
+          "სოციალური მეცნიერებები",
+          "Horizon",
+          "რეგიონული"
+        ]
+      }
+    }
+  },
+  {
+    "key": "law-digital-economy",
+    "order": 2,
+    "data": {
+      "id": "law-digital-economy",
+      "status": "ongoing",
+      "international": false,
+      "fund": {
+        "en": "National grant",
+        "ka": "ეროვნული გრანტი"
+      },
+      "title": {
+        "en": "Legal frameworks & the digital economy",
+        "ka": "სამართლებრივი ჩარჩოები და ციფრული ეკონომიკა"
+      },
+      "summary": {
+        "en": "A School of Law study on how Georgian and European law adapt to platforms, data and digital markets.",
+        "ka": "სამართლის სკოლის კვლევა იმის შესახებ, თუ როგორ ეგუება ქართული და ევროპული სამართალი პლატფორმებს, მონაცემებსა და ციფრულ ბაზრებს."
+      },
+      "tags": {
+        "en": [
+          "Law",
+          "National"
+        ],
+        "ka": [
+          "სამართალი",
+          "ეროვნული"
+        ]
+      }
+    }
+  },
+  {
+    "key": "joint-doctoral-supervision",
+    "order": 3,
+    "data": {
+      "id": "joint-doctoral-supervision",
+      "status": "ongoing",
+      "international": true,
+      "fund": {
+        "en": "Erasmus+ mobility",
+        "ka": "Erasmus+ მობილობა"
+      },
+      "title": {
+        "en": "Joint doctoral supervision network",
+        "ka": "ერთობლივი სადოქტორო ხელმძღვანელობის ქსელი"
+      },
+      "summary": {
+        "en": "Co-supervision of doctoral candidates with partner faculties, with shared seminars and exchange.",
+        "ka": "დოქტორანტების თანახელმძღვანელობა პარტნიორ ფაკულტეტებთან, საერთო სემინარებითა და გაცვლით."
+      },
+      "tags": {
+        "en": [
+          "Cross-school",
+          "Doctoral",
+          "Erasmus+"
+        ],
+        "ka": [
+          "სკოლათაშორისი",
+          "სადოქტორო",
+          "Erasmus+"
+        ]
+      }
+    }
+  },
+  {
+    "key": "sme-growth",
+    "order": 4,
+    "data": {
+      "id": "sme-growth",
+      "status": "completed",
+      "international": false,
+      "fund": {
+        "en": "National grant",
+        "ka": "ეროვნული გრანტი"
+      },
+      "title": {
+        "en": "SME growth & entrepreneurship in Georgia",
+        "ka": "მცირე ბიზნესის ზრდა და მეწარმეობა საქართველოში"
+      },
+      "summary": {
+        "en": "A School of Business study mapping how small and medium enterprises scale, with policy recommendations.",
+        "ka": "ბიზნესის სკოლის კვლევა, რომელიც ასახავს მცირე და საშუალო საწარმოების ზრდას, პოლიტიკის რეკომენდაციებით."
+      },
+      "tags": {
+        "en": [
+          "Business",
+          "Applied"
+        ],
+        "ka": [
+          "ბიზნესი",
+          "გამოყენებითი"
+        ]
+      }
+    }
+  },
+  {
+    "key": "computing-curricula",
+    "order": 5,
+    "data": {
+      "id": "computing-curricula",
+      "status": "completed",
+      "international": true,
+      "fund": {
+        "en": "Erasmus+ KA1",
+        "ka": "Erasmus+ KA1"
+      },
+      "title": {
+        "en": "Computing curricula modernisation",
+        "ka": "კომპიუტერული მეცნიერების სასწავლო გეგმის მოდერნიზაცია"
+      },
+      "summary": {
+        "en": "Staff exchange and curriculum redesign in computer science with European partner universities.",
+        "ka": "პერსონალის გაცვლა და სასწავლო გეგმის გადახედვა კომპიუტერულ მეცნიერებაში ევროპელ პარტნიორ უნივერსიტეტებთან."
+      },
+      "tags": {
+        "en": [
+          "Computing",
+          "Erasmus+"
+        ],
+        "ka": [
+          "კომპიუტერული მეცნიერება",
+          "Erasmus+"
+        ]
+      }
+    }
+  }
+]

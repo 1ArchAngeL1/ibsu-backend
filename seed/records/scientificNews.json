@@ -1,0 +1,74 @@
+[
+  {
+    "key": "s1",
+    "order": 0,
+    "data": {
+      "id": "s1",
+      "title": {
+        "en": "Silk Road Conference announces its 20th edition",
+        "ka": "აბრეშუმის გზის კონფერენცია მე-20 გამოშვებას აცხადებს"
+      },
+      "date": "2026-09-10",
+      "img": "/photos/group.webp",
+      "tags": [
+        "conferences",
+        "international"
+      ],
+      "readMinutes": 3
+    }
+  },
+  {
+    "key": "s2",
+    "order": 1,
+    "data": {
+      "id": "s2",
+      "title": {
+        "en": "Two doctoral defences scheduled for October",
+        "ka": "ოქტომბერში ორი სადისერტაციო დაცვა გაიმართება"
+      },
+      "date": "2026-09-02",
+      "img": "/photos/hero-meeting.webp",
+      "tags": [
+        "research",
+        "students"
+      ],
+      "readMinutes": 2
+    }
+  },
+  {
+    "key": "s3",
+    "order": 2,
+    "data": {
+      "id": "s3",
+      "title": {
+        "en": "JEBS indexed in a further international database",
+        "ka": "JEBS კიდევ ერთ საერთაშორისო ბაზაში დაინდექსირდა"
+      },
+      "date": "2026-08-21",
+      "img": "/photos/audience.webp",
+      "tags": [
+        "journals",
+        "research"
+      ],
+      "readMinutes": 4
+    }
+  },
+  {
+    "key": "s4",
+    "order": 3,
+    "data": {
+      "id": "s4",
+      "title": {
+        "en": "Journal of Humanities opens its call for papers for the spring issue",
+        "ka": "ჰუმანიტარულ მეცნიერებათა ჟურნალი საგაზაფხულო ნომრისთვის სტატიების მიღებას იწყებს"
+      },
+      "date": "2026-08-14",
+      "img": "/photos/notebook-pink.webp",
+      "tags": [
+        "journals",
+        "humanities"
+      ],
+      "readMinutes": 3
+    }
+  }
+]

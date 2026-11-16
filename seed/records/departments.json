@@ -1,0 +1,297 @@
+[
+  {
+    "key": "rector",
+    "order": 0,
+    "data": {
+      "id": "rector",
+      "category": "admin",
+      "name": {
+        "en": "Rector’s Office",
+        "ka": "რექტორის აპარატი"
+      },
+      "ext": "101",
+      "email": "rectorsoffice@ibsu.edu.ge"
+    }
+  },
+  {
+    "key": "chancellery",
+    "order": 1,
+    "data": {
+      "id": "chancellery",
+      "category": "admin",
+      "name": {
+        "en": "Chancellery",
+        "ka": "კანცელარია"
+      },
+      "ext": "157",
+      "email": "chancellery@ibsu.edu.ge"
+    }
+  },
+  {
+    "key": "hr",
+    "order": 2,
+    "data": {
+      "id": "hr",
+      "category": "admin",
+      "name": {
+        "en": "HR Management & Development",
+        "ka": "ადამიანური რესურსების მართვისა და განვითარების დეპარტამენტი"
+      },
+      "ext": "161",
+      "email": "hr@ibsu.edu.ge"
+    }
+  },
+  {
+    "key": "legal",
+    "order": 3,
+    "data": {
+      "id": "legal",
+      "category": "admin",
+      "name": {
+        "en": "Legal Service",
+        "ka": "იურიდიული სამსახური"
+      },
+      "ext": "146",
+      "email": "legaloffice@ibsu.edu.ge"
+    }
+  },
+  {
+    "key": "pr",
+    "order": 4,
+    "data": {
+      "id": "pr",
+      "category": "admin",
+      "name": {
+        "en": "PR & Marketing",
+        "ka": "საზოგადოებასთან ურთიერთობისა და მარკეტინგის დეპარტამენტი"
+      },
+      "ext": "195",
+      "email": "pr@ibsu.edu.ge"
+    }
+  },
+  {
+    "key": "dpo",
+    "order": 5,
+    "data": {
+      "id": "dpo",
+      "category": "admin",
+      "name": {
+        "en": "Data Protection Officer",
+        "ka": "პერსონალურ მონაცემთა დაცვის ოფიცერი"
+      },
+      "tel": "+995 555 50 51 58",
+      "site": {
+        "label": "www.dpo.ge",
+        "href": "https://www.dpo.ge"
+      }
+    }
+  },
+  {
+    "key": "business",
+    "order": 6,
+    "data": {
+      "id": "business",
+      "category": "schools",
+      "name": {
+        "en": "School of Business",
+        "ka": "ბიზნესის სკოლა"
+      },
+      "ext": "116",
+      "email": "bmfaculty@ibsu.edu.ge"
+    }
+  },
+  {
+    "key": "eduhum",
+    "order": 7,
+    "data": {
+      "id": "eduhum",
+      "category": "schools",
+      "name": {
+        "en": "Education, Humanities & Social Sciences",
+        "ka": "განათლების, ჰუმანიტარული და სოციალური მეცნიერებების სკოლა"
+      },
+      "ext": "140",
+      "email": "bss@ibsu.edu.ge"
+    }
+  },
+  {
+    "key": "law",
+    "order": 8,
+    "data": {
+      "id": "law",
+      "category": "schools",
+      "name": {
+        "en": "Law & Public Administration",
+        "ka": "სამართლისა და სახელმწიფო მმართველობის სკოლა"
+      },
+      "email": "lawfaculty@ibsu.edu.ge"
+    }
+  },
+  {
+    "key": "computing",
+    "order": 9,
+    "data": {
+      "id": "computing",
+      "category": "schools",
+      "name": {
+        "en": "Computer Science & Architecture",
+        "ka": "კომპიუტერული მეცნიერებისა და არქიტექტურის სკოლა"
+      },
+      "ext": "136",
+      "email": "scsa@ibsu.edu.ge"
+    }
+  },
+  {
+    "key": "medicine",
+    "order": 10,
+    "data": {
+      "id": "medicine",
+      "category": "schools",
+      "name": {
+        "en": "School of Medicine",
+        "ka": "მედიცინის სკოლა"
+      },
+      "ext": "206",
+      "email": "bsm@ibsu.edu.ge"
+    }
+  },
+  {
+    "key": "languages",
+    "order": 11,
+    "data": {
+      "id": "languages",
+      "category": "schools",
+      "name": {
+        "en": "Language Center",
+        "ka": "ენების ცენტრი"
+      },
+      "ext": "176",
+      "page": "/study/languages"
+    }
+  },
+  {
+    "key": "study",
+    "order": 12,
+    "data": {
+      "id": "study",
+      "category": "students",
+      "name": {
+        "en": "Academic Process & Examinations",
+        "ka": "სასწავლო პროცესებისა და გამოცდების მართვის დეპარტამენტი"
+      },
+      "ext": "182",
+      "email": "study@ibsu.edu.ge"
+    }
+  },
+  {
+    "key": "affairs",
+    "order": 13,
+    "data": {
+      "id": "affairs",
+      "category": "students",
+      "name": {
+        "en": "Student Affairs",
+        "ka": "სტუდენტურ საქმეთა სამსახური"
+      },
+      "ext": "181",
+      "email": "studentaffairs@ibsu.edu.ge"
+    }
+  },
+  {
+    "key": "finance",
+    "order": 14,
+    "data": {
+      "id": "finance",
+      "category": "students",
+      "name": {
+        "en": "Student Financial Services",
+        "ka": "სტუდენტების ფინანსური მომსახურების სამსახური"
+      },
+      "ext": "126 / 311",
+      "room": "A111",
+      "email": "finance@ibsu.edu.ge"
+    }
+  },
+  {
+    "key": "career",
+    "order": 15,
+    "data": {
+      "id": "career",
+      "category": "students",
+      "name": {
+        "en": "Career & Industry Cooperation",
+        "ka": "ინდუსტრიასთან თანამშრომლობისა და კარიერული განვითარების სამსახური"
+      },
+      "ext": "110",
+      "email": "careerplanning@ibsu.edu.ge"
+    }
+  },
+  {
+    "key": "alumni",
+    "order": 16,
+    "data": {
+      "id": "alumni",
+      "category": "students",
+      "name": {
+        "en": "Student & Alumni Development",
+        "ka": "სტუდენტთა და კურსდამთავრებულთა განვითარების დეპარტამენტი"
+      },
+      "email": "alumni@ibsu.edu.ge"
+    }
+  },
+  {
+    "key": "library",
+    "order": 17,
+    "data": {
+      "id": "library",
+      "category": "students",
+      "name": {
+        "en": "Library",
+        "ka": "ბიბლიოთეკა"
+      },
+      "ext": "178",
+      "email": "library@ibsu.edu.ge"
+    }
+  },
+  {
+    "key": "iro",
+    "order": 18,
+    "data": {
+      "id": "iro",
+      "category": "centers",
+      "name": {
+        "en": "International Relations Office",
+        "ka": "საერთაშორისო ურთიერთობების სამსახური"
+      },
+      "ext": "164",
+      "email": "iro@ibsu.edu.ge"
+    }
+  },
+  {
+    "key": "academy",
+    "order": 19,
+    "data": {
+      "id": "academy",
+      "category": "centers",
+      "name": {
+        "en": "IBSU Academy",
+        "ka": "IBSU აკადემია"
+      },
+      "ext": "207",
+      "email": "training@ibsu.edu.ge"
+    }
+  },
+  {
+    "key": "tec",
+    "order": 20,
+    "data": {
+      "id": "tec",
+      "category": "centers",
+      "name": {
+        "en": "Technology & Entrepreneurship Center",
+        "ka": "ტექნოლოგიებისა და მეწარმეობის ცენტრი"
+      },
+      "email": "iec@ibsu.edu.ge"
+    }
+  }
+]

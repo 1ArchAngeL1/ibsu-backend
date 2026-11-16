@@ -1,0 +1,47 @@
+[
+  {
+    "key": "0",
+    "order": 0,
+    "data": {
+      "year": 2024,
+      "host": "pdf",
+      "href": "https://ibsu.edu.ge/wp-content/uploads/2025/08/%E1%83%A1%E1%83%90%E1%83%9B%E1%83%90%E1%83%A0%E1%83%97%E1%83%9A%E1%83%98%E1%83%A1-%E1%83%9F%E1%83%A3%E1%83%A0%E1%83%9C%E1%83%90%E1%83%9A%E1%83%98.pdf"
+    }
+  },
+  {
+    "key": "1",
+    "order": 1,
+    "data": {
+      "year": 2023,
+      "host": "platform",
+      "href": "https://jcl.ibsu.edu.ge/jms/index.php/jcl/issue/view/2"
+    }
+  },
+  {
+    "key": "2",
+    "order": 2,
+    "data": {
+      "year": 2021,
+      "host": "platform",
+      "href": "https://jcl.ibsu.edu.ge/jms/index.php/jcl/issue/view/1"
+    }
+  },
+  {
+    "key": "3",
+    "order": 3,
+    "data": {
+      "year": 2020,
+      "host": "pdf",
+      "href": "https://ibsu.edu.ge/wp-content/uploads/2022/06/Contemporary_Journal_Law2.pdf"
+    }
+  },
+  {
+    "key": "4",
+    "order": 4,
+    "data": {
+      "year": 2019,
+      "host": "pdf",
+      "href": "https://ibsu.edu.ge/wp-content/uploads/2022/06/Contemporary_Journal_Law.pdf"
+    }
+  }
+]

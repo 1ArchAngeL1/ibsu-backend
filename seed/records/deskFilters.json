@@ -1,0 +1,43 @@
+[
+  {
+    "key": "default",
+    "order": 0,
+    "data": {
+      "university": [
+        "ceremony",
+        "accreditation",
+        "conference",
+        "partnership",
+        "student"
+      ],
+      "schools": [
+        "business",
+        "law",
+        "eduhum",
+        "computing",
+        "medicine"
+      ],
+      "international": [
+        "erasmus",
+        "partnership",
+        "memoranda",
+        "conference",
+        "delegation"
+      ],
+      "scientific": [
+        "conference",
+        "research",
+        "doctoral",
+        "journal",
+        "grant"
+      ],
+      "student": [
+        "clubs",
+        "competition",
+        "volunteer",
+        "exchange",
+        "achievement"
+      ]
+    }
+  }
+]

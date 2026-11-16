@@ -1,0 +1,159 @@
+[
+  {
+    "key": "builders",
+    "order": 0,
+    "data": {
+      "id": "builders",
+      "title": {
+        "ka": "სად შეიძლება ავაწყოთ ეფექტური რეზიუმე?",
+        "en": "Where can you build an effective resume?"
+      },
+      "links": [
+        {
+          "label": {
+            "ka": "CV Forma (ქართულად)",
+            "en": "CV Forma (Georgian)"
+          },
+          "href": "https://cvforma.com/builder/onboard/start"
+        },
+        {
+          "label": {
+            "ka": "CV Wizard",
+            "en": "CV Wizard"
+          },
+          "href": "https://www.cvwizard.com/uk"
+        },
+        {
+          "label": {
+            "ka": "Europass CV",
+            "en": "Europass CV"
+          },
+          "href": "https://europass.europa.eu/en/create-europass-cv"
+        },
+        {
+          "label": {
+            "ka": "Canva CV",
+            "en": "Canva CV"
+          },
+          "href": "https://www.canva.com/create/cv/"
+        },
+        {
+          "label": {
+            "ka": "Live Career",
+            "en": "Live Career"
+          },
+          "href": "https://www.livecareer.co.uk/"
+        },
+        {
+          "label": {
+            "ka": "Resume.io",
+            "en": "Resume.io"
+          },
+          "href": "https://resume.io/"
+        }
+      ]
+    }
+  },
+  {
+    "key": "cv",
+    "order": 1,
+    "data": {
+      "id": "cv",
+      "title": {
+        "ka": "როგორ ავაწყო ეფექტური რეზიუმე?",
+        "en": "How do you create an effective resume?"
+      },
+      "links": [
+        {
+          "label": {
+            "ka": "ეფექტური CV",
+            "en": "An effective, standout CV"
+          },
+          "href": "https://www.youtube.com/watch?v=_fP43gcBywU"
+        },
+        {
+          "label": {
+            "ka": "რეზიუმეს სტრუქტურა",
+            "en": "The structure of a CV"
+          },
+          "href": "https://www.youtube.com/watch?v=_fP43gcBywU"
+        },
+        {
+          "label": {
+            "ka": "როგორ დავწეროთ ეფექტური რეზიუმე გამოცდილების გარეშე",
+            "en": "How to write an effective resume without experience"
+          },
+          "href": "https://www.youtube.com/watch?v=aArb68OBFPg"
+        }
+      ]
+    }
+  },
+  {
+    "key": "cover",
+    "order": 2,
+    "data": {
+      "id": "cover",
+      "title": {
+        "ka": "როგორ დავწერო ეფექტური სამოტივაციო წერილი?",
+        "en": "How do you write an effective cover letter?"
+      },
+      "links": [
+        {
+          "label": {
+            "ka": "სამოტივაციო წერილის (Cover letter) ფორმატი",
+            "en": "The format of a cover letter"
+          },
+          "href": "https://www.youtube.com/watch?v=ycKMs2FDbs0"
+        },
+        {
+          "label": {
+            "ka": "რა უნდა ჩავწეროთ სამოტივაციო წერილში",
+            "en": "What to write in a cover letter"
+          },
+          "href": "https://www.youtube.com/watch?v=EcFOr9Jo0OA"
+        },
+        {
+          "label": {
+            "ka": "მარტივი გზა სამოტივაციო წერილის დასაწერად",
+            "en": "An easy way to write a cover letter"
+          },
+          "href": "https://www.youtube.com/watch?v=xcdvRKbSOY0"
+        }
+      ]
+    }
+  },
+  {
+    "key": "interview",
+    "order": 3,
+    "data": {
+      "id": "interview",
+      "title": {
+        "ka": "როგორ მოვემზადო გასაუბრებისთვის?",
+        "en": "How do you prepare for an interview?"
+      },
+      "links": [
+        {
+          "label": {
+            "ka": "რჩევები გასაუბრებისთვის",
+            "en": "Top interview tips"
+          },
+          "href": "https://www.youtube.com/watch?v=HG68Ymazo18"
+        },
+        {
+          "label": {
+            "ka": "რა უნდა მოვიძიოთ ინტერვიუმდე",
+            "en": "What to look into before the interview"
+          },
+          "href": "https://www.youtube.com/watch?v=t0u6RgriZRY"
+        },
+        {
+          "label": {
+            "ka": "როგორ მოვემზადო ონლაინ ინტერვიუსთვის",
+            "en": "How to prepare for an online interview"
+          },
+          "href": "https://www.coursera.org/articles/video-interview-tips"
+        }
+      ]
+    }
+  }
+]

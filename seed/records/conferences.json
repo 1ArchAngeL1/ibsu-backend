@@ -1,0 +1,3524 @@
+[
+  {
+    "key": "american-studies",
+    "order": 0,
+    "data": {
+      "slug": "american-studies",
+      "template": "detail",
+      "title": {
+        "en": "American Studies, every year",
+        "ka": "ამერიკისმცოდნეობა, ყოველ წელს"
+      },
+      "lede": {
+        "en": "The Annual International Scientific Conference on American Studies is organised by the School of Education, Humanities & Social Sciences with the U.S. Embassy in Georgia, bringing Georgian, American and European scholars together each year.",
+        "ka": "ამერიკისმცოდნეობის ყოველწლიური საერთაშორისო სამეცნიერო კონფერენცია ორგანიზებულია განათლების, ჰუმანიტარულ და სოციალურ მეცნიერებათა სკოლის მიერ საქართველოში აშშ-ს საელჩოსთან თანამშრომლობით და ყოველწლიურად აერთიანებს ქართველ, ამერიკელ და ევროპელ მეცნიერებს."
+      },
+      "image": "/photos/audience.webp",
+      "sections": [
+        {
+          "kind": "intro",
+          "id": "about",
+          "tone": "paper",
+          "nav": {
+            "en": "About",
+            "ka": "შესახებ"
+          },
+          "heading": {
+            "en": "About the conference",
+            "ka": "კონფერენციის შესახებ"
+          },
+          "pill": {
+            "href": "/research/conferences",
+            "label": {
+              "en": "Back to conferences",
+              "ka": "დაბრუნება კონფერენციებში"
+            }
+          },
+          "lede": {
+            "en": "Held annually, the conference gathers Georgian, American and European scholars to present multidisciplinary and interdisciplinary research on American Studies — covering practically every field of life in the United States. Faculty papers appear alongside the best research from bachelor’s, master’s and doctoral students, giving IBSU’s young researchers real encouragement.",
+            "ka": "ყოველწლიურად ტარდება და აერთიანებს ქართველ, ამერიკელ და ევროპელ მეცნიერებს, რომლებიც წარადგენენ ამერიკისმცოდნეობის მულტიდისციპლინურ და ინტერდისციპლინურ კვლევებს — რომელიც მოიცავს აშშ-ს ცხოვრების პრაქტიკულად ყველა სფეროს. პროფესორების ნაშრომებთან ერთად წარმოდგენილია ბაკალავრიატის, მაგისტრატურის და დოქტორანტურის საუკეთესო სტუდენტების კვლევებიც, რაც სტიმულს აძლევს IBSU-ს ახალგაზრდა მკვლევრებს."
+          },
+          "stats": [
+            {
+              "value": {
+                "en": "Annual",
+                "ka": "ყოველწლიური"
+              },
+              "label": {
+                "en": "Scientific conference",
+                "ka": "სამეცნიერო კონფერენცია"
+              },
+              "accent": true
+            },
+            {
+              "value": {
+                "en": "GE · US · EU",
+                "ka": "GE · US · EU"
+              },
+              "label": {
+                "en": "Participating scholars",
+                "ka": "მონაწილე მეცნიერები"
+              }
+            },
+            {
+              "value": {
+                "en": "All levels",
+                "ka": "ყველა საფეხური"
+              },
+              "label": {
+                "en": "Faculty to undergraduate",
+                "ka": "პროფესორიდან ბაკალავრამდე"
+              }
+            },
+            {
+              "value": {
+                "en": "U.S. Embassy",
+                "ka": "აშშ-ს საელჩო"
+              },
+              "label": {
+                "en": "Partner in Georgia",
+                "ka": "პარტნიორი საქართველოში"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "numbered",
+          "id": "topics",
+          "tone": "gray",
+          "nav": {
+            "en": "Topics",
+            "ka": "თემები"
+          },
+          "heading": {
+            "en": "What the conference covers",
+            "ka": "რას მოიცავს კონფერენცია"
+          },
+          "tag": {
+            "en": "Research · American Studies",
+            "ka": "კვლევა · ამერიკისმცოდნეობა"
+          },
+          "items": [
+            {
+              "title": {
+                "en": "Multidisciplinary papers",
+                "ka": "მულტიდისციპლინური ნაშრომები"
+              },
+              "body": {
+                "en": "Research that draws on more than one field to examine American life and society.",
+                "ka": "კვლევა, რომელიც ერთზე მეტ სფეროს ეყრდნობა ამერიკული ცხოვრებისა და საზოგადოების შესასწავლად."
+              }
+            },
+            {
+              "title": {
+                "en": "Interdisciplinary papers",
+                "ka": "ინტერდისციპლინური ნაშრომები"
+              },
+              "body": {
+                "en": "Work that sits across history, politics, literature, culture and the social sciences.",
+                "ka": "ნაშრომები ისტორიის, პოლიტიკის, ლიტერატურის, კულტურისა და სოციალურ მეცნიერებათა გადაკვეთაზე."
+              }
+            },
+            {
+              "title": {
+                "en": "Faculty research",
+                "ka": "პროფესორთა კვლევა"
+              },
+              "body": {
+                "en": "Papers from IBSU professors and visiting scholars from partner universities.",
+                "ka": "IBSU-ს პროფესორებისა და პარტნიორი უნივერსიტეტების სტუმარი მეცნიერების ნაშრომები."
+              }
+            },
+            {
+              "title": {
+                "en": "Student research",
+                "ka": "სტუდენტური კვლევა"
+              },
+              "body": {
+                "en": "Selected work from bachelor’s, master’s and doctoral students.",
+                "ka": "შერჩეული ნაშრომები ბაკალავრიატის, მაგისტრატურის და დოქტორანტურის სტუდენტებისგან."
+              }
+            },
+            {
+              "title": {
+                "en": "U.S. Embassy partnership",
+                "ka": "აშშ-ს საელჩოს პარტნიორობა"
+              },
+              "body": {
+                "en": "Organised in cooperation with the U.S. Embassy in Georgia.",
+                "ka": "ორგანიზებულია საქართველოში აშშ-ს საელჩოსთან თანამშრომლობით."
+              }
+            },
+            {
+              "title": {
+                "en": "School of Education, Humanities & Social Sciences",
+                "ka": "განათლების, ჰუმანიტარულ და სოციალურ მეცნიერებათა სკოლა"
+              },
+              "body": {
+                "en": "Hosted and organised by the school each year.",
+                "ka": "ყოველწლიურად ორგანიზებულია სკოლის მიერ."
+              }
+            }
+          ]
+        },
+        {
+          "kind": "guidelines",
+          "id": "submission",
+          "tone": "paper",
+          "nav": {
+            "en": "Call for papers",
+            "ka": "ნაშრომების მიღება"
+          },
+          "tag": {
+            "en": "Submission guidelines",
+            "ka": "წარდგენის წესები"
+          },
+          "heading": {
+            "en": "Submitting a paper",
+            "ka": "ნაშრომის წარდგენა"
+          },
+          "image": "/photos/desk-blue.webp",
+          "items": [
+            {
+              "en": "Papers are presented in English.",
+              "ka": "ნაშრომები წარდგენილი უნდა იყოს ინგლისურ ენაზე."
+            },
+            {
+              "en": "No more than 5–6 pages (Times New Roman, size 12, line spacing 1.5).",
+              "ka": "არაუმეტეს 5–6 გვერდისა (Times New Roman, ზომა 12, სტრიქონების ინტერვალი 1,5)."
+            },
+            {
+              "en": "Include a one-page summary in English.",
+              "ka": "უნდა შეიცავდეს ერთგვერდიან შეჯამებას ინგლისურ ენაზე."
+            },
+            {
+              "en": "Give the title of the submission and the name(s) of the author(s).",
+              "ka": "მიუთითეთ ნაშრომის სათაური და ავტორ(ებ)ის სახელი და გვარი."
+            },
+            {
+              "en": "Give the department(s) and affiliation(s), and a mailing address.",
+              "ka": "მიუთითეთ დეპარტამენტ(ებ)ი და აფილაცია(ებ)ი და საფოსტო მისამართი."
+            },
+            {
+              "en": "Give an e-mail address and a phone number.",
+              "ka": "მიუთითეთ ელფოსტა და ტელეფონის ნომერი."
+            }
+          ]
+        },
+        {
+          "kind": "dates",
+          "id": "details",
+          "tone": "gray",
+          "nav": {
+            "en": "Details",
+            "ka": "დეტალები"
+          },
+          "heading": {
+            "en": "Conference details",
+            "ka": "კონფერენციის დეტალები"
+          },
+          "tag": {
+            "en": "Call · AMSC",
+            "ka": "კონკურსი · AMSC"
+          },
+          "lede": {
+            "en": "The call covers themes related to Georgian-American relations.",
+            "ka": "კონფერენციის თემატიკა მოიცავს ქართულ-ამერიკულ ურთიერთობებთან დაკავშირებულ თემებს."
+          },
+          "cells": [
+            {
+              "label": {
+                "en": "Working language",
+                "ka": "სამუშაო ენა"
+              },
+              "value": {
+                "en": "English",
+                "ka": "ინგლისური"
+              },
+              "hot": true
+            },
+            {
+              "label": {
+                "en": "Participation",
+                "ka": "მონაწილეობა"
+              },
+              "value": {
+                "en": "Professors, researchers, MA and PhD students",
+                "ka": "პროფესორები, მკვლევრები, მაგისტრანტები და დოქტორანტები"
+              }
+            },
+            {
+              "label": {
+                "en": "Venue",
+                "ka": "ლოკაცია"
+              },
+              "value": {
+                "en": "IBSU · D. Agmashenebeli Alley 13 km, N2",
+                "ka": "IBSU · დ. აღმაშენებლის ხეივანი, მე-13 კმ, N2"
+              }
+            }
+          ],
+          "note": {
+            "text": {
+              "en": "Questions about the call? Write to {email} or call (995 32) 2800 064 (150).",
+              "ka": "შეკითხვები კონკურსზე? მოგვწერე {email} ან დარეკე (995 32) 2800 064 (150)."
+            },
+            "email": "ams@ibsu.edu.ge"
+          }
+        },
+        {
+          "kind": "archive",
+          "id": "proceedings",
+          "tone": "paper",
+          "nav": {
+            "en": "Proceedings",
+            "ka": "კრებულები"
+          },
+          "heading": {
+            "en": "Programme & proceedings",
+            "ka": "პროგრამა და კრებულები"
+          },
+          "tag": {
+            "en": "Published editions",
+            "ka": "გამოცემული კრებულები"
+          },
+          "rows": [
+            {
+              "year": "2026",
+              "title": {
+                "en": "American Studies Periodical, 16th edition",
+                "ka": "American Studies Periodical, მე-16 გამოცემა"
+              },
+              "meta": {
+                "en": "AMS Conference",
+                "ka": "AMS კონფერენცია"
+              },
+              "links": [
+                {
+                  "doc": "program",
+                  "href": "https://ibsu.edu.ge/wp-content/uploads/2026/06/IBSU-AMS-Conference-Program-8-June-2026-1.pdf"
+                },
+                {
+                  "doc": "proceedings",
+                  "href": "https://ibsu.edu.ge/wp-content/uploads/2026/10/American-Studies-Periodical-16th-Edition_2026.pdf"
+                }
+              ]
+            },
+            {
+              "year": "2025",
+              "title": {
+                "en": "American Studies Periodical, 15th edition",
+                "ka": "American Studies Periodical, მე-15 გამოცემა"
+              },
+              "meta": {
+                "en": "AMS Conference",
+                "ka": "AMS კონფერენცია"
+              },
+              "links": [
+                {
+                  "doc": "proceedings",
+                  "href": "https://ibsu.edu.ge/wp-content/uploads/2025/11/AmericanStudiesPeriodical-15-1-cmyk-ჩასწორებული.pdf"
+                }
+              ]
+            },
+            {
+              "year": "2024",
+              "title": {
+                "en": "American Studies Periodical, 14th edition",
+                "ka": "American Studies Periodical, მე-14 გამოცემა"
+              },
+              "meta": {
+                "en": "AMS Conference",
+                "ka": "AMS კონფერენცია"
+              },
+              "links": [
+                {
+                  "doc": "proceedings",
+                  "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/AmericanStudiesPeriodical-14-1.pdf"
+                }
+              ]
+            },
+            {
+              "year": "2022",
+              "title": {
+                "en": "13th AMS Conference proceedings",
+                "ka": "მე-13 AMS კონფერენციის კრებული"
+              },
+              "meta": {
+                "en": "AMS Conference",
+                "ka": "AMS კონფერენცია"
+              },
+              "links": [
+                {
+                  "doc": "proceedings",
+                  "href": "https://ibsu.edu.ge/wp-content/uploads/2025/07/2022-13th-AMS-Conference-Proceedings-1.pdf"
+                }
+              ]
+            },
+            {
+              "year": "2019",
+              "title": {
+                "en": "AMS Conference Periodical",
+                "ka": "AMS Conference Periodical"
+              },
+              "meta": {
+                "en": "AMS Conference",
+                "ka": "AMS კონფერენცია"
+              },
+              "links": [
+                {
+                  "doc": "proceedings",
+                  "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/AMS-Conference-Periodical-2019-PDF-2.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "links",
+          "id": "participate",
+          "tone": "paper",
+          "nav": {
+            "en": "Participate",
+            "ka": "მონაწილეობა"
+          },
+          "heading": {
+            "en": "Who can present",
+            "ka": "ვის შეუძლია მონაწილეობა"
+          },
+          "pill": {
+            "href": "/research/conferences",
+            "label": {
+              "en": "All conferences",
+              "ka": "ყველა კონფერენცია"
+            }
+          },
+          "lede": {
+            "en": "Professors present alongside students at every level. The best bachelor’s, master’s and doctoral research on American Studies is invited to stand next to established faculty work — a deliberate stimulus for IBSU’s next generation of scholars.",
+            "ka": "პროფესორები წარადგენენ ნაშრომებს ყველა საფეხურის სტუდენტებთან ერთად. ამერიკისმცოდნეობის საუკეთესო ბაკალავრიატის, მაგისტრატურის და დოქტორანტურის კვლევები დგას დამკვიდრებულ პროფესორთა ნაშრომების გვერდით — ეს შეგნებული სტიმულია IBSU-ს მომავალი მეცნიერებისთვის."
+          },
+          "rows": [
+            {
+              "title": {
+                "en": "All IBSU conferences",
+                "ka": "IBSU-ს ყველა კონფერენცია"
+              },
+              "tag": {
+                "en": "See the full annual conference series.",
+                "ka": "იხილე მთელი ყოველწლიური საკონფერენციო სერია."
+              },
+              "href": "/research/conferences"
+            },
+            {
+              "title": {
+                "en": "School of Education, Humanities & Social Sciences",
+                "ka": "განათლების, ჰუმანიტარულ და სოციალურ მეცნიერებათა სკოლა"
+              },
+              "tag": {
+                "en": "The school that organises the conference.",
+                "ka": "სკოლა, რომელიც აწყობს კონფერენციას."
+              },
+              "href": "/schools/eduhum"
+            },
+            {
+              "title": {
+                "en": "Scientific journals",
+                "ka": "სამეცნიერო ჟურნალები"
+              },
+              "tag": {
+                "en": "Where selected proceedings and papers are published.",
+                "ka": "სადაც ქვეყნდება შერჩეული კრებულები და ნაშრომები."
+              },
+              "href": "/research/journals"
+            }
+          ],
+          "contact": {
+            "text": {
+              "en": "Planning to submit a paper or attend? Write to the conference at {email}.",
+              "ka": "აპირებ ნაშრომის წარდგენას ან დასწრებას? მოგვწერე კონფერენციის მისამართზე {email}."
+            },
+            "email": "ams@ibsu.edu.ge"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "key": "student",
+    "order": 1,
+    "data": {
+      "slug": "student",
+      "template": "detail",
+      "title": {
+        "en": "Students, presenting research",
+        "ka": "სტუდენტები, კვლევის წარდგენა"
+      },
+      "lede": {
+        "en": "A yearly conference built to encourage students into research — developing analytical skills, public speaking and the confidence to defend an idea in front of an audience.",
+        "ka": "ყოველწლიური კონფერენცია, რომელიც ხელს უწყობს სტუდენტების ჩართვას კვლევით საქმიანობაში — ავითარებს ანალიტიკურ უნარებს, საჯარო გამოსვლას და იდეის დაცვის თავდაჯერებულობას აუდიტორიის წინაშე."
+      },
+      "image": "/photos/group.webp",
+      "sections": [
+        {
+          "kind": "intro",
+          "id": "about",
+          "tone": "paper",
+          "nav": {
+            "en": "About",
+            "ka": "შესახებ"
+          },
+          "heading": {
+            "en": "About the conference",
+            "ka": "კონფერენციის შესახებ"
+          },
+          "pill": {
+            "href": "/research/conferences",
+            "label": {
+              "en": "Back to conferences",
+              "ka": "დაბრუნება კონფერენციებში"
+            }
+          },
+          "lede": {
+            "en": "The International Multidisciplinary Student Conference invites bachelor’s, master’s and doctoral students — from IBSU and from other accredited universities — to present independent research, share ideas and defend their findings in front of a wider audience.",
+            "ka": "მულტიდისციპლინური საერთაშორისო სტუდენტური კონფერენცია იწვევს ბაკალავრიატის, მაგისტრატურის და დოქტორანტურის სტუდენტებს — IBSU-დან და სხვა ავტორიზებული უნივერსიტეტებიდან — დამოუკიდებელი კვლევის წარსადგენად, იდეების გასაზიარებლად და საკუთარი დასკვნების დასაცავად ფართო აუდიტორიის წინაშე."
+          },
+          "stats": [
+            {
+              "value": {
+                "en": "Annual",
+                "ka": "ყოველწლიური"
+              },
+              "label": {
+                "en": "Student conference",
+                "ka": "სტუდენტური კონფერენცია"
+              },
+              "accent": true
+            },
+            {
+              "value": {
+                "en": "Bachelor’s–Doctoral",
+                "ka": "ბაკალავრიატიდან დოქტორანტურამდე"
+              },
+              "label": {
+                "en": "All degree levels",
+                "ka": "ყველა საფეხური"
+              }
+            },
+            {
+              "value": {
+                "en": "Multi-university",
+                "ka": "მრავალ­უნივერსი­ტეტიანი"
+              },
+              "label": {
+                "en": "Open to external students",
+                "ka": "ღიაა გარე სტუდენტებისთვის"
+              }
+            },
+            {
+              "value": {
+                "en": "Multi­disciplinary",
+                "ka": "მულტი­დისციპლი­ნური"
+              },
+              "label": {
+                "en": "Any field of study",
+                "ka": "ნებისმიერი სპეციალობა"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "numbered",
+          "id": "goals",
+          "tone": "gray",
+          "nav": {
+            "en": "Skills",
+            "ka": "უნარები"
+          },
+          "heading": {
+            "en": "What the conference builds",
+            "ka": "რას ავითარებს კონფერენცია"
+          },
+          "tag": {
+            "en": "Research · Student skills",
+            "ka": "კვლევა · სტუდენტური უნარები"
+          },
+          "items": [
+            {
+              "title": {
+                "en": "Independent research",
+                "ka": "დამოუკიდებელი კვლევა"
+              },
+              "body": {
+                "en": "Students design and carry out their own research project from start to finish.",
+                "ka": "სტუდენტები თავად გეგმავენ და ატარებენ საკუთარ კვლევით პროექტს დასაწყისიდან დასასრულამდე."
+              }
+            },
+            {
+              "title": {
+                "en": "Analytical skills",
+                "ka": "ანალიტიკური უნარები"
+              },
+              "body": {
+                "en": "Structuring an argument and reading evidence critically.",
+                "ka": "არგუმენტის აწყობა და მტკიცებულებების კრიტიკული წაკითხვა."
+              }
+            },
+            {
+              "title": {
+                "en": "Public speaking",
+                "ka": "საჯარო გამოსვლა"
+              },
+              "body": {
+                "en": "Presenting a paper clearly to a large, mixed audience.",
+                "ka": "ნაშრომის ნათლად წარდგენა ფართო, შერეული აუდიტორიის წინაშე."
+              }
+            },
+            {
+              "title": {
+                "en": "Defending ideas",
+                "ka": "იდეების დაცვა"
+              },
+              "body": {
+                "en": "Answering questions and defending a position under scrutiny.",
+                "ka": "კითხვებზე პასუხი და პოზიციის დაცვა შემოწმების პირობებში."
+              }
+            },
+            {
+              "title": {
+                "en": "Idea & experience sharing",
+                "ka": "იდეებისა და გამოცდილების გაზიარება"
+              },
+              "body": {
+                "en": "Students compare approaches and findings with peers from other schools and universities.",
+                "ka": "სტუდენტები ადარებენ მიდგომებსა და დასკვნებს სხვა სკოლების და უნივერსიტეტების თანატოლებთან."
+              }
+            },
+            {
+              "title": {
+                "en": "Cross-university network",
+                "ka": "საუნივერსიტეტთაშორისო ქსელი"
+              },
+              "body": {
+                "en": "IBSU students present alongside students from other accredited institutions.",
+                "ka": "IBSU-ს სტუდენტები წარადგენენ ნაშრომებს სხვა ავტორიზებული დაწესებულებების სტუდენტებთან ერთად."
+              }
+            }
+          ]
+        },
+        {
+          "kind": "topics",
+          "id": "sessions",
+          "tone": "paper",
+          "nav": {
+            "en": "Sessions",
+            "ka": "სექციები"
+          },
+          "heading": {
+            "en": "The sessions",
+            "ka": "კონფერენციის სექციები"
+          },
+          "tag": {
+            "en": "Any field of study",
+            "ka": "ნებისმიერი მიმართულება"
+          },
+          "items": [
+            {
+              "en": "Business — marketing, management, finance, accounting and audit",
+              "ka": "ბიზნესი — მარკეტინგი, მენეჯმენტი, ფინანსები, საბუღალტრო აღრიცხვა და აუდიტი"
+            },
+            {
+              "en": "Economics",
+              "ka": "ეკონომიკა"
+            },
+            {
+              "en": "Tourism",
+              "ka": "ტურიზმი"
+            },
+            {
+              "en": "International relations",
+              "ka": "საერთაშორისო ურთიერთობები"
+            },
+            {
+              "en": "English philology",
+              "ka": "ინგლისური ფილოლოგია"
+            },
+            {
+              "en": "Law",
+              "ka": "სამართალი"
+            },
+            {
+              "en": "Education administration",
+              "ka": "განათლების ადმინისტრირება"
+            },
+            {
+              "en": "American studies",
+              "ka": "ამერიკისმცოდნეობა"
+            },
+            {
+              "en": "Digital media and communication",
+              "ka": "ციფრული მედია და კომუნიკაცია"
+            },
+            {
+              "en": "Public administration and state governance",
+              "ka": "საჯარო ადმინისტრირება და სახელმწიფო მმართველობა"
+            },
+            {
+              "en": "Journalism",
+              "ka": "ჟურნალისტიკა"
+            },
+            {
+              "en": "Psychology",
+              "ka": "ფსიქოლოგია"
+            },
+            {
+              "en": "Public relations (PR)",
+              "ka": "საზოგადოებასთან ურთიერთობა (PR)"
+            },
+            {
+              "en": "Computer science",
+              "ka": "კომპიუტერული მეცნიერება"
+            },
+            {
+              "en": "Management and information technology",
+              "ka": "მენეჯმენტი და ინფორმაციული ტექნოლოგიები"
+            },
+            {
+              "en": "Architecture",
+              "ka": "არქიტექტურა"
+            },
+            {
+              "en": "Medicine",
+              "ka": "მედიცინა"
+            }
+          ]
+        },
+        {
+          "kind": "guidelines",
+          "id": "submission",
+          "tone": "gray",
+          "nav": {
+            "en": "Call for papers",
+            "ka": "ნაშრომების მიღება"
+          },
+          "tag": {
+            "en": "Submission guidelines",
+            "ka": "წარდგენის წესები"
+          },
+          "heading": {
+            "en": "Abstracts & full papers",
+            "ka": "აბსტრაქტი და სრული ნაშრომი"
+          },
+          "image": "/photos/study-hero.webp",
+          "items": [
+            {
+              "en": "Abstracts: no more than 300 words, with a title of no more than 15 words.",
+              "ka": "აბსტრაქტი: არაუმეტეს 300 სიტყვისა, სათაური — არაუმეტეს 15 სიტყვისა."
+            },
+            {
+              "en": "Abstracts include the title, the author(s) full name(s), the field, affiliation and e-mail address, and at least four keywords.",
+              "ka": "აბსტრაქტს თან უნდა ახლდეს ნაშრომის სათაური, ავტორ(ებ)ის სრული სახელი, მიმართულება, აფილაცია და ელფოსტა, და მინიმუმ ოთხი საკვანძო სიტყვა."
+            },
+            {
+              "en": "Full papers run 3000–8000 words, including tables and references.",
+              "ka": "სრული ნაშრომი — 3000–8000 სიტყვა, ცხრილებისა და მითითებების ჩათვლით."
+            },
+            {
+              "en": "Every paper includes an introduction, a literature review, methodology, findings and conclusions, and a list of references.",
+              "ka": "ყველა ნაშრომი უნდა შეიცავდეს შესავალს, ლიტერატურის მიმოხილვას, მეთოდოლოგიას, შედეგებსა და დასკვნებს და გამოყენებული ლიტერატურის სიას."
+            },
+            {
+              "en": "Citation and referencing follow APA6; Georgian papers carry an English abstract as well.",
+              "ka": "ციტირება და დამოწმება APA6 სტანდარტით; ქართული ნაშრომი ინგლისურენოვან აბსტრაქტსაც შეიცავს."
+            },
+            {
+              "en": "Georgian: MS Word, A4, Sylfaen, size 11. English: MS Word, A4, Times New Roman, size 12.",
+              "ka": "ქართული: MS Word, A4, Sylfaen, ზომა 11. ინგლისური: MS Word, A4, Times New Roman, ზომა 12."
+            },
+            {
+              "en": "Infographics take up no more than 20% of the paper.",
+              "ka": "გრაფიკების რაოდენობა არ უნდა აღემატებოდეს ნაშრომის მოცულობის 20%-ს."
+            }
+          ]
+        },
+        {
+          "kind": "dates",
+          "id": "details",
+          "tone": "paper",
+          "nav": {
+            "en": "Details",
+            "ka": "დეტალები"
+          },
+          "heading": {
+            "en": "Dates & details",
+            "ka": "თარიღები და დეტალები"
+          },
+          "tag": {
+            "en": "5th conference · 2026",
+            "ka": "მე-5 კონფერენცია · 2026"
+          },
+          "lede": {
+            "en": "The conference is held in the Grand Conference Hall, Block B, 3rd floor, D. Agmashenebeli Alley 13 km, N2, in Georgian and English. Every participant receives a certificate and the full papers are published in the conference proceedings.",
+            "ka": "კონფერენცია იმართება დიდ საკონფერენციო დარბაზში — B კორპუსი, III სართული, დ. აღმაშენებლის ხეივანი, მე-13 კმ, N2 — ქართულ და ინგლისურ ენებზე. ყველა მონაწილეს გადაეცემა სერტიფიკატი, ნაშრომები კი ქვეყნდება კონფერენციის კრებულში."
+          },
+          "cells": [
+            {
+              "label": {
+                "en": "Conference",
+                "ka": "კონფერენცია"
+              },
+              "value": {
+                "en": "25 June 2026",
+                "ka": "2026 წლის 25 ივნისი"
+              },
+              "hot": true
+            },
+            {
+              "label": {
+                "en": "Abstract deadline",
+                "ka": "აბსტრაქტის ვადა"
+              },
+              "value": {
+                "en": "10 June",
+                "ka": "10 ივნისი"
+              }
+            },
+            {
+              "label": {
+                "en": "Full paper deadline",
+                "ka": "სრული ნაშრომის ვადა"
+              },
+              "value": {
+                "en": "10 July",
+                "ka": "10 ივლისი"
+              }
+            },
+            {
+              "label": {
+                "en": "Participation",
+                "ka": "მონაწილეობა"
+              },
+              "value": {
+                "en": "Free of charge",
+                "ka": "უფასო"
+              }
+            }
+          ],
+          "note": {
+            "text": {
+              "en": "Send the abstract and the full paper to {email}. Confirmation follows only on a complete registration, no later than 17 June.",
+              "ka": "აბსტრაქტი და სრული ნაშრომი გამოაგზავნე მისამართზე {email}. დასტურს მიიღებ მხოლოდ სრულყოფილად რეგისტრაციის შემთხვევაში, არაუგვიანეს 17 ივნისისა."
+            },
+            "email": "conference@ibsu.edu.ge"
+          }
+        },
+        {
+          "kind": "boards",
+          "id": "committee",
+          "tone": "dark",
+          "nav": {
+            "en": "Committee",
+            "ka": "კომიტეტი"
+          },
+          "heading": {
+            "en": "Who organizes it",
+            "ka": "ვინ აწყობს კონფერენციას"
+          },
+          "tag": {
+            "en": "Committee",
+            "ka": "კომიტეტი"
+          },
+          "boards": [
+            {
+              "title": {
+                "en": "Organizing Committee",
+                "ka": "საორგანიზაციო კომიტეტი"
+              },
+              "members": [
+                {
+                  "name": "Nunuka Mitskevich",
+                  "role": {
+                    "en": "Vice-President for Research and Internationalization",
+                    "ka": "ვიცე-პრეზიდენტი კვლევისა და ინტერნაციონალიზაციის მიმართულებით"
+                  }
+                },
+                {
+                  "name": "Goga Buchashvili",
+                  "role": {
+                    "en": "Vice-President for Administrative Affairs",
+                    "ka": "ვიცე-პრეზიდენტი ადმინისტრაციის მიმართულებით"
+                  }
+                },
+                {
+                  "name": "Tea Kbiltsetskhlashvili",
+                  "role": {
+                    "en": "Head of the Research and International Projects Department",
+                    "ka": "კვლევებისა და საერთაშორისო პროექტების დეპარტამენტის ხელმძღვანელი"
+                  }
+                },
+                {
+                  "name": "Sophio Gelashvili",
+                  "role": {
+                    "en": "Research and International Projects Department",
+                    "ka": "კვლევებისა და საერთაშორისო პროექტების დეპარტამენტის უფროსი სპეციალისტი"
+                  }
+                },
+                {
+                  "name": "Tamar Shioshvili",
+                  "role": {
+                    "en": "Dean, School of Education, Humanities and Social Sciences",
+                    "ka": "დეკანი, განათლების, ჰუმანიტარული და სოციალური მეცნიერებების სკოლა"
+                  }
+                },
+                {
+                  "name": "Marika Kldiashvili",
+                  "role": {
+                    "en": "Dean, Business School",
+                    "ka": "დეკანი, ბიზნესის სკოლა"
+                  }
+                },
+                {
+                  "name": "Ioseb Vradzelashvili",
+                  "role": {
+                    "en": "Dean, School of Law and State Governance",
+                    "ka": "დეკანი, სამართლისა და სახელმწიფო მმართველობის სკოლა"
+                  }
+                },
+                {
+                  "name": "Marina Razmadze",
+                  "role": {
+                    "en": "Dean, School of Computer Science and Architecture",
+                    "ka": "დეკანი, კომპიუტერული მეცნიერებისა და არქიტექტურის სკოლა"
+                  }
+                }
+              ]
+            },
+            {
+              "title": {
+                "en": "Programme heads",
+                "ka": "პროგრამების ხელმძღვანელები"
+              },
+              "members": [
+                {
+                  "name": "Nana Nikolaishvili",
+                  "role": {
+                    "en": "Head of the Medicine programme",
+                    "ka": "მედიცინის პროგრამის ხელმძღვანელი"
+                  }
+                },
+                {
+                  "name": "Nia Todua",
+                  "role": {
+                    "en": "Head of the Marketing and PR programmes",
+                    "ka": "მარკეტინგისა და საზოგადოებასთან ურთიერთობის (PR) პროგრამების ხელმძღვანელი"
+                  }
+                },
+                {
+                  "name": "Maka Bughulashvili",
+                  "role": {
+                    "en": "Head of the Management programme",
+                    "ka": "მენეჯმენტის პროგრამის ხელმძღვანელი"
+                  }
+                },
+                {
+                  "name": "Nino Talikadze",
+                  "role": {
+                    "en": "Head of the Accounting and Audit programme",
+                    "ka": "საბუღალტრო აღრიცხვისა და აუდიტის პროგრამის ხელმძღვანელი"
+                  }
+                },
+                {
+                  "name": "Eka Devidze",
+                  "role": {
+                    "en": "Head of the Tourism programme",
+                    "ka": "ტურიზმის პროგრამის ხელმძღვანელი"
+                  }
+                },
+                {
+                  "name": "Nick Chitadze, Baia Ivaneishvili",
+                  "role": {
+                    "en": "Heads of the International Relations programme",
+                    "ka": "საერთაშორისო ურთიერთობების პროგრამის ხელმძღვანელები"
+                  }
+                },
+                {
+                  "name": "Maia Chkotua",
+                  "role": {
+                    "en": "Head of the English Philology programme",
+                    "ka": "ინგლისური ფილოლოგიის პროგრამის ხელმძღვანელი"
+                  }
+                },
+                {
+                  "name": "Ketevan Kokrashvili",
+                  "role": {
+                    "en": "Head of the Law programme",
+                    "ka": "სამართლის პროგრამის ხელმძღვანელი"
+                  }
+                },
+                {
+                  "name": "Eka Pipia",
+                  "role": {
+                    "en": "Head of the Education programme",
+                    "ka": "განათლების პროგრამის ხელმძღვანელი"
+                  }
+                },
+                {
+                  "name": "Dali Osepashvili",
+                  "role": {
+                    "en": "Head of the Digital Media and Communication programme",
+                    "ka": "ციფრული მედიისა და კომუნიკაციის პროგრამის ხელმძღვანელი"
+                  }
+                },
+                {
+                  "name": "Tamar Kakutia",
+                  "role": {
+                    "en": "Head of the Public Administration and State Governance programme",
+                    "ka": "საჯარო ადმინისტრირებისა და სახელმწიფო მმართველობის პროგრამის ხელმძღვანელი"
+                  }
+                },
+                {
+                  "name": "Magda Memanishvili",
+                  "role": {
+                    "en": "Head of the Journalism programme",
+                    "ka": "ჟურნალისტიკის პროგრამის ხელმძღვანელი"
+                  }
+                },
+                {
+                  "name": "Teona Gubianuri",
+                  "role": {
+                    "en": "Head of the Psychology programme",
+                    "ka": "ფსიქოლოგიის პროგრამის ხელმძღვანელი"
+                  }
+                },
+                {
+                  "name": "Niko Abzianidze",
+                  "role": {
+                    "en": "Head of the Computer Science programme",
+                    "ka": "კომპიუტერული მეცნიერებების პროგრამის ხელმძღვანელი"
+                  }
+                },
+                {
+                  "name": "Giorgi Tsutskiridze",
+                  "role": {
+                    "en": "Head of the Architecture programme",
+                    "ka": "არქიტექტურის პროგრამის ხელმძღვანელი"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "archive",
+          "id": "proceedings",
+          "tone": "paper",
+          "nav": {
+            "en": "Proceedings",
+            "ka": "კრებულები"
+          },
+          "heading": {
+            "en": "Programme & proceedings",
+            "ka": "პროგრამა და კრებულები"
+          },
+          "tag": {
+            "en": "Past editions",
+            "ka": "გასული კონფერენციები"
+          },
+          "rows": [
+            {
+              "year": "2026",
+              "title": {
+                "en": "5th Multidisciplinary Student Conference",
+                "ka": "მე-5 მულტიდისციპლინური სტუდენტური კონფერენცია"
+              },
+              "meta": {
+                "en": "Programme",
+                "ka": "პროგრამა"
+              },
+              "links": [
+                {
+                  "doc": "program",
+                  "href": "https://ibsu.edu.ge/wp-content/uploads/2026/06/მე-5-მულტიდისციპლინური-სტუდენტური-კონფერენცია_2026.pdf"
+                }
+              ]
+            },
+            {
+              "year": "2024",
+              "title": {
+                "en": "3rd International Multidisciplinary Student Conference",
+                "ka": "მე-3 საერთაშორისო მულტიდისციპლინური სტუდენტური კონფერენცია"
+              },
+              "meta": {
+                "en": "Student conference",
+                "ka": "სტუდენტური კონფერენცია"
+              },
+              "links": [
+                {
+                  "doc": "proceedings",
+                  "href": "https://ibsu.edu.ge/wp-content/uploads/2024/12/Studcon-Proceedings-Book-2024.pdf"
+                },
+                {
+                  "doc": "abstracts",
+                  "href": "https://ibsu.edu.ge/wp-content/uploads/2025/06/აბსტრაქტების-კრებული-Abstract-Book-2024.pdf"
+                }
+              ]
+            },
+            {
+              "year": "2023",
+              "title": {
+                "en": "2nd International Multidisciplinary Student Conference",
+                "ka": "მე-2 საერთაშორისო მულტიდისციპლინური სტუდენტური კონფერენცია"
+              },
+              "meta": {
+                "en": "Student conference",
+                "ka": "სტუდენტური კონფერენცია"
+              },
+              "links": [
+                {
+                  "doc": "proceedings",
+                  "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/სტუდენტური-კონფერენციის-კრებული1.pdf"
+                }
+              ]
+            },
+            {
+              "year": "2022",
+              "title": {
+                "en": "1st International Multidisciplinary Student Conference",
+                "ka": "პირველი საერთაშორისო მულტიდისციპლინური სტუდენტური კონფერენცია"
+              },
+              "meta": {
+                "en": "Student conference",
+                "ka": "სტუდენტური კონფერენცია"
+              },
+              "links": [
+                {
+                  "doc": "proceedings",
+                  "href": "https://ibsu.edu.ge/wp-content/uploads/2024/07/A4-International-Multidisciplinary-Student-Conference-2022.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "links",
+          "id": "participate",
+          "tone": "paper",
+          "nav": {
+            "en": "Participate",
+            "ka": "მონაწილეობა"
+          },
+          "heading": {
+            "en": "Who can take part",
+            "ka": "ვის შეუძლია მონაწილეობა"
+          },
+          "pill": {
+            "href": "/research/conferences",
+            "label": {
+              "en": "All conferences",
+              "ka": "ყველა კონფერენცია"
+            }
+          },
+          "lede": {
+            "en": "Open to bachelor’s, master’s and doctoral students across all fields of study — both from IBSU and from other authorised higher education institutions.",
+            "ka": "ღიაა ბაკალავრიატის, მაგისტრატურის და დოქტორანტურის სტუდენტებისთვის ნებისმიერი სპეციალობიდან — როგორც IBSU-დან, ასევე სხვა ავტორიზებული უმაღლესი საგანმანათლებლო დაწესებულებებიდან."
+          },
+          "rows": [
+            {
+              "title": {
+                "en": "All IBSU conferences",
+                "ka": "IBSU-ს ყველა კონფერენცია"
+              },
+              "tag": {
+                "en": "See the full annual conference series.",
+                "ka": "იხილე მთელი ყოველწლიური საკონფერენციო სერია."
+              },
+              "href": "/research/conferences"
+            },
+            {
+              "title": {
+                "en": "Doctoral programmes",
+                "ka": "სადოქტორო პროგრამები"
+              },
+              "tag": {
+                "en": "Doctoral students can present their research here too.",
+                "ka": "დოქტორანტებსაც შეუძლიათ აქ წარადგინონ კვლევა."
+              },
+              "href": "/study/doctorate"
+            }
+          ],
+          "contact": {
+            "text": {
+              "en": "Planning to present at the student conference? Register and send your abstract to {email}.",
+              "ka": "აპირებ სტუდენტურ კონფერენციაზე გამოსვლას? გაიარე რეგისტრაცია და აბსტრაქტი გამოაგზავნე მისამართზე {email}."
+            },
+            "email": "conference@ibsu.edu.ge"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "key": "halc",
+    "order": 2,
+    "data": {
+      "slug": "halc",
+      "template": "detail",
+      "title": {
+        "en": "History, art & culture, one region",
+        "ka": "ისტორია, ხელოვნება და კულტურა, ერთი რეგიონი"
+      },
+      "lede": {
+        "en": "An international conference on the history, art, literature and culture of the South Caucasus and Black Sea region, hosted by IBSU together with partner universities.",
+        "ka": "საერთაშორისო კონფერენცია სამხრეთ კავკასიისა და შავი ზღვის რეგიონის ისტორიაზე, ხელოვნებაზე, ლიტერატურასა და კულტურაზე, რომელსაც IBSU მასპინძლობს პარტნიორ უნივერსიტეტებთან ერთად."
+      },
+      "image": "/photos/hero-campus.webp",
+      "sections": [
+        {
+          "kind": "intro",
+          "id": "about",
+          "tone": "paper",
+          "nav": {
+            "en": "About",
+            "ka": "შესახებ"
+          },
+          "heading": {
+            "en": "About the conference",
+            "ka": "კონფერენციის შესახებ"
+          },
+          "pill": {
+            "href": "/research/conferences",
+            "label": {
+              "en": "Back to conferences",
+              "ka": "დაბრუნება კონფერენციებში"
+            }
+          },
+          "lede": {
+            "en": "IBSU, together with partner universities, hosts this international conference to bring researchers and practitioners together — to discuss real challenges, develop professionally, share views, find solutions and explore new opportunities across history, art, literature and culture in the South Caucasus and Black Sea region.",
+            "ka": "IBSU პარტნიორ უნივერსიტეტებთან ერთად მასპინძლობს ამ საერთაშორისო კონფერენციას, რათა შეკრიბოს მკვლევრები და პრაქტიკოსები — განიხილონ რეალური გამოწვევები, განვითარდნენ პროფესიულად, გაიზიარონ მოსაზრებები, იპოვონ გადაწყვეტილებები და გამოიკვლიონ ახალი შესაძლებლობები ისტორიის, ხელოვნების, ლიტერატურისა და კულტურის სფეროებში სამხრეთ კავკასიასა და შავი ზღვის რეგიონში."
+          },
+          "stats": [
+            {
+              "value": {
+                "en": "Inter­national",
+                "ka": "საერთა­შორისო"
+              },
+              "label": {
+                "en": "Local & international participants",
+                "ka": "ადგილობრივი და საერთაშორისო მონაწილეები"
+              }
+            },
+            {
+              "value": {
+                "en": "Partner",
+                "ka": "პარტნიორი"
+              },
+              "label": {
+                "en": "Universities co-host",
+                "ka": "თანა-მასპინძელი უნივერსიტეტები"
+              }
+            },
+            {
+              "value": {
+                "en": "Master’s+",
+                "ka": "მაგისტრი+"
+              },
+              "label": {
+                "en": "Minimum qualification",
+                "ka": "მინიმალური კვალიფიკაცია"
+              }
+            },
+            {
+              "value": {
+                "en": "4",
+                "ka": "4"
+              },
+              "label": {
+                "en": "Fields: history · art · literature · culture",
+                "ka": "სფეროები: ისტორია · ხელოვნება · ლიტერატურა · კულტურა"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "numbered",
+          "id": "topics",
+          "tone": "gray",
+          "nav": {
+            "en": "Topics",
+            "ka": "თემები"
+          },
+          "heading": {
+            "en": "What the conference covers",
+            "ka": "რას მოიცავს კონფერენცია"
+          },
+          "tag": {
+            "en": "Research · History & Culture",
+            "ka": "კვლევა · ისტორია და კულტურა"
+          },
+          "items": [
+            {
+              "title": {
+                "en": "History",
+                "ka": "ისტორია"
+              },
+              "body": {
+                "en": "Theory of history and historiography · the history of economy, trade and work · the history of intercultural dialogue, cities and travel · political history · the history of emotions, habits and ways of life · the history of ideology, belief and representation · documentation and archives.",
+                "ka": "ისტორიის თეორია და ისტორიოგრაფია · ეკონომიკის, ვაჭრობისა და მუშაობის ისტორია · კულტურათაშორისი დიალოგის ისტორია, ქალაქები და მოგზაურობა · პოლიტიკის ისტორია · ემოციების, ჩვევებისა და ცხოვრების წესის ისტორია · იდეოლოგიის, რწმენისა და რეპრეზენტაციის ისტორია · დოკუმენტაცია და არქივი."
+              }
+            },
+            {
+              "title": {
+                "en": "Art",
+                "ka": "ხელოვნება"
+              },
+              "body": {
+                "en": "Art history · classical art · contemporary art · visual art · literary art · performing art · art criticism.",
+                "ka": "ხელოვნების ისტორია · კლასიკური ხელოვნება · თანამედროვე ხელოვნება · ვიზუალური ხელოვნება · ლიტერატურული ხელოვნება · საშემსრულებლო ხელოვნება · ხელოვნების კრიტიკა."
+              }
+            },
+            {
+              "title": {
+                "en": "Literature",
+                "ka": "ლიტერატურა"
+              },
+              "body": {
+                "en": "Classical literature · contemporary literature · comparative literature · children’s literature · theories of literature · poetry and prose, drama and dramaturgy.",
+                "ka": "კლასიკური ლიტერატურა · თანამედროვე ლიტერატურა · შედარებითი ლიტერატურა · საბავშვო ლიტერატურა · ლიტერატურის თეორიები · პოეზია და პროზა, დრამა და დრამატურგია."
+              }
+            },
+            {
+              "title": {
+                "en": "Culture",
+                "ka": "კულტურა"
+              },
+              "body": {
+                "en": "Cultural studies · the cultural heritage of the South Caucasus and the Black Sea region · mythology and ancient cultures · multiculturalism, cultural change and mass culture · cultural anthropology, cultural industry and popular culture · cultural diversity, culture shock and assimilation · resolving cultural conflicts, intercultural communication and folk culture · cultural tourism.",
+                "ka": "კულტურის კვლევები · კულტურული მემკვიდრეობა სამხრეთ კავკასიასა და შავი ზღვის რეგიონში · მითოლოგია და უძველესი კულტურები · მულტიკულტურალიზმი, კულტურული ცვლილებები და მასობრივი კულტურა · კულტურული ანთროპოლოგია, კულტურული ინდუსტრია და პოპულარული კულტურა · კულტურული მრავალფეროვნება, კულტურული შოკი და ასიმილაცია · კულტურული კონფლიქტების მოგვარება, კულტურათაშორისი კომუნიკაცია და ხალხური კულტურა · კულტურული ტურიზმი."
+              }
+            }
+          ]
+        },
+        {
+          "kind": "guidelines",
+          "id": "submission",
+          "tone": "paper",
+          "nav": {
+            "en": "Call for papers",
+            "ka": "ნაშრომების მიღება"
+          },
+          "tag": {
+            "en": "Submission guidelines",
+            "ka": "წარდგენის წესები"
+          },
+          "heading": {
+            "en": "Abstracts & full papers",
+            "ka": "აბსტრაქტი და სრული ნაშრომი"
+          },
+          "image": "/photos/hero-building.webp",
+          "items": [
+            {
+              "en": "Proposals may be submitted in English, Georgian or Russian.",
+              "ka": "წინადადებების წარდგენა შესაძლებელია ინგლისურ, ქართულ ან რუსულ ენებზე."
+            },
+            {
+              "en": "Abstracts: no more than 300 words, with a title of no more than 15 words.",
+              "ka": "აბსტრაქტი: არაუმეტეს 300 სიტყვისა, სათაური — არაუმეტეს 15 სიტყვისა."
+            },
+            {
+              "en": "Give the title of the paper, the author’s full name, an e-mail address and the keywords.",
+              "ka": "მიუთითეთ ნაშრომის სათაური, ავტორის სრული სახელი, ელფოსტა და საკვანძო სიტყვები."
+            },
+            {
+              "en": "English: MS Word, A4, Times New Roman, size 12. Georgian: MS Word, A4, Sylfaen, size 11.",
+              "ka": "ინგლისური: MS Word, A4, Times New Roman, ზომა 12. ქართული: MS Word, A4, Sylfaen, ზომა 11."
+            },
+            {
+              "en": "Send full papers in Microsoft Word (.doc or .docx) with “HALC” in the subject line.",
+              "ka": "სრული ნაშრომი გამოაგზავნეთ Microsoft Word-ის ფაილად (.doc ან .docx), სათაურის ველში მიუთითეთ „HALC“."
+            },
+            {
+              "en": "Authors are informed within two to three weeks of submission.",
+              "ka": "ავტორები ინფორმირებული იქნებიან წარდგენიდან 2–3 კვირის განმავლობაში."
+            }
+          ]
+        },
+        {
+          "kind": "fees",
+          "id": "fees",
+          "tone": "gray",
+          "nav": {
+            "en": "Fees",
+            "ka": "საფასური"
+          },
+          "heading": {
+            "en": "Registration fee",
+            "ka": "რეგისტრაციის საფასური"
+          },
+          "tag": {
+            "en": "Per paper",
+            "ka": "თითო ნაშრომზე"
+          },
+          "lede": {
+            "en": "Transfer to GE36TB7545136020100001, write “HALC — name and surname” as the purpose, and send the transaction slip as a PDF to the conference address.",
+            "ka": "გადარიცხეთ ანგარიშზე GE36TB7545136020100001, დანიშნულებაში მიუთითეთ „HALC — სახელი და გვარი“ და გადარიცხვის ქვითარი PDF-ად გამოაგზავნეთ კონფერენციის მისამართზე."
+          },
+          "cards": [
+            {
+              "marker": {
+                "en": "Regular",
+                "ka": "ძირითადი"
+              },
+              "price": "$30 / 30 ₾",
+              "body": {
+                "en": "Per paper, regardless of the number of co-authors: $30 for international participants, 30 GEL for local ones.",
+                "ka": "თითოეულ ნაშრომზე, თანაავტორების რაოდენობის მიუხედავად: $30 საერთაშორისო და 30 ლარი ადგილობრივი მონაწილეებისთვის."
+              }
+            },
+            {
+              "marker": {
+                "en": "Second paper",
+                "ka": "მეორე ნაშრომი"
+              },
+              "price": "$20 / 20 ₾",
+              "body": {
+                "en": "A second paper by the same author, again regardless of co-authors.",
+                "ka": "იმავე ავტორის მეორე ნაშრომი, ასევე თანაავტორების მიუხედავად."
+              }
+            },
+            {
+              "marker": {
+                "en": "IBSU staff",
+                "ka": "IBSU-ს თანამშრომლები"
+              },
+              "price": "0 ₾",
+              "body": {
+                "en": "Registration is free of charge for IBSU staff.",
+                "ka": "IBSU-ს თანამშრომლებისთვის რეგისტრაცია უფასოა."
+              }
+            }
+          ]
+        },
+        {
+          "kind": "links",
+          "id": "participate",
+          "tone": "paper",
+          "nav": {
+            "en": "Participate",
+            "ka": "მონაწილეობა"
+          },
+          "heading": {
+            "en": "Who can apply",
+            "ka": "ვის შეუძლია განაცხადის შეტანა"
+          },
+          "pill": {
+            "href": "/research/conferences",
+            "label": {
+              "en": "All conferences",
+              "ka": "ყველა კონფერენცია"
+            }
+          },
+          "lede": {
+            "en": "Open to both local and international participants. Applicants must hold at least a master’s degree.",
+            "ka": "ღიაა როგორც ადგილობრივი, ასევე საერთაშორისო მონაწილეებისთვის. აპლიკანტს უნდა ჰქონდეს მინიმუმ მაგისტრის ხარისხი."
+          },
+          "rows": [
+            {
+              "title": {
+                "en": "All IBSU conferences",
+                "ka": "IBSU-ს ყველა კონფერენცია"
+              },
+              "tag": {
+                "en": "See the full annual conference series.",
+                "ka": "იხილე მთელი ყოველწლიური საკონფერენციო სერია."
+              },
+              "href": "/research/conferences"
+            },
+            {
+              "title": {
+                "en": "Partner network",
+                "ka": "პარტნიორთა ქსელი"
+              },
+              "tag": {
+                "en": "The partner universities IBSU works with across the region.",
+                "ka": "პარტნიორი უნივერსიტეტები, რომლებთანაც IBSU თანამშრომლობს რეგიონში."
+              },
+              "href": "/international/partners"
+            },
+            {
+              "title": {
+                "en": "Scientific journals",
+                "ka": "სამეცნიერო ჟურნალები"
+              },
+              "tag": {
+                "en": "Where selected proceedings and papers are published.",
+                "ka": "სადაც ქვეყნდება შერჩეული კრებულები და ნაშრომები."
+              },
+              "href": "/research/journals"
+            }
+          ],
+          "contact": {
+            "text": {
+              "en": "Planning to submit a proposal or attend? Write to the conference at {email}.",
+              "ka": "აპირებ განაცხადის შეტანას ან დასწრებას? მოგვწერე კონფერენციის მისამართზე {email}."
+            },
+            "email": "halc@ibsu.edu.ge"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "key": "young-researchers",
+    "order": 3,
+    "data": {
+      "slug": "young-researchers",
+      "template": "detail",
+      "title": {
+        "en": "Young researchers on education",
+        "ka": "ახალგაზრდა მკვლევრები განათლების შესახებ"
+      },
+      "lede": {
+        "en": "INTERC — the International Young Researchers Conference on Education. Young, graduate, postgraduate and post-doctorate researchers from Georgia and abroad share research on teaching and learning across every level of education. Participation is free.",
+        "ka": "INTERC — ახალგაზრდა მკვლევართა საერთაშორისო კონფერენცია განათლების შესახებ. ახალგაზრდა, მაგისტრანტი, დოქტორანტი და პოსტ-დოქტორანტი მკვლევრები საქართველოდან და მის ფარგლებს გარეთ იზიარებენ კვლევებს სწავლებისა და სწავლის შესახებ განათლების ყველა საფეხურზე. მონაწილეობა უფასოა."
+      },
+      "image": "/photos/group.webp",
+      "sections": [
+        {
+          "kind": "intro",
+          "id": "about",
+          "tone": "paper",
+          "nav": {
+            "en": "About",
+            "ka": "შესახებ"
+          },
+          "heading": {
+            "en": "About the conference",
+            "ka": "კონფერენციის შესახებ"
+          },
+          "pill": {
+            "href": "/research/conferences",
+            "label": {
+              "en": "Back to conferences",
+              "ka": "დაბრუნება კონფერენციებში"
+            }
+          },
+          "lede": {
+            "en": "The International Young Researchers Conference (INTERC) strengthens the ties between young researchers in different countries and broadens the knowledge of early-career scholars working on education — so they can develop their research skills and build collaboration in their field. Experienced researchers are on hand to offer guidance, and international participants can present online.",
+            "ka": "ახალგაზრდა მკვლევართა საერთაშორისო კონფერენცია (INTERC) აძლიერებს კავშირებს სხვადასხვა ქვეყნის ახალგაზრდა მკვლევრებს შორის და აფართოებს განათლების სფეროში მომუშავე ახალგაზრდა მეცნიერების ცოდნას — რათა მათ განავითარონ კვლევითი უნარები და ააშენონ თანამშრომლობა თავიანთ სფეროში. გამოცდილი მკვლევრები მზად არიან რჩევის მისაცემად, ხოლო საერთაშორისო მონაწილეებს შეუძლიათ ონლაინ წარადგინონ ნაშრომი."
+          },
+          "stats": [
+            {
+              "value": {
+                "en": "Annual",
+                "ka": "ყოველწლიური"
+              },
+              "label": {
+                "en": "On education",
+                "ka": "განათლების შესახებ"
+              },
+              "accent": true
+            },
+            {
+              "value": {
+                "en": "Georgia & abroad",
+                "ka": "საქართველო და მსოფლიო"
+              },
+              "label": {
+                "en": "Open internationally",
+                "ka": "ღიაა საერთაშორისოდ"
+              }
+            },
+            {
+              "value": {
+                "en": "Free",
+                "ka": "უფასო"
+              },
+              "label": {
+                "en": "No participation fee",
+                "ka": "მონაწილეობის საფასურის გარეშე"
+              }
+            },
+            {
+              "value": {
+                "en": "Certificate",
+                "ka": "სერტიფიკატი"
+              },
+              "label": {
+                "en": "Every presenter",
+                "ka": "ყველა მომხსენებელს"
+              }
+            }
+          ],
+          "after": {
+            "en": "The working languages are English and Georgian; abstracts are submitted in English. Selected papers are offered publication in the IBSU Scientific Journals.",
+            "ka": "სამუშაო ენებია ინგლისური და ქართული; აბსტრაქტები წარედგინება ინგლისურ ენაზე. შერჩეულ ნაშრომებს სთავაზობენ გამოქვეყნებას IBSU-ს სამეცნიერო ჟურნალებში."
+          }
+        },
+        {
+          "kind": "numbered",
+          "id": "tracks",
+          "tone": "gray",
+          "nav": {
+            "en": "Tracks",
+            "ka": "მიმართულებები"
+          },
+          "heading": {
+            "en": "Conference tracks",
+            "ka": "კონფერენციის მიმართულებები"
+          },
+          "tag": {
+            "en": "Abstracts · Papers · Proposals",
+            "ka": "აბსტრაქტები · ნაშრომები · წინადადებები"
+          },
+          "lede": {
+            "en": "INTERC invites abstracts, papers and proposals in any of the following tracks — with a special focus on teaching and learning at the primary, secondary and tertiary level.",
+            "ka": "INTERC იწვევს აბსტრაქტებს, ნაშრომებსა და წინადადებებს ქვემოთ ჩამოთვლილ ნებისმიერ მიმართულებაში — განსაკუთრებული აქცენტით სწავლებასა და სწავლაზე დაწყებით, საშუალო და უმაღლეს საფეხურზე."
+          },
+          "items": [
+            {
+              "title": {
+                "en": "Social Sciences & Humanities",
+                "ka": "სოციალური მეცნიერებები და ჰუმანიტარია"
+              },
+              "body": {
+                "en": "Research across the social sciences and the humanities.",
+                "ka": "კვლევა სოციალურ მეცნიერებებსა და ჰუმანიტარიაში."
+              }
+            },
+            {
+              "title": {
+                "en": "Business & Economics",
+                "ka": "ბიზნესი და ეკონომიკა"
+              },
+              "body": {
+                "en": "Management, finance, economics and entrepreneurship.",
+                "ka": "მენეჯმენტი, ფინანსები, ეკონომიკა და მეწარმეობა."
+              }
+            },
+            {
+              "title": {
+                "en": "Science, Technology & Engineering",
+                "ka": "მეცნიერება, ტექნოლოგია და ინჟინერია"
+              },
+              "body": {
+                "en": "The sciences, computing, technology and engineering.",
+                "ka": "საბუნებისმეტყველო მეცნიერებები, კომპიუტინგი, ტექნოლოგია და ინჟინერია."
+              }
+            },
+            {
+              "title": {
+                "en": "Education",
+                "ka": "განათლება"
+              },
+              "body": {
+                "en": "Pedagogy, pre-school, primary and secondary education and management, higher education, educational psychology, education reforms, language and humanities teaching, and CLIL.",
+                "ka": "პედაგოგიკა, სკოლამდელი, დაწყებითი და საშუალო განათლება და მართვა, უმაღლესი განათლება, საგანმანათლებლო ფსიქოლოგია, განათლების რეფორმები, ენისა და ჰუმანიტარიის სწავლება და CLIL."
+              }
+            }
+          ]
+        },
+        {
+          "kind": "numbered",
+          "id": "boards",
+          "tone": "paper",
+          "nav": {
+            "en": "Boards",
+            "ka": "საბჭოები"
+          },
+          "heading": {
+            "en": "Boards & committees",
+            "ka": "საბჭოები და კომიტეტები"
+          },
+          "tag": {
+            "en": "Organisation · Review",
+            "ka": "ორგანიზება · რეცენზირება"
+          },
+          "lede": {
+            "en": "INTERC is run by two boards — an organising committee that manages the event and a scientific committee that reviews every submission.",
+            "ka": "INTERC-ს ხელმძღვანელობს ორი საბჭო — საორგანიზაციო კომიტეტი, რომელიც მართავს ღონისძიებას, და სამეცნიერო კომიტეტი, რომელიც განიხილავს ყველა წარდგენილ ნაშრომს."
+          },
+          "items": [
+            {
+              "title": {
+                "en": "Organising Committee",
+                "ka": "საორგანიზაციო კომიტეტი"
+              },
+              "body": {
+                "en": "Coordinates the call for papers, the programme, the venue and the online platform, and looks after participants throughout the conference.",
+                "ka": "კოორდინაციას უწევს ნაშრომების მიღებას, პროგრამას, ჩატარების ადგილს და ონლაინ პლატფორმას, და ზრუნავს მონაწილეებზე კონფერენციის განმავლობაში."
+              }
+            },
+            {
+              "title": {
+                "en": "Scientific Committee",
+                "ka": "სამეცნიერო კომიტეტი"
+              },
+              "body": {
+                "en": "Faculty and researchers from IBSU and partner universities who peer-review each abstract and paper and decide on acceptance.",
+                "ka": "IBSU-ს და პარტნიორი უნივერსიტეტების პროფესორები და მკვლევრები, რომლებიც განიხილავენ თითოეულ აბსტრაქტსა და ნაშრომს და იღებენ გადაწყვეტილებას მიღების შესახებ."
+              }
+            },
+            {
+              "title": {
+                "en": "Track chairs",
+                "ka": "მიმართულების თავმჯდომარეები"
+              },
+              "body": {
+                "en": "Each track is chaired by a specialist who guides its sessions and moderates the discussion.",
+                "ka": "თითოეულ მიმართულებას ხელმძღვანელობს სპეციალისტი, რომელიც წარმართავს სესიებს და მოდერაციას უწევს დისკუსიას."
+              }
+            },
+            {
+              "title": {
+                "en": "Mentors",
+                "ka": "მენტორები"
+              },
+              "body": {
+                "en": "Experienced researchers who offer guidance to young presenters before and during the conference.",
+                "ka": "გამოცდილი მკვლევრები, რომლებიც ეხმარებიან ახალგაზრდა მომხსენებლებს კონფერენციამდე და მის განმავლობაში."
+              }
+            }
+          ]
+        },
+        {
+          "kind": "timeline",
+          "id": "dates",
+          "tone": "gray",
+          "nav": {
+            "en": "Dates",
+            "ka": "თარიღები"
+          },
+          "heading": {
+            "en": "Important dates",
+            "ka": "მნიშვნელოვანი თარიღები"
+          },
+          "tag": {
+            "en": "Call · Review · Conference",
+            "ka": "მიღება · რეცენზირება · კონფერენცია"
+          },
+          "lede": {
+            "en": "The recurring INTERC timeline. Exact dates for the current edition are announced with each call for papers.",
+            "ka": "INTERC-ის მუდმივი ვადები. მიმდინარე გამოცემის ზუსტი თარიღები ცხადდება ყოველ ნაშრომების მიღების გამოცხადებისას."
+          },
+          "rows": [
+            {
+              "when": {
+                "en": "Call opens",
+                "ka": "მიღება იხსნება"
+              },
+              "title": {
+                "en": "Call for papers",
+                "ka": "ნაშრომების მიღება"
+              },
+              "body": {
+                "en": "The call and the tracks for the edition are published.",
+                "ka": "ქვეყნდება მიღების გამოცხადება და მიმართულებები."
+              }
+            },
+            {
+              "when": {
+                "en": "Deadline",
+                "ka": "ვადა"
+              },
+              "title": {
+                "en": "Abstract submission",
+                "ka": "აბსტრაქტის წარდგენა"
+              },
+              "body": {
+                "en": "Submit your abstract in English through the online form.",
+                "ka": "წარადგინე აბსტრაქტი ინგლისურ ენაზე ონლაინ ფორმის მეშვეობით."
+              }
+            },
+            {
+              "when": {
+                "en": "+2 weeks",
+                "ka": "+2 კვირა"
+              },
+              "title": {
+                "en": "Notification of acceptance",
+                "ka": "მიღების შეტყობინება"
+              },
+              "body": {
+                "en": "The scientific committee confirms accepted abstracts by email.",
+                "ka": "სამეცნიერო კომიტეტი ადასტურებს მიღებულ აბსტრაქტებს ელფოსტით."
+              }
+            },
+            {
+              "when": {
+                "en": "Before the event",
+                "ka": "ღონისძიებამდე"
+              },
+              "title": {
+                "en": "Registration & full paper",
+                "ka": "რეგისტრაცია და სრული ნაშრომი"
+              },
+              "body": {
+                "en": "Registered presenters prepare their presentation and, where relevant, a full paper.",
+                "ka": "რეგისტრირებული მომხსენებლები ამზადებენ პრეზენტაციას და, საჭიროებისამებრ, სრულ ნაშრომს."
+              }
+            },
+            {
+              "when": {
+                "en": "Conference day",
+                "ka": "კონფერენციის დღე"
+              },
+              "title": {
+                "en": "Conference",
+                "ka": "კონფერენცია"
+              },
+              "body": {
+                "en": "Presentations across the tracks; certificates issued to every presenter.",
+                "ka": "პრეზენტაციები ყველა მიმართულებით; სერტიფიკატები გაიცემა ყველა მომხსენებელზე."
+              }
+            },
+            {
+              "when": {
+                "en": "After",
+                "ka": "შემდეგ"
+              },
+              "title": {
+                "en": "Publication",
+                "ka": "გამოქვეყნება"
+              },
+              "body": {
+                "en": "Selected papers are offered publication in the IBSU Scientific Journals.",
+                "ka": "შერჩეულ ნაშრომებს სთავაზობენ გამოქვეყნებას IBSU-ს სამეცნიერო ჟურნალებში."
+              }
+            }
+          ]
+        },
+        {
+          "kind": "numbered",
+          "id": "process",
+          "tone": "paper",
+          "nav": {
+            "en": "Process",
+            "ka": "პროცესი"
+          },
+          "heading": {
+            "en": "How it works",
+            "ka": "როგორ მუშაობს"
+          },
+          "items": [
+            {
+              "title": {
+                "en": "Submit an abstract",
+                "ka": "წარადგინე აბსტრაქტი"
+              },
+              "body": {
+                "en": "Complete the submission form and upload your abstract (in English) as a .doc, .docx or .pdf.",
+                "ka": "შეავსე წარდგენის ფორმა და ატვირთე აბსტრაქტი (ინგლისურად) .doc, .docx ან .pdf ფორმატში."
+              }
+            },
+            {
+              "title": {
+                "en": "Peer review",
+                "ka": "რეცენზირება"
+              },
+              "body": {
+                "en": "The scientific committee reviews each abstract against the tracks.",
+                "ka": "სამეცნიერო კომიტეტი განიხილავს თითოეულ აბსტრაქტს მიმართულებების მიხედვით."
+              }
+            },
+            {
+              "title": {
+                "en": "Notification",
+                "ka": "შეტყობინება"
+              },
+              "body": {
+                "en": "Accepted presenters are notified by email, with the online platform link for international participants.",
+                "ka": "მიღებულ მომხსენებლებს ეცნობებათ ელფოსტით, საერთაშორისო მონაწილეებისთვის ონლაინ პლატფორმის ბმულთან ერთად."
+              }
+            },
+            {
+              "title": {
+                "en": "Register & prepare",
+                "ka": "დარეგისტრირდი და მოემზადე"
+              },
+              "body": {
+                "en": "Register and prepare your presentation in English or Georgian.",
+                "ka": "დარეგისტრირდი და მოამზადე პრეზენტაცია ინგლისურ ან ქართულ ენაზე."
+              }
+            },
+            {
+              "title": {
+                "en": "Present",
+                "ka": "წარადგინე"
+              },
+              "body": {
+                "en": "Present your work to a young professional audience and receive a certificate of participation.",
+                "ka": "წარადგინე ნაშრომი ახალგაზრდა პროფესიონალ აუდიტორიას და მიიღე მონაწილეობის სერტიფიკატი."
+              }
+            },
+            {
+              "title": {
+                "en": "Publish",
+                "ka": "გამოაქვეყნე"
+              },
+              "body": {
+                "en": "Selected papers are offered publication in the IBSU Scientific Journals.",
+                "ka": "შერჩეულ ნაშრომებს სთავაზობენ გამოქვეყნებას IBSU-ს სამეცნიერო ჟურნალებში."
+              }
+            }
+          ]
+        },
+        {
+          "kind": "schedule",
+          "id": "program",
+          "tone": "gray",
+          "nav": {
+            "en": "Program",
+            "ka": "პროგრამა"
+          },
+          "heading": {
+            "en": "Conference programme",
+            "ka": "კონფერენციის პროგრამა"
+          },
+          "tag": {
+            "en": "Sample day",
+            "ka": "სანიმუშო დღე"
+          },
+          "lede": {
+            "en": "A typical INTERC day. The full programme for the current edition is published ahead of the conference.",
+            "ka": "ტიპური INTERC-ის დღე. მიმდინარე გამოცემის სრული პროგრამა ქვეყნდება კონფერენციამდე."
+          },
+          "rows": [
+            {
+              "time": "10:30",
+              "title": {
+                "en": "Registration",
+                "ka": "რეგისტრაცია"
+              },
+              "body": {
+                "en": "Arrival, badges and coffee.",
+                "ka": "ჩამოსვლა, ბეიჯები და ყავა."
+              }
+            },
+            {
+              "time": "11:00",
+              "title": {
+                "en": "Opening",
+                "ka": "გახსნა"
+              },
+              "body": {
+                "en": "Welcome from the organising committee.",
+                "ka": "მისალმება საორგანიზაციო კომიტეტისგან."
+              }
+            },
+            {
+              "time": "11:30",
+              "title": {
+                "en": "Keynote",
+                "ka": "მთავარი მოხსენება"
+              },
+              "body": {
+                "en": "An invited talk on research in education.",
+                "ka": "მოწვეული სიტყვა განათლების კვლევის შესახებ."
+              }
+            },
+            {
+              "time": "12:15",
+              "title": {
+                "en": "Parallel sessions I",
+                "ka": "პარალელური სესიები I"
+              },
+              "body": {
+                "en": "Presentations across the four tracks.",
+                "ka": "პრეზენტაციები ოთხივე მიმართულებით."
+              }
+            },
+            {
+              "time": "14:00",
+              "title": {
+                "en": "Break",
+                "ka": "შესვენება"
+              },
+              "body": {
+                "en": "Lunch and networking.",
+                "ka": "სადილი და ქსელური ურთიერთობა."
+              }
+            },
+            {
+              "time": "15:00",
+              "title": {
+                "en": "Parallel sessions II",
+                "ka": "პარალელური სესიები II"
+              },
+              "body": {
+                "en": "Further track presentations and discussion.",
+                "ka": "დამატებითი პრეზენტაციები და დისკუსია."
+              }
+            },
+            {
+              "time": "16:45",
+              "title": {
+                "en": "Closing & certificates",
+                "ka": "დახურვა და სერტიფიკატები"
+              },
+              "body": {
+                "en": "Remarks and certificates for presenters.",
+                "ka": "შემაჯამებელი სიტყვა და სერტიფიკატები მომხსენებლებს."
+              }
+            }
+          ]
+        },
+        {
+          "kind": "form",
+          "id": "submission",
+          "tone": "paper",
+          "nav": {
+            "en": "Submission",
+            "ka": "წარდგენა"
+          },
+          "heading": {
+            "en": "Submit your abstract",
+            "ka": "წარადგინე აბსტრაქტი"
+          },
+          "tag": {
+            "en": "Free · English abstract",
+            "ka": "უფასო · აბსტრაქტი ინგლისურად"
+          },
+          "lede": {
+            "en": "Complete the form and upload your abstract. Abstracts are submitted in English; presentations can be in English or Georgian.",
+            "ka": "შეავსე ფორმა და ატვირთე აბსტრაქტი. აბსტრაქტები წარედგინება ინგლისურად; პრეზენტაცია შესაძლებელია ინგლისურ ან ქართულ ენაზე."
+          },
+          "email": "research@ibsu.edu.ge"
+        },
+        {
+          "kind": "links",
+          "id": "proceedings",
+          "tone": "gray",
+          "nav": {
+            "en": "Proceedings",
+            "ka": "კრებულები"
+          },
+          "heading": {
+            "en": "Proceedings",
+            "ka": "კრებულები"
+          },
+          "pill": {
+            "href": "/research/journals",
+            "label": {
+              "en": "IBSU journals",
+              "ka": "IBSU-ს ჟურნალები"
+            }
+          },
+          "lede": {
+            "en": "Papers from past editions of INTERC. Selected papers are also offered publication in the IBSU Scientific Journals.",
+            "ka": "ნაშრომები INTERC-ის წარსული გამოცემებიდან. შერჩეულ ნაშრომებს ასევე სთავაზობენ გამოქვეყნებას IBSU-ს სამეცნიერო ჟურნალებში."
+          },
+          "rows": [
+            {
+              "title": {
+                "en": "INTERC 2018 proceedings",
+                "ka": "INTERC 2018 კრებული"
+              },
+              "tag": {
+                "en": "Papers presented at the 2018 conference.",
+                "ka": "2018 წლის კონფერენციაზე წარდგენილი ნაშრომები."
+              },
+              "href": "/research/journals"
+            },
+            {
+              "title": {
+                "en": "INTERC 2017 proceedings",
+                "ka": "INTERC 2017 კრებული"
+              },
+              "tag": {
+                "en": "Papers presented at the 2017 conference.",
+                "ka": "2017 წლის კონფერენციაზე წარდგენილი ნაშრომები."
+              },
+              "href": "/research/journals"
+            },
+            {
+              "title": {
+                "en": "IBSU Scientific Journals",
+                "ka": "IBSU-ს სამეცნიერო ჟურნალები"
+              },
+              "tag": {
+                "en": "Where selected INTERC papers are published.",
+                "ka": "სადაც ქვეყნდება INTERC-ის შერჩეული ნაშრომები."
+              },
+              "href": "/research/journals"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "key": "irceelt",
+    "order": 4,
+    "data": {
+      "slug": "irceelt",
+      "template": "subsite",
+      "title": {
+        "en": "The 16th IRCEELT",
+        "ka": "XVI IRCEELT"
+      },
+      "accent": {
+        "en": "Conference",
+        "ka": "კონფერენცია"
+      },
+      "lede": {
+        "en": "International Research Conference on Education, Language and Literature — where scholars from across the world convene to advance teaching, applied linguistics and literary study.",
+        "ka": "საერთაშორისო სამეცნიერო კონფერენცია განათლების, ენისა და ლიტერატურის შესახებ — მკვლევრები მთელი მსოფლიოდან."
+      },
+      "image": "/photos/audience.webp",
+      "palette": {
+        "accent": "#123c6b",
+        "ink": "#0a2545",
+        "gold": "#c88f16",
+        "gold2": "#e5aa1e"
+      },
+      "chips": [
+        {
+          "en": "International Black Sea University",
+          "ka": "შავი ზღვის საერთაშორისო უნივერსიტეტი"
+        },
+        {
+          "en": "Tbilisi",
+          "ka": "თბილისი"
+        }
+      ],
+      "facts": [
+        {
+          "label": {
+            "en": "Conference date",
+            "ka": "თარიღი"
+          },
+          "value": {
+            "en": "May 15, 2026",
+            "ka": "15 მაისი, 2026"
+          }
+        },
+        {
+          "label": {
+            "en": "Format",
+            "ka": "ფორმატი"
+          },
+          "value": {
+            "en": "Hybrid · Tbilisi",
+            "ka": "ჰიბრიდული · თბილისი"
+          }
+        },
+        {
+          "label": {
+            "en": "Publication",
+            "ka": "პუბლიკაცია"
+          },
+          "value": {
+            "en": "Cambridge Scholars",
+            "ka": "Cambridge Scholars"
+          }
+        }
+      ],
+      "sections": [
+        {
+          "kind": "about",
+          "id": "about",
+          "tone": "paper",
+          "nav": {
+            "en": "About",
+            "ka": "შესახებ"
+          },
+          "heading": {
+            "en": "About the conference",
+            "ka": "კონფერენციის შესახებ"
+          },
+          "pill": {
+            "href": "/research/conferences",
+            "label": {
+              "en": "Back to conferences",
+              "ka": "დაბრუნება კონფერენციებში"
+            }
+          },
+          "statement": {
+            "en": "A scholarly meeting point for education, language and literature.",
+            "ka": "სამეცნიერო შეხვედრა განათლების, ენისა და ლიტერატურისთვის."
+          },
+          "paragraphs": [
+            {
+              "en": "IRCEELT is an annual international research conference hosted by International Black Sea University in Tbilisi, Georgia. For over a decade it has brought together educators, linguists, literary scholars and doctoral researchers to present original work, exchange methods and build lasting academic partnerships across borders.",
+              "ka": "IRCEELT არის ყოველწლიური საერთაშორისო სამეცნიერო კონფერენცია, რომელსაც მასპინძლობს შავი ზღვის საერთაშორისო უნივერსიტეტი თბილისში. ათ წელზე მეტია ის აერთიანებს პედაგოგებს, ლინგვისტებსა და მკვლევრებს მთელი მსოფლიოდან."
+            },
+            {
+              "en": "The 2026 edition places particular emphasis on the responsible use of artificial intelligence in education, alongside enduring questions of pedagogy, applied linguistics, curriculum design and cultural study. Selected papers will be subject to publication with Cambridge Scholars Publishing.",
+              "ka": "2026 წლის გამოცემა განსაკუთრებულ ყურადღებას უთმობს ხელოვნური ინტელექტის პასუხისმგებლიან გამოყენებას განათლებაში. შერჩეული ნაშრომები გამოქვეყნდება Cambridge Scholars Publishing-ში."
+            }
+          ]
+        },
+        {
+          "kind": "countdown",
+          "id": "countdown",
+          "tone": "dark",
+          "heading": {
+            "en": "Conference begins in",
+            "ka": "დაწყებამდე დარჩა"
+          },
+          "target": "2026-05-15T09:00:00+04:00",
+          "line": {
+            "en": "May 15, 2026 · Tbilisi",
+            "ka": "15 მაისი, 2026 · თბილისი"
+          }
+        },
+        {
+          "kind": "topics",
+          "id": "topics",
+          "tone": "gray",
+          "nav": {
+            "en": "Topics",
+            "ka": "თემები"
+          },
+          "heading": {
+            "en": "Topics covered",
+            "ka": "განსახილველი თემები"
+          },
+          "tag": {
+            "en": "Call for papers",
+            "ka": "ნაშრომების მიღება"
+          },
+          "lede": {
+            "en": "We welcome original research across the full breadth of education, language and literature. Submissions may address, but are not limited to, the following areas.",
+            "ka": "მივიღებთ ორიგინალურ კვლევებს განათლების, ენისა და ლიტერატურის სფეროებში. თემები მოიცავს, მაგრამ არ შემოიფარგლება შემდეგით."
+          },
+          "items": [
+            {
+              "en": "Education Foundations & Theory",
+              "ka": "განათლების საფუძვლები და თეორია"
+            },
+            {
+              "en": "Pedagogical Approaches & Practices",
+              "ka": "პედაგოგიური მიდგომები"
+            },
+            {
+              "en": "Educational Leadership & Administration",
+              "ka": "საგანმანათლებლო ლიდერობა"
+            },
+            {
+              "en": "Learning Sciences & Development",
+              "ka": "სწავლის მეცნიერებები"
+            },
+            {
+              "en": "Language & Communication Studies",
+              "ka": "ენისა და კომუნიკაციის კვლევა"
+            },
+            {
+              "en": "Professional Development in Education",
+              "ka": "პროფესიული განვითარება"
+            },
+            {
+              "en": "Curriculum & Instructional Design",
+              "ka": "სასწავლო გეგმის დიზაინი"
+            },
+            {
+              "en": "Assessment & Evaluation Systems",
+              "ka": "შეფასების სისტემები"
+            },
+            {
+              "en": "Lifelong & Community Education",
+              "ka": "უწყვეტი განათლება"
+            },
+            {
+              "en": "Educational Innovation & Technology",
+              "ka": "ინოვაცია და ტექნოლოგია"
+            },
+            {
+              "en": "Artificial Intelligence in Education",
+              "ka": "ხელოვნური ინტელექტი განათლებაში"
+            },
+            {
+              "en": "Literature & Cultural Studies",
+              "ka": "ლიტერატურა და კულტურა"
+            },
+            {
+              "en": "Digital Literacy & Media Education",
+              "ka": "ციფრული წიგნიერება"
+            },
+            {
+              "en": "Inclusive & Special Education",
+              "ka": "ინკლუზიური განათლება"
+            },
+            {
+              "en": "Cross-cultural & International Education",
+              "ka": "საერთაშორისო განათლება"
+            },
+            {
+              "en": "Sustainability & Environmental Education",
+              "ka": "მდგრადი განვითარება"
+            },
+            {
+              "en": "Mental Health & Wellbeing in Education",
+              "ka": "ფსიქიკური ჯანმრთელობა"
+            },
+            {
+              "en": "STEM Education",
+              "ka": "STEM განათლება"
+            },
+            {
+              "en": "Comparative Literature",
+              "ka": "შედარებითი ლიტერატურა"
+            },
+            {
+              "en": "Literary Theory & Criticism",
+              "ka": "ლიტერატურის თეორია"
+            },
+            {
+              "en": "Applied Linguistics",
+              "ka": "გამოყენებითი ლინგვისტიკა"
+            },
+            {
+              "en": "Sociolinguistics",
+              "ka": "სოციოლინგვისტიკა"
+            },
+            {
+              "en": "Language Teaching & Learning",
+              "ka": "ენის სწავლება"
+            },
+            {
+              "en": "Translation Studies",
+              "ka": "თარგმანმცოდნეობა"
+            }
+          ]
+        },
+        {
+          "kind": "dates",
+          "id": "dates",
+          "tone": "paper",
+          "nav": {
+            "en": "Dates",
+            "ka": "თარიღები"
+          },
+          "heading": {
+            "en": "Important dates",
+            "ka": "მნიშვნელოვანი თარიღები"
+          },
+          "tag": {
+            "en": "Timeline",
+            "ka": "ვადები"
+          },
+          "cells": [
+            {
+              "label": {
+                "en": "Abstract deadline",
+                "ka": "აბსტრაქტის ვადა"
+              },
+              "value": {
+                "en": "May 5, 2026",
+                "ka": "5 მაისი, 2026"
+              }
+            },
+            {
+              "label": {
+                "en": "Payment deadline",
+                "ka": "გადახდის ვადა"
+              },
+              "value": {
+                "en": "May 11, 2026",
+                "ka": "11 მაისი, 2026"
+              }
+            },
+            {
+              "label": {
+                "en": "Conference date",
+                "ka": "კონფერენცია"
+              },
+              "value": {
+                "en": "May 15, 2026",
+                "ka": "15 მაისი, 2026"
+              },
+              "hot": true
+            },
+            {
+              "label": {
+                "en": "Full-text submission",
+                "ka": "სრული ტექსტი"
+              },
+              "value": {
+                "en": "June 30, 2026",
+                "ka": "30 ივნისი, 2026"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "speakers",
+          "id": "speakers",
+          "tone": "gray",
+          "nav": {
+            "en": "Speakers",
+            "ka": "მომხსენებლები"
+          },
+          "heading": {
+            "en": "Keynote speakers",
+            "ka": "მთავარი მომხსენებლები"
+          },
+          "tag": {
+            "en": "Keynote — 2026",
+            "ka": "მთავარი მოხსენებები — 2026"
+          },
+          "items": [
+            {
+              "initials": "KH",
+              "country": {
+                "en": "United States",
+                "ka": "აშშ"
+              },
+              "name": "Katie Rose Hejtmanek",
+              "affiliation": {
+                "en": "Brooklyn College · CUNY · U.S. Embassy",
+                "ka": "ბრუკლინის კოლეჯი · CUNY · აშშ-ს საელჩო"
+              },
+              "talk": "Embodied Learning: Lessons from the Gym and Beyond"
+            },
+            {
+              "initials": "TW",
+              "country": {
+                "en": "United States",
+                "ka": "აშშ"
+              },
+              "name": "Treyton Williams",
+              "affiliation": {
+                "en": "United States",
+                "ka": "აშშ"
+              },
+              "talk": "Are You AI-Ready? Preparing Faculty for the New Era of Teaching"
+            },
+            {
+              "initials": "ER",
+              "country": {
+                "en": "United States",
+                "ka": "აშშ"
+              },
+              "name": "Edward R. Raupp",
+              "affiliation": {
+                "en": "United States",
+                "ka": "აშშ"
+              },
+              "talk": "Three Proposals for the Effective and Ethical Use of AI in Education"
+            },
+            {
+              "initials": "JK",
+              "country": {
+                "en": "Poland",
+                "ka": "პოლონეთი"
+              },
+              "name": "Jarosław Krajka",
+              "affiliation": {
+                "en": "Poland",
+                "ka": "პოლონეთი"
+              },
+              "talk": "Studying language change in the AI era: Will ChatGPT rewrite our grammars?"
+            }
+          ]
+        },
+        {
+          "kind": "guidelines",
+          "id": "guidelines",
+          "tone": "paper",
+          "nav": {
+            "en": "Guidelines",
+            "ka": "წესები"
+          },
+          "tag": {
+            "en": "Submission guidelines",
+            "ka": "წარდგენის წესები"
+          },
+          "heading": {
+            "en": "How to prepare your paper",
+            "ka": "როგორ მოვამზადოთ ნაშრომი"
+          },
+          "image": "/photos/hero-meeting.webp",
+          "items": [
+            {
+              "en": "Abstract of no more than 300 words, with title, author(s), affiliation and keywords.",
+              "ka": "აბსტრაქტი არაუმეტეს 300 სიტყვისა, სათაურით, ავტორ(ებ)ითა და საკვანძო სიტყვებით."
+            },
+            {
+              "en": "Full papers up to 3,000 words following APA style for citation and referencing.",
+              "ka": "სრული ნაშრომი 3000 სიტყვამდე, APA სტილის მიხედვით."
+            },
+            {
+              "en": "Structure: introduction, literature review, methodology, findings and conclusions.",
+              "ka": "სტრუქტურა: შესავალი, ლიტერატურის მიმოხილვა, მეთოდოლოგია, შედეგები, დასკვნა."
+            },
+            {
+              "en": "Selected papers considered for Cambridge Scholars Publishing.",
+              "ka": "შერჩეული ნაშრომები განიხილება Cambridge Scholars Publishing-ისთვის."
+            }
+          ]
+        },
+        {
+          "kind": "fees",
+          "id": "fees",
+          "tone": "gray",
+          "nav": {
+            "en": "Registration",
+            "ka": "რეგისტრაცია"
+          },
+          "heading": {
+            "en": "Fees & registration",
+            "ka": "საფასური და რეგისტრაცია"
+          },
+          "tag": {
+            "en": "Participate",
+            "ka": "მონაწილეობა"
+          },
+          "cards": [
+            {
+              "marker": {
+                "en": "01",
+                "ka": "01"
+              },
+              "title": {
+                "en": "Presenter",
+                "ka": "მომხსენებელი"
+              },
+              "body": {
+                "en": "Submit an abstract for oral or poster presentation and, if accepted, a full paper for the proceedings.",
+                "ka": "წარადგინე აბსტრაქტი ზეპირი ან პოსტერული პრეზენტაციისთვის და, დამტკიცების შემთხვევაში, სრული ნაშრომი."
+              },
+              "action": {
+                "label": {
+                  "en": "Submit abstract",
+                  "ka": "აბსტრაქტის გაგზავნა"
+                },
+                "href": "mailto:irceelt@ibsu.edu.ge?subject=IRCEELT-2026%20Abstract"
+              }
+            },
+            {
+              "marker": {
+                "en": "02",
+                "ka": "02"
+              },
+              "title": {
+                "en": "Listener",
+                "ka": "მსმენელი"
+              },
+              "body": {
+                "en": "Attend all sessions and keynotes without presenting. Register in advance to receive a certificate of attendance.",
+                "ka": "დაესწარი ყველა სესიასა და მთავარ მოხსენებას პრეზენტაციის გარეშე. დარეგისტრირდი წინასწარ."
+              },
+              "action": {
+                "label": {
+                  "en": "Register as listener",
+                  "ka": "რეგისტრაცია"
+                },
+                "href": "mailto:irceelt@ibsu.edu.ge?subject=IRCEELT-2026%20Listener"
+              }
+            },
+            {
+              "marker": {
+                "en": "03",
+                "ka": "03"
+              },
+              "title": {
+                "en": "Publication",
+                "ka": "პუბლიკაცია"
+              },
+              "body": {
+                "en": "Accepted full papers appear in the IRCEELT proceedings; selected work is put forward to Cambridge Scholars Publishing.",
+                "ka": "დამტკიცებული ნაშრომები ქვეყნდება IRCEELT-ის კრებულში; შერჩეული — Cambridge Scholars-ში."
+              }
+            }
+          ]
+        },
+        {
+          "kind": "boards",
+          "id": "boards",
+          "tone": "dark",
+          "heading": {
+            "en": "Conference boards",
+            "ka": "საკონფერენციო საბჭო"
+          },
+          "tag": {
+            "en": "Committees",
+            "ka": "კომიტეტები"
+          },
+          "nav": {
+            "en": "Boards",
+            "ka": "საბჭო"
+          },
+          "boards": [
+            {
+              "title": {
+                "en": "Organizing Committee",
+                "ka": "საორგანიზაციო კომიტეტი"
+              },
+              "members": [
+                {
+                  "name": "Prof. Dr. Nunuka Mitskevich",
+                  "role": {
+                    "en": "Vice-Rector for Research · IBSU",
+                    "ka": "რექტორის მოადგილე კვლევის დარგში · IBSU"
+                  }
+                },
+                {
+                  "name": "Assoc. Prof. Dr. Tea Kbiltsetskhlashvili",
+                  "role": {
+                    "en": "Head of Research & International Projects",
+                    "ka": "კვლევისა და საერთაშორისო პროექტების ხელმძღვანელი"
+                  }
+                },
+                {
+                  "name": "Prof. Dr. Tamar Shioshvili",
+                  "role": {
+                    "en": "Dean, School of Education, Humanities & Social Sciences",
+                    "ka": "განათლების სკოლის დეკანი"
+                  }
+                },
+                {
+                  "name": "Sophio Gelashvili",
+                  "role": {
+                    "en": "International Relations Office · IBSU",
+                    "ka": "საერთაშორისო ურთიერთობების ოფისი · IBSU"
+                  }
+                }
+              ]
+            },
+            {
+              "title": {
+                "en": "Scientific Board",
+                "ka": "სამეცნიერო საბჭო"
+              },
+              "members": [
+                {
+                  "name": "Prof. Dr. Ketevan Lapachi",
+                  "role": {
+                    "en": "International Black Sea University · Georgia",
+                    "ka": "შავი ზღვის საერთაშორისო უნივერსიტეტი"
+                  }
+                },
+                {
+                  "name": "Prof. Dr. Nino Partsvania",
+                  "role": {
+                    "en": "International Black Sea University · Georgia",
+                    "ka": "შავი ზღვის საერთაშორისო უნივერსიტეტი"
+                  }
+                },
+                {
+                  "name": "Prof. Dr. Edward R. Raupp",
+                  "role": {
+                    "en": "United States",
+                    "ka": "აშშ"
+                  }
+                },
+                {
+                  "name": "Prof. Dr. Jarosław Krajka",
+                  "role": {
+                    "en": "Poland",
+                    "ka": "პოლონეთი"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "archive",
+          "id": "archive",
+          "tone": "paper",
+          "nav": {
+            "en": "Archive",
+            "ka": "არქივი"
+          },
+          "heading": {
+            "en": "Proceedings & past editions",
+            "ka": "კრებულები და წინა გამოცემები"
+          },
+          "tag": {
+            "en": "Archive",
+            "ka": "არქივი"
+          },
+          "rows": [
+            {
+              "year": "2025",
+              "title": {
+                "en": "IRCEELT-2025",
+                "ka": "IRCEELT-2025"
+              },
+              "meta": {
+                "en": "Hybrid edition",
+                "ka": "ჰიბრიდული"
+              },
+              "links": [
+                {
+                  "doc": "proceedings",
+                  "href": "https://ircelt.ibsu.edu.ge/wp-content/uploads/2025/09/irceelt2025.pdf"
+                }
+              ]
+            },
+            {
+              "year": "2024",
+              "title": {
+                "en": "IRCEELT-2024",
+                "ka": "IRCEELT-2024"
+              },
+              "meta": {
+                "en": "Hybrid edition",
+                "ka": "ჰიბრიდული"
+              },
+              "links": [
+                {
+                  "doc": "program",
+                  "href": "https://ircelt.ibsu.edu.ge/wp-content/uploads/2024/05/Ir-2024-U_program-1.pdf"
+                },
+                {
+                  "doc": "abstracts",
+                  "href": "https://ircelt.ibsu.edu.ge/wp-content/uploads/2024/05/BOOK-OF-ABSTRACTS_FINAL-_-IRCEELT-2024.pdf"
+                },
+                {
+                  "doc": "proceedings",
+                  "href": "https://ircelt.ibsu.edu.ge/wp-content/uploads/2024/06/Proceedings-IRCEELT-2024.pdf"
+                }
+              ]
+            },
+            {
+              "year": "2023",
+              "title": {
+                "en": "IRCEELT-2023",
+                "ka": "IRCEELT-2023"
+              },
+              "meta": {
+                "en": "Hybrid edition",
+                "ka": "ჰიბრიდული"
+              },
+              "links": [
+                {
+                  "doc": "program",
+                  "href": "https://ircelt.ibsu.edu.ge/wp-content/uploads/2023/05/A4-PROGRAM-IRCEELT-2023.pdf"
+                },
+                {
+                  "doc": "abstracts",
+                  "href": "https://ircelt.ibsu.edu.ge/wp-content/uploads/2023/05/A4-abstract-book-IRCEELT-2023.pdf"
+                },
+                {
+                  "doc": "proceedings",
+                  "href": "https://ircelt.ibsu.edu.ge/wp-content/uploads/2023/09/A4-PROCEDINGS-BOOK-IRCEELT-2023.pdf"
+                }
+              ]
+            },
+            {
+              "year": "2022",
+              "title": {
+                "en": "IRCEELT-2022",
+                "ka": "IRCEELT-2022"
+              },
+              "meta": {
+                "en": "Online edition",
+                "ka": "ონლაინ"
+              },
+              "links": [
+                {
+                  "doc": "program",
+                  "href": "https://ircelt.ibsu.edu.ge/wp-content/uploads/2022/05/IRCELT-Program-2022.pdf"
+                },
+                {
+                  "doc": "proceedings",
+                  "href": "https://ircelt.ibsu.edu.ge/wp-content/uploads/2022/10/A4-IRCELT-2022-Proceedings-Book__final.pdf"
+                }
+              ]
+            },
+            {
+              "year": "2021",
+              "title": {
+                "en": "IRCEELT-2021",
+                "ka": "IRCEELT-2021"
+              },
+              "meta": {
+                "en": "Online edition",
+                "ka": "ონლაინ"
+              },
+              "links": [
+                {
+                  "doc": "program",
+                  "href": "https://ircelt.ibsu.edu.ge/wp-content/uploads/2019/08/IRCEELT-2021_Program_V3.pdf"
+                },
+                {
+                  "doc": "proceedings",
+                  "href": "https://ircelt.ibsu.edu.ge/wp-content/uploads/2021/09/IRCEELT-2021_Proceedings_v1.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "key": "silk-road",
+    "order": 5,
+    "data": {
+      "slug": "silk-road",
+      "template": "subsite",
+      "title": {
+        "en": "The 20th International",
+        "ka": "XX საერთაშორისო"
+      },
+      "accent": {
+        "en": "Silk Road Conference",
+        "ka": "აბრეშუმის გზის კონფერენცია"
+      },
+      "lede": {
+        "en": "Scholars from across Eurasia convene in Tbilisi to examine the Belt and Road Initiative, shifting trade corridors and their implications for the South Caucasus and beyond.",
+        "ka": "მკვლევრები მთელი ევრაზიიდან იკრიბებიან თბილისში, რათა განიხილონ „სარტყელი და გზა“ ინიციატივა და მისი გავლენა სამხრეთ კავკასიაზე."
+      },
+      "image": "/photos/hero-building.webp",
+      "palette": {
+        "accent": "#0a4127",
+        "ink": "#041e12",
+        "gold": "#cf8b10",
+        "gold2": "#e8a81c"
+      },
+      "chips": [
+        {
+          "en": "International Black Sea University",
+          "ka": "შავი ზღვის საერთაშორისო უნივერსიტეტი"
+        },
+        {
+          "en": "Tbilisi",
+          "ka": "თბილისი"
+        }
+      ],
+      "facts": [
+        {
+          "label": {
+            "en": "Conference dates",
+            "ka": "თარიღები"
+          },
+          "value": {
+            "en": "October 8–9, 2026",
+            "ka": "8–9 ოქტომბერი, 2026"
+          }
+        },
+        {
+          "label": {
+            "en": "Format",
+            "ka": "ფორმატი"
+          },
+          "value": {
+            "en": "Physical & Virtual",
+            "ka": "ფიზიკური და ვირტუალური"
+          }
+        },
+        {
+          "label": {
+            "en": "Location",
+            "ka": "ადგილი"
+          },
+          "value": {
+            "en": "Tbilisi, Georgia",
+            "ka": "თბილისი, საქართველო"
+          }
+        }
+      ],
+      "sections": [
+        {
+          "kind": "about",
+          "id": "about",
+          "tone": "paper",
+          "nav": {
+            "en": "About",
+            "ka": "შესახებ"
+          },
+          "heading": {
+            "en": "About the conference",
+            "ka": "კონფერენციის შესახებ"
+          },
+          "pill": {
+            "href": "/research/conferences",
+            "label": {
+              "en": "Back to conferences",
+              "ka": "დაბრუნება კონფერენციებში"
+            }
+          },
+          "statement": {
+            "en": "Two decades of scholarship on the routes between Asia and Europe.",
+            "ka": "ორი ათწლეული კვლევისა აზიასა და ევროპას შორის გზებზე."
+          },
+          "paragraphs": [
+            {
+              "en": "China’s Belt and Road Initiative reaches across the whole Eurasian landmass, as well as East Africa and South Asia. Concrete infrastructure projects for international trade and investment have been financed along both the traditional “belt” and the newly conceived maritime “road” — yet the transport corridors between Asia and Europe remain vulnerable and, in recent years, disrupted.",
+              "ka": "ჩინეთის „სარტყელი და გზა“ ინიციატივა მოიცავს მთელ ევრაზიის კონტინენტს, ასევე აღმოსავლეთ აფრიკასა და სამხრეთ აზიას. ინფრასტრუქტურული პროექტები დაფინანსდა როგორც ტრადიციული „სარტყლის“, ისე ახალი საზღვაო „გზის“ გასწვრივ."
+            },
+            {
+              "en": "The International Silk Road Conference brings scholars from many countries to Tbilisi to discuss the implications of the BRI and the disruption of former routes for the South Caucasus and neighbouring regions. We encourage high-quality research across security, economy, law, governance, culture and technology. The languages of the conference are English and Georgian.",
+              "ka": "აბრეშუმის გზის საერთაშორისო კონფერენცია აერთიანებს მკვლევრებს მრავალი ქვეყნიდან თბილისში. კონფერენციის ენებია ინგლისური და ქართული."
+            }
+          ]
+        },
+        {
+          "kind": "countdown",
+          "id": "countdown",
+          "tone": "dark",
+          "heading": {
+            "en": "Event will start in",
+            "ka": "დაწყებამდე დარჩა"
+          },
+          "target": "2026-10-08T10:00:00+04:00",
+          "line": {
+            "en": "October 8, 2026 · Tbilisi",
+            "ka": "8 ოქტომბერი, 2026 · თბილისი"
+          }
+        },
+        {
+          "kind": "topics",
+          "id": "topics",
+          "tone": "gray",
+          "nav": {
+            "en": "Fields",
+            "ka": "მიმართულებები"
+          },
+          "heading": {
+            "en": "Conference fields",
+            "ka": "კონფერენციის მიმართულებები"
+          },
+          "tag": {
+            "en": "Call for papers",
+            "ka": "ნაშრომების მიღება"
+          },
+          "lede": {
+            "en": "We welcome high-quality research papers across the disciplines below. Fields include, but are not limited to, the following.",
+            "ka": "მივიღებთ მაღალი ხარისხის ნაშრომებს ქვემოთ ჩამოთვლილ დისციპლინებში."
+          },
+          "items": [
+            {
+              "en": "Security & Conflicts",
+              "ka": "უსაფრთხოება და კონფლიქტები"
+            },
+            {
+              "en": "Economy & Green Economy",
+              "ka": "ეკონომიკა, მწვანე ეკონომიკა"
+            },
+            {
+              "en": "Business & Management",
+              "ka": "ბიზნესი და მენეჯმენტი"
+            },
+            {
+              "en": "International Relations",
+              "ka": "საერთაშორისო ურთიერთობები"
+            },
+            {
+              "en": "Politics & Society",
+              "ka": "პოლიტიკა და საზოგადოება"
+            },
+            {
+              "en": "Public Administration & Governance",
+              "ka": "საჯარო მმართველობა"
+            },
+            {
+              "en": "Law & Human Rights",
+              "ka": "სამართალი და ადამიანის უფლებები"
+            },
+            {
+              "en": "Finance, Accounting & Audit",
+              "ka": "ფინანსები, აღრიცხვა, აუდიტი"
+            },
+            {
+              "en": "Marketing",
+              "ka": "მარკეტინგი"
+            },
+            {
+              "en": "Tourism",
+              "ka": "ტურიზმი"
+            },
+            {
+              "en": "Logistics",
+              "ka": "ლოგისტიკა"
+            },
+            {
+              "en": "Ecology",
+              "ka": "ეკოლოგია"
+            },
+            {
+              "en": "Journalism",
+              "ka": "ჟურნალისტიკა"
+            },
+            {
+              "en": "Digital Media & Communication",
+              "ka": "ციფრული მედია და კომუნიკაცია"
+            },
+            {
+              "en": "Computer Sciences & IT",
+              "ka": "კომპიუტერული მეცნიერებები და IT"
+            },
+            {
+              "en": "AI & Signal Processing",
+              "ka": "AI და სიგნალის დამუშავება"
+            },
+            {
+              "en": "Architecture",
+              "ka": "არქიტექტურა"
+            },
+            {
+              "en": "Medicine",
+              "ka": "მედიცინა"
+            },
+            {
+              "en": "American Studies",
+              "ka": "ამერიკისმცოდნეობა"
+            },
+            {
+              "en": "History, Art, Literature & Culture",
+              "ka": "ისტორია, ხელოვნება, ლიტერატურა და კულტურა"
+            }
+          ]
+        },
+        {
+          "kind": "dates",
+          "id": "dates",
+          "tone": "paper",
+          "nav": {
+            "en": "Deadlines",
+            "ka": "ვადები"
+          },
+          "heading": {
+            "en": "Deadlines & key dates",
+            "ka": "ვადები და თარიღები"
+          },
+          "tag": {
+            "en": "Timeline",
+            "ka": "ვადები"
+          },
+          "cells": [
+            {
+              "label": {
+                "en": "Abstract & registration",
+                "ka": "აბსტრაქტი და რეგისტრაცია"
+              },
+              "value": {
+                "en": "Sep 15, 2026",
+                "ka": "15 სექტემბერი, 2026"
+              }
+            },
+            {
+              "label": {
+                "en": "Conference dates",
+                "ka": "კონფერენცია"
+              },
+              "value": {
+                "en": "Oct 8–9, 2026",
+                "ka": "8–9 ოქტომბერი, 2026"
+              },
+              "hot": true
+            },
+            {
+              "label": {
+                "en": "Full paper submission",
+                "ka": "სრული ნაშრომი"
+              },
+              "value": {
+                "en": "Oct 20, 2026",
+                "ka": "20 ოქტომბერი, 2026"
+              }
+            }
+          ],
+          "note": {
+            "text": {
+              "en": "Submit your full paper or abstract as a .doc / .docx attachment to {email}, indicating “SR2026” in the subject line so we can process submissions faster.",
+              "ka": "გამოაგზავნე ნაშრომი ან აბსტრაქტი .doc / .docx ფორმატში მისამართზე {email}, სათაურის ველში მიუთითე „SR2026“."
+            },
+            "email": "silkroad@ibsu.edu.ge"
+          }
+        },
+        {
+          "kind": "guidelines",
+          "id": "guidelines",
+          "tone": "gray",
+          "nav": {
+            "en": "Guidelines",
+            "ka": "წესები"
+          },
+          "tag": {
+            "en": "Submission guidelines",
+            "ka": "წარდგენის წესები"
+          },
+          "heading": {
+            "en": "Preparing your submission",
+            "ka": "როგორ მოვამზადოთ ნაშრომი"
+          },
+          "image": "/photos/hero-meeting.webp",
+          "items": [
+            {
+              "en": "Abstract of no more than 300 words in English, Russian or Georgian, with keywords.",
+              "ka": "აბსტრაქტი არაუმეტეს 300 სიტყვისა ინგლისურ, რუსულ ან ქართულ ენაზე."
+            },
+            {
+              "en": "Full papers up to 3,000 words including tables and references; APA-6 citation style.",
+              "ka": "სრული ნაშრომი 3000 სიტყვამდე; APA-6 ციტირების სტილი."
+            },
+            {
+              "en": "English in Times New Roman 12; Georgian in Sylfaen 11; title up to 15 words.",
+              "ka": "ინგლისური — Times New Roman 12; ქართული — Sylfaen 11; სათაური 15 სიტყვამდე."
+            },
+            {
+              "en": "Include introduction, literature review, methodology, findings and conclusions. Georgian papers add an English abstract.",
+              "ka": "შესავალი, ლიტერატურის მიმოხილვა, მეთოდოლოგია, შედეგები, დასკვნა. ქართულ ნაშრომს დაერთოს ინგლისური აბსტრაქტი."
+            }
+          ]
+        },
+        {
+          "kind": "fees",
+          "id": "fees",
+          "tone": "gray",
+          "continues": true,
+          "nav": {
+            "en": "Fees",
+            "ka": "საფასური"
+          },
+          "heading": {
+            "en": "Fees & registration",
+            "ka": "საფასური და რეგისტრაცია"
+          },
+          "tag": {
+            "en": "Participate",
+            "ka": "მონაწილეობა"
+          },
+          "cards": [
+            {
+              "marker": {
+                "en": "International participant",
+                "ka": "საერთაშორისო მონაწილე"
+              },
+              "price": "100 USD",
+              "body": {
+                "en": "Covers participation, the conference programme and inclusion of accepted papers in the proceedings book.",
+                "ka": "მოიცავს მონაწილეობას, პროგრამასა და დამტკიცებული ნაშრომების კრებულში გამოქვეყნებას."
+              }
+            },
+            {
+              "marker": {
+                "en": "Local participant",
+                "ka": "ადგილობრივი მონაწილე"
+              },
+              "price": "50 GEL",
+              "body": {
+                "en": "For participants based in Georgia. Includes full access to sessions and the proceedings.",
+                "ka": "საქართველოში მყოფი მონაწილეებისთვის. მოიცავს სესიებსა და კრებულს."
+              }
+            },
+            {
+              "marker": {
+                "en": "03",
+                "ka": "03"
+              },
+              "title": {
+                "en": "Reserve your seat",
+                "ka": "დაჯავშნე ადგილი"
+              },
+              "body": {
+                "en": "Email your registration and submission to the organizing team with “SR2026” in the subject line.",
+                "ka": "გამოაგზავნე რეგისტრაცია და ნაშრომი საორგანიზაციო გუნდს, სათაურში „SR2026“."
+              },
+              "action": {
+                "label": {
+                  "en": "Register by email",
+                  "ka": "რეგისტრაცია"
+                },
+                "href": "mailto:silkroad@ibsu.edu.ge?subject=SR2026%20Registration"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "boards",
+          "id": "boards",
+          "tone": "dark",
+          "heading": {
+            "en": "Conference boards",
+            "ka": "საკონფერენციო საბჭო"
+          },
+          "tag": {
+            "en": "Committees",
+            "ka": "კომიტეტები"
+          },
+          "nav": {
+            "en": "Boards",
+            "ka": "საბჭო"
+          },
+          "boards": [
+            {
+              "title": {
+                "en": "Organizing Committee",
+                "ka": "საორგანიზაციო კომიტეტი"
+              },
+              "members": [
+                {
+                  "name": "Prof. Dr. Nunuka Mitskevich",
+                  "role": {
+                    "en": "Vice-Rector for Research · IBSU",
+                    "ka": "რექტორის მოადგილე კვლევის დარგში · IBSU"
+                  }
+                },
+                {
+                  "name": "Assoc. Prof. Dr. Tea Kbiltsetskhlashvili",
+                  "role": {
+                    "en": "Head of Research & International Projects Department",
+                    "ka": "კვლევისა და საერთაშორისო პროექტების ხელმძღვანელი"
+                  }
+                },
+                {
+                  "name": "Prof. Dr. Tamar Shioshvili",
+                  "role": {
+                    "en": "Dean, School of Education, Humanities & Social Sciences",
+                    "ka": "განათლების სკოლის დეკანი"
+                  }
+                },
+                {
+                  "name": "Marina Razmadze, Ph.D.",
+                  "role": {
+                    "en": "School of Computer Science & Architecture · IBSU",
+                    "ka": "კომპიუტერულ მეცნიერებათა სკოლა · IBSU"
+                  }
+                },
+                {
+                  "name": "Sophio Gelashvili · Medina Ozlemi Mamedova",
+                  "role": {
+                    "en": "International Relations Office · IBSU",
+                    "ka": "საერთაშორისო ურთიერთობების ოფისი · IBSU"
+                  }
+                }
+              ]
+            },
+            {
+              "title": {
+                "en": "Scientific Board",
+                "ka": "სამეცნიერო საბჭო"
+              },
+              "members": [
+                {
+                  "name": "Prof. Dr. Ketevan Lapachi · Prof. Dr. Nino Partsvania",
+                  "role": {
+                    "en": "International Black Sea University · Georgia",
+                    "ka": "შავი ზღვის საერთაშორისო უნივერსიტეტი"
+                  }
+                },
+                {
+                  "name": "Prof. Dr. Vaidas Jurkevicius",
+                  "role": {
+                    "en": "Mykolas Romeris University · Vilnius, Lithuania",
+                    "ka": "მიკოლას რომერისის უნივერსიტეტი · ლიტვა"
+                  }
+                },
+                {
+                  "name": "Prof. Dr. Carolina Ferrer",
+                  "role": {
+                    "en": "University of Quebec in Montreal · Canada",
+                    "ka": "კვებეკის უნივერსიტეტი მონრეალში · კანადა"
+                  }
+                },
+                {
+                  "name": "Prof. Dr. Christian Brauweiler",
+                  "role": {
+                    "en": "WHZ Westsächsische Hochschule Zwickau · Germany",
+                    "ka": "ცვიკაუს გამოყენებით მეცნიერებათა უნივერსიტეტი · გერმანია"
+                  }
+                },
+                {
+                  "name": "Prof. Dr. Tomasz Marciniak",
+                  "role": {
+                    "en": "University of Science & Technology, Bydgoszcz · Poland",
+                    "ka": "ბიდგოშჩის მეცნიერებისა და ტექნოლოგიის უნივერსიტეტი · პოლონეთი"
+                  }
+                },
+                {
+                  "name": "Assoc. Prof. Dr. Patrizia Gazzola",
+                  "role": {
+                    "en": "University of Insubria · Italy",
+                    "ka": "ინსუბრიის უნივერსიტეტი · იტალია"
+                  }
+                },
+                {
+                  "name": "Assoc. Prof. Dr. Milan Fiľa · Marta Urbaníková · Michal Levický",
+                  "role": {
+                    "en": "Constantine the Philosopher University in Nitra · Slovakia",
+                    "ka": "კონსტანტინე ფილოსოფოსის უნივერსიტეტი ნიტრაში · სლოვაკეთი"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "partners",
+          "id": "partners",
+          "tone": "paper",
+          "nav": {
+            "en": "Partners",
+            "ka": "პარტნიორები"
+          },
+          "heading": {
+            "en": "Organized together",
+            "ka": "ერთობლივად ორგანიზებული"
+          },
+          "tag": {
+            "en": "Partner universities",
+            "ka": "პარტნიორი უნივერსიტეტები"
+          },
+          "lede": {
+            "en": "The conference is organized by International Black Sea University in partnership with universities across Europe and the region.",
+            "ka": "კონფერენციას ორგანიზებას უწევს შავი ზღვის საერთაშორისო უნივერსიტეტი ევროპისა და რეგიონის პარტნიორ უნივერსიტეტებთან ერთად."
+          },
+          "items": [
+            {
+              "mark": "WHZ",
+              "name": {
+                "en": "WHZ Zwickau — Faculty of Business & Economics · East Asia Centre",
+                "ka": "WHZ ცვიკაუ — ბიზნესისა და ეკონომიკის ფაკულტეტი · აღმოსავლეთ აზიის ცენტრი"
+              },
+              "href": "https://www.ostasien-zwickau.de/"
+            },
+            {
+              "mark": "CU",
+              "name": {
+                "en": "Caucasus University · Georgia",
+                "ka": "კავკასიის უნივერსიტეტი · საქართველო"
+              },
+              "href": "https://www.cu.edu.ge/en"
+            },
+            {
+              "mark": "SEU",
+              "name": {
+                "en": "SEU · Georgian National University",
+                "ka": "სეუ · საქართველოს ეროვნული უნივერსიტეტი"
+              },
+              "href": "https://www.seu.edu.ge/"
+            },
+            {
+              "mark": "VŠA",
+              "name": {
+                "en": "VŠAPs · Czech Republic",
+                "ka": "VŠAPs · ჩეხეთი"
+              },
+              "href": "https://www.vsaps.cz/"
+            },
+            {
+              "mark": "ASUE",
+              "name": {
+                "en": "Amberd Research Centre · ASUE, Armenia",
+                "ka": "ამბერდის კვლევითი ცენტრი · ASUE, სომხეთი"
+              },
+              "href": "https://asue.am/amberd"
+            }
+          ]
+        },
+        {
+          "kind": "archive",
+          "id": "program",
+          "tone": "gray",
+          "nav": {
+            "en": "Program",
+            "ka": "პროგრამა"
+          },
+          "heading": {
+            "en": "Program books",
+            "ka": "პროგრამის წიგნები"
+          },
+          "tag": {
+            "en": "Conference programs",
+            "ka": "კონფერენციის პროგრამები"
+          },
+          "rows": [
+            {
+              "year": "2023",
+              "title": {
+                "en": "18th Silk Road Conference",
+                "ka": "XVIII აბრეშუმის გზის კონფერენცია"
+              },
+              "meta": {
+                "en": "Program book",
+                "ka": "პროგრამის წიგნი"
+              },
+              "links": [
+                {
+                  "href": "https://silkroad.ibsu.edu.ge/wp-content/uploads/2023/11/silkroad-conference-program-2023.pdf"
+                }
+              ]
+            },
+            {
+              "year": "2022",
+              "title": {
+                "en": "17th Silk Road Conference",
+                "ka": "XVII აბრეშუმის გზის კონფერენცია"
+              },
+              "meta": {
+                "en": "Program book",
+                "ka": "პროგრამის წიგნი"
+              },
+              "links": [
+                {
+                  "href": "https://silkroad.ibsu.edu.ge/wp-content/uploads/2022/10/SR2022_PROGRAM_BOOK-Last-Version.pdf"
+                }
+              ]
+            },
+            {
+              "year": "2021",
+              "title": {
+                "en": "16th Silk Road Conference",
+                "ka": "XVI აბრეშუმის გზის კონფერენცია"
+              },
+              "meta": {
+                "en": "Program book",
+                "ka": "პროგრამის წიგნი"
+              },
+              "links": [
+                {
+                  "href": "https://silkroad.ibsu.edu.ge/wp-content/uploads/2023/11/SR2021_PROGRAM_BOOK.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "archive",
+          "id": "proceedings",
+          "tone": "paper",
+          "nav": {
+            "en": "Proceedings",
+            "ka": "კრებული"
+          },
+          "heading": {
+            "en": "Proceeding books",
+            "ka": "კრებულის წიგნები"
+          },
+          "tag": {
+            "en": "Published proceedings",
+            "ka": "გამოქვეყნებული კრებულები"
+          },
+          "rows": [
+            {
+              "year": "2024",
+              "title": {
+                "en": "19th Silk Road Conference",
+                "ka": "XIX აბრეშუმის გზის კონფერენცია"
+              },
+              "meta": {
+                "en": "Proceedings book",
+                "ka": "კრებული"
+              },
+              "links": [
+                {
+                  "href": "https://silkroad.ibsu.edu.ge/wp-content/uploads/2025/02/19th-International-Silk-Road-Conference-Proceedings-Book.pdf"
+                }
+              ]
+            },
+            {
+              "year": "2023",
+              "title": {
+                "en": "18th Silk Road Conference",
+                "ka": "XVIII აბრეშუმის გზის კონფერენცია"
+              },
+              "meta": {
+                "en": "Proceedings book",
+                "ka": "კრებული"
+              },
+              "links": [
+                {
+                  "href": "https://silkroad.ibsu.edu.ge/wp-content/uploads/2024/06/SILKROAD-2023.pdf"
+                }
+              ]
+            },
+            {
+              "year": "2022",
+              "title": {
+                "en": "17th Silk Road Conference",
+                "ka": "XVII აბრეშუმის გზის კონფერენცია"
+              },
+              "meta": {
+                "en": "Proceedings book",
+                "ka": "კრებული"
+              },
+              "links": [
+                {
+                  "href": "https://silkroad.ibsu.edu.ge/wp-content/uploads/2023/11/Silk-Road-2022-Proceedings-Book.pdf"
+                }
+              ]
+            },
+            {
+              "year": "2021",
+              "title": {
+                "en": "16th Silk Road Conference",
+                "ka": "XVI აბრეშუმის გზის კონფერენცია"
+              },
+              "meta": {
+                "en": "Proceedings book",
+                "ka": "კრებული"
+              },
+              "links": [
+                {
+                  "href": "https://silkroad.ibsu.edu.ge/wp-content/uploads/2023/11/SR2021-PROCEEDINGS.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "archive",
+          "id": "archive",
+          "tone": "gray",
+          "nav": {
+            "en": "Archive",
+            "ka": "არქივი"
+          },
+          "heading": {
+            "en": "The archive",
+            "ka": "არქივი"
+          },
+          "tag": {
+            "en": "Past editions",
+            "ka": "წარსული გამოცემები"
+          },
+          "rows": [
+            {
+              "year": "2023",
+              "title": {
+                "en": "18th Silk Road Conference",
+                "ka": "XVIII აბრეშუმის გზის კონფერენცია"
+              },
+              "meta": {
+                "en": "Edition page",
+                "ka": "გამოცემის გვერდი"
+              },
+              "links": [
+                {
+                  "href": "https://silkroad.ibsu.edu.ge/silkroad-2023/"
+                }
+              ]
+            },
+            {
+              "year": "2022",
+              "title": {
+                "en": "17th Silk Road Conference",
+                "ka": "XVII აბრეშუმის გზის კონფერენცია"
+              },
+              "meta": {
+                "en": "Edition page",
+                "ka": "გამოცემის გვერდი"
+              },
+              "links": [
+                {
+                  "href": "https://silkroad.ibsu.edu.ge/silkroad-2022/"
+                }
+              ]
+            },
+            {
+              "year": "2021",
+              "title": {
+                "en": "16th Silk Road Conference",
+                "ka": "XVI აბრეშუმის გზის კონფერენცია"
+              },
+              "meta": {
+                "en": "Edition page",
+                "ka": "გამოცემის გვერდი"
+              },
+              "links": [
+                {
+                  "href": "https://silkroad.ibsu.edu.ge/silkroad-2021/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

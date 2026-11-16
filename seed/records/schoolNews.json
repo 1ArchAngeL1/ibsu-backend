@@ -1,0 +1,342 @@
+[
+  {
+    "key": "business:business-1",
+    "order": 0,
+    "data": {
+      "school": "business",
+      "id": "business-1",
+      "tag": {
+        "en": "Competition",
+        "ka": "კონკურსი"
+      },
+      "title": {
+        "en": "IBSU team takes second at the regional case championship",
+        "ka": "IBSU-ის გუნდი მეორე ადგილზე რეგიონულ ქეის-ჩემპიონატზე"
+      },
+      "img": "/photos/desk-blue.webp"
+    }
+  },
+  {
+    "key": "business:business-2",
+    "order": 1,
+    "data": {
+      "school": "business",
+      "id": "business-2",
+      "tag": {
+        "en": "CEO Talks",
+        "ka": "CEO Talks"
+      },
+      "title": {
+        "en": "TBC Bank leadership opens the spring CEO Talks series",
+        "ka": "თიბისი ბანკის ხელმძღვანელობა ხსნის საგაზაფხულო CEO Talks-ს"
+      },
+      "img": "/photos/group.webp"
+    }
+  },
+  {
+    "key": "business:business-3",
+    "order": 2,
+    "data": {
+      "school": "business",
+      "id": "business-3",
+      "tag": {
+        "en": "Partnership",
+        "ka": "პარტნიორობა"
+      },
+      "title": {
+        "en": "New double-degree agreement signed with an EU partner",
+        "ka": "ხელი მოეწერა ახალ ორმაგი ხარისხის შეთანხმებას"
+      },
+      "img": "/photos/anniversary.webp"
+    }
+  },
+  {
+    "key": "business:business-4",
+    "order": 3,
+    "data": {
+      "school": "business",
+      "id": "business-4",
+      "tag": {
+        "en": "Startup",
+        "ka": "სტარტაპი"
+      },
+      "title": {
+        "en": "Student venture graduates from the TEC incubator",
+        "ka": "სტუდენტური სტარტაპი ამთავრებს TEC ინკუბატორს"
+      },
+      "img": "/photos/stickers.webp"
+    }
+  },
+  {
+    "key": "law:law-1",
+    "order": 4,
+    "data": {
+      "school": "law",
+      "id": "law-1",
+      "tag": {
+        "en": "Moot court",
+        "ka": "სიმულირებული სასამართლო"
+      },
+      "title": {
+        "en": "IBSU advances to the international rounds of a human-rights moot",
+        "ka": "IBSU გადავიდა საერთაშორისო ეტაპზე"
+      },
+      "img": "/photos/man-navy.webp"
+    }
+  },
+  {
+    "key": "law:law-2",
+    "order": 5,
+    "data": {
+      "school": "law",
+      "id": "law-2",
+      "tag": {
+        "en": "Clinic",
+        "ka": "კლინიკა"
+      },
+      "title": {
+        "en": "Legal clinic marks 1,000 free consultations",
+        "ka": "იურიდიულმა კლინიკამ 1000 უფასო კონსულტაცია გასწია"
+      },
+      "img": "/photos/group.webp"
+    }
+  },
+  {
+    "key": "law:law-3",
+    "order": 6,
+    "data": {
+      "school": "law",
+      "id": "law-3",
+      "tag": {
+        "en": "Lecture",
+        "ka": "ლექცია"
+      },
+      "title": {
+        "en": "Supreme Court justice delivers a guest seminar",
+        "ka": "უზენაესი სასამართლოს მოსამართლის სტუმარ-სემინარი"
+      },
+      "img": "/photos/anniversary.webp"
+    }
+  },
+  {
+    "key": "law:law-4",
+    "order": 7,
+    "data": {
+      "school": "law",
+      "id": "law-4",
+      "tag": {
+        "en": "Curriculum",
+        "ka": "კურიკულუმი"
+      },
+      "title": {
+        "en": "New EU-law module added to the LLB",
+        "ka": "საბაკალავროს დაემატა ევროკავშირის სამართლის მოდული"
+      },
+      "img": "/photos/stickers.webp"
+    }
+  },
+  {
+    "key": "eduhum:eduhum-1",
+    "order": 8,
+    "data": {
+      "school": "eduhum",
+      "id": "eduhum-1",
+      "tag": {
+        "en": "Model UN",
+        "ka": "Model UN"
+      },
+      "title": {
+        "en": "IBSU delegation wins best-position award at a regional Model UN",
+        "ka": "IBSU-ის დელეგაციამ მოიგო საუკეთესო პოზიციის ჯილდო"
+      },
+      "img": "/photos/stickers.webp"
+    }
+  },
+  {
+    "key": "eduhum:eduhum-2",
+    "order": 9,
+    "data": {
+      "school": "eduhum",
+      "id": "eduhum-2",
+      "tag": {
+        "en": "Education",
+        "ka": "განათლება"
+      },
+      "title": {
+        "en": "Teacher-training cohort completes its school placements",
+        "ka": "მასწავლებლის ჯგუფმა დაასრულა სასკოლო პრაქტიკა"
+      },
+      "img": "/photos/group.webp"
+    }
+  },
+  {
+    "key": "eduhum:eduhum-3",
+    "order": 10,
+    "data": {
+      "school": "eduhum",
+      "id": "eduhum-3",
+      "tag": {
+        "en": "American Corner",
+        "ka": "American Corner"
+      },
+      "title": {
+        "en": "Visiting Fulbright scholar opens a semester of US studies seminars",
+        "ka": "მოწვეული Fulbright მკვლევარი ხსნის სემინარების სერიას"
+      },
+      "img": "/photos/anniversary.webp"
+    }
+  },
+  {
+    "key": "eduhum:eduhum-4",
+    "order": 11,
+    "data": {
+      "school": "eduhum",
+      "id": "eduhum-4",
+      "tag": {
+        "en": "New program",
+        "ka": "ახალი პროგრამა"
+      },
+      "title": {
+        "en": "Psychology and Public Relations join the undergraduate offering",
+        "ka": "ფსიქოლოგია და PR ემატება საბაკალავრო პროგრამებს"
+      },
+      "img": "/photos/notebook-pink.webp"
+    }
+  },
+  {
+    "key": "computing:computing-1",
+    "order": 12,
+    "data": {
+      "school": "computing",
+      "id": "computing-1",
+      "tag": {
+        "en": "Hackathon",
+        "ka": "ჰაკათონი"
+      },
+      "title": {
+        "en": "IBSU team wins the national student hackathon",
+        "ka": "IBSU-ის გუნდმა მოიგო ეროვნული სტუდენტური ჰაკათონი"
+      },
+      "img": "/photos/model.webp"
+    }
+  },
+  {
+    "key": "computing:computing-2",
+    "order": 13,
+    "data": {
+      "school": "computing",
+      "id": "computing-2",
+      "tag": {
+        "en": "New program",
+        "ka": "ახალი პროგრამა"
+      },
+      "title": {
+        "en": "Graphic Design launches as an English-taught bachelor",
+        "ka": "გრაფიკული დიზაინი იწყება ინგლისურენოვან საბაკალავროდ"
+      },
+      "img": "/photos/desk-blue.webp"
+    }
+  },
+  {
+    "key": "computing:computing-3",
+    "order": 14,
+    "data": {
+      "school": "computing",
+      "id": "computing-3",
+      "tag": {
+        "en": "Demo day",
+        "ka": "Demo-დღე"
+      },
+      "title": {
+        "en": "Capstone demo day puts twelve student products on stage",
+        "ka": "Demo-დღემ სცენაზე 12 სტუდენტური პროდუქტი გამოიტანა"
+      },
+      "img": "/photos/group.webp"
+    }
+  },
+  {
+    "key": "computing:computing-4",
+    "order": 15,
+    "data": {
+      "school": "computing",
+      "id": "computing-4",
+      "tag": {
+        "en": "Research",
+        "ka": "კვლევა"
+      },
+      "title": {
+        "en": "PhD students present at an international computing conference",
+        "ka": "დოქტორანტებმა წარადგინეს საერთაშორისო კონფერენციაზე"
+      },
+      "img": "/photos/anniversary.webp"
+    }
+  },
+  {
+    "key": "medicine:medicine-1",
+    "order": 16,
+    "data": {
+      "school": "medicine",
+      "id": "medicine-1",
+      "tag": {
+        "en": "Clinical",
+        "ka": "კლინიკური"
+      },
+      "title": {
+        "en": "New cohort begins hospital placements across Tbilisi",
+        "ka": "ახალი ჯგუფი იწყებს პრაქტიკას თბილისის კლინიკებში"
+      },
+      "img": "/photos/ext-medical.webp"
+    }
+  },
+  {
+    "key": "medicine:medicine-2",
+    "order": 17,
+    "data": {
+      "school": "medicine",
+      "id": "medicine-2",
+      "tag": {
+        "en": "Simulation",
+        "ka": "სიმულაცია"
+      },
+      "title": {
+        "en": "Clinical skills lab adds high-fidelity patient simulators",
+        "ka": "კლინიკურ ლაბორატორიას დაემატა პაციენტის სიმულატორები"
+      },
+      "img": "/photos/woman-teal.webp"
+    }
+  },
+  {
+    "key": "medicine:medicine-3",
+    "order": 18,
+    "data": {
+      "school": "medicine",
+      "id": "medicine-3",
+      "tag": {
+        "en": "Community",
+        "ka": "საზოგადოება"
+      },
+      "title": {
+        "en": "Student Medical Society runs a campus health-screening day",
+        "ka": "სტუდენტურმა საზოგადოებამ ჩაატარა ჯანმრთელობის დღე"
+      },
+      "img": "/photos/group.webp"
+    }
+  },
+  {
+    "key": "medicine:medicine-4",
+    "order": 19,
+    "data": {
+      "school": "medicine",
+      "id": "medicine-4",
+      "tag": {
+        "en": "International",
+        "ka": "საერთაშორისო"
+      },
+      "title": {
+        "en": "MD program welcomes students from twenty countries",
+        "ka": "MD პროგრამამ მიიღო სტუდენტები ოცი ქვეყნიდან"
+      },
+      "img": "/photos/anniversary.webp"
+    }
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "key": "virtuallyedu-2",
+    "order": 0,
+    "data": {
+      "id": "virtuallyedu-2",
+      "name": "VirtuallyEDU 2.0",
+      "join": {
+        "before": " – ",
+        "after": ""
+      },
+      "title": {
+        "ka": "ვირტუალური გაცვლები ეთიკური ხელოვნური ინტელექტის შესახებ ცოდნისა და ციფრული მოქალაქეობის განვითარებისათვის",
+        "en": "Virtual Exchanges for Ethical AI Literacy and Digital Citizenship"
+      },
+      "site": "https://www.virtuallyedu20.com/",
+      "image": {
+        "src": "/photos/iro-projects/virtuallyedu-2.webp",
+        "w": 410,
+        "h": 202,
+        "alt": {
+          "ka": "VirtuallyEDU 2.0-ის ლოგო",
+          "en": "The VirtuallyEDU 2.0 logo"
+        }
+      },
+      "logo": true,
+      "body": [
+        {
+          "ka": "ევროკავშირის Erasmus+ კონკურსის ფარგლებში დაფინანსებულია პროექტი – VirtuallyEDU 2.0 – ვირტუალური გაცვლები ეთიკური ხელოვნური ინტელექტის შესახებ ცოდნისა და ციფრული მოქალაქეობის განვითარებისათვის. პროექტის მიზანია ევროპისა და აღმოსავლეთ სამეზობლოს რეგიონების ახალგაზრდების, უმაღლესი საგანმანათლებლო დაწესებულებების სტუდენტების, აკადემიური პერსონალისა და ახალგაზრდული მუშაკების გაძლიერება ეთიკური ხელოვნური ინტელექტის შესახებ ცოდნის, ციფრული უნარების, კრიტიკული აზროვნებისა და სამოქალაქო ჩართულობის განვითარება, ინოვაციური ვირტუალური გაცვლითი აქტივობების საშუალებით.",
+          "en": "Within the Erasmus+ EU Competition project, VirtuallyEDU 2.0 — Virtual Exchanges for Ethical AI Literacy and Digital Citizenship has been funded. The project aims to empower young people, higher education students, educators, and youth workers from Europe and the Eastern Neighbourhood regions by developing ethical AI literacy, digital skills, critical thinking, and civic engagement capacities through innovative virtual exchange activities."
+        },
+        {
+          "ka": "პროექტი შექმნის ინკლუზიურ ციფრულ სასწავლო გარემოს, რომელიც დააკავშირებს სხვადასხვა ქვეყნის მონაწილეებს, ხელს შეუწყობს კულტურათაშორის დიალოგს და მხარს დაუჭერს პასუხისმგებელი და სოციალურად აქტიური მოქალაქეების ჩამოყალიბებას.",
+          "en": "The project will create an inclusive digital learning environment that connects participants across borders, promotes intercultural dialogue, and supports the development of digitally responsible and socially engaged citizens."
+        }
+      ],
+      "newsletters": [
+        "https://drive.google.com/file/d/1zXXoTBRzCp7qGPjS__FYYbBKvsDs3gZk/view"
+      ]
+    }
+  },
+  {
+    "key": "virtuallyedu",
+    "order": 1,
+    "data": {
+      "id": "virtuallyedu",
+      "name": "VIRTUALLYEDU",
+      "join": {
+        "before": " (",
+        "after": ")"
+      },
+      "title": {
+        "ka": "ვირტუალური მობილობა და ციფრული განათლება",
+        "en": "Virtual Exchanges and Education on Digital Skills"
+      },
+      "site": "https://virtuallyedu.eu/",
+      "image": {
+        "src": "/photos/iro-projects/virtuallyedu.webp",
+        "w": 1600,
+        "h": 800,
+        "alt": {
+          "ka": "VIRTUALLYEDU-ს ბანერი",
+          "en": "The VIRTUALLYEDU banner"
+        }
+      },
+      "logo": false,
+      "body": [
+        {
+          "ka": "შავი ზღვის საერთაშორისო უნივერსიტეტი, საქართველოს, სომხეთის, აზერბაიჯანისა და შვედეთის უმაღლეს საგანმანათლებლო დაწესებულებებთან და ახალგაზრდულ ორგანიზაციებთან ერთად, აცხადებს მიღებას ონლაინ საგანმანათლებლო პროგრამაზე – „VIRTUALLYEDU“ (ვირტუალური მობილობა და ციფრული განათლება). აღნიშნული Erasmus+-ის დაფინანსებული ინსტიტუციური განვითარების პროექტის ძირითადი მისიაა ციფრული ცოდნის ხელშეწყობა და კიბერუსაფრთხოების ცნობიერების გაღრმავება ახალგაზრდა სტუდენტებს შორის, რაც ხელს შეუწყობს ციფრული უნარების განვითარებას, დასაქმების ხელშეწყობასა და ახალგაზრდული ქსელის გაძლიერებას ევროკავშირსა და აღმოსავლეთ სამეზობლო ქვეყნებს შორის. მონაწილეებს ვირტუალური მობილობით შეეძლებათ, ცოდნა მიიღონ კიბერუსაფრთხოებისა და ციფრული ტექნოლოგიების სფეროებში და ჩაერთონ ციფრულ ჰაკათონში.",
+          "en": "International Black Sea University, together with the higher education institutions and youth organizations of Georgia, Armenia, Azerbaijan, and Sweden, announces admission to the online educational program — “VIRTUALLYEDU” (Virtual Exchanges and Education on Digital Skills). The core mission of the Erasmus+-funded institutional development project is to promote digital knowledge and increase awareness of cybersecurity among young learners, contributing to the development of digital skills, promotion of employment, and strengthening of the youth network between the European Union and Eastern Neighborhood countries. Participants will gain knowledge in cybersecurity and digital technologies through virtual mobility and participate in a digital hackathon."
+        },
+        {
+          "ka": "ვირტუალურ პროგრამაში მონაწილეობის მსურველთათვის ჩატარდება საორიენტაციო შეხვედრა დამატებითი ინფორმაციის მისაღებად.",
+          "en": "For those wishing to participate in the virtual program, an orientation meeting will be held to obtain additional information."
+        }
+      ],
+      "facts": [
+        {
+          "label": {
+            "ka": "ფორმატი",
+            "en": "Format"
+          },
+          "value": {
+            "ka": "ვირტუალური, მოკლევადიანი ინტენსიური პროგრამა Zoom-ის პლატფორმაზე",
+            "en": "Virtual, short-term intensive program on the Zoom platform"
+          }
+        },
+        {
+          "label": {
+            "ka": "ხანგრძლივობა",
+            "en": "Duration"
+          },
+          "value": {
+            "ka": "70 საათი (30 სალექციო, 40 დამოუკიდებელი საათი)",
+            "en": "70 hours (30 lectures, 40 independent hours)"
+          }
+        },
+        {
+          "label": {
+            "ka": "მონაწილეობის წინაპირობა",
+            "en": "Prerequisite"
+          },
+          "value": {
+            "ka": "ნებისმიერი დაინტერესებული სტუდენტის სტატუსის მქონე პირი",
+            "en": "Any interested person with active student status"
+          }
+        }
+      ],
+      "newsletters": [
+        "https://drive.google.com/file/d/1Od_jUpsEJbMuh_Y_5cn4TPkA3fsB_A9m/view",
+        "https://drive.google.com/file/d/1t6jlqTU-IdcY6HvRbMSQPUwK4DaAxLq_/view",
+        "https://drive.google.com/file/d/1KpMSBjpPVrIckd7rWkiMHQHTWc34sj43/view",
+        "https://drive.google.com/file/d/1bqTUHg1XP1s20uJ2OmwkyY8elPPpdxZw/view",
+        "https://drive.google.com/file/d/1jOUVrXJV4iaeDvGYBEYQV2mit5Rm-ci_/view",
+        "https://drive.google.com/file/d/1a_e8-b_El0My1cE112Q60mxUgYqJvyMb/view"
+      ],
+      "articles": [
+        {
+          "title": "Virtual exchanges and education on digital skills",
+          "href": "https://drive.google.com/file/d/1b7SvQRrqCf-UT_y1s0OZJti1vNNWoCS1/view"
+        },
+        {
+          "title": "Sharing Opinions and Experience",
+          "href": "https://drive.google.com/file/d/192CNgDHd0iH5phapW0PBPP7xpY3XDtYa/view"
+        },
+        {
+          "title": "Transforming Education in Georgia: How VIRTUALLYEDU Advances Digital Literacy and Non-Formal Learning",
+          "href": "https://drive.google.com/file/d/1Ej9EirrEyfl2cOJpBhuco2KDlIsV2Lg6/view"
+        },
+        {
+          "title": "Virtually Edu: Building a Digitally Connected, Resilient, and Inclusive Education Community",
+          "href": "https://drive.google.com/file/d/1ljBB4c0U2dKjt1fm9It-6EFWqsLt3cHE/view"
+        },
+        {
+          "title": "Empowering Greece Through Digital Education",
+          "href": "https://drive.google.com/file/d/1YPuti9o4nUEIQ-DvpFXr-qwJS6fqHsly/view"
+        },
+        {
+          "title": "The impact of the VIRTUALLYEDU project on academic affairs",
+          "href": "https://drive.google.com/file/d/1SRRZU1yF-WCwLPusSwrTil2OXgMkYpI3/view"
+        }
+      ]
+    }
+  },
+  {
+    "key": "iscem",
+    "order": 2,
+    "data": {
+      "id": "iscem",
+      "name": "ISCEM",
+      "join": {
+        "before": "-",
+        "after": ""
+      },
+      "title": {
+        "ka": "განათლების სტრუქტურისა და შინაარსის ინოვაცია ეკონომიკისა და მენეჯმენტის სფეროში დიგიტალიზაციის, მდგრადობისა და მიგრანტების ჩართვაზე აქცენტით",
+        "en": "Innovation of the Structure and Content of Education in the Field of Economics and Management with an Emphasis on Digitization, Sustainability, and the Inclusion of Migrants"
+      },
+      "site": "https://www.iscem.eu/",
+      "image": {
+        "src": "/photos/iro-projects/iscem.webp",
+        "w": 447,
+        "h": 447,
+        "alt": {
+          "ka": "ISCEM-ის ლოგო",
+          "en": "The ISCEM logo"
+        }
+      },
+      "logo": true,
+      "body": [
+        {
+          "ka": "პროექტის მიზანია უმაღლესი განათლების ხარისხის ამაღლება, პროექტის მიზნობრივი ჯგუფების ცოდნის, უნარებისა და კომპეტენციების დონის ამაღლება. განათლების ხარისხის ამაღლება გამოიწვევს გლობალიზაციის, კლიმატის ცვლილებისა და ციფრული ტრანსფორმაციის შედეგად წარმოქმნილ გლობალურ გამოწვევებს. პროექტი გადაწყდება მიგრანტების ჩართვაზე, სამიზნე ქვეყნებში უმაღლესი განათლების ბარიერების აღმოფხვრის გზით და შრომის ბაზარზე მათი უკეთ გამოყენების აქცენტით.",
+          "en": "The aim of the project is to increase the quality of higher education and improve the level of knowledge, skills, and competences of the target groups of the project. Increasing the quality of education will lead to better handling of global challenges brought about by globalization, climate change, and digital transformation. The project will be implemented with an emphasis on the inclusion of migrants through the elimination of barriers to tertiary education in the target countries and with an emphasis on their better application in the labor market."
+        }
+      ],
+      "facts": [
+        {
+          "label": {
+            "ka": "პროგრამა",
+            "en": "Programme"
+          },
+          "value": {
+            "ka": "Erasmus+ KA2 სტრატეგიული პარტნიორობა",
+            "en": "Erasmus+ KA2 Strategic Partnerships"
+          }
+        },
+        {
+          "label": {
+            "ka": "პროექტის ნომერი",
+            "en": "Project number"
+          },
+          "value": {
+            "ka": "2023-1-SK01-KA220-HED-000166871",
+            "en": "2023-1-SK01-KA220-HED-000166871"
+          }
+        }
+      ]
+    }
+  }
+]
