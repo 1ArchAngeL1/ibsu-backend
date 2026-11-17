@@ -39,6 +39,12 @@ export class PostsController {
     return this.posts.popularTags(limit ? Number(limit) : 20);
   }
 
+  @Get("by-slug/:slug")
+  @Public()
+  bySlug(@Param("slug") slug: string) {
+    return this.posts.publishedBySlug(slug);
+  }
+
   @Get()
   list(@Query() query: ListPostsDto) {
     return this.posts.list({

@@ -197,7 +197,7 @@ export class PostsService {
   async published(category?: string, limit = 50, skip = 0): Promise<PostFull[]> {
     const filter: Record<string, unknown> = {
       status: "published",
-      visibility: "public",
+      visibility: { $nin: ["private", "password"] },
       publishedAt: { $lte: new Date() },
     };
     if (category) filter.categories = category;
@@ -208,6 +208,19 @@ export class PostsService {
       .limit(Math.min(Math.max(limit, 1), 200))
       .exec();
     return docs.map(full);
+  }
+
+  /** One live post by slug, for the website's post page. Null if not public. */
+  async publishedBySlug(slug: string): Promise<PostFull | null> {
+    const doc = await this.posts
+      .findOne({
+        slug,
+        status: "published",
+        visibility: { $nin: ["private", "password"] },
+        publishedAt: { $lte: new Date() },
+      })
+      .exec();
+    return doc ? full(doc) : null;
   }
 
   private async byId(id: string): Promise<PostDocument> {
