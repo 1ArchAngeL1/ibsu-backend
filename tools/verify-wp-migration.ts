@@ -47,7 +47,7 @@ async function main(): Promise<void> {
     Media.aggregate([{ $group: { _id: "$source", n: { $sum: 1 } } }, { $sort: { _id: 1 } }]),
     Media.countDocuments({ "variants.0": { $exists: true } }),
     Media.aggregate([{ $group: { _id: null, n: { $sum: { $size: "$variants" } } } }]),
-    Media.countDocuments({ "wp.id": { $exists: true }, width: { $exists: false } }),
+    Media.countDocuments({ "wp.width": { $gt: 0 }, width: { $exists: false } }),
   ]);
   console.log(`  ${total} files, ${fromWp} of them out of WordPress`);
   console.log(
@@ -56,7 +56,15 @@ async function main(): Promise<void> {
   console.log(
     `  ${(variantCount as { n: number }[])[0]?.n ?? 0} mirrored derivatives on ${variantRows} files`,
   );
-  console.log(`  ${noMeta} WordPress files still without width/height`);
+  // The only dimension gap that would be a bug: WordPress knew the size and
+  // we did not keep it. A file WordPress has no `media_details` for — every
+  // SVG, and every PDF — is not a gap, and neither is one that was never an
+  // attachment at all.
+  console.log(
+    noMeta === 0
+      ? "  every dimension WordPress knew is recorded"
+      : `  ${noMeta} files whose WordPress dimensions were not kept — a gap`,
+  );
 
   console.log("\n── the content ───────────────────────────────────────────");
   const [posts, wpPosts, coverR2, coverWp, bodyWp] = await Promise.all([
@@ -74,7 +82,10 @@ async function main(): Promise<void> {
   const leftovers = new Map<string, number>();
   for (const name of ["posts", "records", "categories", "copy", "media"]) {
     if (!(await db.listCollections({ name }).hasNext())) continue;
-    const cursor = db.collection(name).find({}, { projection: { source: 0 } });
+    // `source` on a post and `wp` on a media row are the record of where the
+    // thing came from; both are *meant* to still say ibsu.edu.ge. Counting
+    // them as leftovers would report 60,000 of them and mean nothing.
+    const cursor = db.collection(name).find({}, { projection: { source: 0, wp: 0 } });
     let n = 0;
     for await (const doc of cursor) {
       const text = JSON.stringify(doc);
