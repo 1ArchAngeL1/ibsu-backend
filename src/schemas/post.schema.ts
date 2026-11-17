@@ -5,6 +5,9 @@ import type { Localized } from "./category.schema";
 export const POST_STATUSES = ["draft", "published"] as const;
 export type PostStatus = (typeof POST_STATUSES)[number];
 
+export const POST_VISIBILITIES = ["public", "private", "password"] as const;
+export type PostVisibility = (typeof POST_VISIBILITIES)[number];
+
 /**
  * A post — the WordPress idea of content.
  *
@@ -46,9 +49,29 @@ export class Post {
   @Prop({ type: String, enum: POST_STATUSES, default: "draft", index: true })
   status!: PostStatus;
 
-  /** when it was first published; `null` while it is a draft */
+  /**
+   * When the post goes (or went) live. A future date is a SCHEDULED post:
+   * `status` is "published" but the site is told to hold it until then.
+   * `null` while it is an unscheduled draft.
+   */
   @Prop({ type: Date, default: null })
   publishedAt!: Date | null;
+
+  /** WordPress's three visibilities. */
+  @Prop({ type: String, enum: POST_VISIBILITIES, default: "public" })
+  visibility!: PostVisibility;
+
+  /** set only when `visibility` is "password" */
+  @Prop({ type: String, default: "" })
+  password!: string;
+
+  /** "stick this post to the front page" — WordPress's featured flag */
+  @Prop({ type: Boolean, default: false })
+  sticky!: boolean;
+
+  /** the Discussion panel: whether readers may comment */
+  @Prop({ type: Boolean, default: true })
+  allowComments!: boolean;
 
   /** the name shown in the list, kept flat so a list needs no user join */
   @Prop({ type: String, default: null })

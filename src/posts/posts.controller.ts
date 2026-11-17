@@ -34,6 +34,11 @@ export class PostsController {
     return this.posts.published(category, numberOr(limit, 50), numberOr(skip, 0));
   }
 
+  @Get("tags/popular")
+  popularTags(@Query("limit") limit?: string) {
+    return this.posts.popularTags(limit ? Number(limit) : 20);
+  }
+
   @Get()
   list(@Query() query: ListPostsDto) {
     return this.posts.list({

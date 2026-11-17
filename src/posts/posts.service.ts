@@ -2,7 +2,12 @@ import { ConflictException, Injectable, NotFoundException } from "@nestjs/common
 import { InjectModel } from "@nestjs/mongoose";
 import { Model } from "mongoose";
 import slugify from "slugify";
-import { Post, type PostDocument, type PostStatus } from "../schemas/post.schema";
+import {
+  Post,
+  type PostDocument,
+  type PostStatus,
+  type PostVisibility,
+} from "../schemas/post.schema";
 import { AuditService } from "../revisions/audit.service";
 import type { AuthUser } from "../common/decorators/current-user.decorator";
 import type { CreatePostDto, UpdatePostDto } from "./dto";
@@ -12,6 +17,10 @@ export interface PostSummary {
   slug: string;
   title: { ka: string; en: string };
   status: PostStatus;
+  /** derived: status "published" but `publishedAt` is still in the future */
+  scheduled: boolean;
+  visibility: PostVisibility;
+  sticky: boolean;
   categories: string[];
   tags: string[];
   cover: string | null;
@@ -25,6 +34,8 @@ export interface PostSummary {
 export interface PostFull extends PostSummary {
   excerpt: { ka: string; en: string };
   body: { ka: string; en: string };
+  password: string;
+  allowComments: boolean;
   /** the full original record, for a migrated post; null for native posts */
   sourceData: Record<string, unknown> | null;
 }
@@ -83,8 +94,7 @@ export class PostsService {
   async create(input: CreatePostDto, actor?: AuthUser): Promise<PostFull> {
     const title = input.title ?? EMPTY;
     const slug = await this.uniqueSlug(input.slug?.trim() || title.en || title.ka);
-    const status: PostStatus = input.status === "published" ? "published" : "draft";
-    const post = await this.posts.create({
+    const post = new this.posts({
       slug,
       title,
       excerpt: input.excerpt ?? EMPTY,
@@ -92,14 +102,18 @@ export class PostsService {
       cover: input.cover ? input.cover : null,
       categories: input.categories ?? [],
       tags: input.tags ?? [],
-      status,
-      publishedAt: status === "published" ? new Date() : null,
+      status: input.status === "published" ? "published" : "draft",
       authorName: actor?.name ?? null,
       authorId: actor?.id,
     });
-    await this.audit.record(actor, `post.${status === "published" ? "publish" : "create"}`, slug, {
-      title,
-    });
+    this.applyMeta(post, input);
+    await post.save();
+    await this.audit.record(
+      actor,
+      `post.${post.status === "published" ? "publish" : "create"}`,
+      slug,
+      { title },
+    );
     return full(post);
   }
 
@@ -115,15 +129,49 @@ export class PostsService {
     if (input.cover !== undefined) post.cover = input.cover ? input.cover : null;
     if (input.categories) post.categories = input.categories;
     if (input.tags) post.tags = input.tags;
-
-    if (input.status && input.status !== post.status) {
-      post.status = input.status;
-      if (input.status === "published" && !post.publishedAt) post.publishedAt = new Date();
-    }
+    if (input.status) post.status = input.status;
+    this.applyMeta(post, input);
 
     await post.save();
     await this.audit.record(actor, "post.update", post.slug, { title: post.title });
     return full(post);
+  }
+
+  /**
+   * The Publish-box fields: visibility, password, the sticky flag, comments,
+   * and the publish date. A future date is a scheduled post; an empty string
+   * clears the schedule (publish now if live, otherwise no date). When the
+   * date is left out entirely, a first publish stamps now.
+   */
+  private applyMeta(post: PostDocument, input: UpdatePostDto): void {
+    if (input.visibility) post.visibility = input.visibility;
+    if (input.password !== undefined) post.password = input.password;
+    if (post.visibility !== "password") post.password = "";
+    if (input.sticky !== undefined) post.sticky = input.sticky;
+    if (input.allowComments !== undefined) post.allowComments = input.allowComments;
+
+    if (input.publishedAt !== undefined) {
+      const when = input.publishedAt ? new Date(input.publishedAt) : null;
+      post.publishedAt =
+        when && !Number.isNaN(when.getTime())
+          ? when
+          : post.status === "published"
+            ? new Date()
+            : null;
+    } else if (post.status === "published" && !post.publishedAt) {
+      post.publishedAt = new Date();
+    }
+  }
+
+  /** The most-used tags, for the "choose from the most used" cloud. */
+  async popularTags(limit = 20): Promise<{ tag: string; count: number }[]> {
+    const rows = await this.posts.aggregate<{ _id: string; n: number }>([
+      { $unwind: "$tags" },
+      { $group: { _id: "$tags", n: { $sum: 1 } } },
+      { $sort: { n: -1 } },
+      { $limit: Math.min(Math.max(limit, 1), 100) },
+    ]);
+    return rows.map((r) => ({ tag: r._id, count: r.n }));
   }
 
   async setStatus(id: string, status: PostStatus, actor?: AuthUser): Promise<PostFull> {
@@ -141,9 +189,17 @@ export class PostsService {
     await this.audit.record(actor, "post.delete", post.slug);
   }
 
-  /** What the website would read: published posts, newest first, by category. */
+  /**
+   * What the website would read: live posts, newest first, by category.
+   * A scheduled post (publish date in the future) and a private or
+   * password-protected one are held back — only genuinely public, due posts.
+   */
   async published(category?: string, limit = 50, skip = 0): Promise<PostFull[]> {
-    const filter: Record<string, unknown> = { status: "published" };
+    const filter: Record<string, unknown> = {
+      status: "published",
+      visibility: "public",
+      publishedAt: { $lte: new Date() },
+    };
     if (category) filter.categories = category;
     const docs = await this.posts
       .find(filter)
@@ -173,16 +229,20 @@ export class PostsService {
 }
 
 function summary(doc: PostDocument): PostSummary {
+  const publishedAt = doc.publishedAt ? doc.publishedAt.toISOString() : null;
   return {
     id: String(doc._id),
     slug: doc.slug,
     title: doc.title,
     status: doc.status,
+    scheduled: doc.status === "published" && !!doc.publishedAt && doc.publishedAt > new Date(),
+    visibility: doc.visibility,
+    sticky: doc.sticky,
     categories: doc.categories,
     tags: doc.tags,
     cover: doc.cover,
     authorName: doc.authorName,
-    publishedAt: doc.publishedAt ? doc.publishedAt.toISOString() : null,
+    publishedAt,
     updatedAt: (doc as { updatedAt?: Date }).updatedAt?.toISOString() ?? new Date().toISOString(),
     source: doc.source
       ? { collection: doc.source.collection, label: doc.source.label, key: doc.source.key }
@@ -195,6 +255,8 @@ function full(doc: PostDocument): PostFull {
     ...summary(doc),
     excerpt: doc.excerpt,
     body: doc.body,
+    password: doc.password,
+    allowComments: doc.allowComments,
     sourceData: doc.source?.data ?? null,
   };
 }

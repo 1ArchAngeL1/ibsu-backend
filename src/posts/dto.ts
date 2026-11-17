@@ -1,26 +1,27 @@
-import { IsArray, IsIn, IsObject, IsOptional, IsString } from "class-validator";
-import { POST_STATUSES } from "../schemas/post.schema";
+import { IsArray, IsBoolean, IsIn, IsObject, IsOptional, IsString } from "class-validator";
+import { POST_STATUSES, POST_VISIBILITIES } from "../schemas/post.schema";
+
+type Localized = { ka: string; en: string };
 
 /**
- * Localized fields (`title`, `body`, `excerpt`) are validated as objects and
- * stored whole — the same treatment content records get. `cover` is a media
- * path or an empty string to clear it; the service turns "" into null.
+ * Everything a post carries except the title, which is required on create and
+ * optional on update. Localized fields are validated as objects and stored
+ * whole, the same treatment content records get. `cover` is a media path or
+ * "" to clear it; `publishedAt` is an ISO date (a future one schedules the
+ * post, "" clears the schedule).
  */
-export class CreatePostDto {
-  @IsObject()
-  title!: { ka: string; en: string };
-
+class PostFieldsDto {
   @IsOptional()
   @IsString()
   slug?: string;
 
   @IsOptional()
   @IsObject()
-  excerpt?: { ka: string; en: string };
+  excerpt?: Localized;
 
   @IsOptional()
   @IsObject()
-  body?: { ka: string; en: string };
+  body?: Localized;
 
   @IsOptional()
   @IsString()
@@ -39,42 +40,37 @@ export class CreatePostDto {
   @IsOptional()
   @IsIn(POST_STATUSES)
   status?: (typeof POST_STATUSES)[number];
+
+  @IsOptional()
+  @IsIn(POST_VISIBILITIES)
+  visibility?: (typeof POST_VISIBILITIES)[number];
+
+  @IsOptional()
+  @IsString()
+  password?: string;
+
+  @IsOptional()
+  @IsBoolean()
+  sticky?: boolean;
+
+  @IsOptional()
+  @IsBoolean()
+  allowComments?: boolean;
+
+  @IsOptional()
+  @IsString()
+  publishedAt?: string;
 }
 
-export class UpdatePostDto {
+export class CreatePostDto extends PostFieldsDto {
+  @IsObject()
+  title!: Localized;
+}
+
+export class UpdatePostDto extends PostFieldsDto {
   @IsOptional()
   @IsObject()
-  title?: { ka: string; en: string };
-
-  @IsOptional()
-  @IsString()
-  slug?: string;
-
-  @IsOptional()
-  @IsObject()
-  excerpt?: { ka: string; en: string };
-
-  @IsOptional()
-  @IsObject()
-  body?: { ka: string; en: string };
-
-  @IsOptional()
-  @IsString()
-  cover?: string;
-
-  @IsOptional()
-  @IsArray()
-  @IsString({ each: true })
-  categories?: string[];
-
-  @IsOptional()
-  @IsArray()
-  @IsString({ each: true })
-  tags?: string[];
-
-  @IsOptional()
-  @IsIn(POST_STATUSES)
-  status?: (typeof POST_STATUSES)[number];
+  title?: Localized;
 }
 
 export class ListPostsDto {
