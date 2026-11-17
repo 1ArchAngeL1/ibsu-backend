@@ -17,7 +17,7 @@ import { HydratedDocument, SchemaTypes } from "mongoose";
  * Either way `path` is what goes into the content and what the website
  * renders, so a picture can be swapped for the other kind at any time.
  */
-export const MEDIA_SOURCES = ["public", "upload"] as const;
+export const MEDIA_SOURCES = ["public", "upload", "r2", "wp"] as const;
 export type MediaSource = (typeof MEDIA_SOURCES)[number];
 
 @Schema({ timestamps: true, collection: "media", minimize: false })
@@ -25,6 +25,14 @@ export class MediaAsset {
   /** what the website renders: `/photos/x.webp` or `/media/2026/11/x.webp` */
   @Prop({ type: String, required: true, unique: true })
   path!: string;
+
+  /**
+   * The object key in R2 (its `fileId`) when `source === "r2"`. The public
+   * URL in `path` is this key under the bucket's public base. Absent for
+   * files on local disk or those shipped in the site's `public/` folder.
+   */
+  @Prop({ type: String })
+  key?: string;
 
   @Prop({ type: String, required: true, enum: MEDIA_SOURCES, index: true })
   source!: MediaSource;
@@ -63,8 +71,8 @@ export class MediaAsset {
   tags!: string[];
 
   /** generated widths, for the `sizes` the site asks for */
-  @Prop({ type: [{ width: Number, path: String, bytes: Number }], default: [] })
-  variants!: { width: number; path: string; bytes: number }[];
+  @Prop({ type: [{ width: Number, path: String, bytes: Number, key: String }], default: [] })
+  variants!: { width: number; path: string; bytes: number; key?: string }[];
 
   @Prop({ type: SchemaTypes.ObjectId, ref: "User" })
   uploadedBy?: unknown;

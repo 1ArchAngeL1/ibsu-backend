@@ -7,6 +7,7 @@ import path from "node:path";
 import sharp from "sharp";
 import { MediaAsset, type MediaAssetDocument } from "../schemas/media-asset.schema";
 import { AuditService } from "../revisions/audit.service";
+import { StorageService } from "../storage/storage.service";
 import type { AppConfig } from "../config/configuration";
 import type { AuthUser } from "../common/decorators/current-user.decorator";
 
@@ -43,6 +44,7 @@ export class MediaService {
   constructor(
     @InjectModel(MediaAsset.name) private readonly media: Model<MediaAssetDocument>,
     private readonly audit: AuditService,
+    private readonly storage: StorageService,
     private readonly config: ConfigService<{ app: AppConfig }, true>,
   ) {}
 
@@ -131,13 +133,13 @@ export class MediaService {
     const extension = raster ? ".webp" : ALLOWED.get(file.mimetype)!;
     const base = await this.uniqueName(folder, stem, extension);
 
-    const dir = path.join(this.app.uploads.dir, folder);
-    await fs.mkdir(dir, { recursive: true });
+    const mainKey = `${folder}/${base}${extension}`;
 
     let width: number | undefined;
     let height: number | undefined;
     let bytes = file.size;
-    const variants: { width: number; path: string; bytes: number }[] = [];
+    let publicPath: string;
+    const variants: { width: number; path: string; bytes: number; key: string }[] = [];
 
     if (raster) {
       const image = sharp(file.buffer, { failOn: "error" });
@@ -146,7 +148,7 @@ export class MediaService {
       height = info.height;
 
       const main = await image.clone().webp({ quality: 82 }).toBuffer();
-      await fs.writeFile(path.join(dir, base + extension), main);
+      publicPath = await this.storage.put(mainKey, main, "image/webp");
       bytes = main.length;
 
       for (const target of this.app.uploads.variantWidths) {
@@ -156,21 +158,18 @@ export class MediaService {
           .resize({ width: target })
           .webp({ quality: 80 })
           .toBuffer();
-        const name = `${base}-${target}w${extension}`;
-        await fs.writeFile(path.join(dir, name), resized);
-        variants.push({
-          width: target,
-          path: `${this.app.uploads.publicPrefix}/${folder}/${name}`,
-          bytes: resized.length,
-        });
+        const key = `${folder}/${base}-${target}w${extension}`;
+        const url = await this.storage.put(key, resized, "image/webp");
+        variants.push({ width: target, path: url, bytes: resized.length, key });
       }
     } else {
-      await fs.writeFile(path.join(dir, base + extension), file.buffer);
+      publicPath = await this.storage.put(mainKey, file.buffer, file.mimetype);
     }
 
     const asset = await this.media.create({
-      path: `${this.app.uploads.publicPrefix}/${folder}/${base}${extension}`,
-      source: "upload",
+      path: publicPath,
+      key: mainKey,
+      source: this.storage.usingR2 ? "r2" : "upload",
       originalName: file.originalname,
       mime: raster ? "image/webp" : file.mimetype,
       bytes,
@@ -209,14 +208,23 @@ export class MediaService {
    */
   async remove(assetPath: string, actor?: AuthUser): Promise<void> {
     const asset = await this.byPath(assetPath);
-    if (asset.source === "upload") {
-      const relative = asset.path.slice(this.app.uploads.publicPrefix.length + 1);
-      for (const victim of [relative, ...asset.variants.map((v) => v.path.slice(this.app.uploads.publicPrefix.length + 1))]) {
-        await fs.rm(path.join(this.app.uploads.dir, victim), { force: true });
-      }
+    // Files we stored (R2 or local uploads) are deleted from storage; files
+    // that came with the site are only de-listed - git would put them back.
+    if (asset.source === "upload" || asset.source === "r2") {
+      const keys = [
+        asset.key ?? this.keyFromPath(asset.path),
+        ...asset.variants.map((v) => v.key ?? this.keyFromPath(v.path)),
+      ].filter((k): k is string => Boolean(k));
+      for (const key of keys) await this.storage.delete(key);
     }
     await this.media.deleteOne({ path: assetPath }).exec();
     await this.audit.record(actor, "media.delete", assetPath, { source: asset.source });
+  }
+
+  /** The storage key behind a legacy local `/media/...` path, else null. */
+  private keyFromPath(p: string): string | null {
+    const prefix = `${this.app.uploads.publicPrefix}/`;
+    return p.startsWith(prefix) ? p.slice(prefix.length) : null;
   }
 
   /**

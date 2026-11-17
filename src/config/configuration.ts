@@ -3,6 +3,15 @@
  * once, so a missing secret fails at boot with a sentence about which one
  * rather than at 3am with a stack trace.
  */
+export interface R2Config {
+  accountId: string;
+  accessKeyId: string;
+  secretAccessKey: string;
+  bucket: string;
+  endpoint: string;
+  publicBaseUrl: string;
+}
+
 export interface AppConfig {
   port: number;
   mongoUri: string;
@@ -16,6 +25,8 @@ export interface AppConfig {
   sitePublicDir: string;
   /** lets the website read drafts; never handed to a browser */
   previewSecret: string;
+  /** Cloudflare R2 (S3-compatible) object storage; null -> uploads to local disk */
+  r2: R2Config | null;
 }
 
 function required(name: string): string {
@@ -66,5 +77,29 @@ export function loadConfig(): AppConfig {
     },
     sitePublicDir: optional("SITE_PUBLIC_DIR", "../public"),
     previewSecret: required("PREVIEW_SECRET"),
+    r2: buildR2(),
+  };
+}
+
+/**
+ * R2 is configured only if every piece is present. Missing any one, the API
+ * falls back to writing uploads on local disk, so it still boots in dev.
+ */
+function buildR2(): R2Config | null {
+  const accountId = process.env.R2_ACCOUNT_ID;
+  const accessKeyId = process.env.R2_ACCESS_KEY_ID;
+  const secretAccessKey = process.env.R2_SECRET_ACCESS_KEY;
+  const bucket = process.env.R2_BUCKET;
+  const publicBaseUrl = process.env.R2_PUBLIC_BASE_URL;
+  if (!accountId || !accessKeyId || !secretAccessKey || !bucket || !publicBaseUrl) {
+    return null;
+  }
+  return {
+    accountId,
+    accessKeyId,
+    secretAccessKey,
+    bucket,
+    endpoint: optional("R2_ENDPOINT", `https://${accountId}.r2.cloudflarestorage.com`),
+    publicBaseUrl: publicBaseUrl.replace(/\/+$/, ""),
   };
 }

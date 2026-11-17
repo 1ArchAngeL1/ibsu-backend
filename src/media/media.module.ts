@@ -5,6 +5,7 @@ import { MediaAsset, MediaAssetSchema } from "../schemas/media-asset.schema";
 import { MediaService } from "./media.service";
 import { MediaController } from "./media.controller";
 import { RevisionsModule } from "../revisions/revisions.module";
+import { StorageService } from "../storage/storage.service";
 
 @Module({
   imports: [
@@ -14,7 +15,7 @@ import { RevisionsModule } from "../revisions/revisions.module";
     MulterModule.register({ storage: undefined }),
     RevisionsModule,
   ],
-  providers: [MediaService],
+  providers: [MediaService, StorageService],
   controllers: [MediaController],
   exports: [MediaService],
 })
