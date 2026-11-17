@@ -30,7 +30,7 @@ and `SITE_PUBLIC_DIR` (the media library).
 |---|---|
 | **Copy** | 3,082 message keys × 2 languages — every heading, label and paragraph on 112 routes |
 | **Content** | 72 collections, 1,941 records — news, programmes, staff, journals, prices, the newsroom |
-| **Media** | 864 files indexed from the website's `public/`, plus whatever is uploaded here |
+| **Media** | 864 files indexed from the website's `public/`, 5,358 mirrored out of the old WordPress library with their derivatives, plus whatever is uploaded here |
 
 All of it came out of `src/data/*.ts` and `src/i18n/messages/*.json` in the
 website, in one automated migration. See [Migration](#migration).
@@ -226,6 +226,61 @@ the only copy of the content outside Mongo, and the path back if a restore is
 ever needed. `seed/legacy` — the raw per-module extract, 23 MB of it — is
 not: it is reproducible by checking out a commit from before the migration
 and running `npm run extract` again.
+
+### Out of the old WordPress site
+
+The records migration above moved the *website*. The old WordPress site at
+ibsu.edu.ge is a second source, and a larger one: 2,761 posts and a media
+library of 5,358 files that no `src/data` module ever knew about.
+
+```bash
+set -a; source .env; set +a   # every stage reads MONGO_URI and R2_*
+npm run migrate-wp            # all five stages, in order
+```
+
+Or one at a time, which is how a long run is resumed:
+
+| | |
+|---|---|
+| `npm run import-wp -- media` | the library and everything WordPress knew about it |
+| `npm run rescue-wp` | the files themselves, into the R2 bucket |
+| `npm run mirror-wp` | the sized copies the old posts ask for |
+| `npm run import-wp -- posts` | the posts, relinked as they are written |
+| `npm run relink-wp` | every WordPress URL left anywhere in the database |
+| `npm run verify-wp` | counts, leftovers, and a sample of URLs actually fetched |
+
+Every stage is idempotent and resumable, and the order is the dependency
+order: nothing can be relinked before the file it points at has been
+mirrored.
+
+**The one rule.** `keyFor` in `tools/wp-common.ts` maps an old URL to the
+object key our copy lives under, and it is a pure function —
+`…/uploads/2026/11/x.webp` is always `wordpress/2026/11/x.webp`. Because it
+is, no stage has to remember what another did: the rescuer computes the key
+it uploads to, and the relinker computes the same key from a URL it finds in
+a post body months later and knows where the file went. It is also why
+`import-wp posts` can relink as it writes rather than undoing the previous
+run's work.
+
+Keys hold the *decoded* name and public URLs percent-encode it once, per
+segment. The reverse — storing the encoded form as the key — gives an object
+literally named `%E1%83%92.webp`, which the obvious URL can never reach,
+because the CDN decodes a request path before matching it. 342 Georgian
+filenames were silently unreachable that way; `rescue-wp --fix-keys` is the
+repair, and it runs by default.
+
+**Derivatives.** A WordPress gallery does not render the full size. It
+renders `src="…/IMG_8334-300x200.webp"` with a `srcset` of four more widths,
+and none of those derivatives is an attachment of its own, so none of them
+comes over with the library. 11,842 of them are referenced by this content.
+`mirror-wp` fetches exactly the ones referenced and records them as
+`variants` of the attachment they were cut from, so a migrated `srcset`
+keeps every width it was written with.
+
+**What is left pointing at ibsu.edu.ge** is a deliberate outcome, not a
+missed one: a URL is rewritten only when the file is provably in the bucket,
+so the handful WordPress itself has lost keep a URL that still works rather
+than a tidy one that 404s. `verify-wp` lists them.
 
 ### What did not move
 

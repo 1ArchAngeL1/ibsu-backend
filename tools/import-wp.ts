@@ -133,6 +133,23 @@ async function importMedia(Media: mongoose.Model<unknown>): Promise<void> {
     if (alt) set.alt = { ka: alt, en: "" };
     if (caption) set.caption = { ka: caption, en: "" };
 
+    // Identity and location are an insert-time decision: a row already
+    // rescued into R2 has a path and key of its own and must keep them.
+    const onInsert: Record<string, unknown> = {
+      path: url,
+      source: "wp",
+      bytes: details.filesize ?? 0,
+      alt: { ka: alt, en: "" },
+      caption: { ka: caption, en: "" },
+      folder: "wordpress",
+      tags: [],
+      variants: [],
+    };
+    // Mongo refuses an update that names one field in both operators, and
+    // `bytes`, `alt` and `caption` are each written by whichever of the two
+    // has something to say — so $set wins and $setOnInsert stands down.
+    for (const field of Object.keys(set)) delete onInsert[field];
+
     ops.push({
       updateOne: {
         filter: {
@@ -143,21 +160,7 @@ async function importMedia(Media: mongoose.Model<unknown>): Promise<void> {
             { path: url },
           ],
         },
-        update: {
-          $set: set,
-          // Identity and location are an insert-time decision. A row already
-          // rescued into R2 has a path and key of its own and must keep them.
-          $setOnInsert: {
-            path: url,
-            source: "wp",
-            bytes: details.filesize ?? 0,
-            alt: { ka: alt, en: "" },
-            caption: { ka: caption, en: "" },
-            folder: "wordpress",
-            tags: [],
-            variants: [],
-          },
-        },
+        update: { $set: set, $setOnInsert: onInsert },
         upsert: true,
       },
     });
