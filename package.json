@@ -18,7 +18,8 @@
     "mongo": "mongod --dbpath ./.mongo-data",
     "seed-categories": "tsx tools/seed-categories.ts",
     "migrate-posts": "tsx tools/migrate-records-to-posts.ts",
-    "import-posts": "tsx tools/import-posts.ts"
+    "import-posts": "tsx tools/import-posts.ts",
+    "import-wp": "tsx tools/import-wp.ts"
   },
   "dependencies": {
     "@nestjs/common": "^12.5.0",
