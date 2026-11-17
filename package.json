@@ -19,7 +19,12 @@
     "seed-categories": "tsx tools/seed-categories.ts",
     "migrate-posts": "tsx tools/migrate-records-to-posts.ts",
     "import-posts": "tsx tools/import-posts.ts",
-    "import-wp": "tsx tools/import-wp.ts"
+    "import-wp": "tsx tools/import-wp.ts",
+    "rescue-wp": "tsx tools/rescue-wp-media.ts",
+    "mirror-wp": "tsx tools/mirror-wp-derivatives.ts",
+    "relink-wp": "tsx tools/relink-wp-media.ts",
+    "verify-wp": "tsx tools/verify-wp-migration.ts",
+    "migrate-wp": "npm run import-wp -- media && npm run rescue-wp && npm run mirror-wp && npm run import-wp -- posts && npm run relink-wp && npm run verify-wp"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.1170.0",

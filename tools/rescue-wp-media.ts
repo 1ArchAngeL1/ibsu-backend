@@ -1,120 +1,205 @@
 /**
- * Rescues the WordPress media - the ~4,525 images still referenced by their
- * live ibsu.edu.ge URL - into our own R2 bucket, so the site stops depending
- * on the old WordPress server and we actually own the files.
+ * Rescues the WordPress files themselves into our R2 bucket, so the site
+ * stops depending on the old WordPress server and we actually own them.
  *
- * For each media doc with source "wp":
- *   download from ibsu.edu.ge  ->  PUT to R2  ->  rewrite the doc
- *   (path -> the public r2.dev URL, key -> the object key, source -> "r2").
- *
- * Idempotent: a rescued doc becomes source "r2" and is skipped next time, so
- * the job resumes cleanly if interrupted. Reads MONGO_URI and the R2_* vars
- * from the environment - source the backend's .env before running:
+ * For every media row still sourced "wp":
+ *   download from ibsu.edu.ge  ->  PUT to R2  ->  rewrite the row
+ *   (path -> the public bucket URL, key -> the object key, source -> "r2").
  *
  *     set -a; source .env; set +a
- *     ./node_modules/.bin/tsx tools/rescue-wp-media.ts             # all
- *     ./node_modules/.bin/tsx tools/rescue-wp-media.ts --limit=50  # a trial
+ *     tsx tools/rescue-wp-media.ts                # everything outstanding
+ *     tsx tools/rescue-wp-media.ts --limit=50     # a trial
+ *     tsx tools/rescue-wp-media.ts --fix-keys     # only the repair below
+ *
+ * Idempotent and resumable: a rescued row becomes source "r2" and is skipped
+ * next time, so an interrupted run simply carries on.
+ *
+ * `--fix-keys`, which runs first unless `--no-fix-keys` is given, repairs the
+ * rows the first version of this tool got wrong. It keyed objects by the
+ * *encoded* URL path, so a Georgian filename became an object literally named
+ * `wordpress/2026/11/%E1%83%92.webp` — which the matching public URL can
+ * never fetch, because the CDN decodes the request path before looking the
+ * key up. 342 files were unreachable that way. The repair copies each to its
+ * decoded key inside the bucket (no second download), rewrites the row, and
+ * deletes the unreachable original.
  */
 import mongoose from "mongoose";
-import { S3Client, PutObjectCommand } from "@aws-sdk/client-s3";
+import {
+  CopyObjectCommand,
+  DeleteObjectCommand,
+  HeadObjectCommand,
+  PutObjectCommand,
+} from "@aws-sdk/client-s3";
 import { MediaAssetSchema } from "../src/schemas/media-asset.schema";
+import { download, env, keyFor, pool, publicUrl, r2 } from "./wp-common";
 
 const args = process.argv.slice(2);
 const limit = Number(args.find((a) => a.startsWith("--limit="))?.slice(8)) || 0;
 const CONCURRENCY = 8;
 
-function env(name: string): string {
-  const v = process.env[name];
-  if (!v) throw new Error(`${name} is not set (source the backend .env first).`);
-  return v;
-}
+type Media = mongoose.Model<unknown>;
+type Bucket = ReturnType<typeof r2>;
 
-const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
-
-/** Download with a few retries; ibsu.edu.ge occasionally throttles bulk pulls. */
-async function download(url: string, tries = 5): Promise<{ body: Buffer; type: string } | null> {
-  for (let i = 0; ; i += 1) {
-    try {
-      const res = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0" } });
-      if (res.status === 404 || res.status === 410) return null; // gone on WP
-      if (res.status === 429 || res.status === 403 || res.status >= 500) {
-        if (i >= tries) return null;
-        await sleep(Math.min(2000 * 2 ** i, 30000));
-        continue;
-      }
-      if (!res.ok) return null;
-      const body = Buffer.from(await res.arrayBuffer());
-      return { body, type: res.headers.get("content-type") || "application/octet-stream" };
-    } catch {
-      if (i >= tries) return null;
-      await sleep(Math.min(2000 * 2 ** i, 30000));
-    }
+/** The 342 objects stored under a literally-percent-encoded key. */
+async function fixKeys(Media: Media, { client, bucket, publicBase }: Bucket): Promise<void> {
+  const broken = (await Media.find({ source: "r2", key: /%/ }, { key: 1, path: 1 }).lean()) as {
+    _id: unknown;
+    key: string;
+  }[];
+  if (!broken.length) {
+    console.log("fix-keys: nothing mis-keyed.");
+    return;
   }
+  console.log(`fix-keys: ${broken.length} objects under an unreachable key…`);
+  let moved = 0;
+  let failed = 0;
+
+  await pool(broken, 6, async (doc) => {
+    let decoded: string;
+    try {
+      decoded = decodeURIComponent(doc.key);
+    } catch {
+      failed += 1; // a real `%` in the filename; leave it alone
+      return;
+    }
+    if (decoded === doc.key) return;
+    try {
+      // CopySource is a URL path and has to be encoded; the key it lands on
+      // is the decoded name, which is the whole point of the repair.
+      await client.send(
+        new CopyObjectCommand({
+          Bucket: bucket,
+          Key: decoded,
+          CopySource: `/${bucket}/${doc.key.split("/").map(encodeURIComponent).join("/")}`,
+        }),
+      );
+      await Media.updateOne(
+        { _id: doc._id },
+        { $set: { key: decoded, path: publicUrl(publicBase, decoded) } },
+      );
+      await client.send(new DeleteObjectCommand({ Bucket: bucket, Key: doc.key }));
+      moved += 1;
+    } catch (error) {
+      failed += 1;
+      if (failed <= 3) console.log(`  ${doc.key}: ${(error as Error).message}`);
+    }
+  });
+  console.log(`fix-keys: ${moved} re-keyed, ${failed} failed.`);
 }
 
-/** ibsu.edu.ge/wp-content/uploads/2026/11/x.webp -> wordpress/2026/11/x.webp */
-function keyFor(url: string): string {
-  try {
-    const p = new URL(url).pathname.replace(/^\/+/, "");
-    return `wordpress/${p.replace(/^wp-content\/uploads\//, "")}`;
-  } catch {
-    return `wordpress/${url.split("/").pop() || "file"}`;
+/** Everything still living on ibsu.edu.ge. */
+async function rescue(Media: Media, { client, bucket, publicBase }: Bucket): Promise<void> {
+  const query = Media.find({ source: "wp" }, { path: 1, mime: 1, wp: 1 });
+  if (limit > 0) query.limit(limit);
+  const docs = (await query.lean()) as {
+    _id: unknown;
+    path: string;
+    mime?: string;
+    wp?: { filesize?: number | null };
+  }[];
+  if (!docs.length) {
+    console.log("rescue: every file is already in the bucket.");
+    return;
+  }
+  console.log(`rescue: ${docs.length} files to bring into "${bucket}"…`);
+
+  let done = 0;
+  let failed = 0;
+  let alreadyThere = 0;
+  const failures: string[] = [];
+
+  await pool(docs, CONCURRENCY, async (doc) => {
+    const url = doc.path;
+    const key = url ? keyFor(url) : null;
+    if (!key) {
+      failed += 1;
+      failures.push(`${url} (not an uploads URL)`);
+      return;
+    }
+
+    // A previous run may have uploaded the object and died before writing the
+    // row. Ask the bucket first; it is far cheaper than a second download.
+    let bytes = 0;
+    let type = doc.mime;
+    let have = false;
+    try {
+      const head = await client.send(new HeadObjectCommand({ Bucket: bucket, Key: key }));
+      bytes = head.ContentLength ?? 0;
+      type = head.ContentType ?? type;
+      have = true;
+      alreadyThere += 1;
+    } catch {
+      // not in the bucket yet, which is the normal case
+    }
+
+    if (!have) {
+      const file = await download(url);
+      if (!file) {
+        failed += 1;
+        failures.push(url);
+        return;
+      }
+      bytes = file.body.length;
+      type = doc.mime || file.type;
+      try {
+        await client.send(
+          new PutObjectCommand({
+            Bucket: bucket,
+            Key: key,
+            Body: file.body,
+            ContentType: type,
+            CacheControl: "public, max-age=31536000, immutable",
+          }),
+        );
+      } catch (error) {
+        failed += 1;
+        failures.push(`${url} (${(error as Error).message})`);
+        return;
+      }
+    }
+
+    await Media.updateOne(
+      { _id: doc._id },
+      {
+        $set: {
+          path: publicUrl(publicBase, key),
+          key,
+          source: "r2",
+          bytes: bytes || doc.wp?.filesize || 0,
+          mime: type,
+        },
+      },
+    );
+    done += 1;
+    if ((done + failed) % 250 === 0) {
+      console.log(`  ${done} rescued, ${failed} failed, ${docs.length - done - failed} to go`);
+    }
+  });
+
+  console.log(
+    `rescue: ${done} rescued of ${docs.length}` +
+      (alreadyThere ? ` (${alreadyThere} were already in the bucket)` : "") +
+      `, ${failed} failed.`,
+  );
+  if (failures.length) {
+    console.log("  WordPress no longer serves these:");
+    failures.slice(0, 12).forEach((f) => console.log(`    ${f}`));
+    if (failures.length > 12) console.log(`    …and ${failures.length - 12} more`);
   }
 }
 
 async function main(): Promise<void> {
   await mongoose.connect(env("MONGO_URI"));
-  const Media = mongoose.model("MediaAsset", MediaAssetSchema);
-  const client = new S3Client({
-    region: "auto",
-    endpoint: env("R2_ENDPOINT"),
-    credentials: { accessKeyId: env("R2_ACCESS_KEY_ID"), secretAccessKey: env("R2_SECRET_ACCESS_KEY") },
-  });
-  const bucket = env("R2_BUCKET");
-  const publicBase = env("R2_PUBLIC_BASE_URL").replace(/\/+$/, "");
+  const Media = mongoose.model("MediaAsset", MediaAssetSchema) as unknown as Media;
+  const bucket = r2();
 
-  const q = Media.find({ source: "wp" }).select("path mime");
-  if (limit > 0) q.limit(limit);
-  const docs = (await q.lean()) as { _id: unknown; path: string; mime?: string }[];
-  console.log(`rescuing ${docs.length} WordPress images into R2 bucket "${bucket}"...`);
+  if (!args.includes("--no-fix-keys")) await fixKeys(Media, bucket);
+  if (!args.includes("--fix-keys")) await rescue(Media, bucket);
 
-  let done = 0, failed = 0, idx = 0;
-  const failures: string[] = [];
-
-  async function worker(): Promise<void> {
-    for (;;) {
-      const i = idx++;
-      if (i >= docs.length) return;
-      const doc = docs[i];
-      const url = doc.path;
-      if (!url || !/^https?:\/\//.test(url)) continue;
-      const dl = await download(url);
-      if (!dl) { failed += 1; failures.push(url); continue; }
-      const key = keyFor(url);
-      const type = doc.mime || dl.type;
-      try {
-        await client.send(new PutObjectCommand({
-          Bucket: bucket, Key: key, Body: dl.body, ContentType: type,
-          CacheControl: "public, max-age=31536000, immutable",
-        }));
-        await Media.updateOne(
-          { _id: doc._id },
-          { $set: { path: `${publicBase}/${key}`, key, source: "r2", bytes: dl.body.length, mime: type } },
-        );
-        done += 1;
-      } catch {
-        failed += 1; failures.push(url);
-      }
-      if ((done + failed) % 250 === 0) {
-        console.log(`  ${done} rescued, ${failed} failed, ${docs.length - done - failed} to go`);
-      }
-    }
-  }
-
-  await Promise.all(Array.from({ length: CONCURRENCY }, () => worker()));
-  console.log(`\nDONE: ${done} rescued, ${failed} failed of ${docs.length}.`);
-  if (failures.length) console.log("first failures:\n" + failures.slice(0, 12).join("\n"));
   await mongoose.disconnect();
 }
 
-void main().catch((e: Error) => { console.error("\n" + e.message); process.exit(1); });
+void main().catch((error: Error) => {
+  console.error("\n" + error.message);
+  process.exit(1);
+});

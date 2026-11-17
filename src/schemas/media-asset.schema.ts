@@ -70,9 +70,50 @@ export class MediaAsset {
   @Prop({ type: [String], default: [] })
   tags!: string[];
 
-  /** generated widths, for the `sizes` the site asks for */
-  @Prop({ type: [{ width: Number, path: String, bytes: Number, key: String }], default: [] })
-  variants!: { width: number; path: string; bytes: number; key?: string }[];
+  /**
+   * The narrower copies the site's `sizes` ask for.
+   *
+   * Two kinds live here. Uploads through the admin get the widths in
+   * `VARIANT_WIDTHS`, made by sharp. A file mirrored out of WordPress gets
+   * exactly the derivatives WordPress itself had made and the old posts
+   * actually reference (`photo-768x512.webp`), so a migrated `srcset` keeps
+   * every width it was written with.
+   */
+  @Prop({
+    type: [{ width: Number, height: Number, path: String, bytes: Number, key: String }],
+    default: [],
+  })
+  variants!: { width: number; height?: number; path: string; bytes: number; key?: string }[];
+
+  /**
+   * Everything WordPress knew about this attachment, kept as it was found.
+   *
+   * The library is the old site's media library: 5,435 attachments whose
+   * titles, captions, dates and authors are the only record of what they
+   * are. `id` is the attachment's WordPress post id and `parentPost` the
+   * post it was uploaded to, so a file can still be traced back to where it
+   * came from after the files themselves have moved into our bucket.
+   * `url` is where it used to live, which is what the old content referred
+   * to before it was relinked. `null` for anything not out of WordPress.
+   */
+  @Prop({ type: SchemaTypes.Mixed, default: null })
+  wp!: {
+    id: number;
+    url: string;
+    file: string;
+    slug?: string;
+    title?: string;
+    date?: string | null;
+    modified?: string | null;
+    mediaType?: string;
+    description?: string;
+    parentPost?: number | null;
+    author?: number | null;
+    width?: number | null;
+    height?: number | null;
+    filesize?: number | null;
+    sizes?: { name: string; width: number; height: number; mime?: string; url: string }[];
+  } | null;
 
   @Prop({ type: SchemaTypes.ObjectId, ref: "User" })
   uploadedBy?: unknown;
@@ -81,3 +122,8 @@ export class MediaAsset {
 export type MediaAssetDocument = HydratedDocument<MediaAsset>;
 export const MediaAssetSchema = SchemaFactory.createForClass(MediaAsset);
 MediaAssetSchema.index({ originalName: "text", tags: "text" });
+/** the WordPress importer upserts on this; sparse, since only mirrored files have it */
+MediaAssetSchema.index({ "wp.id": 1 }, { sparse: true });
+/** relinking looks every referenced WordPress URL up by the key it maps to */
+MediaAssetSchema.index({ key: 1 }, { sparse: true });
+MediaAssetSchema.index({ "variants.key": 1 }, { sparse: true });
