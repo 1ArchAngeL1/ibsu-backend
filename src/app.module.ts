@@ -11,6 +11,8 @@ import { UsersModule } from "./users/users.module";
 import { CopyModule } from "./copy/copy.module";
 import { ContentModule } from "./content/content.module";
 import { ContentModelModule } from "./content-model/content-model.module";
+import { PostsModule } from "./posts/posts.module";
+import { CategoriesModule } from "./categories/categories.module";
 import { MediaModule } from "./media/media.module";
 import { RevisionsModule } from "./revisions/revisions.module";
 import { PublishModule } from "./publish/publish.module";
@@ -37,6 +39,8 @@ import { SiteModule } from "./site/site.module";
     CopyModule,
     ContentModule,
     ContentModelModule,
+    PostsModule,
+    CategoriesModule,
     MediaModule,
     RevisionsModule,
     PublishModule,

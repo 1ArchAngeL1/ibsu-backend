@@ -15,7 +15,9 @@
     "seed": "tsx tools/seed.ts",
     "create-admin": "tsx tools/create-admin.ts",
     "infer": "tsx tools/infer-content-model.ts",
-    "mongo": "mongod --dbpath ./.mongo-data"
+    "mongo": "mongod --dbpath ./.mongo-data",
+    "seed-categories": "tsx tools/seed-categories.ts",
+    "migrate-posts": "tsx tools/migrate-records-to-posts.ts"
   },
   "dependencies": {
     "@nestjs/common": "^12.5.0",
