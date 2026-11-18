@@ -21,6 +21,19 @@ interface CollectionPatch {
   fields?: Record<string, Partial<FieldDef>>;
   /** fields the admin should not render at all */
   hide?: string[];
+  /**
+   * Fields the inference never saw, because nothing in the migrated
+   * content had them. Content imported later does.
+   *
+   * Keyed by the field they belong inside — `""` for the top level.
+   *
+   * This one is not cosmetic like the patches above. A field the model
+   * does not declare is dropped the moment a record is saved (see
+   * `coerceFields`), so an editor who opened a record and pressed save
+   * would silently delete it. Anything written into a collection from
+   * outside the admin has to be declared here.
+   */
+  add?: Record<string, FieldDef[]>;
 }
 
 const PATCHES: Record<string, CollectionPatch> = {
@@ -48,7 +61,72 @@ const PATCHES: Record<string, CollectionPatch> = {
   },
   staffProfiles: {
     description:
-      "Profiles at /staff/<id>. The contact block (office, telephone, office hours) is carried here but the site does not render it yet.",
+      "Profiles at /staff/<id>. Three came from the prototype and are complete; 122 came off the old site's lecturer pages (tools/import-lecturers.ts) and most of those hold a name, a rank and an address — the rest of each page was empty there. The site draws only the sections that have something in them, so filling one in here makes it appear.",
+    add: {
+      // Written by the lecturer import. Declared so the admin can edit
+      // them and, more to the point, so saving a record does not drop them.
+      "": [
+        {
+          name: "schoolKey",
+          label: "School",
+          kind: "select",
+          help: "Which school's faculty list this person belongs to, and the page the profile links back to.",
+          options: [
+            { value: "business", label: "School of Business" },
+            { value: "law", label: "Law School" },
+            { value: "eduhum", label: "Education & Humanities" },
+            { value: "computing", label: "Computer Science" },
+            { value: "medicine", label: "Medical School" },
+          ],
+          listColumn: true,
+        },
+        {
+          name: "rank",
+          label: "Rank",
+          kind: "select",
+          help: "Taken from the school's own lecturer list. The profile page shows it where no role is written.",
+          options: [
+            { value: "head", label: "Programme head" },
+            { value: "professor", label: "Professor" },
+            { value: "associate", label: "Associate professor" },
+            { value: "assistant", label: "Assistant professor" },
+            { value: "affiliatedProfessor", label: "Affiliated professor" },
+            { value: "affiliatedAssociate", label: "Affiliated associate professor" },
+          ],
+        },
+        {
+          name: "current",
+          label: "Teaching this year",
+          kind: "array",
+          help: "What they are teaching now, in prose. The old pages wrote it as a paragraph per degree rather than a list.",
+          of: { name: "item", label: "Paragraph", kind: "textarea", localized: true },
+        },
+        {
+          name: "extra",
+          label: "Additional information",
+          kind: "array",
+          help: "The old profile's last tab. Empty for almost everybody — it held a placeholder there.",
+          of: { name: "item", label: "Paragraph", kind: "textarea", localized: true },
+        },
+        {
+          name: "source",
+          label: "Imported from",
+          kind: "text",
+          help: "The page on ibsu.edu.ge this profile was read from. For checking against the original; nothing renders it.",
+        },
+      ],
+      // A migrated publication names no journal but carries a link to the
+      // book, which is what the page shows in the venue's place.
+      pubs: [
+        {
+          name: "url",
+          label: "Link",
+          kind: "text",
+          nullable: true,
+          help: "Where the publication can be read or bought.",
+        },
+      ],
+    },
   },
   documentation: {
     fields: {
@@ -87,9 +165,32 @@ function patch(collection: CollectionDef): CollectionDef {
   const p = PATCHES[collection.name];
   if (!p) return collection;
 
+  // A copy, so adding to it cannot append twice if this ever runs again.
   const fields = p.hide
     ? collection.fields.filter((f) => !p.hide!.includes(f.name))
-    : collection.fields;
+    : [...collection.fields];
+
+  if (p.add) {
+    for (const [parent, added] of Object.entries(p.add)) {
+      if (parent === "") {
+        fields.push(...added.map((field) => ({ ...field })));
+        continue;
+      }
+      let placed = false;
+      walkFields(fields, (field) => {
+        if (field.name !== parent) return;
+        field.fields = [...(field.fields ?? []), ...added.map((f) => ({ ...f }))];
+        placed = true;
+      });
+      if (!placed) {
+        throw new Error(
+          `catalogue: ${collection.name} has no field "${parent}" to add ${added
+            .map((f) => f.name)
+            .join(", ")} to.`,
+        );
+      }
+    }
+  }
 
   if (p.fields) {
     walkFields(fields, (field) => {

@@ -324,15 +324,24 @@ async function main(): Promise<void> {
       if (known) matched += 1;
 
       const id = keyFor(nameEn, nameKa, taken);
+      const email = ka?.email ?? en?.email;
+      /**
+       * The field names are the content model's, not this tool's — see
+       * `staffProfiles` in src/content-model/catalogue.ts. `schoolKey`
+       * rather than `school`, which the model holds a display name in, and
+       * the address inside `contact`, which the model already declares. A
+       * field the model does not know is dropped the first time somebody
+       * saves the record in the admin.
+       */
       const data: Record<string, unknown> = {
         id,
-        school,
+        schoolKey: school,
         name: nameEn,
         nameka: nameKa,
         /** `head`, `professor`, … off the roster; absent when unmatched */
         ...(known?.rank ? { rank: known.rank } : {}),
         ...(known?.note ? { role: known.note.en ?? "", roleka: known.note.ka ?? "" } : {}),
-        ...(ka?.email || en?.email ? { email: ka?.email ?? en?.email } : {}),
+        ...(email ? { contact: { email } } : {}),
         bio: pair(en?.bio ?? [], ka?.bio ?? []),
         pubs: pubs(en?.publications ?? [], ka?.publications ?? []),
         teaching: teaching(en?.courses ?? [], ka?.courses ?? []),
@@ -371,7 +380,7 @@ async function main(): Promise<void> {
     console.log(`\n--- ${empty.length} with no bio; the first few, to check against the source ---`);
     for (const row of empty.slice(0, 8)) console.log(`  ${row.id as string}  ${row.source as string}`);
     const missing = empty.length;
-    const noEmail = rows.filter((r) => !r.email).length;
+    const noEmail = rows.filter((r) => !(r.contact as { email?: string } | undefined)?.email).length;
     console.log(
       `\n${rows.length} parsed · ${missing} with no bio · ${noEmail} with no email · ` +
         `${rows.filter((r) => (r.pubs as unknown[]).length > 0).length} with publications · ` +
