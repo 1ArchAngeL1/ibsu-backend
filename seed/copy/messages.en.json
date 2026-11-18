@@ -1570,14 +1570,17 @@
         "biography": "Biography",
         "research": "Research interests",
         "teaching": "Teaching",
-        "publications": "Selected publications"
+        "publications": "Selected publications",
+        "extra": "Additional information"
       },
       "tags": {
         "research": "Focus",
         "teaching": "Courses",
-        "publications": "Recent"
+        "publications": "Recent",
+        "extra": "Profile"
       },
-      "back": "Back to school"
+      "back": "Back to school",
+      "email": "E-mail"
     },
     "eduhumJournal": {
       "title": "The student journal",

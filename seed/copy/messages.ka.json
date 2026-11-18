@@ -1570,14 +1570,17 @@
         "biography": "ბიოგრაფია",
         "research": "კვლევის ინტერესები",
         "teaching": "სწავლება",
-        "publications": "შერჩეული პუბლიკაციები"
+        "publications": "შერჩეული პუბლიკაციები",
+        "extra": "დამატებითი ინფორმაცია"
       },
       "tags": {
         "research": "ფოკუსი",
         "teaching": "კურსები",
-        "publications": "ბოლო"
+        "publications": "ბოლო",
+        "extra": "პროფილი"
       },
-      "back": "სკოლაში დაბრუნება"
+      "back": "სკოლაში დაბრუნება",
+      "email": "ელ-ფოსტა"
     },
     "eduhumJournal": {
       "title": "სტუდენტური ჟურნალი",
