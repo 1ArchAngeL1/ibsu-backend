@@ -6,6 +6,15 @@
  *     tsx tools/import-lecturers.ts --only=business
  *     tsx tools/import-lecturers.ts                     # all three schools
  *
+ * Onto a server the old site refuses — ibsu.edu.ge answers 403 to the
+ * tester VM — in two steps, reading there and writing here:
+ *
+ *     tsx tools/import-lecturers.ts --out=lecturers.json   # where it can read
+ *     tsx tools/import-lecturers.ts --in=lecturers.json    # where it must write
+ *
+ * `--in` touches nothing but the database, so the same file can be applied
+ * to a second environment and give the same rows.
+ *
  * The roster migration took the names and ranks off the schools' lecturer
  * lists. This takes what is behind each name: the bio, the publications,
  * the courses taught, the email address.
@@ -26,6 +35,7 @@
  * that exists is updated in place, so the three hand-made sample profiles
  * and any editing done in the admin survive a re-run.
  */
+import fs from "node:fs";
 import mongoose from "mongoose";
 import slugify from "slugify";
 import { ContentRecordSchema } from "../src/schemas/content-record.schema";
@@ -48,6 +58,8 @@ const args = process.argv.slice(2);
 const dry = args.includes("--dry");
 const only = args.find((a) => a.startsWith("--only="))?.slice("--only=".length);
 const limit = Number(args.find((a) => a.startsWith("--limit="))?.slice("--limit=".length)) || Infinity;
+const out = args.find((a) => a.startsWith("--out="))?.slice("--out=".length);
+const from = args.find((a) => a.startsWith("--in="))?.slice("--in=".length);
 
 interface Child {
   id: number;
@@ -270,6 +282,43 @@ async function main(): Promise<void> {
   const Record = mongoose.model("ContentRecord", ContentRecordSchema);
 
   /**
+   * Writes one profile.
+   *
+   * `order` is set only on insert: a row an editor has already moved in
+   * the admin keeps where they put it, and re-running this does not
+   * shuffle the directory back.
+   */
+  const save = async (data: Record<string, unknown>, order: number): Promise<void> => {
+    const key = data.id as string;
+    await Record.updateOne(
+      { collectionName: "staffProfiles", key },
+      {
+        $set: { data, status: "published", publishedAt: new Date() },
+        $setOnInsert: { collectionName: "staffProfiles", key, order },
+      },
+      { upsert: true },
+    );
+  };
+
+  /**
+   * Applying a file read elsewhere. No network, no parsing — the rows are
+   * already what the scrape decided, so this says the same thing twice in
+   * two environments.
+   */
+  if (from) {
+    const rows = JSON.parse(fs.readFileSync(from, "utf8")) as Record<string, unknown>[];
+    if (!Array.isArray(rows) || rows.some((row) => typeof row.id !== "string")) {
+      throw new Error(`${from} is not a list of profiles with ids.`);
+    }
+    console.log(`applying ${rows.length} profiles from ${from}`);
+    for (const [i, data] of rows.entries()) await save(data, 100 + i);
+    const total = await Record.countDocuments({ collectionName: "staffProfiles" });
+    console.log(`staffProfiles now holds ${total} records`);
+    await mongoose.disconnect();
+    return;
+  }
+
+  /**
    * The roster the earlier migration left behind, to read a rank off.
    * The profile pages do not state one; the lists do.
    */
@@ -351,22 +400,22 @@ async function main(): Promise<void> {
       };
       rows.push(data);
 
-      if (!dry) {
-        await Record.updateOne(
-          { collectionName: "staffProfiles", key: id },
-          {
-            $set: { data, status: "published", publishedAt: new Date() },
-            $setOnInsert: { collectionName: "staffProfiles", key: id, order: 100 + written },
-          },
-          { upsert: true },
-        );
+      // `--out` collects the rows for another environment to apply; it is
+      // a read of the old site, so it writes nothing here.
+      if (!dry && !out) {
+        await save(data, 100 + written);
       }
       written += 1;
     }
   }
 
+  if (out) {
+    fs.writeFileSync(out, `${JSON.stringify(rows, null, 1)}\n`);
+    console.log(`\nwrote ${rows.length} profiles to ${out} — apply it with --in=${out}`);
+  }
+
   console.log(
-    `\n${dry ? "would write" : "wrote"} ${written} profiles; ` +
+    `\n${dry || out ? "read" : "wrote"} ${written} profiles; ` +
       `${matched} matched a roster rank`,
   );
   for (const { school, label } of WITHOUT_PROFILES) {
