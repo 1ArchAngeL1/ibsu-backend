@@ -34,6 +34,15 @@ interface CollectionPatch {
    * outside the admin has to be declared here.
    */
   add?: Record<string, FieldDef[]>;
+  /**
+   * Field names to bring to the top of the form, in this order.
+   *
+   * The inference orders a collection's fields the way the migrated JSON
+   * happened to list them, which is the prototype's order and not an
+   * editor's. Anything not named here keeps its place behind those that
+   * are — so this says what comes first, and never has to list the rest.
+   */
+  order?: string[];
 }
 
 const PATCHES: Record<string, CollectionPatch> = {
@@ -67,6 +76,24 @@ const PATCHES: Record<string, CollectionPatch> = {
      * /staff/<id> and the names on each school's faculty list.
      */
     label: "Lecturer profiles",
+    /**
+     * What somebody filling a lecturer in needs first, in the order they
+     * would ask for it. The prototype's fields — a role, a field of study,
+     * a lede, a photograph — are empty on all but three of the 125 and
+     * were meeting the editor before the name did.
+     */
+    order: [
+      "id",
+      "name",
+      "schoolKey",
+      "rank",
+      "contact",
+      "bio",
+      "teaching",
+      "current",
+      "pubs",
+      "extra",
+    ],
     description:
       "One page per lecturer, at /staff/<id>, linked from each school's faculty list. Three came from the prototype and are complete; 122 were read off the old site's lecturer pages, and most of those hold a name, a rank and an address because the rest of the page was empty there too. The site shows only the sections that have something in them, so filling one in here is what makes it appear. Add, edit and remove them like any other collection.",
     fields: {
@@ -91,7 +118,17 @@ const PATCHES: Record<string, CollectionPatch> = {
       stats: { label: "Figures", required: false },
       research: { label: "Research interests", required: false },
       teaching: { label: "Course catalogue", required: false },
+      /**
+       * The list shows the first five columns a collection asks for, so
+       * asking for a column is choosing what somebody scanning 125 rows
+       * sees. Role, Field and the legacy School name are empty on 122 of
+       * them — they belonged to the prototype's three — and the id is
+       * already under the name in the first cell.
+       */
       rank: { listColumn: true },
+      id: { listColumn: false },
+      role: { listColumn: false },
+      field: { listColumn: false },
       /**
        * None of these can be demanded of a new lecturer. The inference
        * marked them required because all three prototype rows had them,
@@ -105,10 +142,23 @@ const PATCHES: Record<string, CollectionPatch> = {
         help: "Optional. Without one the page shows the person's initials, as the faculty cards do.",
       },
       contact: { required: false },
+      /**
+       * Inside that block, everything is optional too. The prototype's
+       * three rows filled all five in, so the inference marked them
+       * required and the form put a red asterisk beside a telephone number
+       * that 122 lecturers do not publish. Saving never actually enforced
+       * it — the asterisk was simply untrue.
+       */
+      email: { required: false },
+      phone: { required: false },
+      ext: { required: false, label: "Extension" },
+      office: { required: false },
+      hours: { required: false, label: "Office hours" },
       // Kept because the prototype's three rows use them, and a field that
       // disappears from the model is a field dropped on save.
       school: {
         label: "School name (legacy)",
+        listColumn: false,
         help: "The prototype wrote the school's name here. Use the School dropdown below instead — it is what the page reads.",
       },
       schoolHref: {
@@ -245,6 +295,15 @@ function patch(collection: CollectionDef): CollectionDef {
         );
       }
     }
+  }
+
+  if (p.order) {
+    const named = p.order
+      .map((name) => fields.find((field) => field.name === name))
+      .filter((field): field is FieldDef => field !== undefined);
+    const rest = fields.filter((field) => !named.includes(field));
+    fields.length = 0;
+    fields.push(...named, ...rest);
   }
 
   if (p.fields) {
