@@ -264,7 +264,16 @@ async function page(url: string): Promise<Profile | null> {
   return parseProfile(await res.text());
 }
 
-/** `Eka Devidze` → `eka-devidze`, and never two people on one key. */
+/**
+ * `Eka Devidze` → `eka-devidze`, and never two people on one key.
+ *
+ * `taken` holds only the names seen in *this* run. It must not be seeded
+ * with the ids already in the database: those are these same people, and
+ * treating them as taken gave everybody a `-2` the second time the import
+ * ran — 116 duplicate profiles, and every faculty link pointing at
+ * `/staff/lali-mikeladze-2`. A person's key has to come out of their name
+ * alone, so that running this again updates them instead of copying them.
+ */
 function keyFor(english: string, georgian: string, taken: Set<string>): string {
   const base =
     slugify(english || "", { lower: true, strict: true }) ||
@@ -338,11 +347,8 @@ async function main(): Promise<void> {
     }
   }
 
-  const taken = new Set<string>(
-    (await Record.find({ collectionName: "staffProfiles" }).lean().exec())
-      .map((row) => (row.data as { id?: string }).id)
-      .filter((id): id is string => typeof id === "string"),
-  );
+  // Names seen in this run only — see `keyFor`.
+  const taken = new Set<string>();
 
   const chosen = SCHOOLS.filter((s) => !only || s.school === only);
   let written = 0;
