@@ -60,8 +60,63 @@ const PATCHES: Record<string, CollectionPatch> = {
     },
   },
   staffProfiles: {
+    /**
+     * Named for what an editor comes here looking for. "Staff profiles"
+     * sent people to the academy's `lecturers` collection in Applicants,
+     * which is a different thing entirely — these are the 125 people behind
+     * /staff/<id> and the names on each school's faculty list.
+     */
+    label: "Lecturer profiles",
     description:
-      "Profiles at /staff/<id>. Three came from the prototype and are complete; 122 came off the old site's lecturer pages (tools/import-lecturers.ts) and most of those hold a name, a rank and an address — the rest of each page was empty there. The site draws only the sections that have something in them, so filling one in here makes it appear.",
+      "One page per lecturer, at /staff/<id>, linked from each school's faculty list. Three came from the prototype and are complete; 122 were read off the old site's lecturer pages, and most of those hold a name, a rank and an address because the rest of the page was empty there too. The site shows only the sections that have something in them, so filling one in here is what makes it appear. Add, edit and remove them like any other collection.",
+    fields: {
+      // The inference named these from the prototype's abbreviated keys, so
+      // an editor was being asked to fill in "Y", "T" and "V".
+      y: { label: "Year" },
+      t: { label: "Title" },
+      v: { label: "Journal or publisher", help: "Blank on the migrated ones; they carry a link instead." },
+      c: { label: "Course" },
+      lvl: { label: "Degree", help: "Bachelor's, master's, doctoral — as the course list grouped it." },
+      n: { label: "Figure" },
+      l: { label: "Caption" },
+      d: { label: "Description" },
+      bio: {
+        label: "Biography",
+        // 86 of the 122 migrated profiles have none; the page omits the
+        // section rather than showing an empty heading.
+        required: false,
+        help: "One entry per paragraph.",
+      },
+      pubs: { label: "Publications", required: false },
+      stats: { label: "Figures", required: false },
+      research: { label: "Research interests", required: false },
+      teaching: { label: "Course catalogue", required: false },
+      rank: { listColumn: true },
+      /**
+       * None of these can be demanded of a new lecturer. The inference
+       * marked them required because all three prototype rows had them,
+       * but the old site gave us no photographs at all, `schoolHref` is
+       * superseded by the School dropdown, and a lecturer who publishes no
+       * address has no contact block.
+       */
+      portrait: {
+        required: false,
+        nullable: true,
+        help: "Optional. Without one the page shows the person's initials, as the faculty cards do.",
+      },
+      contact: { required: false },
+      // Kept because the prototype's three rows use them, and a field that
+      // disappears from the model is a field dropped on save.
+      school: {
+        label: "School name (legacy)",
+        help: "The prototype wrote the school's name here. Use the School dropdown below instead — it is what the page reads.",
+      },
+      schoolHref: {
+        label: "School page (legacy)",
+        required: false,
+        help: "The prototype's link to a school page. Superseded by the School dropdown; leave it empty.",
+      },
+    },
     add: {
       // Written by the lecturer import. Declared so the admin can edit
       // them and, more to the point, so saving a record does not drop them.
