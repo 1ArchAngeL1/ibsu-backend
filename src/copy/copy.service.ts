@@ -157,6 +157,133 @@ export class CopyService {
     return entries.map((e) => ({ path: e.path, values: e.values }));
   }
 
+  /* ---------------------------------------------------------------- lists */
+
+  /**
+   * The items of one list, in order.
+   *
+   * A list is stored as `…life.list.0`, `…life.list.1`, and the website
+   * rebuilds it into an array by those keys — see `restoreArrays`. The run
+   * has to stay dense: a gap turns the list back into an object and the
+   * page that calls `.map` on it breaks. So nothing outside here writes a
+   * numbered key, and the two methods under this one are the only way to
+   * add or take one away.
+   */
+  async listItems(path: string): Promise<CopyEntryDocument[]> {
+    const items = await this.copy
+      .find({ path: { $regex: `^${escapeRegex(path)}\\.\\d+$` } })
+      .exec();
+    return items.sort((a, b) => itemIndex(a.path) - itemIndex(b.path));
+  }
+
+  /**
+   * Adds an item to the end of a list.
+   *
+   * It arrives as a draft with empty text, not as a published blank: the
+   * site reads `values`, so an item nobody has written yet is invisible
+   * there rather than an empty bullet on the page. It shows in the admin
+   * straight away, waiting for its text like any other pending edit, and
+   * reaches the site when somebody publishes it.
+   */
+  async addListItem(
+    path: string,
+    actor?: AuthUser,
+  ): Promise<CopyEntryDocument> {
+    const items = await this.listItems(path);
+    if (items.length === 0) {
+      throw new NotFoundException(
+        `There is no list at ${path}. A list the site does not already read ` +
+          `cannot be made here — the page has to ask for it first.`,
+      );
+    }
+
+    /**
+     * Shape taken from the item before it: a list of short labels stays a
+     * list of short labels, and a placeholder the page passes into every
+     * item has to be kept in the new one too.
+     */
+    const last = items[items.length - 1];
+    const draft: Record<string, string> = {};
+    for (const locale of LOCALES) {
+      draft[locale] = (last.placeholders ?? [])
+        .map((placeholder) => `{${placeholder}}`)
+        .join(" ");
+    }
+
+    const created = await this.copy.create({
+      path: `${path}.${items.length}`,
+      namespace: last.namespace,
+      values: {},
+      draft,
+      placeholders: last.placeholders ?? [],
+      multiline: last.multiline,
+      updatedBy: actor?.id,
+    });
+
+    this.cache.clear();
+    await this.audit.record(actor, "copy.list-add", created.path);
+    return created;
+  }
+
+  /**
+   * Takes one item out of a list and closes the gap.
+   *
+   * Everything after it moves down a place, which rewrites those documents
+   * rather than this one alone — so each gets a revision first, and the
+   * whole thing applies live. There is no draft that could hold "item 3 is
+   * gone" without the renumbering that goes with it.
+   */
+  async removeListItem(
+    itemPath: string,
+    actor?: AuthUser,
+  ): Promise<{ removed: string; renumbered: number }> {
+    const match = /^(.*)\.(\d+)$/.exec(itemPath);
+    if (!match) {
+      throw new BadRequestException(`${itemPath} is not an item in a list.`);
+    }
+    const [, listPath, rawIndex] = match;
+    const index = Number(rawIndex);
+
+    const items = await this.listItems(listPath);
+    if (items.length === 0) throw new NotFoundException(`No list at ${listPath}.`);
+    if (index >= items.length) throw new NotFoundException(`No item at ${itemPath}.`);
+    if (items.length === 1) {
+      throw new BadRequestException(
+        `${listPath} would be left empty, and the page expects a list there. ` +
+          `Edit the last item's text instead of removing it.`,
+      );
+    }
+
+    for (const item of items.slice(index)) {
+      await this.revisions.snapshot({
+        subject: "copy",
+        scope: item.namespace,
+        target: item.path,
+        snapshot: item.draft ?? item.values,
+        action: "save",
+        actor,
+      });
+    }
+
+    await this.copy.deleteOne({ path: itemPath }).exec();
+
+    // Shifted one at a time, lowest first, so no two documents ever hold
+    // the same path — `path` is unique.
+    const after = items.slice(index + 1);
+    for (const [offset, item] of after.entries()) {
+      item.path = `${listPath}.${index + offset}`;
+      item.updatedBy = actor?.id;
+      await item.save();
+    }
+
+    this.cache.clear();
+    await this.audit.record(actor, "copy.list-remove", itemPath, {
+      renumbered: after.length,
+    });
+    await this.publisher.revalidateCollection("copy");
+    return { removed: itemPath, renumbered: after.length };
+  }
+
   /* ------------------------------------------------------------- writing */
 
   async saveDraft(
@@ -306,4 +433,9 @@ function restoreArrays(node: MessageTree): MessageTree | string[] {
 
 function escapeRegex(value: string): string {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+/** `…life.list.10` → 10, so items sort by number and not as text. */
+function itemIndex(path: string): number {
+  return Number(path.slice(path.lastIndexOf(".") + 1));
 }

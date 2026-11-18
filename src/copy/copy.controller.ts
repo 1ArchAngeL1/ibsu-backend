@@ -45,6 +45,32 @@ export class CopyController {
     return { path: entry.path, values: entry.values, draft: entry.draft };
   }
 
+  /**
+   * Adds an item to the end of the list at `:path`.
+   *
+   * Which list, not which key: the index belongs to the service, because
+   * the numbering is what keeps a list a list rather than an object.
+   */
+  @Post("list/:path/item")
+  @Roles("editor", "translator")
+  async addListItem(@Param("path") path: string, @CurrentUser() actor?: AuthUser) {
+    const entry = await this.copy.addListItem(path, actor);
+    return { path: entry.path, values: entry.values, draft: entry.draft };
+  }
+
+  /**
+   * Removes one item from a list and closes the gap behind it.
+   *
+   * Editors only, and not translators: this one renumbers its neighbours
+   * and goes to the site without a publish, which is more than somebody
+   * working through a language's wording should carry.
+   */
+  @Delete("list/item/:path")
+  @Roles("editor")
+  removeListItem(@Param("path") path: string, @CurrentUser() actor?: AuthUser) {
+    return this.copy.removeListItem(path, actor);
+  }
+
   @Delete("entry/:path/draft")
   @Roles("editor", "translator")
   async discard(@Param("path") path: string, @CurrentUser() actor?: AuthUser) {
