@@ -246,6 +246,69 @@ const PATCHES: Record<string, CollectionPatch> = {
       ],
     },
   },
+  events: {
+    /**
+     * The university's events — 153 of them, read off ibsu.edu.ge
+     * (tools/import-events.ts). The collection used to hold the
+     * prototype's three invented rows and the fields they needed: a bare
+     * day, a month spelled per language, and nothing to say what the
+     * event was.
+     */
+    description:
+      "Every event the old site published, each its own record. The date tile's day and month come from the date, in the reader's language, so there is nothing to spell twice.",
+    order: ["id", "title", "date", "time", "endTime", "place", "body", "cover", "source"],
+    // The prototype wrote the date out as a day and a month-per-language
+    // beside the time. The date field says both, and says them in the
+    // reader's language rather than in the one an editor typed.
+    hide: ["day", "month"],
+    fields: {
+      time: { required: false, help: "24-hour, Tbilisi time — 15:00." },
+      place: { required: false, help: "Where it is held. The old site named one for 23 of the 153; the rest say nothing." },
+      title: { listColumn: true },
+    },
+    add: {
+      "": [
+        {
+          name: "date",
+          label: "Date",
+          kind: "date",
+          required: true,
+          listColumn: true,
+          help: "The day it falls on, in Tbilisi.",
+        },
+        {
+          name: "endTime",
+          label: "Ends",
+          kind: "text",
+          required: false,
+          help: "24-hour, and only where it is known. Left empty for an event that runs past midnight.",
+        },
+        {
+          name: "body",
+          label: "Text",
+          kind: "textarea",
+          localized: true,
+          required: false,
+          help: "What the event is, as the old site wrote it. A blank line starts a new paragraph.",
+        },
+        {
+          name: "cover",
+          label: "Image",
+          kind: "image",
+          nullable: true,
+          required: false,
+          help: "The poster. 74 of the migrated events carry one.",
+        },
+        {
+          name: "source",
+          label: "Imported from",
+          kind: "text",
+          required: false,
+          help: "The page on ibsu.edu.ge this was read from. For checking against the original; nothing renders it.",
+        },
+      ],
+    },
+  },
   documentation: {
     fields: {
       locale: {
