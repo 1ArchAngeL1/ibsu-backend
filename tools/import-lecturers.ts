@@ -72,7 +72,13 @@ interface Profile {
   name: string;
   email: string | null;
   bio: string[];
-  publications: { title: string; year: string | null; link: string | null }[];
+  publications: {
+    title: string;
+    year: string | null;
+    link: string | null;
+    /** the heading the publication sits under, where the tab groups them */
+    group: string | null;
+  }[];
   /** the course catalogue, each row under the degree it belongs to */
   courses: { course: string; level: string }[];
   /** "currently teaching", which the pages write as prose, not a list */
@@ -175,21 +181,57 @@ function column(pane: string, heading: RegExp): string {
 /**
  * The catalogue list, each course under its degree.
  *
- * The degree headings are inside the list rather than above it: a `<strong>`
+ * The degree headings are inside the list rather than above it: a bold run
  * at the tail of the row before the group it opens, and sometimes a row of
- * its own. So a row contributes a course, a heading, or both — and the
- * heading it carries applies to what comes after it, not to itself.
+ * its own. So a row contributes a course, a heading, or both — and where a
+ * row holds both, which of them comes first decides whether the heading
+ * covers that row or only the ones below it.
+ *
+ * Rows are `<li>` on most profiles and `<tr>` on the rest: one school's
+ * catalogue is a two-cell table of bold course names, which read as
+ * nothing at all while only `<li>` was looked at (19.11).
  */
 function courses(pane: string): { course: string; level: string }[] {
   if (!pane) return [];
+  const items = [...pane.matchAll(/<li[^>]*>([\s\S]*?)<\/li>/g)].map((m) => m[1]);
+  const rows = items.length > 0 ? items : [...pane.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)].map((m) => m[1]);
+
   const out: { course: string; level: string }[] = [];
   let level = "";
-  for (const row of [...pane.matchAll(/<li[^>]*>([\s\S]*?)<\/li>/g)].map((m) => m[1])) {
-    const heads = [...row.matchAll(/<strong[^>]*>([\s\S]*?)<\/strong>/g)].map((m) => plain(m[1]));
-    const course = plain(row.replace(/<strong[^>]*>[\s\S]*?<\/strong>/g, " "));
-    if (course && !LEVELS.test(course)) out.push({ course, level });
-    const next = [...heads, course].find((text) => text && LEVELS.test(text));
-    if (next) level = next.replace(/:\s*$/, "");
+  const add = (text: string): void => {
+    if (text && !LEVELS.test(text) && !PLACEHOLDER.test(text)) out.push({ course: text, level });
+  };
+
+  for (const row of rows) {
+    /**
+     * A row is split at its line breaks only when a degree is written on
+     * one of those lines. Otherwise the break is inside a course's own
+     * name — one of them runs to two lines — and splitting filed
+     * "…(religious ideas" and "from the history of)" as two courses.
+     */
+    const broken = row.split(/<br\s*\/?>/i);
+    const grouped = broken.some((line) =>
+      [...line.matchAll(/<(strong|b)[^>]*>([\s\S]*?)<\/\1>/g)]
+        .map((m) => plain(m[2]))
+        .concat(plain(line))
+        .some((text) => LEVELS.test(text)),
+    );
+    for (const line of grouped ? broken : [row]) {
+      // Bold marks a degree and it marks a course name; only the degrees
+      // are headings, and LEVELS is what tells them apart.
+      const mark = [...line.matchAll(/<(strong|b)[^>]*>([\s\S]*?)<\/\1>/g)].find((m) =>
+        LEVELS.test(plain(m[2])),
+      );
+      if (!mark) {
+        const text = plain(line);
+        if (LEVELS.test(text)) level = text.replace(/:\s*$/, "");
+        else add(text);
+        continue;
+      }
+      add(plain(line.slice(0, mark.index)));
+      level = plain(mark[2]).replace(/:\s*$/, "");
+      add(plain(line.slice((mark.index as number) + mark[0].length)));
+    }
   }
   return out;
 }
@@ -205,33 +247,122 @@ function cfEmail(hex?: string): string | null {
   return /^[^@\s]+@[^@\s]+\.[a-z]{2,}$/i.test(out) ? out : null;
 }
 
-/** A tab's prose, one entry per paragraph. */
+/**
+ * A tab's prose, one entry per line the old page breaks.
+ *
+ * A paragraph is a `<p>`, a `<li>` or either of those split at a `<br>`:
+ * the "additional information" tab is a bullet list on eight of the
+ * profiles, and the "currently teaching" column writes a degree's name and
+ * its courses as two lines of one paragraph. Reading only `<p>` gave the
+ * first of those as a single run-on paragraph — four conference committees
+ * and a book award in one sentence — because the fallback below collapses
+ * the whole tab when it finds no `<p>` in it.
+ */
 function paragraphs(pane: string): string[] {
   if (!pane) return [];
   const keep = (text: string): boolean =>
     text.length > 1 && !PLACEHOLDER.test(text) && /[\p{L}\p{N}]/u.test(text.replace(/^<\w*/, ""));
 
-  const found = [...pane.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/g)].map((m) => plain(m[1])).filter(keep);
+  const found = [...pane.matchAll(/<(p|li)[^>]*>([\s\S]*?)<\/\1>/g)]
+    .flatMap((m) => lines(m[2]))
+    .filter(keep);
   if (found.length > 0) return found;
+  // A tab laid out as a table and nothing else: one cell, one paragraph.
+  // Tried only here, because a `<td>` wrapping a `<ul>` would otherwise
+  // give every bullet twice.
+  const cells = [...pane.matchAll(/<td[^>]*>([\s\S]*?)<\/td>/g)]
+    .flatMap((m) => lines(m[1]))
+    .filter(keep);
+  if (cells.length > 0) return cells;
   const whole = plain(pane);
   return keep(whole) ? [whole] : [];
 }
 
-/** Publications come as title / year / link inside one row. */
+/** One block of markup, as the lines a `<br>` breaks it into. */
+function lines(html: string): string[] {
+  return html
+    .split(/<br\s*\/?>/i)
+    .map((part) => plain(part))
+    .filter(Boolean);
+}
+
+/**
+ * The publications tab, which the old site writes three different ways.
+ *
+ * Most profiles list them as `<li>` rows; two write them as paragraphs
+ * with the title in bold; one puts a single title in a one-cell table. All
+ * three are read here, in that order of preference, so a tab with 827
+ * characters of citations in it no longer arrives empty (19.11).
+ *
+ * A row is kept whole. The theme breaks one citation across four or five
+ * `<span>`s — the title, the journal as a link, the year, the DOI — and
+ * taking one of them as "the title" dropped the rest: a stored
+ * publication ended at "…stimulus-organism-response model. Volume 79,"
+ * with the journal, the year and the DOI gone. The prototype's own rows,
+ * which name a year in a span of its own, still split into year and title.
+ *
+ * Headings inside the tab are carried as the group a row belongs to —
+ * "Books", "Articles", "Published books" — except the ones that merely
+ * repeat the tab's own name.
+ */
 function publications(pane: string): Profile["publications"] {
   if (!pane) return [];
-  return [...pane.matchAll(/<li[^>]*>([\s\S]*?)<\/li>/g)]
-    .map((m) => {
-      const row = m[1];
-      const spans = [...row.matchAll(/<span[^>]*>([\s\S]*?)<\/span>/g)]
-        .map((s) => plain(s[1]))
-        .filter(Boolean);
-      const link = (row.match(/<a[^>]*href="([^"]+)"/) || [])[1] ?? null;
-      const year = spans.find((s) => /^(19|20)\d{2}$/.test(s)) ?? null;
-      const title = (spans.find((s) => s !== year) ?? plain(row)).replace(/[,\s]+$/, "");
-      return title ? { title, year, link } : null;
-    })
-    .filter((row): row is NonNullable<typeof row> => row !== null);
+  const rows = [...pane.matchAll(/<(li|tr|p)[^>]*>([\s\S]*?)<\/\1>/g)];
+  const kind = rows.some((m) => m[1] === "li")
+    ? "li"
+    : rows.some((m) => m[1] === "tr")
+      ? "tr"
+      : "p";
+
+  const out: Profile["publications"] = [];
+  let group: string | null = null;
+  // Headings and rows interleave, so walk the tab in document order and
+  // let a heading apply to everything under it.
+  const marks = [
+    ...pane.matchAll(/<h[1-6][^>]*>([\s\S]*?)<\/h[1-6]>/g),
+    ...rows.filter((m) => m[1] === kind),
+  ].sort((a, b) => (a.index as number) - (b.index as number));
+
+  for (const mark of marks) {
+    if (mark[0].startsWith("<h")) {
+      const text = plain(mark[1]).replace(/[:\s]+$/, "");
+      // "Publications" over a publications tab names nothing.
+      group = !text || /^(publications?|პუბლიკაცი[ეა]ბ?ი?)$/i.test(text) ? null : text;
+      continue;
+    }
+    // A paragraph holds a heading and its first citation on two lines of
+    // one `<p>`, so a row there is a line rather than the whole block.
+    for (const row of kind === "p" ? mark[2].split(/<br\s*\/?>/i) : [mark[2]]) {
+      const entry = citation(row);
+      if (entry) out.push({ ...entry, group });
+    }
+  }
+  return out;
+}
+
+/**
+ * One row of the publications tab — a `<li>`, a table row, or a line of a
+ * paragraph. The markup is read for the link it carries and for a span
+ * holding nothing but a year.
+ */
+function citation(
+  html: string,
+): { title: string; year: string | null; link: string | null } | null {
+  const spans = [...html.matchAll(/<span[^>]*>([\s\S]*?)<\/span>/g)].map((m) => plain(m[1])).filter(Boolean);
+  const link = (html.match(/<a[^>]*href="([^"]+)"/) || [])[1] ?? null;
+  const year = spans.find((s) => /^\(?(19|20)\d{2}\)?$/.test(s))?.replace(/[()]/g, "") ?? null;
+  // A citation whose year is a field of its own is the prototype's shape:
+  // there the other span is the title. Everywhere else the row is one
+  // citation and splitting it loses half of it.
+  let title = year ? (spans.find((s) => s !== year) ?? "") : plain(html);
+  // The page prints the link's address as the link's text; the dialog
+  // makes the title itself the link, so the address would read twice.
+  if (link) title = title.replace(/\s*https?:\/\/\S+\s*$/, "");
+  title = title.replace(/[,;\s]+$/, "").trim();
+  // A bold line ending in a colon heads the group below it, as a <h3>
+  // would: "Books:", "Selected publications:".
+  if (!title || PLACEHOLDER.test(title) || /:$/.test(plain(html))) return null;
+  return { title, year, link };
 }
 
 /** The English page of a Georgian one: ibsu.edu.ge/en/… */
@@ -473,7 +604,7 @@ function teaching(
 function pubs(
   en: Profile["publications"],
   ka: Profile["publications"],
-): { y: string; t: string; tka: string; url: string | null }[] {
+): { y: string; t: string; tka: string; url: string | null; g: string; gka: string }[] {
   const n = Math.max(en.length, ka.length);
   return Array.from({ length: n }, (_, i) => {
     const e = en[i] ?? ka[i];
@@ -483,6 +614,9 @@ function pubs(
       t: e?.title ?? "",
       tka: k?.title ?? e?.title ?? "",
       url: e?.link ?? k?.link ?? null,
+      // The heading the tab filed it under, where it had one.
+      g: e?.group ?? k?.group ?? "",
+      gka: k?.group ?? e?.group ?? "",
     };
   });
 }

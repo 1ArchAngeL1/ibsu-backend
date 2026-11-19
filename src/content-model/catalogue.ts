@@ -230,6 +230,19 @@ const PATCHES: Record<string, CollectionPatch> = {
           nullable: true,
           help: "Where the publication can be read or bought.",
         },
+        {
+          /**
+           * `g` / `gka`, the sibling pair the rest of this collection
+           * spells its languages in (see `t` / `tka` above).
+           */
+          name: "g",
+          label: "Heading",
+          kind: "text",
+          localized: true,
+          siblings: { ka: "gka", en: "g" },
+          required: false,
+          help: 'The group this one is filed under, as the old profile headed it — "Books", "Articles". Blank for most, and then the page lists them straight through.',
+        },
       ],
     },
   },
