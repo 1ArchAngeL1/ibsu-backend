@@ -1563,7 +1563,8 @@
         "assistant": "ასისტენტ-პროფესორი",
         "affiliatedProfessor": "აფილირებული პროფესორი",
         "affiliatedAssociate": "აფილირებული ასოცირებული პროფესორი"
-      }
+      },
+      "close": "დახურვა"
     },
     "staffProfile": {
       "headings": {

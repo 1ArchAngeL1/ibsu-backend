@@ -1563,7 +1563,8 @@
         "assistant": "Assistant professor",
         "affiliatedProfessor": "Affiliated professor",
         "affiliatedAssociate": "Affiliated associate professor"
-      }
+      },
+      "close": "Close"
     },
     "staffProfile": {
       "headings": {
