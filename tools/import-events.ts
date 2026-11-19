@@ -48,12 +48,23 @@ interface Row {
   data: Record<string, unknown>;
 }
 
-/** One VEVENT's fields, by name. */
-export function parseCalendar(text: string): Record<string, string> | null {
-  const body = text.replace(/\r\n/g, "\n");
+/**
+ * One VEVENT's fields, by name.
+ *
+ * Takes the bytes, not a string, because of where iCalendar puts its line
+ * breaks: it folds at 75 **octets** and marks the continuation with a
+ * space, and 75 octets lands wherever it lands — including halfway
+ * through a Georgian letter, which is three bytes wide. Decoding first
+ * turns each half into a replacement character and the join can never
+ * undo it. That cost 14 of the 74 event posters their filenames
+ * (19.11): the fold fell inside the first letter of
+ * `სამეცნიერო-ლიტერატურა.jpg`, and the URL 404'd ever after.
+ */
+export function parseCalendar(input: Uint8Array | string): Record<string, string> | null {
+  const body = (typeof input === "string" ? input.replace(/\r?\n[ \t]/g, "") : unfold(input))
+    .replace(/\r\n/g, "\n");
   if (!body.includes("BEGIN:VEVENT")) return null;
-  // iCalendar folds a long line and marks the continuation with a space.
-  const unfolded = body.replace(/\n[ \t]/g, "");
+  const unfolded = body;
   const fields: Record<string, string> = {};
   let inside = false;
   for (const line of unfolded.split("\n")) {
@@ -66,6 +77,26 @@ export function parseCalendar(text: string): Record<string, string> | null {
     }
   }
   return Object.keys(fields).length > 0 ? fields : null;
+}
+
+/** Joins the folded lines while they are still bytes, then decodes once. */
+function unfold(bytes: Uint8Array): string {
+  const out = new Uint8Array(bytes.length);
+  let n = 0;
+  for (let i = 0; i < bytes.length; i += 1) {
+    const isFold = (at: number) => bytes[at] === 0x20 || bytes[at] === 0x09;
+    if (bytes[i] === 0x0d && bytes[i + 1] === 0x0a && isFold(i + 2)) {
+      i += 2;
+      continue;
+    }
+    if (bytes[i] === 0x0a && isFold(i + 1)) {
+      i += 1;
+      continue;
+    }
+    out[n] = bytes[i];
+    n += 1;
+  }
+  return new TextDecoder("utf-8").decode(out.subarray(0, n));
 }
 
 /** iCalendar escapes a comma, a semicolon and a newline inside a value. */
@@ -242,7 +273,8 @@ async function main(): Promise<void> {
   const found: (Row | null)[] = [];
   await pool(list, 4, async (url, i) => {
     const res = await fetchRetry(`${url.replace(/\/$/, "")}/ical/`);
-    found[i] = res.ok ? ((fields) => (fields ? rowFor(fields, url) : null))(parseCalendar(await res.text())) : null;
+    const fields = res.ok ? parseCalendar(new Uint8Array(await res.arrayBuffer())) : null;
+    found[i] = fields ? rowFor(fields, url) : null;
     process.stdout.write(`\r  read ${found.filter(Boolean).length}/${list.length}   `);
     await sleep(300);
   });
