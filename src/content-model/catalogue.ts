@@ -264,7 +264,128 @@ const PATCHES: Record<string, CollectionPatch> = {
   staffOrder: {
     description: "The order profiles appear in. Ids only — edit the profiles themselves above.",
   },
+
+  /**
+   * The two feeds the old site's own post types belong to.
+   *
+   * Each held a dozen prototype samples and a note in the website's
+   * accessor saying the real ones were still on WordPress. They are here
+   * now, and they brought a body with them — the notices are short, the
+   * competitions are not — which neither feed had a field for, because
+   * the samples were summaries that linked nowhere.
+   */
+  announcements: {
+    description:
+      "The notices on /news/announcements. Carried over from the old site's განცხადებები, which is where the category, the date and the text come from; the finer label and the unit are ours to add.",
+    add: {
+      "": [
+        {
+          name: "body",
+          label: "Full text",
+          kind: "richtext",
+          localized: true,
+          help: "The notice as the old site published it. The feed shows the summary; this is the whole of it.",
+        },
+        {
+          name: "cover",
+          label: "Image",
+          kind: "image",
+          nullable: true,
+        },
+        {
+          name: "source",
+          label: "Imported from",
+          kind: "text",
+          help: "The page on ibsu.edu.ge this came from. Nothing renders it.",
+        },
+      ],
+    },
+    fields: {
+      kind: {
+        required: false,
+        help: "A finer label than the category — \"Exchange · open\". Empty on the imported notices; the chip is left off when it is.",
+      },
+      unit: { required: false, help: "The school or office this concerns, if any." },
+      excerpt: { label: "Summary", help: "What the feed shows under the headline." },
+    },
+    order: ["id", "category", "date", "title", "excerpt", "body", "kind", "unit", "cover"],
+  },
+
+  vacancies: {
+    description:
+      "The positions on /vacancies. Carried over from the old site's ვაკანსიები. An imported competition arrives as one long text in Full text; the summary, requirements and documents beside it are what the page shows when somebody has split it up.",
+    add: {
+      "": [
+        {
+          name: "body",
+          label: "Full text",
+          kind: "richtext",
+          localized: true,
+          help: "The competition as the old site published it. Shown on the page whenever the summary below is empty.",
+        },
+        {
+          name: "cover",
+          label: "Image",
+          kind: "image",
+          nullable: true,
+        },
+        {
+          name: "source",
+          label: "Imported from",
+          kind: "text",
+          help: "The page on ibsu.edu.ge this came from. Nothing renders it.",
+        },
+      ],
+    },
+    fields: {
+      deadline: {
+        required: false,
+        help: "Left empty on the imported ones: 35 of the 36 name a date somewhere in the text, but not reliably the closing one.",
+      },
+      text: { label: "Structured text", required: false },
+    },
+    order: ["id", "status", "category", "deadline", "body", "text", "cover"],
+  },
 };
+
+/**
+ * Collections the inference never saw, because the content they hold was
+ * never in the website's own `src/data` — it was only ever on the old
+ * WordPress site.
+ *
+ * Declared by hand here rather than regenerated, for the reason the file
+ * header gives: `collections.generated.ts` is overwritten whenever the
+ * migration runs, and this is a hand-decided thing.
+ */
+const EXTRA_COLLECTIONS: CollectionDef[] = [
+  {
+    name: "navigator",
+    label: "Programme navigator",
+    group: "Applicants",
+    kind: "list",
+    description:
+      "IBSU ნავიგატორი — one entry per programme answering why somebody should choose it. Carried over from the old site; nothing on the new site renders these yet.",
+    titleField: "title",
+    keyField: "id",
+    sortField: "date",
+    sortDirection: "desc",
+    tags: ["navigator"],
+    fields: [
+      { name: "id", label: "ID", kind: "text", required: true },
+      { name: "title", label: "Title", kind: "text", localized: true, listColumn: true },
+      { name: "date", label: "Date", kind: "date", listColumn: true },
+      { name: "excerpt", label: "Summary", kind: "textarea", localized: true },
+      { name: "body", label: "Full text", kind: "richtext", localized: true },
+      { name: "cover", label: "Image", kind: "image", nullable: true },
+      {
+        name: "source",
+        label: "Imported from",
+        kind: "text",
+        help: "The page on ibsu.edu.ge this came from.",
+      },
+    ],
+  },
+];
 
 function patch(collection: CollectionDef): CollectionDef {
   const p = PATCHES[collection.name];
@@ -322,8 +443,11 @@ function patch(collection: CollectionDef): CollectionDef {
   };
 }
 
-/** The model, patched. Built once at import. */
-export const COLLECTIONS: CollectionDef[] = GENERATED_COLLECTIONS.map(patch);
+/** The model, patched, with the hand-declared collections after it. */
+export const COLLECTIONS: CollectionDef[] = [
+  ...GENERATED_COLLECTIONS,
+  ...EXTRA_COLLECTIONS,
+].map(patch);
 
 export const CONTENT_MODEL: ContentModel = {
   locales: LOCALES,

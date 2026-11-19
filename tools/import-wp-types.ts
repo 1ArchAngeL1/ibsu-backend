@@ -1,77 +1,72 @@
 /**
- * The old site's own post types, as posts here.
+ * The old site's own post types, into the collections that model them.
  *
  *     set -a; source .env; set +a
  *     tsx tools/import-wp-types.ts --dry --limit=3
  *     tsx tools/import-wp-types.ts --only=announcements
  *     tsx tools/import-wp-types.ts --out=wp-types.json   # where the old site answers
  *     tsx tools/import-wp-types.ts --in=wp-types.json    # where the database lives
+ *     tsx tools/import-wp-types.ts --drop-posts          # undo an earlier import-as-posts
  *
- * ibsu.edu.ge keeps six post types of its own beside ordinary posts. One of
- * them — student-experiences — was migrated already, into the `experiences`
- * collection. Three more are plain dated articles with an HTML body, which
- * is what a post is here, so they arrive as posts under a category of their
- * own: announcements, vacancies, and the programme navigator.
+ * ibsu.edu.ge keeps six post types of its own beside ordinary posts.
+ * student-experiences was migrated already, into `experiences`. Three more
+ * come here:
  *
- * Posts rather than a collection each, because this CMS says content is a
- * post placed by category, and because it buys the whole editor — search,
- * drafts, the trash, scheduling — instead of three bespoke record forms.
+ *   announcements  (116) → the `announcements` collection, behind
+ *                          /news/announcements
+ *   vacancy         (36) → `vacancies`, behind /vacancies
+ *   ibsu-navigator  (59) → `navigator`, a collection of its own
  *
- * The remaining two (interc, iro) are WPBakery shortcode pages whose text
- * lives only in the rendered HTML; they are not handled here.
+ * Each goes to the collection that models it rather than into posts. The
+ * first two already existed, holding a dozen prototype samples each and a
+ * note in the website's accessor saying the real ones were still on
+ * WordPress — these are those. Keeping the old site's types apart is also
+ * simply what they are: a vacancy has a deadline and a status, an
+ * announcement has a category the page files it under, and a post has
+ * neither.
  *
- * Nothing is deleted and nothing already written is overwritten blindly:
- * a post is matched by the source id it came from, so a second run updates
- * the same row and an editor's own posts are never touched.
+ * The prototype samples are left in place; they are ordinary records and an
+ * editor can delete them. Nothing here overwrites a record it did not
+ * write: the key carries the old site's id (`wp-64452`).
  */
 import fs from "node:fs";
 import mongoose from "mongoose";
-import { PostSchema } from "../src/schemas/post.schema";
-import { CategorySchema } from "../src/schemas/category.schema";
-import { decode, fetchRetry, keyFor, plain, publicUrl, sleep } from "./wp-common";
+import { ContentRecordSchema } from "../src/schemas/content-record.schema";
 import { MediaAssetSchema } from "../src/schemas/media-asset.schema";
+import { decode, fetchRetry, keyFor, plain, publicUrl, sleep } from "./wp-common";
 
 interface TypeDef {
   /** the REST base on the old site */
   base: string;
-  /** the category these posts are placed in here */
-  category: string;
-  title: { ka: string; en: string };
-  description: { ka: string; en: string };
+  /** the collection the records are written to */
+  collection: string;
+  label: string;
 }
 
 const TYPES: Record<string, TypeDef> = {
-  announcements: {
-    base: "announcements",
-    category: "announcements",
-    title: { ka: "განცხადებები", en: "Announcements" },
-    description: {
-      ka: "უნივერსიტეტის განცხადებები — ძველი საიტიდან გადმოტანილი.",
-      en: "University announcements, carried over from the old site.",
-    },
-  },
-  vacancy: {
-    base: "vacancy",
-    category: "vacancies-wp",
-    title: { ka: "ვაკანსიები", en: "Vacancies" },
-    description: {
-      ka: "აკადემიური და ადმინისტრაციული კონკურსები.",
-      en: "Academic and administrative competitions.",
-    },
-  },
-  "ibsu-navigator": {
-    base: "ibsu-navigator",
-    category: "ibsu-navigator",
-    title: { ka: "IBSU ნავიგატორი", en: "IBSU navigator" },
-    description: {
-      ka: "პროგრამების გზამკვლევი — რატომ ამ პროგრამას.",
-      en: "The programme guide: why this programme.",
-    },
-  },
+  announcements: { base: "announcements", collection: "announcements", label: "Announcements" },
+  vacancy: { base: "vacancy", collection: "vacancies", label: "Vacancies" },
+  "ibsu-navigator": { base: "ibsu-navigator", collection: "navigator", label: "Programme navigator" },
 };
+
+/**
+ * Which of the five categories a notice is filed under.
+ *
+ * The old site has no such field — the page here does, and it drives the
+ * feed's tabs — so it is read off the words. 80 of the 116 say plainly
+ * what they are; the rest are "general", which is what the category is for.
+ */
+const CATEGORY: [AnnouncementCategory, RegExp][] = [
+  ["defences", /დაცვ|დისერტაცი|სადოქტორო/i],
+  ["competitions", /კონკურს/i],
+  ["exchange", /გაცვლ|erasmus|exchange|მობილობ/i],
+];
+
+type AnnouncementCategory = "general" | "defences" | "exchange" | "competitions" | "other";
 
 const args = process.argv.slice(2);
 const dry = args.includes("--dry");
+const dropPosts = args.includes("--drop-posts");
 const only = args.find((a) => a.startsWith("--only="))?.slice("--only=".length);
 const limit = Number(args.find((a) => a.startsWith("--limit="))?.slice("--limit=".length)) || Infinity;
 const out = args.find((a) => a.startsWith("--out="))?.slice("--out=".length);
@@ -88,6 +83,13 @@ interface WpItem {
   content: { rendered: string };
   excerpt: { rendered: string };
   _embedded?: { "wp:featuredmedia"?: { source_url?: string }[] };
+}
+
+interface Row {
+  collection: string;
+  key: string;
+  order: number;
+  data: Record<string, unknown>;
 }
 
 /** One type's items, a page at a time, with the featured image attached. */
@@ -112,65 +114,95 @@ async function items(base: string): Promise<WpItem[]> {
 }
 
 /**
- * The lede, where the old site never wrote one.
+ * The summary the feed prints, where the old site wrote none.
  *
- * These types have an empty excerpt to a one. The first sentences of the
- * body are a truer summary than nothing at all, and the editor can replace
- * it — it is a field in the post editor like any other.
+ * Every one of these has an empty excerpt. The opening of the text is a
+ * truer summary than a blank line, and it is a field an editor can replace.
  */
-function excerptOf(item: WpItem): string {
+function summaryOf(item: WpItem, max = 220): string {
   const written = plain(item.excerpt?.rendered ?? "");
   if (written) return written;
   const text = plain(item.content?.rendered ?? "");
-  if (text.length <= 220) return text;
-  const cut = text.slice(0, 220);
+  if (text.length <= max) return text;
+  const cut = text.slice(0, max);
   const stop = Math.max(cut.lastIndexOf("."), cut.lastIndexOf("!"), cut.lastIndexOf("?"));
-  return `${stop > 120 ? cut.slice(0, stop + 1) : cut.trimEnd()}…`;
+  return `${stop > max / 2 ? cut.slice(0, stop + 1) : cut.trimEnd()}…`;
 }
 
-/**
- * The slug a post gets.
- *
- * WordPress percent-encodes a Georgian title into its URL, so the slug
- * arrives as `%e1%83%a1...` — unreadable in a URL bar and in the admin's
- * own list. The post id from the old site keeps it short, stable and
- * unique, and the readable name is the title.
- */
-const slugFor = (type: string, item: WpItem): string => `${type}-${item.id}`;
+/** Both languages from one: these types exist only in Georgian. */
+const both = (value: string) => ({ ka: value, en: value });
 
-function postFor(type: string, def: TypeDef, item: WpItem): Record<string, unknown> {
+function rowFor(type: string, def: TypeDef, item: WpItem): Row {
   const title = decode(item.title?.rendered ?? "") || `#${item.id}`;
   const body = item.content?.rendered ?? "";
-  const excerpt = excerptOf(item);
+  const summary = summaryOf(item);
   const cover = item._embedded?.["wp:featuredmedia"]?.[0]?.source_url ?? null;
+  const key = `wp-${item.id}`;
+  const date = (item.date ?? "").slice(0, 10);
+
+  if (def.collection === "announcements") {
+    const haystack = `${title} ${plain(body).slice(0, 400)}`;
+    const found = CATEGORY.find(([, test]) => test.test(haystack));
+    return {
+      collection: def.collection,
+      key,
+      order: 0,
+      data: {
+        id: key,
+        category: found ? found[0] : "general",
+        date,
+        // The finer label and the unit are the page's, not the old site's.
+        kind: both(""),
+        unit: both(""),
+        title: both(title),
+        excerpt: both(summary),
+        body: both(body),
+        cover,
+        source: item.link,
+      },
+    };
+  }
+
+  if (def.collection === "vacancies") {
+    return {
+      collection: def.collection,
+      key,
+      order: 0,
+      data: {
+        id: key,
+        /**
+         * Open, and academic. Both are guesses an editor can correct in a
+         * click, and both are the common case: these are the competitions
+         * the university was advertising. The deadline is left empty
+         * rather than guessed — 35 of the 36 name a date somewhere in the
+         * text, but not reliably the closing one.
+         */
+        status: "open",
+        category: "academic",
+        deadline: "",
+        text: {
+          ka: { title, categoryLabel: "", unit: "", type: "", summary: "", requirements: [], documents: [] },
+          en: { title, categoryLabel: "", unit: "", type: "", summary: "", requirements: [], documents: [] },
+        },
+        body: both(body),
+        cover,
+        source: item.link,
+      },
+    };
+  }
 
   return {
-    slug: slugFor(type, item),
-    /**
-     * The same text in both languages. These types exist only in Georgian
-     * on the old site — the REST API returns the Georgian record whatever
-     * language is asked for — and the earlier student-experiences
-     * migration made the same choice rather than leaving English blank.
-     */
-    title: { ka: title, en: title },
-    excerpt: { ka: excerpt, en: excerpt },
-    body: { ka: body, en: body },
-    cover,
-    categories: [def.category],
-    tags: [],
-    status: "published",
-    publishedAt: item.date ? new Date(item.date) : null,
-    /**
-     * The shape `source` already has — which collection a migrated post
-     * came from, its key there, and the original data kept whole. The
-     * "collection" here is the old site's post type, so a row says plainly
-     * that it came from ibsu.edu.ge rather than from a records collection.
-     */
-    source: {
-      collection: `wp:${type}`,
-      key: String(item.id),
-      label: def.title.en,
-      data: { id: item.id, slug: item.slug, link: item.link, date: item.date },
+    collection: def.collection,
+    key,
+    order: 0,
+    data: {
+      id: key,
+      title: both(title),
+      date,
+      excerpt: both(summary),
+      body: both(body),
+      cover,
+      source: item.link,
     },
   };
 }
@@ -178,35 +210,31 @@ function postFor(type: string, def: TypeDef, item: WpItem): Record<string, unkno
 async function main(): Promise<void> {
   const uri = process.env.MONGO_URI ?? "mongodb://127.0.0.1:27017/ibsu";
   await mongoose.connect(uri);
-  const Post = mongoose.model("Post", PostSchema);
-  const Category = mongoose.model("Category", CategorySchema);
-
-  /** The category a type's posts are filed under, made if it is not there. */
-  const ensureCategory = async (def: TypeDef): Promise<void> => {
-    const existing = await Category.findOne({ slug: def.category }).exec();
-    if (existing) return;
-    await Category.create({
-      slug: def.category,
-      name: def.title,
-      description: def.description,
-    });
-    console.log(`  created the category "${def.category}"`);
-  };
-
+  const Record = mongoose.model("ContentRecord", ContentRecordSchema);
   const Media = mongoose.model("MediaAsset", MediaAssetSchema);
   const base = process.env.R2_PUBLIC_BASE_URL;
 
   /**
+   * Undoes the first run of this tool, which wrote these as posts under a
+   * category each before they were given collections of their own.
+   */
+  if (dropPosts) {
+    const db = mongoose.connection.db!;
+    const slugs = ["announcements", "vacancies-wp", "ibsu-navigator"];
+    const posts = await db
+      .collection("posts")
+      .deleteMany({ categories: { $in: slugs }, "source.collection": /^wp:/ });
+    const cats = await db.collection("categories").deleteMany({ slug: { $in: slugs } });
+    console.log(`removed ${posts.deletedCount} posts and ${cats.deletedCount} categories`);
+    await mongoose.disconnect();
+    return;
+  }
+
+  /**
    * A cover on the bucket rather than on the old site.
    *
-   * The featured image arrives as an ibsu.edu.ge upload URL. The media
-   * migration already mirrored those files, so pointing at the mirror
-   * keeps the new site off the old one — which will not be there for
-   * ever, and is slower than the bucket while it is.
-   *
-   * Resolved here rather than when the old site was read, because which
-   * files are mirrored is a property of the database being written: the
-   * production media library holds them, a local one may not.
+   * Resolved when the record is written, not when the old site is read:
+   * which files are mirrored is a property of the database being written.
    */
   const relink = async (cover: unknown): Promise<string | null> => {
     if (typeof cover !== "string" || !cover) return null;
@@ -214,75 +242,68 @@ async function main(): Promise<void> {
     const key = keyFor(cover);
     if (!key) return cover;
     const mirrored = publicUrl(base, key);
-    const known = await Media.exists({ path: mirrored });
-    return known ? mirrored : cover;
+    return (await Media.exists({ path: mirrored })) ? mirrored : cover;
   };
 
-  const save = async (row: Record<string, unknown>): Promise<"new" | "updated"> => {
-    row.cover = await relink(row.cover);
-    // The slug is built from the old site's id, so finding by slug is
-    // finding by origin — no second lookup, and no way to make a duplicate
-    // of a post this tool has already written.
-    const existing = await Post.findOne({ slug: String(row.slug) }).exec();
+  const save = async (row: Row, order: number): Promise<"new" | "updated"> => {
+    row.data.cover = await relink(row.data.cover);
+    const existing = await Record.findOne({
+      collectionName: row.collection,
+      key: row.key,
+    }).exec();
     if (existing) {
-      // An editor may have rewritten the post here; only what the old site
-      // is the authority on is refreshed.
-      existing.set({
-        title: row.title,
-        body: row.body,
-        cover: row.cover,
-        publishedAt: row.publishedAt,
-        source: row.source,
-      });
+      existing.set({ data: row.data, status: "published", publishedAt: new Date() });
       await existing.save();
       return "updated";
     }
-    await Post.create(row);
+    await Record.create({
+      collectionName: row.collection,
+      key: row.key,
+      data: row.data,
+      status: "published",
+      publishedAt: new Date(),
+      order,
+    });
     return "new";
   };
 
-  if (from) {
-    const rows = JSON.parse(fs.readFileSync(from, "utf8")) as {
-      categories: TypeDef[];
-      posts: Record<string, unknown>[];
-    };
-    for (const def of rows.categories) await ensureCategory(def);
+  const apply = async (rows: Row[]): Promise<void> => {
     let made = 0;
     let changed = 0;
-    for (const row of rows.posts) {
-      (await save(row)) === "new" ? (made += 1) : (changed += 1);
+    for (const [i, row] of rows.entries()) {
+      (await save(row, 1000 + i)) === "new" ? (made += 1) : (changed += 1);
     }
-    console.log(`applied ${rows.posts.length} posts from ${from}: ${made} new, ${changed} updated`);
+    const byCollection: Record<string, number> = {};
+    for (const row of rows) byCollection[row.collection] = (byCollection[row.collection] ?? 0) + 1;
+    console.log(
+      `\nwrote ${rows.length} records: ${made} new, ${changed} updated ` +
+        `(${Object.entries(byCollection).map(([c, n]) => `${c} ${n}`).join(", ")})`,
+    );
+  };
+
+  if (from) {
+    await apply(JSON.parse(fs.readFileSync(from, "utf8")) as Row[]);
     await mongoose.disconnect();
     return;
   }
 
   const chosen = Object.entries(TYPES).filter(([name]) => !only || name === only);
-  const collected: Record<string, unknown>[] = [];
-  const used: TypeDef[] = [];
-
+  const collected: Row[] = [];
   for (const [type, def] of chosen) {
-    console.log(`\n${def.title.en} (${type})`);
+    console.log(`\n${def.label} (${type}) → ${def.collection}`);
     const found = await items(def.base);
-    used.push(def);
-    for (const item of found) collected.push(postFor(type, def, item));
+    for (const item of found) collected.push(rowFor(type, def, item));
     console.log(`  ${found.length} items read`);
   }
 
   if (out) {
-    fs.writeFileSync(out, `${JSON.stringify({ categories: used, posts: collected }, null, 1)}\n`);
-    console.log(`\nwrote ${collected.length} posts to ${out} — apply with --in=${out}`);
+    fs.writeFileSync(out, `${JSON.stringify(collected, null, 1)}\n`);
+    console.log(`\nwrote ${collected.length} records to ${out} — apply with --in=${out}`);
   } else if (dry) {
-    console.log(`\nwould write ${collected.length} posts`);
-    console.log(JSON.stringify(collected[0], null, 1).slice(0, 900));
+    console.log(`\nwould write ${collected.length} records`);
+    console.log(JSON.stringify(collected[0], null, 1).slice(0, 700));
   } else {
-    for (const def of used) await ensureCategory(def);
-    let made = 0;
-    let changed = 0;
-    for (const row of collected) {
-      (await save(row)) === "new" ? (made += 1) : (changed += 1);
-    }
-    console.log(`\nwrote ${collected.length} posts: ${made} new, ${changed} updated`);
+    await apply(collected);
   }
 
   await mongoose.disconnect();
