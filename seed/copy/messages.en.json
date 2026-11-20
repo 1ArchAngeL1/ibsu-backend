@@ -1165,7 +1165,6 @@
       "contact": {
         "email": "Email",
         "phone": "Phone",
-        "ext": "ext.",
         "address": "Address"
       },
       "others": {
