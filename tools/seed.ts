@@ -133,7 +133,24 @@ async function seedRecords(): Promise<void> {
   const now = new Date();
   let total = 0;
 
-  for (const entry of MIGRATION) {
+  /**
+   * The migration's collections, and any seed file beside them that the
+   * migration never produced.
+   *
+   * `MIGRATION` describes where each collection came *from* in the old
+   * `src/data`, so a collection declared by hand — EXTRA_COLLECTIONS in
+   * the content model, whose content was never in a module — has no entry
+   * there and would never be loaded. The seed file is the only record of
+   * it, so the directory is what decides, not the map.
+   */
+  const extra = fs
+    .readdirSync(RECORDS_DIR)
+    .filter((name) => name.endsWith(".json"))
+    .map((name) => name.slice(0, -".json".length))
+    .filter((collection) => !MIGRATION.some((entry) => entry.collection === collection))
+    .map((collection) => ({ collection }));
+
+  for (const entry of [...MIGRATION, ...extra]) {
     const file = path.join(RECORDS_DIR, `${entry.collection}.json`);
     if (!fs.existsSync(file)) {
       console.log(`  --    ${entry.collection.padEnd(24)} no seed file; skipped`);
@@ -165,7 +182,7 @@ async function seedRecords(): Promise<void> {
       })),
     );
   }
-  console.log(`records: ${total} rows across ${MIGRATION.length} collections`);
+  console.log(`records: ${total} rows across ${MIGRATION.length + extra.length} collections`);
 }
 
 /* ------------------------------------------------------------------ main */

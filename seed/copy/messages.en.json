@@ -1162,23 +1162,12 @@
       "catalogue": "All programs",
       "internationalCallout": "International",
       "facultyNote": "Representative academic staff — full faculty directory will live on each staff profile.",
-      "glance": {
-        "title": "At a glance",
-        "founded": "Founded",
-        "programmes": "Programs",
-        "languages": "Languages",
-        "students": "Students",
-        "faculty": "Faculty members",
-        "apply": "Apply to this school",
-        "brochure": "Download the brochure"
-      },
       "contact": {
         "title": "Contact",
         "email": "Email",
         "phone": "Phone",
         "ext": "ext.",
-        "address": "Address",
-        "room": "Room"
+        "address": "Address"
       },
       "others": {
         "title": "Other schools",
@@ -1250,10 +1239,6 @@
               "International business summer schools"
             ],
             "callout": "Every concentration is offered in a fully English-taught stream, so an exchange semester abroad costs you no time toward your degree."
-          },
-          "glance": {
-            "founded": "1995",
-            "students": "1,200+"
           }
         },
         "law": {
@@ -1321,10 +1306,6 @@
               "Summer schools in European law"
             ],
             "callout": "Georgia’s EU-accession path makes EU law a living subject here — taught by faculty who advise on the harmonisation of Georgian legislation."
-          },
-          "glance": {
-            "founded": "2001",
-            "students": "480+"
           }
         },
         "eduhum": {
@@ -1411,10 +1392,6 @@
             "title": "IBSU Media Center",
             "card": "News, interviews, video features and photo reportage produced by journalism students and the university press office.",
             "go": "Visit the Media Centre"
-          },
-          "glance": {
-            "founded": "1998",
-            "students": "900+"
           }
         },
         "computing": {
@@ -1481,10 +1458,6 @@
               "Research collaborations & co-supervision"
             ],
             "callout": "Because all graduate computing study is in English, the school’s master and PhD students publish, intern and exchange internationally without a language barrier."
-          },
-          "glance": {
-            "founded": "2008",
-            "students": "650+"
           }
         },
         "medicine": {
@@ -1551,10 +1524,6 @@
               "Dedicated international student office"
             ],
             "callout": "The MD program is built to international standards so that graduates can pursue licensing examinations and residency outside Georgia, not only within it."
-          },
-          "glance": {
-            "founded": "2016",
-            "students": "350+"
           }
         }
       },

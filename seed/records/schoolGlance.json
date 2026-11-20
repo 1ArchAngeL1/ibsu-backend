@@ -1,0 +1,177 @@
+[
+  {
+    "key": "business",
+    "order": 0,
+    "data": {
+      "school": "business",
+      "rows": [
+        {
+          "label": {
+            "ka": "პროგრამები",
+            "en": "Programs"
+          },
+          "value": null,
+          "auto": "programmes"
+        },
+        {
+          "label": {
+            "ka": "ენები",
+            "en": "Languages"
+          },
+          "value": null,
+          "auto": "languages"
+        }
+      ],
+      "applyLabel": {
+        "ka": "ჩაირიცხე იბსუში",
+        "en": "Enrol at IBSU"
+      },
+      "applyHref": "/applicants",
+      "brochureLabel": {
+        "ka": "ჩამოტვირთე ბროშურა",
+        "en": "Download the brochure"
+      },
+      "brochureHref": "https://ibsu.edu.ge/wp-content/uploads/2026/06/brochure.pdf"
+    }
+  },
+  {
+    "key": "eduhum",
+    "order": 1,
+    "data": {
+      "school": "eduhum",
+      "rows": [
+        {
+          "label": {
+            "ka": "პროგრამები",
+            "en": "Programs"
+          },
+          "value": null,
+          "auto": "programmes"
+        },
+        {
+          "label": {
+            "ka": "ენები",
+            "en": "Languages"
+          },
+          "value": null,
+          "auto": "languages"
+        }
+      ],
+      "applyLabel": {
+        "ka": "ჩაირიცხე იბსუში",
+        "en": "Enrol at IBSU"
+      },
+      "applyHref": "/applicants",
+      "brochureLabel": {
+        "ka": "ჩამოტვირთე ბროშურა",
+        "en": "Download the brochure"
+      },
+      "brochureHref": "https://ibsu.edu.ge/wp-content/uploads/2026/06/brochure.pdf"
+    }
+  },
+  {
+    "key": "law",
+    "order": 2,
+    "data": {
+      "school": "law",
+      "rows": [
+        {
+          "label": {
+            "ka": "პროგრამები",
+            "en": "Programs"
+          },
+          "value": null,
+          "auto": "programmes"
+        },
+        {
+          "label": {
+            "ka": "ენები",
+            "en": "Languages"
+          },
+          "value": null,
+          "auto": "languages"
+        }
+      ],
+      "applyLabel": {
+        "ka": "ჩაირიცხე იბსუში",
+        "en": "Enrol at IBSU"
+      },
+      "applyHref": "/applicants",
+      "brochureLabel": {
+        "ka": "ჩამოტვირთე ბროშურა",
+        "en": "Download the brochure"
+      },
+      "brochureHref": "https://ibsu.edu.ge/wp-content/uploads/2026/06/brochure.pdf"
+    }
+  },
+  {
+    "key": "computing",
+    "order": 3,
+    "data": {
+      "school": "computing",
+      "rows": [
+        {
+          "label": {
+            "ka": "პროგრამები",
+            "en": "Programs"
+          },
+          "value": null,
+          "auto": "programmes"
+        },
+        {
+          "label": {
+            "ka": "ენები",
+            "en": "Languages"
+          },
+          "value": null,
+          "auto": "languages"
+        }
+      ],
+      "applyLabel": {
+        "ka": "ჩაირიცხე იბსუში",
+        "en": "Enrol at IBSU"
+      },
+      "applyHref": "/applicants",
+      "brochureLabel": {
+        "ka": "ჩამოტვირთე ბროშურა",
+        "en": "Download the brochure"
+      },
+      "brochureHref": "https://ibsu.edu.ge/wp-content/uploads/2026/06/brochure.pdf"
+    }
+  },
+  {
+    "key": "medicine",
+    "order": 4,
+    "data": {
+      "school": "medicine",
+      "rows": [
+        {
+          "label": {
+            "ka": "პროგრამები",
+            "en": "Programs"
+          },
+          "value": null,
+          "auto": "programmes"
+        },
+        {
+          "label": {
+            "ka": "ენები",
+            "en": "Languages"
+          },
+          "value": null,
+          "auto": "languages"
+        }
+      ],
+      "applyLabel": {
+        "ka": "ჩაირიცხე იბსუში",
+        "en": "Enrol at IBSU"
+      },
+      "applyHref": "/applicants",
+      "brochureLabel": {
+        "ka": "ჩამოტვირთე ბროშურა",
+        "en": "Download the brochure"
+      },
+      "brochureHref": "https://ibsu.edu.ge/wp-content/uploads/2026/06/brochure.pdf"
+    }
+  }
+]

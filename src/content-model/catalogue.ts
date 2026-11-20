@@ -448,7 +448,82 @@ const PATCHES: Record<string, CollectionPatch> = {
  * header gives: `collections.generated.ts` is overwritten whenever the
  * migration runs, and this is a hand-decided thing.
  */
+const SCHOOL_OPTIONS = [
+  { value: "business", label: "Business" },
+  { value: "computing", label: "Computing" },
+  { value: "eduhum", label: "Eduhum" },
+  { value: "law", label: "Law" },
+  { value: "medicine", label: "Medicine" },
+];
+
 const EXTRA_COLLECTIONS: CollectionDef[] = [
+  {
+    name: "schoolGlance",
+    label: "School sidebar card",
+    group: "Academics",
+    kind: "list",
+    description:
+      "The navy card at the top of each school page's sidebar: the lines of facts in it, and the two buttons under them. One record per school. The contact lines below the buttons are not here — they are the school's row in the contact directory (Departments), so that /contact and the school page cannot disagree.",
+    titleField: "school",
+    keyField: "school",
+    tags: ["schools"],
+    routes: ["/schools/[school]"],
+    fields: [
+      {
+        name: "school",
+        label: "School",
+        kind: "select",
+        required: true,
+        options: SCHOOL_OPTIONS,
+        listColumn: true,
+      },
+      {
+        name: "rows",
+        label: "Lines",
+        kind: "array",
+        help: "One line of the card, in this order. Add, remove and reorder them freely; a card with no lines shows only its buttons.",
+        fields: [
+          { name: "label", label: "Label", kind: "text", localized: true, required: true },
+          {
+            name: "value",
+            label: "Value",
+            kind: "text",
+            localized: true,
+            nullable: true,
+            help: "Left empty when the line is counted from the catalogue below.",
+          },
+          {
+            name: "auto",
+            label: "Counted from",
+            kind: "select",
+            nullable: true,
+            options: [
+              { value: "programmes", label: "Number of programmes" },
+              { value: "languages", label: "Teaching languages" },
+            ],
+            help: "Keeps the line in step with the programme catalogue, and ignores whatever is typed above. Leave it unset to write the value yourself.",
+          },
+        ],
+      },
+      {
+        name: "applyLabel",
+        label: "Apply button",
+        kind: "text",
+        localized: true,
+        nullable: true,
+        help: "Left empty hides the button.",
+      },
+      { name: "applyHref", label: "Apply button link", kind: "text", nullable: true },
+      { name: "brochureLabel", label: "Brochure button", kind: "text", localized: true, nullable: true },
+      {
+        name: "brochureHref",
+        label: "Brochure button link",
+        kind: "url",
+        nullable: true,
+        help: "A file on another site opens in a new tab. Left empty hides the button.",
+      },
+    ],
+  },
   {
     name: "navigator",
     label: "Programme navigator",
