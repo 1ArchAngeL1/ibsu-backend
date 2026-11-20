@@ -10,8 +10,11 @@
             "ka": "პროგრამები",
             "en": "Programs"
           },
-          "value": null,
-          "auto": "programmes"
+          "value": {
+            "ka": "10",
+            "en": "10"
+          },
+          "auto": null
         },
         {
           "label": {
@@ -45,8 +48,11 @@
             "ka": "პროგრამები",
             "en": "Programs"
           },
-          "value": null,
-          "auto": "programmes"
+          "value": {
+            "ka": "13",
+            "en": "13"
+          },
+          "auto": null
         },
         {
           "label": {
@@ -80,8 +86,11 @@
             "ka": "პროგრამები",
             "en": "Programs"
           },
-          "value": null,
-          "auto": "programmes"
+          "value": {
+            "ka": "3",
+            "en": "3"
+          },
+          "auto": null
         },
         {
           "label": {
@@ -115,8 +124,11 @@
             "ka": "პროგრამები",
             "en": "Programs"
           },
-          "value": null,
-          "auto": "programmes"
+          "value": {
+            "ka": "6",
+            "en": "6"
+          },
+          "auto": null
         },
         {
           "label": {
@@ -150,8 +162,11 @@
             "ka": "პროგრამები",
             "en": "Programs"
           },
-          "value": null,
-          "auto": "programmes"
+          "value": {
+            "ka": "1",
+            "en": "1"
+          },
+          "auto": null
         },
         {
           "label": {
