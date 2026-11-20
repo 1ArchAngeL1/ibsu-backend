@@ -97,7 +97,8 @@
         "ka": "ბიზნესის სკოლა"
       },
       "ext": "116",
-      "email": "bmfaculty@ibsu.edu.ge"
+      "email": "bmfaculty@ibsu.edu.ge",
+      "room": "A309"
     }
   },
   {
@@ -111,7 +112,8 @@
         "ka": "განათლების, ჰუმანიტარული და სოციალური მეცნიერებების სკოლა"
       },
       "ext": "140",
-      "email": "bss@ibsu.edu.ge"
+      "email": "bss@ibsu.edu.ge",
+      "room": "A302"
     }
   },
   {
@@ -124,7 +126,9 @@
         "en": "Law & Public Administration",
         "ka": "სამართლისა და სახელმწიფო მმართველობის სკოლა"
       },
-      "email": "lawfaculty@ibsu.edu.ge"
+      "ext": "135",
+      "email": "lawfaculty@ibsu.edu.ge",
+      "room": "A312; A314"
     }
   },
   {
@@ -138,7 +142,8 @@
         "ka": "კომპიუტერული მეცნიერებისა და არქიტექტურის სკოლა"
       },
       "ext": "136",
-      "email": "scsa@ibsu.edu.ge"
+      "email": "scsa@ibsu.edu.ge",
+      "room": "A310; 325"
     }
   },
   {

@@ -1172,6 +1172,14 @@
         "apply": "Apply to this school",
         "brochure": "Download the brochure"
       },
+      "contact": {
+        "title": "Contact",
+        "email": "Email",
+        "phone": "Phone",
+        "ext": "ext.",
+        "address": "Address",
+        "room": "Room"
+      },
       "others": {
         "title": "Other schools",
         "all": "All five schools"

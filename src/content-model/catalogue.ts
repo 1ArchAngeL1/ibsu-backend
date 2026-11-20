@@ -387,6 +387,21 @@ const PATCHES: Record<string, CollectionPatch> = {
     order: ["id", "category", "date", "title", "excerpt", "body", "kind", "unit", "cover"],
   },
 
+  departments: {
+    // The five schools' rows feed a second page now: each school page
+    // prints its office's email, extension and room in the sidebar card
+    // (the website's src/app/[locale]/schools/[school]/page.tsx). An
+    // editor changing an extension here changes it in both places, and
+    // the generated description named only /contact.
+    description:
+      "The contact directory on /contact. The rows whose id is a school key — business, eduhum, computing, law, medicine — are also the contact lines in the sidebar of that school's own page.",
+    fields: {
+      room: {
+        help: "Shown as “Room A309”. Two rooms are written “A312; A314”, the way the old site wrote them.",
+      },
+    },
+  },
+
   vacancies: {
     description:
       "The positions on /vacancies. Carried over from the old site's ვაკანსიები. An imported competition arrives as one long text in Full text; the summary, requirements and documents beside it are what the page shows when somebody has split it up.",
