@@ -64,16 +64,62 @@ function readJson<T>(...where: string[]): T {
  * API's Mongo is not on 27017, and a tool that quietly wrote to whatever
  * answers there would be writing to somebody else's database.
  */
-function mongoUri(): string {
-  if (process.env.MONGO_URI) return process.env.MONGO_URI;
+function setting(name: string): string | undefined {
+  if (process.env[name]) return process.env[name];
   const env = path.join(BACKEND, ".env");
-  if (fs.existsSync(env)) {
-    for (const line of fs.readFileSync(env, "utf8").split("\n")) {
-      const match = /^\s*MONGO_URI\s*=\s*(.*)$/.exec(line);
-      if (match) return match[1].trim().replace(/^["']|["']$/g, "");
-    }
+  if (!fs.existsSync(env)) return undefined;
+  for (const line of fs.readFileSync(env, "utf8").split("\n")) {
+    const match = new RegExp(`^\\s*${name}\\s*=\\s*(.*)$`).exec(line);
+    if (match) return match[1].trim().replace(/^["']|["']$/g, "");
   }
-  return "mongodb://127.0.0.1:27017/ibsu";
+  return undefined;
+}
+
+function mongoUri(): string {
+  return setting("MONGO_URI") ?? "mongodb://127.0.0.1:27017/ibsu";
+}
+
+/**
+ * Tells the website that what it has cached is out of date.
+ *
+ * Everything the admin saves goes through PublishService, which posts the
+ * collection's cache tags to the site; a tool that writes to Mongo behind
+ * it does not, and the site goes on serving what it built. Worse, it is
+ * not only the running server: a deploy reuses the cached fetches too, so
+ * a fresh build can prerender yesterday's content and look like a bad
+ * deploy rather than a missing revalidation. Ask for `cms:copy` and
+ * `cms:departments` — the same two tags publishing these would.
+ *
+ * Logged and not thrown, as PublishService does it: the content is
+ * written either way, and a site that cannot be reached from here is for
+ * whoever runs this to sort out.
+ */
+async function revalidate(): Promise<void> {
+  const url = setting("SITE_REVALIDATE_URL") ?? "http://localhost:3000/api/revalidate";
+  const secret = setting("REVALIDATE_SECRET");
+  const tags = ["cms:copy", "cms:departments"];
+  if (!secret) {
+    console.log(`\nno REVALIDATE_SECRET here; ask the site for ${tags.join(", ")} yourself.`);
+    return;
+  }
+  try {
+    const response = await fetch(url, {
+      method: "POST",
+      headers: { "content-type": "application/json", "x-revalidate-secret": secret },
+      body: JSON.stringify({ tags }),
+      signal: AbortSignal.timeout(5000),
+    });
+    console.log(
+      response.ok
+        ? `\nrevalidated ${tags.join(", ")}`
+        : `\nthe site refused the revalidation (${response.status}); ask it for ${tags.join(", ")} yourself.`,
+    );
+  } catch (error) {
+    console.log(
+      `\ncould not reach ${url} to revalidate: ${(error as Error).message}` +
+        `\nask the site for ${tags.join(", ")} yourself.`,
+    );
+  }
 }
 
 /**
@@ -173,11 +219,12 @@ async function main(): Promise<void> {
   }
 
   await mongoose.disconnect();
-  console.log(
-    dry
-      ? "\ndry run; nothing written."
-      : "\ndone — restart the API so it rebuilds its cached message tree.",
-  );
+  if (dry) {
+    console.log("\ndry run; nothing written.");
+    return;
+  }
+  await revalidate();
+  console.log("\ndone — restart the API so it rebuilds its cached message tree.");
 }
 
 void main().catch((error: Error) => {
