@@ -26,10 +26,10 @@
         }
       ],
       "applyLabel": {
-        "ka": "ჩაირიცხე იბსუში",
-        "en": "Enrol at IBSU"
+        "ka": "ჩააბარე IBSU-ში",
+        "en": "Apply to IBSU"
       },
-      "applyHref": "/applicants",
+      "applyHref": "/applicants/apply",
       "brochureLabel": {
         "ka": "ჩამოტვირთე ბროშურა",
         "en": "Download the brochure"
@@ -64,10 +64,10 @@
         }
       ],
       "applyLabel": {
-        "ka": "ჩაირიცხე იბსუში",
-        "en": "Enrol at IBSU"
+        "ka": "ჩააბარე IBSU-ში",
+        "en": "Apply to IBSU"
       },
-      "applyHref": "/applicants",
+      "applyHref": "/applicants/apply",
       "brochureLabel": {
         "ka": "ჩამოტვირთე ბროშურა",
         "en": "Download the brochure"
@@ -102,10 +102,10 @@
         }
       ],
       "applyLabel": {
-        "ka": "ჩაირიცხე იბსუში",
-        "en": "Enrol at IBSU"
+        "ka": "ჩააბარე IBSU-ში",
+        "en": "Apply to IBSU"
       },
-      "applyHref": "/applicants",
+      "applyHref": "/applicants/apply",
       "brochureLabel": {
         "ka": "ჩამოტვირთე ბროშურა",
         "en": "Download the brochure"
@@ -140,10 +140,10 @@
         }
       ],
       "applyLabel": {
-        "ka": "ჩაირიცხე იბსუში",
-        "en": "Enrol at IBSU"
+        "ka": "ჩააბარე IBSU-ში",
+        "en": "Apply to IBSU"
       },
-      "applyHref": "/applicants",
+      "applyHref": "/applicants/apply",
       "brochureLabel": {
         "ka": "ჩამოტვირთე ბროშურა",
         "en": "Download the brochure"
@@ -178,10 +178,10 @@
         }
       ],
       "applyLabel": {
-        "ka": "ჩაირიცხე იბსუში",
-        "en": "Enrol at IBSU"
+        "ka": "ჩააბარე IBSU-ში",
+        "en": "Apply to IBSU"
       },
-      "applyHref": "/applicants",
+      "applyHref": "/applicants/apply",
       "brochureLabel": {
         "ka": "ჩამოტვირთე ბროშურა",
         "en": "Download the brochure"
