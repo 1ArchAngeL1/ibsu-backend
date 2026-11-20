@@ -76,10 +76,24 @@ function mongoUri(): string {
   return "mongodb://127.0.0.1:27017/ibsu";
 }
 
+/**
+ * The URI with its password taken out, for printing.
+ *
+ * A deployment's `.env` holds a user and password, and this prints where
+ * it connected so the operator can see it is the right database. Those
+ * two things together would put the password in a terminal log.
+ */
+function safe(uri: string): string {
+  return uri.replace(/\/\/([^/@]*)@/, (_match, credentials: string) => {
+    const user = credentials.split(":")[0];
+    return `//${user}:***@`;
+  });
+}
+
 async function main(): Promise<void> {
   const uri = mongoUri();
   await mongoose.connect(uri);
-  console.log(`connected to ${uri}${dry ? "  (dry run; nothing written)" : ""}\n`);
+  console.log(`connected to ${safe(uri)}${dry ? "  (dry run; nothing written)" : ""}\n`);
 
   /* ----------------------------------------------------------- the copy */
 
