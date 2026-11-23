@@ -621,7 +621,9 @@ const EXTRA_COLLECTIONS: CollectionDef[] = [
   },
   {
     name: "navigator",
-    label: "Programme navigator",
+    // What the old site's menu calls it (IBSU ნავიგატორი), so the sidebar
+    // mirroring that menu and this screen do not disagree on its name.
+    label: "IBSU navigator",
     group: "Applicants",
     kind: "list",
     description:
