@@ -158,6 +158,42 @@ export async function fetchRetry(url: string, tries = 8): Promise<Response> {
   }
 }
 
+/**
+ * One page of a REST collection, or the news that there are no more.
+ *
+ * `fetchRetry` is not enough on its own here, and the reason cost us four
+ * posts. ibsu.edu.ge does not refuse a crawl with 429 forever — past some
+ * point it answers **200 with an HTML block page**. `fetchRetry` sees a 200
+ * and hands it straight back, `res.json()` then throws on `<!DOCTYPE`, and
+ * the import dies partway through with whatever it had already written
+ * still in the database. That is how `posts` ended up holding 2,761 of the
+ * old site's 2,765 published posts while looking like a clean run.
+ *
+ * So the content type is checked, and a page that is not JSON is treated as
+ * the block it is: waited out and asked for again.
+ */
+async function fetchJsonPage(url: string, tries = 6): Promise<Response | "past-the-end"> {
+  for (let i = 0; ; i += 1) {
+    const res = await fetchRetry(url);
+    // WordPress's way of saying you asked past the last page.
+    if (res.status === 400) return "past-the-end";
+    if (!res.ok) throw new Error(`${url}: HTTP ${res.status}`);
+
+    const type = res.headers.get("content-type") ?? "";
+    if (type.includes("json")) return res;
+
+    await res.text().catch(() => undefined); // drain it; we are retrying
+    if (i >= tries) {
+      throw new Error(
+        `${url}: answered 200 with ${type.split(";")[0] || "no content type"} rather than JSON ` +
+          `after ${tries + 1} tries — the old site is blocking this URL. ` +
+          `See seed/wp/README.md for what gets past it.`,
+      );
+    }
+    await sleep(Math.min(8000 * 2 ** i, 120000));
+  }
+}
+
 /** Download a file. `null` means WordPress no longer has it. */
 export async function download(
   url: string,
@@ -185,6 +221,8 @@ export async function* wpAll(
   const limit = options.limit ?? Infinity;
   let page = 1;
   let yielded = 0;
+  /** what the old site says it holds, from `X-WP-Total` on the first page */
+  let expected = 0;
   for (;;) {
     const query = [
       `per_page=${per}`,
@@ -194,9 +232,9 @@ export async function* wpAll(
     ]
       .filter(Boolean)
       .join("&");
-    const res = await fetchRetry(`${WP_API}/${path}?${query}`);
-    if (res.status === 400) break; // asked for a page past the last one
-    if (!res.ok) throw new Error(`${path} page ${page}: HTTP ${res.status}`);
+    const res = await fetchJsonPage(`${WP_API}/${path}?${query}`);
+    if (res === "past-the-end") break;
+    if (!expected) expected = Number(res.headers.get("X-WP-Total") || "0");
     const batch = (await res.json()) as Record<string, unknown>[];
     if (!batch.length) break;
     for (const item of batch) {
@@ -214,6 +252,22 @@ export async function* wpAll(
     await sleep(1200); // stay under the rate limit
   }
   process.stdout.write("\n");
+
+  /*
+   * Stopping early is not the same as finishing, and until now they looked
+   * identical from the outside: a crawl that lost its last page simply
+   * returned fewer items and every caller carried on as if that were all
+   * there was. An import is not allowed to quietly cover less than it was
+   * asked for, so a short read is an error — unless the caller asked for a
+   * short read with `limit`.
+   */
+  if (limit === Infinity && expected && yielded < expected) {
+    throw new Error(
+      `${path}: read ${yielded} of the ${expected} the old site reports. ` +
+        `Nothing has been lost, but this run is incomplete — re-run it; ` +
+        `the importers match on the old id and update rather than duplicate.`,
+    );
+  }
 }
 
 /** Run `work` over `items`, `n` at a time, in the order they were given. */
