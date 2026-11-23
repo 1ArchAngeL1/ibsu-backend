@@ -7,6 +7,8 @@
  *     tsx tools/import-wp.ts posts              # the posts
  *     tsx tools/import-wp.ts media posts        # both
  *     tsx tools/import-wp.ts posts --limit=200  # just the first N (a trial)
+ *     tsx tools/import-wp.ts posts --out=wp-posts.json   # where the old site answers
+ *     tsx tools/import-wp.ts --in=wp-posts.json          # where the database lives
  *
  * This stage only reads *metadata*; not a single file is transferred. It is
  * step one of four, and the order matters:
@@ -27,6 +29,7 @@
  * relinked to the bucket as they are written, using the proof-of-mirror in
  * the media library — so importing posts can never undo a relink.
  */
+import fs from "node:fs";
 import mongoose from "mongoose";
 import slugify from "slugify";
 import { PostSchema } from "../src/schemas/post.schema";
@@ -37,6 +40,8 @@ import { mirroredKeys, relinkText } from "./wp-relink";
 const args = process.argv.slice(2);
 const want = (name: string): boolean => args.includes(name);
 const limit = Number(args.find((a) => a.startsWith("--limit="))?.slice(8)) || Infinity;
+const out = args.find((a) => a.startsWith("--out="))?.slice("--out=".length);
+const from = args.find((a) => a.startsWith("--in="))?.slice("--in=".length);
 
 /** What we ask WordPress for. `media_details` carries the sizes and filesize. */
 const MEDIA_FIELDS = [
@@ -184,11 +189,33 @@ async function importMedia(Media: mongoose.Model<unknown>): Promise<void> {
   );
 }
 
-async function importPosts(
-  Post: mongoose.Model<unknown>,
-  Media: mongoose.Model<unknown>,
-  publicBase: string,
-): Promise<void> {
+/**
+ * What the old site says about its posts: the network half, on its own.
+ *
+ * Split from the writing half because the two can no longer run on the same
+ * machine. ibsu.edu.ge now answers the tester VM with 403 outright — it has
+ * been crawled enough today to earn it — while a laptop still gets 200. The
+ * VM is the only thing that can reach the database. So this fetches, `--out`
+ * writes what it found, and `--in` applies the file where Mongo lives, which
+ * is the same split `import-wp-types.ts` and `import-events.ts` already use
+ * for the same reason.
+ */
+interface FetchedPost {
+  id: number;
+  slug: string;
+  title: string;
+  excerpt: string;
+  /** `content.rendered`, before any relinking: that belongs to the writer */
+  body: string;
+  cover: string | null;
+  categories: string[];
+  tags: string[];
+  date: string | null;
+  modified: string | null;
+  sticky: boolean;
+}
+
+async function fetchPosts(): Promise<FetchedPost[]> {
   // Category ids -> our slugs, so posts are filed where the site expects.
   const catSlug = new Map<number, string>();
   for await (const c of wpAll("categories", { fields: "id,slug" })) {
@@ -201,6 +228,40 @@ async function importPosts(
     tagName.set(t.id as number, plain(t.name as string));
   }
 
+  const found: FetchedPost[] = [];
+  for await (const p of wpAll("posts", { embed: true, limit })) {
+    if (p.status !== "publish") continue;
+    const embedded = p._embedded as
+      | { "wp:featuredmedia"?: { source_url?: string }[] }
+      | undefined;
+    found.push({
+      id: p.id as number,
+      slug: (p.slug as string) ?? "",
+      title: plain((p.title as WpRendered)?.rendered ?? ""),
+      excerpt: plain((p.excerpt as WpRendered)?.rendered ?? ""),
+      body: (p.content as WpRendered)?.rendered ?? "",
+      cover: embedded?.["wp:featuredmedia"]?.[0]?.source_url ?? null,
+      categories: ((p.categories as number[]) ?? [])
+        .map((id) => catSlug.get(id))
+        .filter(Boolean) as string[],
+      tags: ((p.tags as number[]) ?? [])
+        .map((id) => tagName.get(id))
+        .filter(Boolean) as string[],
+      date: (p.date as string) ?? null,
+      modified: (p.modified as string) ?? null,
+      sticky: Boolean(p.sticky),
+    });
+  }
+  return found;
+}
+
+/** The database half: relink against what we hold, and upsert on the old id. */
+async function writePosts(
+  Post: mongoose.Model<unknown>,
+  Media: mongoose.Model<unknown>,
+  publicBase: string,
+  posts: FetchedPost[],
+): Promise<void> {
   const keys = await mirroredKeys(Media);
   console.log(`posts: ${keys.size} mirrored files to relink against`);
 
@@ -224,26 +285,11 @@ async function importPosts(
     await Post.bulkWrite(ops.splice(0) as Parameters<typeof Post.bulkWrite>[0]);
   };
 
-  for await (const p of wpAll("posts", { embed: true, limit })) {
-    if (p.status !== "publish") continue;
-    const title = plain((p.title as WpRendered)?.rendered ?? "");
-    const rawBody = (p.content as WpRendered)?.rendered ?? "";
-    const excerpt = plain((p.excerpt as WpRendered)?.rendered ?? "");
-    const cats = ((p.categories as number[]) ?? [])
-      .map((id) => catSlug.get(id))
-      .filter(Boolean) as string[];
-    const tags = ((p.tags as number[]) ?? [])
-      .map((id) => tagName.get(id))
-      .filter(Boolean) as string[];
-    const embedded = p._embedded as
-      | { "wp:featuredmedia"?: { source_url?: string }[] }
-      | undefined;
-    const rawCover = embedded?.["wp:featuredmedia"]?.[0]?.source_url ?? null;
-
+  for (const p of posts) {
     // Relink as we write: a body that comes in pointing at ibsu.edu.ge is
     // stored pointing at our bucket, so re-importing cannot undo the move.
-    const body = relinkText(rawBody, keys, publicBase);
-    const cover = rawCover ? relinkText(rawCover, keys, publicBase) : null;
+    const body = relinkText(p.body, keys, publicBase);
+    const cover = p.cover ? relinkText(p.cover, keys, publicBase) : null;
     relinked += body.replaced + (cover?.replaced ?? 0);
     for (const m of body.missed) missed.add(m);
     for (const m of cover?.missed ?? []) missed.add(m);
@@ -254,15 +300,15 @@ async function importPosts(
         filter: { "source.collection": "wp:post", "source.key": key },
         update: {
           $set: {
-            title: { ka: title, en: "" },
-            excerpt: { ka: excerpt, en: "" },
+            title: { ka: p.title, en: "" },
+            excerpt: { ka: p.excerpt, en: "" },
             body: { ka: body.text, en: "" },
             cover: cover?.text ?? null,
-            categories: cats,
-            tags: ["WordPress", ...tags],
+            categories: p.categories,
+            tags: ["WordPress", ...p.tags],
             status: "published",
             visibility: "public",
-            publishedAt: p.date ? new Date(p.date as string) : new Date(),
+            publishedAt: p.date ? new Date(p.date) : new Date(),
             authorName: "IBSU",
             source: {
               collection: "wp:post",
@@ -273,13 +319,13 @@ async function importPosts(
               // does not need to be. Every rewrite is a pure function of a
               // URL, and each media row remembers the ibsu.edu.ge URL it was
               // mirrored from in `wp.url`, so the mapping can be inverted.
-              data: { wpId: p.id, link: p.slug, modified: p.modified ?? null },
+              data: { wpId: p.id, link: p.slug, modified: p.modified },
             },
           },
           $setOnInsert: {
-            slug: uniqueSlug(title || `wp-${key}`),
+            slug: uniqueSlug(p.title || `wp-${key}`),
             password: "",
-            sticky: Boolean(p.sticky),
+            sticky: p.sticky,
             allowComments: true,
           },
         },
@@ -300,23 +346,53 @@ async function importPosts(
 }
 
 async function main(): Promise<void> {
-  if (!want("media") && !want("posts")) {
+  if (!want("media") && !want("posts") && !from) {
     console.log("nothing to do: name at least one of `media`, `posts`.");
     return;
   }
+
+  /*
+   * Reading the old site needs no database, and on the machine that can
+   * still reach it there is none. So `--out` stops before Mongo is touched.
+   */
+  if (out) {
+    if (!want("posts")) throw new Error("--out is only implemented for `posts`.");
+    const found = await fetchPosts();
+    fs.writeFileSync(out, `${JSON.stringify(found, null, 1)}\n`);
+    console.log(`\nwrote ${found.length} posts to ${out} — apply with --in=${out}`);
+    return;
+  }
+
   const uri = process.env.MONGO_URI ?? "mongodb://127.0.0.1:27017/ibsu";
   await mongoose.connect(uri);
   const Post = mongoose.model("Post", PostSchema);
   const Media = mongoose.model("MediaAsset", MediaAssetSchema);
   const publicBase = (process.env.R2_PUBLIC_BASE_URL ?? "").replace(/\/+$/, "");
+  const needBase = (): string => {
+    if (!publicBase) throw new Error("R2_PUBLIC_BASE_URL is not set; posts would import unrelinked.");
+    return publicBase;
+  };
+
+  if (from) {
+    const found = JSON.parse(fs.readFileSync(from, "utf8")) as FetchedPost[];
+    console.log(`read ${found.length} posts from ${from}`);
+    await writePosts(
+      Post as unknown as mongoose.Model<unknown>,
+      Media as unknown as mongoose.Model<unknown>,
+      needBase(),
+      found,
+    );
+    await mongoose.disconnect();
+    return;
+  }
 
   if (want("media")) await importMedia(Media as unknown as mongoose.Model<unknown>);
   if (want("posts")) {
-    if (!publicBase) throw new Error("R2_PUBLIC_BASE_URL is not set; posts would import unrelinked.");
-    await importPosts(
+    await writePosts(
       Post as unknown as mongoose.Model<unknown>,
       Media as unknown as mongoose.Model<unknown>,
-      publicBase,
+      needBase(),
+      await fetchPosts(),
     );
   }
 
