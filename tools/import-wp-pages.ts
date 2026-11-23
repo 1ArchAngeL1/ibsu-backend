@@ -143,10 +143,19 @@ function pathOf(link: string): string {
   }
 }
 
-/** The opening of the text, where the old site wrote no excerpt. */
+/**
+ * The opening of the text, where the old site wrote no excerpt.
+ *
+ * WordPress's own `excerpt.rendered` is only worth having when somebody
+ * typed it. Where nobody did, WordPress generates one by trimming the *raw*
+ * post — shortcodes and all — so the field arrives holding
+ * `[vc_row type="full-width"][vc_column]…`, which is not a summary of
+ * anything. A written excerpt is recognised by not containing the page
+ * builder; everything else falls through to the cleaned body.
+ */
 function summaryOf(page: WpPage, body: string, max = 220): string {
   const written = plain(page.excerpt?.rendered ?? "");
-  if (written) return written;
+  if (written && !/\[(?:\/)?vc_/.test(written)) return written;
   const text = plain(body);
   if (text.length <= max) return text;
   const cut = text.slice(0, max);
@@ -304,6 +313,21 @@ async function main(): Promise<void> {
       (report.forms ? `, ${report.forms} forms removed` : "") +
       (report.droppedImages ? `, ${report.droppedImages} images unresolved` : ""),
   );
+
+  /**
+   * The references still pointing at ibsu.edu.ge, for the rescuer.
+   *
+   * These are files the earlier migration never moved, because it mirrored
+   * what the *posts* referenced and these are in pages. The URLs still work,
+   * which is why they are left alone rather than rewritten to a 404 — but
+   * they work only as long as the old box does, so the list is worth having
+   * as the input to `rescue-wp-media.ts`.
+   */
+  const missedFile = flag("missed");
+  if (missedFile && report.missed.size) {
+    fs.writeFileSync(missedFile, `${[...report.missed].sort().join("\n")}\n`);
+    console.log(`  the ${report.missed.size} left behind are listed in ${missedFile}`);
+  }
 
   if (out) {
     fs.writeFileSync(out, `${JSON.stringify(rows, null, 1)}\n`);
