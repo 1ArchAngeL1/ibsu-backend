@@ -456,6 +456,94 @@ const SCHOOL_OPTIONS = [
   { value: "medicine", label: "Medicine" },
 ];
 
+/**
+ * The old site's Pages, and the two page types its wp-admin keeps beside
+ * them — the last of ibsu.edu.ge's content to come across, and the only
+ * group here that nothing on the website renders yet.
+ *
+ * They are kept as three collections rather than merged into one because
+ * that is what they are on the old site and what an editor will look for:
+ * `interc` is the Young Scientists conference's own small site, `iro` is the
+ * International Relations Office's, and `pages` is everything else. The
+ * three carry identical fields, so the shape is written once.
+ *
+ * A page here has a `path` and a `parent`, which together are the old site's
+ * page tree — `/library/trainings/ask-a-librarian` under `/library`. Nothing
+ * reads that hierarchy yet; it is kept because recovering it later from
+ * nothing is impossible, and because the path is how an editor recognises
+ * which page a record is.
+ *
+ * See `tools/import-wp-pages.ts` for how they were read and what was taken
+ * out of the bodies on the way.
+ */
+const oldSitePages = (
+  name: string,
+  label: string,
+  description: string,
+): CollectionDef => ({
+  name,
+  label,
+  group: "Old site",
+  kind: "list",
+  description,
+  titleField: "title",
+  keyField: "id",
+  sortField: "path",
+  sortDirection: "asc",
+  tags: [name],
+  fields: [
+    { name: "id", label: "ID", kind: "text", required: true },
+    { name: "title", label: "Title", kind: "text", localized: true, listColumn: true },
+    {
+      name: "path",
+      label: "Path on the old site",
+      kind: "text",
+      listColumn: true,
+      help: "Where this page lived on ibsu.edu.ge. Nothing on the new site serves it.",
+    },
+    {
+      name: "parent",
+      label: "Parent page",
+      kind: "text",
+      help: "The ID of the page this sat under, where it sat under one.",
+    },
+    { name: "date", label: "Published", kind: "date", listColumn: true },
+    {
+      name: "template",
+      label: "Old template",
+      kind: "text",
+      help: "The theme file that rendered it. An `archive-` or `single-` template means the page was a shell WordPress filled from a loop, which is why a few hold no text.",
+    },
+    { name: "excerpt", label: "Summary", kind: "textarea", localized: true },
+    { name: "body", label: "Body", kind: "richtext", localized: true },
+    { name: "cover", label: "Featured image", kind: "image", nullable: true },
+    {
+      name: "source",
+      label: "Imported from",
+      kind: "text",
+      help: "The full URL on ibsu.edu.ge this came from.",
+    },
+  ],
+});
+
+const OLD_SITE_PAGES: CollectionDef[] = [
+  oldSitePages(
+    "wpPages",
+    "Pages",
+    "The 358 pages behind the old site's Pages screen — the library's services, the seasonal schools, each school's programme and lecturer pages, the first-year guide. Georgian only: the old site never held an English half for these.",
+  ),
+  oldSitePages(
+    "intercPages",
+    "Interc pages",
+    "The nine pages of INTERC, the Young Scientists Conference on Education — its programme, submission rules, boards and dates.",
+  ),
+  oldSitePages(
+    "iroPages",
+    "IRO pages",
+    "The nine pages of the International Relations Office. The content of the big ones is already here as records — exchange, partners and admission feed /international — and these are the pages they were read out of.",
+  ),
+];
+
 const EXTRA_COLLECTIONS: CollectionDef[] = [
   {
     name: "schoolGlance",
@@ -548,6 +636,46 @@ const EXTRA_COLLECTIONS: CollectionDef[] = [
         label: "Imported from",
         kind: "text",
         help: "The page on ibsu.edu.ge this came from.",
+      },
+      {
+        name: "tags",
+        label: "Tags",
+        kind: "array",
+        of: { name: "tag", label: "Tag", kind: "text" },
+        help: "The terms the old site filed this under. The terms themselves are in Navigator tags.",
+      },
+    ],
+  },
+  ...OLD_SITE_PAGES,
+  {
+    name: "navigatorTags",
+    label: "Navigator tags",
+    group: "Applicants",
+    kind: "list",
+    description:
+      "The 34 terms the old site filed its navigator entries under — a subject (არქიტექტურა) or a reason to choose IBSU. Renaming one here does not retag the entries: each navigator record carries its tags by name, in its own Tags field.",
+    titleField: "name",
+    keyField: "id",
+    sortField: "name",
+    sortDirection: "asc",
+    tags: ["navigator"],
+    fields: [
+      { name: "id", label: "ID", kind: "text", required: true },
+      { name: "name", label: "Name", kind: "text", localized: true, listColumn: true },
+      {
+        name: "slug",
+        label: "Slug",
+        kind: "text",
+        listColumn: true,
+        help: "The term's name in the old site's URLs.",
+      },
+      { name: "description", label: "Description", kind: "textarea", localized: true },
+      {
+        name: "count",
+        label: "Entries",
+        kind: "number",
+        listColumn: true,
+        help: "How many navigator entries the old site had under this term.",
       },
     ],
   },

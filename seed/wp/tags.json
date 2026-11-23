@@ -1,0 +1,42 @@
+[
+ {
+  "id": 71,
+  "slug": "%e1%83%9b%e1%83%9d%e1%83%93%e1%83%98%e1%83%98%e1%83%91%e1%83%a1%e1%83%a3%e1%83%a8%e1%83%98",
+  "name": "#მოდიიბსუში",
+  "description": "",
+  "count": 0,
+  "taxonomy": "post_tag"
+ },
+ {
+  "id": 72,
+  "slug": "%e1%83%98%e1%83%91%e1%83%a1%e1%83%a3",
+  "name": "#იბსუ",
+  "description": "",
+  "count": 0,
+  "taxonomy": "post_tag"
+ },
+ {
+  "id": 73,
+  "slug": "%e1%83%9f%e1%83%a3%e1%83%a0%e1%83%9c%e1%83%90%e1%83%9a%e1%83%98%e1%83%a1%e1%83%a2%e1%83%98%e1%83%99%e1%83%90",
+  "name": "#ჟურნალისტიკა",
+  "description": "",
+  "count": 0,
+  "taxonomy": "post_tag"
+ },
+ {
+  "id": 92,
+  "slug": "ibsu-donation-campaign",
+  "name": "IBSU donation campaign",
+  "description": "",
+  "count": 0,
+  "taxonomy": "post_tag"
+ },
+ {
+  "id": 105,
+  "slug": "navigator",
+  "name": "ნავიგატორი",
+  "description": "ibsu navigator",
+  "count": 0,
+  "taxonomy": "post_tag"
+ }
+]

@@ -1,0 +1,182 @@
+[
+ {
+  "id": 62613,
+  "slug": "home",
+  "link": "https://ibsu.edu.ge/interc/home/",
+  "status": "publish",
+  "type": "interc",
+  "date": "2026-06-02T13:56:01",
+  "modified": "2026-06-02T14:35:12",
+  "parent": 0,
+  "menu_order": 0,
+  "template": "",
+  "featured_media": 0,
+  "title": {
+   "rendered": "ახალგაზრდა მკვლევართა საერთაშორისო კონფერენცია"
+  },
+  "content": {
+   "rendered": "<div class=\"wpb-content-wrapper\"><p>[vc_row][vc_column][vc_custom_heading text=&#8221;Call for Papers (INTERC-2020)&#8221; font_container=&#8221;tag:h2|font_size:20px|text_align:left|color:%23ffffff&#8221; css=&#8221;.vc_custom_1780394618848{padding-top: 15px !important;padding-bottom: 10px !important;padding-left: 15px !important;background-color: #9e3133 !important;}&#8221;][vc_row_inner][vc_column_inner width=&#8221;1/2&#8243;][vc_single_image image=&#8221;62616&#8243; img_size=&#8221;full&#8221;][/vc_column_inner][vc_column_inner width=&#8221;1/2&#8243;][vc_column_text]</p>\n<h4>The <strong>4th International Young Researchers Conference</strong> will be held <strong>ONLINE </strong>due to COVID-19</h4>\n<p>Young researchers, graduate/postgraduate, and post-doctorate students are invited from Georgia and abroad to share their research on teaching and learning at the primary, secondary, and tertiary level to an interested, young professional audience.</p>\n<p>INTERC aims to strengthen the ties between young researchers in different countries and increase knowledge of young researchers from various fields dealing with education in order to develop their research skills and promote collaboration in their field.</p>\n<p>INTERC-2020 invites abstracts, papers, and proposals in any of the following tracks:</p>\n<ul>\n<li>Education (pedagogy, pre-school, primary and secondary school education and management, higher education, educational psychology, education reforms, language, and humanities teaching, CLIL) and various issues related to education</li>\n</ul>\n<p>Selected papers will be offered publication in IBSU Scientific Journals.</p>\n<p>The working language of the conference is English and Georgian (Abstract should be submitted in English)</p>\n<p><strong>Conference participation is free.</strong>[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]</p>\n</div>",
+   "protected": false
+  }
+ },
+ {
+  "id": 62621,
+  "slug": "about",
+  "link": "https://ibsu.edu.ge/interc/about/",
+  "status": "publish",
+  "type": "interc",
+  "date": "2026-06-02T14:11:31",
+  "modified": "2026-06-02T14:14:59",
+  "parent": 0,
+  "menu_order": 0,
+  "template": "",
+  "featured_media": 0,
+  "title": {
+   "rendered": "About"
+  },
+  "content": {
+   "rendered": "<div class=\"wpb-content-wrapper\"><p>[vc_row][vc_column][vc_column_text]<strong>International Young Researchers Conference on Education</strong></p>\n<p>The aim of the conference is to strengthen the ties between young researchers in different countries and increase knowledge of young researchers from various fields dealing with education in order to develop their research skills and promote collaboration in their field. In addition, experienced researchers will be available to offer guidance.</p>\n<p>International participants can present their research online (platform link will be sent by email).</p>\n<p>Each paper presenter will receive a certificate of participation.</p>\n<p>&nbsp;</p>\n<p><strong>INTERC-19 invites abstracts, papers, and proposals in any of the following tracks:</strong></p>\n<ul>\n<li>Social Sciences, Humanities,</li>\n<li>Business and Economics</li>\n<li>Science, Technology, and Engineering</li>\n<li>Education (pedagogy, pre-school, primary and secondary school education and management, higher education, educational psychology, education reforms, language and humanities teaching, CLIL)</li>\n<li>and various issues related to education</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Conference date: July 6, 2019</strong></p>\n<p><strong>Opening time: 11:00 am</strong></p>\n<p><strong>Conference venue: A101, International Black Sea Univeristy</strong>[/vc_column_text][/vc_column][/vc_row]</p>\n</div>",
+   "protected": false
+  }
+ },
+ {
+  "id": 62628,
+  "slug": "boards",
+  "link": "https://ibsu.edu.ge/interc/boards/",
+  "status": "publish",
+  "type": "interc",
+  "date": "2026-06-02T14:16:27",
+  "modified": "2026-06-02T14:26:06",
+  "parent": 0,
+  "menu_order": 0,
+  "template": "",
+  "featured_media": 0,
+  "title": {
+   "rendered": "Boards"
+  },
+  "content": {
+   "rendered": "<div class=\"wpb-content-wrapper\"><p>[vc_row][vc_column][vc_column_text]</p>\n<h4>Organizing Committee</h4>\n<div>\n<p><strong>Honorary </strong><strong>–</strong><strong>Presidents       :</strong>Prof. Dr. Ilyas Ciloglu, Rector, International Black Sea University</p>\n<p>&nbsp;</p>\n<p><strong>General Coordinator         : </strong>Prof. Dr. Natela Doghonadze, International Black Sea University</p>\n<p><strong>Coordinators                     : </strong>Assoc Prof. Dr. Mehmet Sahiner, International Black Sea University; Assoc. Prof. Dr. Nikoloz Parjanadze, International Black Sea University</p>\n</div>\n<p>&nbsp;</p>\n<h4>Editorial Board</h4>\n<p><strong>Chief     : </strong>Prof. Dr. Natela Doghonadze</p>\n<p><strong>Member : </strong>Assoc. Prof. Dr. Nikoloz Parjanadze</p>\n<p><strong>Member : </strong>Assoc. Prof. Dr. Mehmet Sahiner</p>\n<p>&nbsp;</p>\n<h4>Scientific Committee</h4>\n<p><strong>Prof. Dr. Natela Doghonadze</strong> (International Black Sea University, Georgia)</p>\n<p><strong>Prof. Dr. Ekaterine Pipia</strong> (International Black Sea University, Georgia)</p>\n<p><strong>Assoc. Prof. Dr. Nikoloz Parjanadze</strong> (International Black Sea University, Georgia)</p>\n<p><strong>Assoc. Prof. Dr. Mehmet Sahiner</strong> (International Black Sea University, Georgia)[/vc_column_text][/vc_column][/vc_row]</p>\n</div>",
+   "protected": false
+  }
+ },
+ {
+  "id": 62637,
+  "slug": "dates",
+  "link": "https://ibsu.edu.ge/interc/dates/",
+  "status": "publish",
+  "type": "interc",
+  "date": "2026-06-02T14:27:43",
+  "modified": "2026-06-02T14:27:54",
+  "parent": 0,
+  "menu_order": 0,
+  "template": "",
+  "featured_media": 0,
+  "title": {
+   "rendered": "Dates"
+  },
+  "content": {
+   "rendered": "<div class=\"wpb-content-wrapper\"><p>[vc_row][vc_column][vc_column_text]</p>\n<table class=\" alignleft\" border=\"0\" width=\"600\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\">\n<tbody>\n<tr>\n<td>\n<table border=\"0\" width=\"600\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\">\n<tbody>\n<tr>\n<td colspan=\"3\" valign=\"top\" height=\"30\"><strong>INTERC-19 Important Dates</strong></td>\n</tr>\n<tr>\n<td width=\"25\" height=\"30\"></td>\n<td width=\"338\">Submission of Abstracts <strong>* </strong></td>\n<td width=\"237\"><strong>Submission open</strong></td>\n</tr>\n<tr>\n<td height=\"30\"></td>\n<td>Abstract Submission Deadline</td>\n<td><span style=\"font-family: arial, helvetica, sans-serif;\"><b>June 28, 2019</b></span></td>\n</tr>\n<tr>\n<td height=\"30\"></td>\n<td>Full-text Submission</td>\n<td><strong>July 5, 2019</strong></td>\n</tr>\n<tr>\n<td height=\"30\"></td>\n<td>Conference Date</td>\n<td><span style=\"font-family: arial, helvetica, sans-serif;\"><b>July 6, 2019; 11:00 (A 101)</b></span></td>\n</tr>\n<tr>\n<td height=\"30\"></td>\n<td>Opening time, venue</td>\n<td><b>11:00 (A 101)</b></td>\n</tr>\n<tr>\n<td class=\"kirmizikalin\" colspan=\"3\" align=\"center\" height=\"50\"><strong>*  </strong>Submissions will be evaluated based on the abstract/proposal.</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<p>[/vc_column_text][/vc_column][/vc_row]</p>\n</div>",
+   "protected": false
+  }
+ },
+ {
+  "id": 62641,
+  "slug": "process",
+  "link": "https://ibsu.edu.ge/interc/process/",
+  "status": "publish",
+  "type": "interc",
+  "date": "2026-06-02T14:30:53",
+  "modified": "2026-06-02T14:30:53",
+  "parent": 0,
+  "menu_order": 0,
+  "template": "",
+  "featured_media": 0,
+  "title": {
+   "rendered": "Process"
+  },
+  "content": {
+   "rendered": "<div class=\"wpb-content-wrapper\"><p>[vc_row][vc_column][vc_single_image image=&#8221;62642&#8243; img_size=&#8221;full&#8221;][/vc_column][/vc_row]</p>\n</div>",
+   "protected": false
+  }
+ },
+ {
+  "id": 62647,
+  "slug": "program",
+  "link": "https://ibsu.edu.ge/interc/program/",
+  "status": "publish",
+  "type": "interc",
+  "date": "2026-06-02T14:37:08",
+  "modified": "2026-06-02T14:38:12",
+  "parent": 0,
+  "menu_order": 0,
+  "template": "",
+  "featured_media": 0,
+  "title": {
+   "rendered": "Program"
+  },
+  "content": {
+   "rendered": "<div class=\"wpb-content-wrapper\"><p>[vc_row][vc_column][vc_column_text]</p>\n<h4>Conference Program</h4>\n<div></div>\n<ol>\n<li>Gabelaia, Ioseb (PhD student, BM, IBSU). Change of College Admissions: A World without Annual Testing May Be Closer Than You Think.</li>\n<li>Datukishvili, Mariam (MA student, EDUHUM, IBSU). The Role of Employee Motivation in Effective Performance of Educational Institutions</li>\n<li>Charekishvili, Sophio (MA, Teacher Certification 60-credit program student at Ilya State university). The Role of Collocations in the Acquisition of English as a Foreign Language</li>\n<li>Zaalishvili, Nino (MA student, EDUHUM, IBSU). Bullying at Georgian Higher Education System – students’ experiences</li>\n<li>Gogiashvili, Shorena (PhD student, EDUHUM, IBSU). Assessment of Learning Outcomes in Georgia in the Post-Soviet Period</li>\n<li>Avaliani, Nino (PhD student, EDUHUM, IBSU). History-Based Video Games as a Tool for Academic Vocabulary Enrichment in EFL Classes.</li>\n<li>Aleksidze, Nana (PhD student, EDUHUM, IBSU). Georgian High School Teachers’ and Students’ Classroom Management tendencies</li>\n<li>Kochak, Ali. (PhD student, EDUHUM, IBSU, SDU, Kazakhstan). Running and administrating the single-sex schools: An exploratory study in Kazakhstan</li>\n<li>Chitashvili, Nanuli (PhD student, EDUHUM, IBSU). The Relevance of Learning Autonomy to the Georgian National Standards for the First Foreign Language Listening Skills in the Secondary Schools</li>\n<li>Akopian, Mariami. (PhD student, EDUHUM, IBSU). The Development of Gender and Language Studies in the EFL Classroom</li>\n<li>Adebayo, Samuel Adedoyin. (PhD student, EDUHUM, IBSU; REEDS Recruitment, UK). The Need for Consultation on Teachers-In-Training Preferences before Instruction</li>\n<li>Tephnadze, Inga (PhD student, EDUHUM, IBSU).Pronunciation as a Source of Errors During Live Radiotelephony Communication Among Georgian Air Traffic Controllers</li>\n<li>Kutateladze, Maia (PhD, Ilya State University). Role of Assessment in Quality of Education</li>\n<li>Maghradze, Nino (PhD student, EDUHUM, IBSU). What Motivates Students to Go to University.</li>\n<li>Patchkoria, Tamar (PhD student, EDUHUM, IBSU).The Psycholinguistic Perspectives of CLIL</li>\n</ol>\n<p>[/vc_column_text][/vc_column][/vc_row]</p>\n</div>",
+   "protected": false
+  }
+ },
+ {
+  "id": 62653,
+  "slug": "submission",
+  "link": "https://ibsu.edu.ge/interc/submission/",
+  "status": "publish",
+  "type": "interc",
+  "date": "2026-06-02T14:56:13",
+  "modified": "2026-06-02T14:56:13",
+  "parent": 0,
+  "menu_order": 0,
+  "template": "",
+  "featured_media": 0,
+  "title": {
+   "rendered": "Submission"
+  },
+  "content": {
+   "rendered": "<div class=\"wpb-content-wrapper\"><p>[vc_row][vc_column]\n<div class=\"wpcf7 no-js\" id=\"wpcf7-f62652-o1\" lang=\"ka-GE\" dir=\"ltr\" data-wpcf7-id=\"62652\">\n<div class=\"screen-reader-response\"><p role=\"status\" aria-live=\"polite\" aria-atomic=\"true\"></p> <ul></ul></div>\n<form action=\"/wp-json/wp/v2/interc?per_page=50&#038;page=1#wpcf7-f62652-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Contact form\" enctype=\"multipart/form-data\" novalidate=\"novalidate\" data-status=\"init\">\n<fieldset class=\"hidden-fields-container\"><input type=\"hidden\" name=\"_wpcf7\" value=\"62652\" /><input type=\"hidden\" name=\"_wpcf7_version\" value=\"6.1.7\" /><input type=\"hidden\" name=\"_wpcf7_locale\" value=\"ka_GE\" /><input type=\"hidden\" name=\"_wpcf7_unit_tag\" value=\"wpcf7-f62652-o1\" /><input type=\"hidden\" name=\"_wpcf7_container_post\" value=\"0\" /><input type=\"hidden\" name=\"_wpcf7_posted_data_hash\" value=\"\" />\n</fieldset>\n<p><label> Name and Surname (*)<br />\n<span class=\"wpcf7-form-control-wrap\" data-name=\"FullName\"><input size=\"40\" maxlength=\"400\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required\" aria-required=\"true\" aria-invalid=\"false\" value=\"\" type=\"text\" name=\"FullName\" /></span> </label>\n</p>\n<p><label> Email*<br />\n<span class=\"wpcf7-form-control-wrap\" data-name=\"Email\"><input size=\"40\" maxlength=\"400\" class=\"wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email\" aria-required=\"true\" aria-invalid=\"false\" value=\"\" type=\"email\" name=\"Email\" /></span> </label>\n</p>\n<p><label> Choose your field that best approximates the subject matter of your submission (*)<br />\n<span class=\"wpcf7-form-control-wrap\" data-name=\"select-878\"><select class=\"wpcf7-form-control wpcf7-select wpcf7-validates-as-required\" aria-required=\"true\" aria-invalid=\"false\" name=\"select-878\"><option value=\"Social Sciences and Humanities\">Social Sciences and Humanities</option><option value=\"Business and Economics\">Business and Economics</option><option value=\"Science, Technology, and Engineering\">Science, Technology, and Engineering</option><option value=\"Education (Teaching language, pedagogy,  education management, higher education, etc.)\">Education (Teaching language, pedagogy,  education management, higher education, etc.)</option></select></span> </label>\n</p>\n<p><label> Language of presentation (*)<br />\n<span class=\"wpcf7-form-control-wrap\" data-name=\"select-879\"><select class=\"wpcf7-form-control wpcf7-select wpcf7-validates-as-required\" aria-required=\"true\" aria-invalid=\"false\" name=\"select-879\"><option value=\"English\">English</option><option value=\"Georgian\">Georgian</option></select></span> </label>\n</p>\n<p><label> Institutional Affiliation (What is the name of the institution, School, University you're CURRENTLY associated with?) (*)<br />\n<span class=\"wpcf7-form-control-wrap\" data-name=\"institutional\"><input size=\"40\" maxlength=\"400\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required\" aria-required=\"true\" aria-invalid=\"false\" value=\"\" type=\"text\" name=\"institutional\" /></span> </label>\n</p>\n<p><label> Country (*)<br />\n<span class=\"wpcf7-form-control-wrap\" data-name=\"country\"><input size=\"40\" maxlength=\"400\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required\" aria-required=\"true\" aria-invalid=\"false\" value=\"\" type=\"text\" name=\"country\" /></span> </label>\n</p>\n<p><label> Upload Abstract (docx. doc. or pdf ))*<br />\n<span class=\"wpcf7-form-control-wrap\" data-name=\"file-570\"><input size=\"40\" class=\"wpcf7-form-control wpcf7-file wpcf7-validates-as-required\" accept=\".docx,.doc,.pdf\" aria-required=\"true\" aria-invalid=\"false\" type=\"file\" name=\"file-570\" /></span><br />\n<input class=\"wpcf7-form-control wpcf7-submit has-spinner\" type=\"submit\" value=\"Send\" /></label>\n</p><div class=\"wpcf7-response-output\" aria-hidden=\"true\"></div>\n</form>\n</div>\n[/vc_column][/vc_row]</p>\n</div>",
+   "protected": false
+  }
+ },
+ {
+  "id": 62657,
+  "slug": "interc-2018",
+  "link": "https://ibsu.edu.ge/interc/interc-2018/",
+  "status": "publish",
+  "type": "interc",
+  "date": "2026-06-02T15:01:12",
+  "modified": "2026-06-02T15:04:56",
+  "parent": 0,
+  "menu_order": 0,
+  "template": "",
+  "featured_media": 0,
+  "title": {
+   "rendered": "INTERC 2018"
+  },
+  "content": {
+   "rendered": "<div class=\"wpb-content-wrapper\"><p>[vc_row][vc_column][vc_column_text]<strong>„განათლების თანამედროვე ტენდენციები საქართველოში“ პრეზენტაცია</strong></p>\n<p>29 იანვარს გაიმართა პრეზენტაცია წიგნის „განათლების თანამედროვე ტენდენციები საქართველოში“, რომელიც ეფუძნება INTERC 2018(ახალგაზრდა მეცნიერთა საერთაშორისო კონფერენცია) საკონფერენციო მასალებს. პრეზენტაცია გახსნა შზსუ-ის პრორექტირმა, პროფერსორ, დოქტორ ილიაც უსთუნიერმა, რომელმაც მიმართა ღონისძიების მონაწილეებს. პროფესორმა დოქტორმა ნათელა დოღონაძემ, გამოცემის რედაქტორმა, ილაპარაკა კვლევაში და მისი შედეგების პუბლიკაციაში  ახალგაზრდა მეცნიერების ჩართვის მნიშვნელობის შესახებ. ავტორებმა &#8211; სტუდენტ-მაგისტრანტებმა და დოქტორანტებმა &#8211; წარადგინეს საკუთარი ნაშრომები. წაგნს ჰყავს ორი საერთაშორისო რეცენზენტი &#8211; პროფ., დოქტორი იაროსლავ კრაიკა პოლონეთიდან (მარი კიური-სკლოდევსკაიას უნივერსიტეტი) და დოქტორი ჯონ სმედსი ფინეთიდან (ტურკუს უნივერსიტეტიდან). წიგნი დაიბეჭდა გერმანულ გამომცემლობაში „ლამბერტ აქადემიქ ფაბლისჰერს.“[/vc_column_text][vc_single_image image=&#8221;62658&#8243; img_size=&#8221;full&#8221; css=&#8221;.vc_custom_1780398275662{margin-top: 30px !important;}&#8221;][/vc_column][/vc_row]</p>\n</div>",
+   "protected": false
+  }
+ },
+ {
+  "id": 62664,
+  "slug": "interc-2017",
+  "link": "https://ibsu.edu.ge/interc/interc-2017/",
+  "status": "publish",
+  "type": "interc",
+  "date": "2026-06-02T15:08:00",
+  "modified": "2026-06-02T15:10:15",
+  "parent": 0,
+  "menu_order": 0,
+  "template": "",
+  "featured_media": 0,
+  "title": {
+   "rendered": "INTERC 2017"
+  },
+  "content": {
+   "rendered": "<div class=\"wpb-content-wrapper\"><p>[vc_row][vc_column][vc_column_text]</p>\n<p align=\"center\"><strong>1<sup>st</sup> Young Scientists Conference on Education 2017</strong></p>\n<p align=\"center\"><strong>Center for Teaching Excellence</strong></p>\n<p align=\"center\"><strong>International Black Sea University</strong></p>\n<p align=\"center\"><strong>Conference Programme</strong></p>\n<p>&nbsp;</p>\n<ol>\n<li><strong>Kristine Tskhadai &#8211; </strong>High School Students&#8217; Role in the Development of Essay Assessment Rubrics</li>\n<li><strong>Sophio Cheishvili &#8211; </strong>The Role of Electronic Portfolios in the Process of Teaching and Assessment through Leamer-Centered Approach in English as a Foreign Language Classes</li>\n<li><strong>Inga Tepbnadze &#8211; </strong>What Test Developers Have to Take into Consideration with Respect to Proficiency Tests of Speaking and Listening for Pilots and Air Traffic Controllers</li>\n<li><strong>Tinatin Grdzelishvili &#8211; </strong>Major Issues of Academic Freedom and Overview of Existing Practices at Georgian Private Higher Education Institutions</li>\n<li><strong>Meri Iobidze &#8211; </strong>Using Metacognitive Strategies to Overcome Challenges in Essay Writing (A Case of High School Students of Georgia)</li>\n<li><strong>Nino Gatchava &#8211; </strong>Quality Assessment Process in General Education System (A Case of Georgian Public and Private School Quality Assurance Mechanism)</li>\n<li><strong>Mariam Merkviladze &#8211; </strong>The Influence of Culture within Peer Assessment of English as a Foreign Language Writing Skills</li>\n<li><strong>Irma Kapanadze &#8211; </strong>Widening Access to Higher Education &#8211; Struggle for Social Equality</li>\n<li><strong>Tamta Kldiashvili &#8211; </strong>The Need of Labour Market in Vocational Education</li>\n<li><strong>Nana Aleksidze &#8211; </strong>Role of Higher Education Management in Developing Human Potential for Self-realization</li>\n<li><strong>Sophio Khmaladze &#8211; </strong>Distributed Leadership as a Means of Secondary School Teacher Empowerment and Nurturing Collegiality Culture</li>\n<li><strong>Tamar Patchkoria &#8211; </strong>Aspects Detennining Content and Language Integrated Leaming (CLIL) Practices in Light of English as a Foreign Language Acquisition</li>\n<li><strong>Samuel Adedovin Adebayo &#8211; </strong>Distributed Leadership as a Means of Secondary School Teacher Empowerment and Nurturing Collegiality Culture</li>\n<li><strong>Mariam Akopian &#8211; </strong>Teacliing Language and Gender Issues to Students Speaking Caucasian· Language</li>\n<li><strong>Tinatin Kumsiashvili &#8211; </strong>Analysis of Importance of Integrated Lessons in a Georgian School Context</li>\n<li><strong>Tinatin Mtchedlidze &#8211; </strong>Understanding of Quality Education in Georgian Higher Education Institutions</li>\n<li><strong>Irma Gavashelishvili &#8211; </strong>Improvement of Curriculum Design Conceptual Framework under European Union Educational Proiects</li>\n<li><strong>Tamar Basilia &#8211; </strong>Development of University Social Responsibility as a Core Challenge of the Georgian Society</li>\n<li><strong>Ekaterine Piranishvili &#8211; </strong>The Soecificitv of Vocational Education in Georgia for the 21 st Centurv</li>\n</ol>\n<p>[/vc_column_text][vc_single_image image=&#8221;62665&#8243; img_size=&#8221;full&#8221; css=&#8221;.vc_custom_1780398471318{margin-top: 30px !important;}&#8221;][/vc_column][/vc_row]</p>\n</div>",
+   "protected": false
+  }
+ }
+]

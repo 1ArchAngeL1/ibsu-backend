@@ -1,0 +1,155 @@
+[
+ {
+  "id": 58,
+  "slug": "news",
+  "name": "სიახლეები",
+  "description": "",
+  "count": 1164,
+  "parent": 0,
+  "taxonomy": "category"
+ },
+ {
+  "id": 59,
+  "slug": "scientific-news",
+  "name": "სამეცნიერო სიახლეები",
+  "description": "",
+  "count": 76,
+  "parent": 0,
+  "taxonomy": "category"
+ },
+ {
+  "id": 67,
+  "slug": "law-and-state-governance-school",
+  "name": "სამართლისა და სახელმწიფო მმართველობის სკოლა",
+  "description": "",
+  "count": 313,
+  "parent": 0,
+  "taxonomy": "category"
+ },
+ {
+  "id": 75,
+  "slug": "school-of-business",
+  "name": "ბიზნესის სკოლა",
+  "description": "",
+  "count": 467,
+  "parent": 0,
+  "taxonomy": "category"
+ },
+ {
+  "id": 77,
+  "slug": "school-of-education-humanities-and-social-sciences",
+  "name": "განათლების, ჰუმანიტარული და სოციალური მეცნიერებების სკოლა",
+  "description": "",
+  "count": 529,
+  "parent": 0,
+  "taxonomy": "category"
+ },
+ {
+  "id": 79,
+  "slug": "school-of-computer-science-and-architecture",
+  "name": "კომპიუტერული მეცნიერებისა და არქიტექტურის სკოლა",
+  "description": "",
+  "count": 99,
+  "parent": 0,
+  "taxonomy": "category"
+ },
+ {
+  "id": 81,
+  "slug": "medicine-school",
+  "name": "მედიცინის სკოლა",
+  "description": "",
+  "count": 11,
+  "parent": 0,
+  "taxonomy": "category"
+ },
+ {
+  "id": 83,
+  "slug": "ibsu-blog",
+  "name": "IBSU ბლოგი",
+  "description": "",
+  "count": 107,
+  "parent": 0,
+  "taxonomy": "category"
+ },
+ {
+  "id": 84,
+  "slug": "newspaper",
+  "name": "IBSU გაზეთი",
+  "description": "",
+  "count": 14,
+  "parent": 0,
+  "taxonomy": "category"
+ },
+ {
+  "id": 85,
+  "slug": "ibsu-in-media",
+  "name": "IBSU მედიაში",
+  "description": "",
+  "count": 173,
+  "parent": 0,
+  "taxonomy": "category"
+ },
+ {
+  "id": 87,
+  "slug": "ibsu-alumni",
+  "name": "კურსდამთავრებულებთან ურთიერთობა",
+  "description": "",
+  "count": 1,
+  "parent": 0,
+  "taxonomy": "category"
+ },
+ {
+  "id": 88,
+  "slug": "students-life",
+  "name": "სტუდენტური ცხოვრება",
+  "description": "",
+  "count": 67,
+  "parent": 0,
+  "taxonomy": "category"
+ },
+ {
+  "id": 90,
+  "slug": "alumni",
+  "name": "კურსდამთავრებულები",
+  "description": "",
+  "count": 2,
+  "parent": 0,
+  "taxonomy": "category"
+ },
+ {
+  "id": 99,
+  "slug": "career-planning-service",
+  "name": "კარიერის დაგეგმვის სამსახური",
+  "description": "",
+  "count": 20,
+  "parent": 0,
+  "taxonomy": "category"
+ },
+ {
+  "id": 101,
+  "slug": "books",
+  "name": "წიგნები",
+  "description": "",
+  "count": 17,
+  "parent": 0,
+  "taxonomy": "category"
+ },
+ {
+  "id": 103,
+  "slug": "international-relations",
+  "name": "საერთაშორისო ურთიერთობები",
+  "description": "",
+  "count": 294,
+  "parent": 0,
+  "taxonomy": "category"
+ },
+ {
+  "id": 119,
+  "slug": "%e1%83%99%e1%83%90%e1%83%a2%e1%83%94%e1%83%92%e1%83%9d%e1%83%a0%e1%83%98%e1%83%98%e1%83%a1-%e1%83%92%e1%83%90%e1%83%a0%e1%83%94%e1%83%a8%e1%83%94",
+  "name": "კატეგორიის გარეშე",
+  "description": "",
+  "count": 1,
+  "parent": 0,
+  "taxonomy": "category"
+ }
+]
