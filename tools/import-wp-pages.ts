@@ -251,7 +251,7 @@ async function main(): Promise<void> {
   );
 
   const rows: Row[] = [];
-  const report = { forms: 0, droppedImages: 0, relinked: 0, missed: new Set<string>() };
+  const report = { forms: 0, menus: 0, droppedImages: 0, relinked: 0, missed: new Set<string>() };
 
   for (const step of chosen) {
     if (step === "taxonomies") continue; // written straight, not as page rows
@@ -265,6 +265,7 @@ async function main(): Promise<void> {
         imageUrl: (id) => byWpId.get(id) ?? null,
       });
       report.forms += clean.forms.length;
+      report.menus += clean.menus;
       report.droppedImages += clean.dropped.filter((d) => d.startsWith("image ")).length;
 
       const relinked = relinkText(clean.html, mirrored, publicBase);
@@ -311,6 +312,7 @@ async function main(): Promise<void> {
     `\nbodies: ${report.relinked} media URLs moved to the bucket` +
       (report.missed.size ? `, ${report.missed.size} left on the old site (not mirrored)` : "") +
       (report.forms ? `, ${report.forms} forms removed` : "") +
+      (report.menus ? `, ${report.menus} theme menus removed` : "") +
       (report.droppedImages ? `, ${report.droppedImages} images unresolved` : ""),
   );
 

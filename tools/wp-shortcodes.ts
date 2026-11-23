@@ -171,6 +171,66 @@ export function fromWpBakery(input: string, options: ConvertOptions = {}): Conve
 export interface CleanResult extends ConvertResult {
   /** forms taken out of the body, by the plugin that rendered them */
   forms: string[];
+  /** navigation menus taken out of the body */
+  menus: number;
+}
+
+/**
+ * The theme's own navigation, printed into the body it sits beside.
+ *
+ * 152 of the old pages carry a `<ul class="menu">` of `menu-item-type-…`
+ * links — the section menu the theme rendered into the content area. It is
+ * navigation, not content, and on the new site the navigation is the new
+ * site's own.
+ *
+ * It cannot be matched with a regex, because these menus nest: a submenu is
+ * a `<ul>` inside an `<li>`, and a non-greedy pattern stops at the first
+ * `</ul>` — which is the submenu's, leaving the outer list's tail behind as
+ * loose `</li></ul>`. So the opening tags are found by pattern and the
+ * closing one by counting depth.
+ *
+ * Only a list that *contains* `menu-item-type-` is removed. A page's own
+ * bulleted list sometimes carries `class="menu"` from the stylesheet and is
+ * ordinary content.
+ */
+function stripNavMenus(html: string): { html: string; menus: number } {
+  const opening = /<ul[^>]*\bclass="[^"]*\bmenu\b[^"]*"[^>]*>/gi;
+  let out = html;
+  let menus = 0;
+  let from = 0;
+
+  for (;;) {
+    opening.lastIndex = from;
+    const start = opening.exec(out);
+    if (!start) break;
+
+    // Walk every `<ul`/`</ul` after this one, keeping the depth, to find the
+    // `</ul>` that closes *this* list rather than a nested one.
+    const tags = /<(\/?)ul\b[^>]*>/gi;
+    tags.lastIndex = start.index;
+    let depth = 0;
+    let end = -1;
+    for (let tag = tags.exec(out); tag; tag = tags.exec(out)) {
+      depth += tag[1] ? -1 : 1;
+      if (depth === 0) {
+        end = tag.index + tag[0].length;
+        break;
+      }
+    }
+    if (end < 0) break; // unclosed; leave it rather than guess where it ends
+
+    if (/menu-item-type-/.test(out.slice(start.index, end))) {
+      out = out.slice(0, start.index) + out.slice(end);
+      menus += 1;
+      from = start.index;
+    } else {
+      // A page's own bulleted list that happens to be classed `menu`. Keep
+      // it, and carry on looking past it.
+      from = end;
+    }
+  }
+
+  return { html: out, menus };
 }
 
 /**
@@ -198,7 +258,7 @@ export interface CleanResult extends ConvertResult {
  */
 export function cleanPageHtml(input: string, options: ConvertOptions = {}): CleanResult {
   const forms: string[] = [];
-  if (!input) return { html: "", dropped: [], forms };
+  if (!input) return { html: "", dropped: [], forms, menus: 0 };
 
   // Carriage returns first, or every whitespace pattern below is working
   // against `\r\n` and quietly matching half of what it should.
@@ -216,6 +276,10 @@ export function cleanPageHtml(input: string, options: ConvertOptions = {}): Clea
 
   // The breadcrumb plugin's trail, and the heading some themes print above it.
   html = html.replace(/<nav[^>]*class="[^"]*\bfbc\b[^"]*"[\s\S]*?<\/nav>/gi, "");
+
+  // The section menu the theme printed into the content area.
+  const withoutMenus = stripNavMenus(html);
+  html = withoutMenus.html;
 
   html = html.replace(/<form[\s\S]*?<\/form>/gi, (form) => {
     const kind = /fluentform|ff-el-|ff_form/i.test(form)
@@ -248,5 +312,5 @@ export function cleanPageHtml(input: string, options: ConvertOptions = {}): Clea
     .replace(/[ \t]{2,}/g, " ")
     .trim();
 
-  return { html, dropped: converted.dropped, forms };
+  return { html, dropped: converted.dropped, forms, menus: withoutMenus.menus };
 }
