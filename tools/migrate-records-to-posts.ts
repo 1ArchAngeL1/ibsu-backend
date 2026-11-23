@@ -4,6 +4,7 @@
  * screen.
  *
  *     tsx tools/migrate-records-to-posts.ts [--dry]
+ *     tsx tools/migrate-records-to-posts.ts --undo [--dry]
  *
  * It is a COPY, not a move: the original `records` are left exactly as they
  * are, and each new post keeps the whole original document in `source.data`,
@@ -27,6 +28,7 @@ type Row = Record<string, unknown>;
 type Localized = { ka: string; en: string };
 
 const dry = process.argv.includes("--dry");
+const undo = process.argv.includes("--undo");
 
 function str(value: unknown): string {
   if (typeof value === "string") return value;
@@ -101,6 +103,56 @@ async function main(): Promise<void> {
   const Post = mongoose.model("Post", PostSchema);
 
   const byName = new Map(COLLECTIONS.map((c) => [c.name, c]));
+
+  /*
+   * `--undo`: take the copies back out again.
+   *
+   * The header has always said this mapping could be undone; this is that,
+   * and it is wanted now because the copies turned out to be a trap. The
+   * website reads this content from `records` — never from `posts` — so a
+   * copy here renders nowhere, and an editor who finds one in Posts, edits
+   * it and saves has changed nothing and been told nothing. Every one of
+   * these collections now has its own entry in the admin sidebar, which is
+   * where that editing belongs.
+   *
+   * Only rows this tool wrote are touched: a post whose `source.collection`
+   * names a collection in the content model. A native post (`source: null`)
+   * and anything imported from WordPress (`wp:post`) are matched by neither
+   * and cannot be caught by this, which is the point of filtering on the
+   * model rather than on "not wp:post".
+   *
+   * Nothing is lost. The records themselves are untouched — they are what
+   * the site has been reading all along — and running this tool again
+   * without `--undo` puts the copies back.
+   */
+  if (undo) {
+    const names = [...byName.keys()];
+    const filter = { "source.collection": { $in: names } };
+    const doomed = await Post.find(filter).select("source.collection").lean();
+
+    const byCollection = new Map<string, number>();
+    for (const post of doomed) {
+      const name = (post as unknown as { source: { collection: string } }).source.collection;
+      byCollection.set(name, (byCollection.get(name) ?? 0) + 1);
+    }
+    for (const [name, n] of [...byCollection].sort((a, b) => b[1] - a[1])) {
+      console.log(`  ${String(n).padStart(5)}  ${name}`);
+    }
+
+    const total = doomed.length;
+    const others = await Post.countDocuments({ "source.collection": { $nin: names } });
+    if (dry) {
+      console.log(`[dry] would remove ${total} copied posts; ${others} others untouched`);
+    } else {
+      const { deletedCount } = await Post.deleteMany(filter);
+      console.log(
+        `removed ${deletedCount} copied posts; ${others} others untouched. ` +
+          `The records they were copied from are unchanged — re-run without --undo to restore.`,
+      );
+    }
+    await mongoose.disconnect();
+    return;
+  }
 
   // Slugs already taken, so migrated posts never collide with each other or
   // with native posts. Seeded from what exists.
