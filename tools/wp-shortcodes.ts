@@ -281,6 +281,17 @@ export function cleanPageHtml(input: string, options: ConvertOptions = {}): Clea
   const withoutMenus = stripNavMenus(html);
   html = withoutMenus.html;
 
+  /*
+   * The scaffolding the form plugins print *outside* the `<form>` — Contact
+   * Form 7's `screen-reader-response` holds an empty live region and an empty
+   * error list, which survive removing the form itself and leave a page
+   * looking like `<p></p><ul></ul>`.
+   */
+  html = html.replace(
+    /<div[^>]*class="[^"]*screen-reader-response[^"]*"[\s\S]*?<\/div>/gi,
+    "",
+  );
+
   html = html.replace(/<form[\s\S]*?<\/form>/gi, (form) => {
     const kind = /fluentform|ff-el-|ff_form/i.test(form)
       ? "Fluent Forms"
@@ -299,7 +310,9 @@ export function cleanPageHtml(input: string, options: ConvertOptions = {}): Clea
 
   html = html
     .replace(/<p>\s*(<h[1-6][^>]*>[\s\S]*?<\/h[1-6]>)\s*<\/p>/g, "$1")
-    .replace(/<p>(?:\s|&nbsp;|<br\s*\/?>)*<\/p>/g, "")
+    // Any empty paragraph or list, attributes and all — what removing a form
+    // or a menu leaves behind, not something an editor wrote.
+    .replace(/<(p|ul|ol|li)[^>]*>(?:\s|&nbsp;|<br\s*\/?>)*<\/\1>/gi, "")
     .replace(/(?:\s*<br\s*\/?>\s*){3,}/gi, "<br />\n")
     /*
      * Unwrapping the layout leaves its shape behind as whitespace: every

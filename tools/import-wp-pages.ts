@@ -295,6 +295,18 @@ async function main(): Promise<void> {
            */
           template: page.template ?? "",
           excerpt: both(summaryOf(page, body)),
+          /**
+           * The forms this page carried, by the plugin that rendered them.
+           *
+           * Kept because the form *definitions* are the one thing in the old
+           * wp-admin this migration could not reach — Contact Form 7 answers
+           * 403 and Fluent Forms is behind the login — so without this the
+           * loss is invisible. Some of these pages were nothing but a form:
+           * /interc/submission is a call for papers whose entire body was a
+           * Contact Form 7, which is why its body is now almost empty and
+           * correctly so.
+           */
+          forms: clean.forms,
           body: both(body),
           cover,
           source: page.link,

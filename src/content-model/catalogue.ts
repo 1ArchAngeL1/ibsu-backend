@@ -518,6 +518,13 @@ const oldSitePages = (
     { name: "body", label: "Body", kind: "richtext", localized: true },
     { name: "cover", label: "Featured image", kind: "image", nullable: true },
     {
+      name: "forms",
+      label: "Forms it carried",
+      kind: "array",
+      of: { name: "plugin", label: "Plugin", kind: "text" },
+      help: "A form on the old page, by the plugin that rendered it. The fields behind it are not here — the form definitions are the one part of the old wp-admin that needs a login the public API will not give. A page listed here needs its form rebuilt before it is worth publishing.",
+    },
+    {
       name: "source",
       label: "Imported from",
       kind: "text",
