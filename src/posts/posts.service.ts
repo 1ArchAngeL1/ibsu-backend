@@ -200,7 +200,22 @@ export class PostsService {
       visibility: { $nin: ["private", "password"] },
       publishedAt: { $lte: new Date() },
     };
-    if (category) filter.categories = category;
+    /*
+     * One category, or several that must all be present. The school pages
+     * ask for "this school AND news" — a post filed under the school but
+     * not under news is a vacancy notice or a defence, not news from the
+     * school — and a single term could not express that.
+     *
+     * `$all` rather than `$in`: `$in` would widen the result to anything
+     * carrying either term, which for `news` is 1,162 posts and the
+     * opposite of what the caller asked for.
+     */
+    const wanted = (category ?? "")
+      .split(",")
+      .map((c) => c.trim())
+      .filter(Boolean);
+    if (wanted.length === 1) filter.categories = wanted[0];
+    else if (wanted.length > 1) filter.categories = { $all: wanted };
     const docs = await this.posts
       .find(filter)
       .sort({ publishedAt: -1 })
