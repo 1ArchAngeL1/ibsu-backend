@@ -1525,7 +1525,9 @@
           }
         }
       },
-      "facultyMore": "See more"
+      "facultyMore": "See more",
+      "newsAll": "All news",
+      "newsEmpty": "No news yet."
     },
     "schoolFaculty": {
       "title": "Academic staff",

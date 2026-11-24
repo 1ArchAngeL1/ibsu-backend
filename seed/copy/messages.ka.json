@@ -1525,7 +1525,9 @@
           }
         }
       },
-      "facultyMore": "ნახე მეტი"
+      "facultyMore": "ნახე მეტი",
+      "newsAll": "ყველა სიახლე",
+      "newsEmpty": "სიახლეები ჯერ არ არის."
     },
     "schoolFaculty": {
       "title": "აკადემიური პერსონალი",
