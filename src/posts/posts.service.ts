@@ -194,7 +194,12 @@ export class PostsService {
    * A scheduled post (publish date in the future) and a private or
    * password-protected one are held back — only genuinely public, due posts.
    */
-  async published(category?: string, limit = 50, skip = 0): Promise<PostFull[]> {
+  async published(
+    category?: string,
+    limit = 50,
+    skip = 0,
+    brief = false,
+  ): Promise<(PostFull | PostSummary)[]> {
     const filter: Record<string, unknown> = {
       status: "published",
       visibility: { $nin: ["private", "password"] },
@@ -216,13 +221,28 @@ export class PostsService {
       .filter(Boolean);
     if (wanted.length === 1) filter.categories = wanted[0];
     else if (wanted.length > 1) filter.categories = { $all: wanted };
+    /*
+     * `brief` drops the bodies, and with them most of the response.
+     *
+     * A listing shows a title, a cover and a date; it never shows a body.
+     * Asking for the School of Business's 200 most recent posts in full is
+     * 1,273 KB, nearly all of it prose nothing on the page will render —
+     * and its 467 posts would be some 3 MB. The same 200 as summaries are
+     * a fraction of that, which is what makes "every post this school has"
+     * a reasonable thing for a page to ask for.
+     *
+     * The cap rises with it. 200 was sized for full posts; the largest
+     * school has 529, and a listing that silently stops at 200 shows four
+     * fifths of a school and says nothing about the rest.
+     */
+    const ceiling = brief ? 600 : 200;
     const docs = await this.posts
-      .find(filter)
+      .find(filter, brief ? { body: 0, excerpt: 0 } : undefined)
       .sort({ publishedAt: -1 })
       .skip(Math.max(skip, 0))
-      .limit(Math.min(Math.max(limit, 1), 200))
+      .limit(Math.min(Math.max(limit, 1), ceiling))
       .exec();
-    return docs.map(full);
+    return docs.map((doc) => (brief ? summary(doc) : full(doc)));
   }
 
   /** One live post by slug, for the website's post page. Null if not public. */

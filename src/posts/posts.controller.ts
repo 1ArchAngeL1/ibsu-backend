@@ -30,8 +30,15 @@ export class PostsController {
     @Query("category") category?: string,
     @Query("limit") limit?: string,
     @Query("skip") skip?: string,
+    /** drop the bodies: a listing never renders them */
+    @Query("brief") brief?: string,
   ) {
-    return this.posts.published(category, numberOr(limit, 50), numberOr(skip, 0));
+    return this.posts.published(
+      category,
+      numberOr(limit, 50),
+      numberOr(skip, 0),
+      brief === "1" || brief === "true",
+    );
   }
 
   @Get("tags/popular")
