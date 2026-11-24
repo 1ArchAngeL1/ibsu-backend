@@ -3152,7 +3152,8 @@
         "competitions": "კონკურსის შედეგები",
         "other": "სხვა"
       },
-      "count": "{count} განცხადება"
+      "count": "{count} განცხადება",
+      "close": "დახურვა"
     },
     "newsUniversity": {
       "title": "საუნივერსიტეტო სიახლეები",

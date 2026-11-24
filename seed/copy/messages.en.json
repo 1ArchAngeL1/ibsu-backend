@@ -3152,7 +3152,8 @@
         "competitions": "Competition results",
         "other": "Other"
       },
-      "count": "{count, plural, one {# notice} other {# notices}}"
+      "count": "{count, plural, one {# notice} other {# notices}}",
+      "close": "Close"
     },
     "newsUniversity": {
       "title": "University news",
