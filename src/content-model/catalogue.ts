@@ -655,6 +655,36 @@ const EXTRA_COLLECTIONS: CollectionDef[] = [
       },
     ],
   },
+  {
+    name: "dreamscapeIssues",
+    label: "Dreamscape issues",
+    group: "Research",
+    kind: "list",
+    description:
+      "Dreamscape, the creative sister of Vitascope, one record per edition. Shaped exactly like Vitascope issues because the journal page renders the two with the same component — an edition is a year and a PDF, whichever journal it belongs to.",
+    titleField: "year",
+    keyField: "year",
+    sortable: true,
+    tags: ["journals", "student"],
+    routes: ["/schools/eduhum/journal"],
+    fields: [
+      { name: "year", label: "Year", kind: "number", required: true, listColumn: true },
+      {
+        name: "pdf",
+        label: "PDF",
+        kind: "file",
+        required: true,
+        help: "The edition itself. The 2024-2026 files are the old site's, on our bucket.",
+      },
+      {
+        name: "cover",
+        label: "Cover",
+        kind: "image",
+        nullable: true,
+        help: "Optional. Without one the card shows the journal's name on the school's colour.",
+      },
+    ],
+  },
   ...OLD_SITE_PAGES,
   {
     name: "navigatorTags",
