@@ -1131,8 +1131,7 @@
         "international": "International",
         "faculty": "Faculty",
         "news": "News",
-        "journal": "Student journal",
-        "media": "Media Center"
+        "journal": "Student journal"
       },
       "headings": {
         "about": "About the school",
@@ -1142,8 +1141,7 @@
         "international": "International & exchange",
         "faculty": "Academic staff",
         "news": "News from the school",
-        "journal": "Student journal",
-        "media": "Media Center"
+        "journal": "Student journal"
       },
       "find": "The school's aim",
       "graduatesGo": "Where graduates go",
@@ -1380,14 +1378,6 @@
             "title": "The student journal",
             "card": "Read the latest edition and the full archive online, meet the creative sister publication <em>Dreamscape</em>, and find out how to get published.",
             "go": "Open the journal"
-          },
-          "media": {
-            "body": "Journalism and digital media students run IBSU’s own newsroom — reporting, filming, editing and publishing across the web. Their work, together with the university press office, lives on a dedicated public platform.",
-            "badge": "IBSU Media Centre",
-            "kicker": "Student newsroom",
-            "title": "IBSU Media Center",
-            "card": "News, interviews, video features and photo reportage produced by journalism students and the university press office.",
-            "go": "Visit the Media Centre"
           }
         },
         "computing": {
