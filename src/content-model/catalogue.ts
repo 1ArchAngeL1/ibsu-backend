@@ -491,6 +491,7 @@ const oldSitePages = (
   sortField: "path",
   sortDirection: "asc",
   tags: [name],
+  routes: ["/p/[...slug]"],
   fields: [
     { name: "id", label: "ID", kind: "text", required: true },
     { name: "title", label: "Title", kind: "text", localized: true, listColumn: true },
@@ -499,7 +500,29 @@ const oldSitePages = (
       label: "Path on the old site",
       kind: "text",
       listColumn: true,
-      help: "Where this page lived on ibsu.edu.ge. Nothing on the new site serves it.",
+      help: "Where this page lived on ibsu.edu.ge, and where the new site serves it under /p — /about is at /p/about.",
+    },
+    /**
+     * The page as the website's own sections, built in the admin.
+     *
+     * Declared `json` and named `blocks`, which is what the website's
+     * builder looks for: the field holds a list of blocks of different
+     * shapes, and the vocabulary of those shapes belongs to the
+     * components that draw them (the website's `src/blocks/registry.ts`),
+     * not to a content model that describes records. Declaring it here is
+     * what stops `coerceFields` dropping a built page the first time
+     * somebody presses save.
+     *
+     * Empty on every imported page: a page with no blocks renders the
+     * `body` markup it arrived with, so all 376 are readable and an
+     * editor converts them one at a time.
+     */
+    {
+      name: "blocks",
+      label: "The page",
+      kind: "json",
+      nullable: true,
+      help: "Add, reorder and remove the sections this page is built from. While it is empty the page shows the markup it was imported with.",
     },
     {
       name: "parent",
